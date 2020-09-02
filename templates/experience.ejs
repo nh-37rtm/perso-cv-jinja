@@ -1,0 +1,18 @@
+<% 
+    function renderRealisation(realisation) {
+        experience.realisations.forEach(element => {
+            include('realisation.ejs');
+        });
+    }
+
+%>
+
+<span class="intitule">
+    <%=experience.intitule%>
+</span>
+<% if (experience.environnementTechnique) { %>
+<span class="environnementTechnique">
+    <p>Environnement technique:</p>
+    <p><%=experience.environnementTechnique%></p>
+</span>
+<% } %>

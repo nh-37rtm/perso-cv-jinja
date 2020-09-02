@@ -1,0 +1,73 @@
+{
+    "$schema": "/home/nheim/src/CvJinja/schema/cv.schema.json",
+    "curriculum": {
+        "poste": "Développeur",
+        "etatCivil": {
+            "nom": "Nicolas HEIM",
+            "prenom": "Heim",
+            "dateNaissance": "24 juillet 1985",
+            "mail": "heim.nico@gmail.com",
+            "telephone": "0689708718",
+            "adresse": {
+                "codePostal": 67000,
+                "intitule": "5555",
+                "numero": 3
+            }
+        },
+        "competences": [
+            {
+                "dateDebut": "24/07/1984",
+                "dateFin": "25/07/1984"
+            }
+        ],
+        "experiences": [
+            {
+                "dateDebut": "2018-10-01",
+                "dateFin": "2019-02-01",
+                "environnementTechnique": "Eclipse, VMWare Horizon, Java 1.5, Oracle, PostGresSQL, SQLServeur, Swing, Maven, ANT, Git",
+                "intitule": "Evolutions sur un outil de gestion de matière et de commande",
+                "presentation": "Maintenance évolutive de EBC à distance (pour Nante). Développement d'interfaces en swing, mise en place d'une architecture de test facilitant le développement",
+                "resume": "EBC est une application qui permet un échange de données dans le workflow des commandes de pièces. Entre le dessin, la découpe et les commandes",
+                "detailsMemory": "EBC est un outil qui permet de transférer des données sur la matières entre plusieurs applications : CATMAT le catalogue de matière, SPMAT l'outil de ",
+                "references": "Thierry Renaud (Référent EBC), Béatrice (Script Thierry Renaud (Référent EBC), Béatrice (Script Postgres)",
+                "realisation": [
+                    {
+                        "description": "Appropriation du projet",
+                        "realisation": [
+                            {
+                                "description": "Migration du gestionnaire de source CVS vers un repository GIT externe"
+                            },
+                            {
+                                "description": "Reprise et évolution des scripts de déploiements en ANT"
+                            },
+                            {
+                                "description": "Mise en place d'un repository Maven local pour la gestion des dépendances"
+                            }
+                        ]
+                    },
+                    {
+                        "description": "Reprise et Réalisation d’écrans java (swing) pour remonter différentes informations à partir de bases de données multiples",
+                        "realisation": [
+                            {
+                                "description": "Comparaison sur les quantités de matières"
+                            },
+                            {
+                                "description": "Contrôles sur les disponibilités de pièces/matière"
+                            }
+                        ]
+                    },
+                    {
+                        "description": "Réalisation de tests Unitaires et d’intégration avec bouchonnage"
+                    },
+                    {
+                        "description": "Déploiement de l’application en qualification"
+                    },
+                    {
+                        "description": "Participation à la réalisation d'un outil de gestion d'un référentiel de pièce"
+                    },
+                    {"description":"Migration des sources CVS vers GIT"},
+                ]
+            }
+        ]
+    }
+}

@@ -1,0 +1,103 @@
+{
+    "$schema": "http://json-schema.org/draft-07/schema#",
+    "title": "Product",
+    "description": "A product from Acme's catalog",
+    "definitions": {
+        "realisation": {
+            "type": "array",
+            "items": {
+                "type": "object",
+                "properties": {
+                    "description": {},
+                    "realisation": { "$ref": "#/definitions/realisation"}
+                }
+            }
+        },
+        "experience": {
+            "type": "object",
+            "properties": {
+                "dateDebut": {},
+                "dateFin": {},
+                "environnementTechnique": {},
+                "typeExperience": {},
+                "domaine": {},
+                "client": {},
+                "intitule": {},
+                "presentation": {},
+                "resume": {},
+                "detailsMemory": {},
+                "references": {},
+                "realisation": { "$ref": "#/definitions/realisation"}
+            }
+        }
+    },
+    "properties": {
+        "curriculum": {
+            "required": [
+                "etatCivil",
+                "competences"
+            ],
+            "type": "object",
+            "properties": {
+                "poste": {
+                    "type": "string"
+                },
+                "etatCivil": {
+                    "type": "object",
+                    "properties": {
+                        "nom": {},
+                        "prenom": {},
+                        "mail": {
+                            "type": "string"
+                        },
+                        "telephone": {},
+                        "dateNaissance": {},
+                        "adresse": {
+                            "type": "object",
+                            "properties": {
+                                "codePostal": {
+                                    "type": "integer",
+                                    "minimum": 10000,
+                                    "maximum": 98000
+                                },
+                                "intitule": {
+                                    "pattern": "^\\d{4}$"
+                                },
+                                "numero": {
+                                    "type": "integer",
+                                    "ville": {}
+                                }
+                            }
+                        }
+                    }
+                },
+                "experiences": {
+                    "type": "array",
+                    "items": { "$ref": "#/definitions/experience" }
+                },
+                "competences": {
+                    "type": "array",
+                    "items": {
+                        "type": "object",
+                        "properties": {
+                            "dateDebut": {},
+                            "dateFin": {},
+                            "environnementTechnique": {}
+                        }
+                    }
+                },
+                "autreConnaissances": {
+                    "type": "array",
+                    "items": {
+                        "type": "object",
+                        "properties": {
+                            "dateDebut": {},
+                            "dateFin": {},
+                            "environnementTechnique": {}
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
