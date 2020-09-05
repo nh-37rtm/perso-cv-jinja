@@ -32,7 +32,7 @@
          <div class="experiences">
             <h1>EXPERIENCES</h1>
             <ul>
-                  {% for experience in data.experiences %}
+                  {% for experience in context.controler.controlExperience(data.experiences) %}
                   <li class="{{experience.typeExperience}}">
                      {{ context.renderTemplate( 'experience.j2.html', experience ) }}
                   </li>

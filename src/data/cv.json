@@ -85,11 +85,13 @@
             {
                 "typeExperience" : "group",
                 "client": "Amaris",
+                "poste": "prestataire de service",
                 
                 "experiences": [
                     {
                         "typeExperience": "mission",
                         "client": "Chantiers de l'atlantique",
+                        "poste": "Développeur Java",
                         "dateDebut": "2018-10-01",
                         "dateFin": "2019-02-01",
                         "environnementTechnique": "Eclipse, VMWare Horizon, Java 1.5, Oracle, PostGresSQL, SQLServeur, Swing, Maven, ANT, Git",

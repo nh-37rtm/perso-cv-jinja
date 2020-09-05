@@ -5,15 +5,28 @@
             {{data.poste}}
         </span>
     </span>
-    <span class="dates">{{data.preformated.dateDebut}} - {{data.preformated.dateFin}} (
-        {{data.preformated.dureeEnMois}} mois )</span>
+    <span class="dates">{{data.dateDebut}} - {{data.dateFin}} (
+        {{data.dureeEnMois}} mois )</span>
     <div class="clr" />
 </div>
-<div class="{{data.preformated.depth}}">
+<div class="{{data.depthAsCssClass}}">
+    {% if data.typeExperience != 'group' %}
     <span class="description">
         <span class="intitule">{{data.intitule}}</span>
         <span class="presentation">{{data.presentation}}</span>
         <span class="environnementTechnique">{{data.environnementTechnique}}</span>
     </span>
+    {% endif %}
+    {% if data.subExperiences | length > 0 %}
+    <ul>
+        {% for experience in data.subExperiences %}
+        <li class="{{experience.typeExperience}}">
+        {{ context.renderTemplate( 'experience.j2.html', experience ) }}
+        </li>
+        {% endfor %}
+    </ul>
+    {%endif%}
 </div>
+
+
 <div class="clr" />

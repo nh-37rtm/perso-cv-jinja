@@ -8,7 +8,7 @@ import os
 import codecs
 import sys
 
-from controler.controler import control
+import controler.controler
 from jinja2 import FileSystemLoader, Template, Environment
 from typing import Generic, List, Dict, Iterable, Tuple, Any
 from pathlib import Path
@@ -23,7 +23,7 @@ class RenderContext:
         self.jinjaTemplateLoader_ = FileSystemLoader(os.path.join(
     os.path.dirname(Path(__file__)), 'templates'))
         self.jinjaTemplateEnv_ = Environment(loader=self.jinjaTemplateLoader_)
-        self.controler = control
+        self.controler = controler.controler
 
     def renderTemplate( self, templateName : str, data : object ) -> str:
         logging.info("rendering %s ..." % templateName )
@@ -47,7 +47,7 @@ def readJson():
         result = json.load(file)
 
         context = RenderContext()
-        control(result)
+        # control(result)
         renderedCv = context.renderTemplate("cv.j2.html", result['curriculum'])
         writeFile(renderedCv)
 
