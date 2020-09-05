@@ -1,0 +1,207 @@
+{
+    "$schema": "/workspaces/CvJinja/src/schema/cv.schema.json",
+    "curriculum": {
+        "poste": "Développeur",
+        "etatCivil": {
+            "nom": "Nicolas HEIM",
+            "prenom": "Heim",
+            "dateNaissance": "24 juillet 1985",
+            "mail": "heim.nico@gmail.com",
+            "telephone": "0689708718",
+            "adresse": {
+                "codePostal": 67000,
+                "intitule": "5555",
+                "numero": 3
+            }
+        },
+        "connaissances": [
+            {
+                "intitule": "Modélisation",
+                "description": "Analyse des besoins, analyse fonctionnelle et technique."
+            },
+            {
+                "intitule": "Languages",
+                "description": "C/C++ (STL), C#, JSP, NodeJS, Lua."
+            },
+            {
+                "intitule": "Administration",
+                "description": "administration de divers services réseau (Windows/Linux), DNS, DHCP, Active Directory; Apache1.3/2, iptables, Squid, Administration système, logs"
+            },
+            {
+                "intitule": "Bases de données",
+                "description": "eyeDB ; ODBC, JDBC."
+            },
+            {
+                "intitule": "Autres logiciels/Outils utilisés",
+                "description": "Photoshop, SPIP, Drupal"
+            },
+            {
+                "intitule": "Langues",
+                "description": "Anglais (moyen + technique), Italien (notions)"
+            },
+            {
+                "intitule": "Autres centres d'intérets",
+                "description": "Science fiction. Vélo, badminton, danse"
+            }
+        ],
+        "competences": [
+            {
+                "description": "Réalisation, déploiement et maintenance d'applications"
+            },
+            {
+                "description": "Réalisation d'outils de developpement (librairies)"
+            },
+            {
+                "description": "Réalisation et Automatisation de tests"
+            },
+            {
+                "description": "Documentation des utilisateurs"
+            },
+            {
+                "intitule": "Languages",
+                "description": "Java, Perl, PHP,ASP,HTML/CSS/Javascript, Visual Basic; XML/XSLT"
+            },
+            {
+                "intitule": "EDI utilisés",
+                "description": "Eclipse, Visual Sudio"
+            },
+            {
+                "intitule": "Frameworks utilisés",
+                "description": "JQuery, J2EE/JEE6"
+            },
+            {
+                "intitule": "Mapping Objet/Relationnel",
+                "description": "JPA(Hibernate, EclipseLink)"
+            },
+            {
+                "intitule": "Gestion des sources",
+                "description": "Git, SVN, Clearcase"
+            },
+            {
+                "description": "Modélisation de données objet"
+            }
+        ],
+        "experiences": [
+            {
+                "typeExperience" : "group",
+                "client": "Amaris",
+                
+                "experiences": [
+                    {
+                        "typeExperience": "mission",
+                        "client": "Chantiers de l'atlantique",
+                        "dateDebut": "2018-10-01",
+                        "dateFin": "2019-02-01",
+                        "environnementTechnique": "Eclipse, VMWare Horizon, Java 1.5, Oracle, PostGresSQL, SQLServeur, Swing, Maven, ANT, Git",
+                        "intitule": "Evolutions sur un outil de gestion de matière et de commande",
+                        "presentation": "Maintenance évolutive de EBC à distance (pour Nante). Développement d'interfaces en swing, mise en place d'une architecture de test facilitant le développement",
+                        "resume": "EBC est une application qui permet un échange de données dans le workflow des commandes de pièces. Entre le dessin, la découpe et les commandes",
+                        "detailsMemory": "EBC est un outil qui permet de transférer des données sur la matières entre plusieurs applications : CATMAT le catalogue de matière, SPMAT l'outil de ",
+                        "references": "Thierry Renaud (Référent EBC), Béatrice (Script Thierry Renaud (Référent EBC), Béatrice (Script Postgres)",
+                        "realisation": [
+                            {
+                                "description": "Appropriation du projet",
+                                "realisation": [
+                                    {
+                                        "description": "Migration du gestionnaire de source CVS vers un repository GIT externe"
+                                    },
+                                    {
+                                        "description": "Reprise et évolution des scripts de déploiements en ANT"
+                                    },
+                                    {
+                                        "description": "Mise en place d'un repository Maven local pour la gestion des dépendances"
+                                    }
+                                ]
+                            },
+                            {
+                                "description": "Reprise et Réalisation d’écrans java (swing) pour remonter différentes informations à partir de bases de données multiples",
+                                "realisation": [
+                                    {
+                                        "description": "Comparaison sur les quantités de matières"
+                                    },
+                                    {
+                                        "description": "Contrôles sur les disponibilités de pièces/matière"
+                                    }
+                                ]
+                            },
+                            {
+                                "description": "Réalisation de tests Unitaires et d’intégration avec bouchonnage"
+                            },
+                            {
+                                "description": "Déploiement de l’application en qualification"
+                            },
+                            {
+                                "description": "Participation à la réalisation d'un outil de gestion d'un référentiel de pièce"
+                            },
+                            {
+                                "description": "Migration des sources CVS vers GIT"
+                            }
+                        ]
+                    },
+                    {
+                        "client": "Euro Information",
+                        "dateDebut": "2018-03-01",
+                        "dateFin": "2018-11-01",
+                        "environnementTechnique": "Eclipse, Java, Vert.x, Visual Studio (C#), DevBooster, SQLServeur",
+                        "typeExperience": "mission",
+                        "domaine": "Développeur Java",
+                        "intitule": "Développements et tests sur la plateforme monétique d'acceptation centralisée",
+                        "presentation": "Intégration de l'équipe de la plateforme monétique d'acceptation centralisée. Réalisation de tâches telles que : Aide à la conception, Réalisation de tests QC et de tests Automatisés en JUnit, Développement d'un module de tokenisation, Développement d'interfaces devbooster",
+                        "detailsMemory": "Micro services Vert.x, échange via un Bus, Routage et Translation à partir d'un référentiel client Point d'acquisition => Acquereur, Librairie pour échanges simplifiés avec le HSM, Verticle avec echange module de monitoring, Gestion de charge simplifiée (multi HSM), TAG des paquets",
+                        "references": "Imad Hamchi (Manager), Alix, William",
+                        "realisation": [
+                            {
+                                "description": "Réalisation de tests QC du module PSP Monetico Paiement"
+                            },
+                            {
+                                "description": "Réalisation d'un module de tokenisation avec interaction avec un HSM",
+                                "realisation": [
+                                    {
+                                        "description": "Réalisation du cahier de test"
+                                    },
+                                    {
+                                        "description": "Aide à la conception"
+                                    },
+                                    {
+                                        "description": "Module Vert.x pour échange avec les autres modules de l’application"
+                                    },
+                                    {
+                                        "description": "Échanges pour monitoring"
+                                    }
+                                ]
+                            },
+                            {
+                                "description": "Autoformation au Framework devbooster"
+                            },
+                            {
+                                "description": "Réalisation d’un outil de de statistiques (Key Performance Indicator) sur les transactions réalisées dans la journée",
+                                "realisation": [
+                                    {
+                                        "description": "Mise en place du batch d’extraction"
+                                    },
+                                    {
+                                        "description": "Analyse et envoi des données par mail"
+                                    }
+                                ]
+                            },
+                            {
+                                "description": "Réalisation d’un module C# (devbooster) sur site intranet afin de gérer le référentiel d’affiliation avec les clients et de routage/translation des transactions",
+                                "realisation": [
+                                    {
+                                        "description": "Réalisation de procédures stockées en T-SQL"
+                                    },
+                                    {
+                                        "description": "Modélisation de la base de données"
+                                    },
+                                    {
+                                        "description": "POC pour réalisation d’un import de données via un fichier CSV"
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    }
+}

@@ -1,0 +1,213 @@
+
+* {font-family : calibri, verdana, arial;}
+div.clr {clear : both;}
+
+h1 {
+	font-size : 14pt;
+	text-transform : uppercase;
+	background-color : #d35018; /* orange sombre */
+	margin : 0;
+	color : white;
+	padding : 3px;
+}
+
+.marge h1{
+ background-color : gray;
+}
+
+div.poste {
+	
+	font-size : 15pt;
+	/*width : 100%;*/
+	text-align : center;
+	text-transform : uppercase;
+	margin : 0 auto;
+	margin-top : 10px;
+	margin-bottom : 10px;
+	font-weight : bold;
+}
+
+.perso {
+	display : none;
+}
+
+div.main {
+	width : 100%;	
+}
+
+div.marge {
+	float : left;
+	width : 22%;
+	padding : 10px;
+}
+div.content {
+	float : right;
+	width : 74%;
+}
+
+.main ul {
+	margin : 0;
+	padding : 0;
+}
+
+.main ul li {
+
+	list-style : none;
+	margin-bottom : 10px;
+	margin-top : 10px;
+	margin-left : 3px;
+	
+}
+
+.main span.dates{
+	display : block;
+	float : right;
+	margin: 0px;
+	font-size : 12pt;
+	/*background: linear-gradient(
+  to bottom,
+  #5d9634,
+  #5d9634 50%,
+  #538c2b 50%,
+  #538c2b
+);*/
+
+}
+
+.main span.domaine {
+	color : gray;
+	display : inline;
+}
+
+.main span.client {
+	display : block;
+	float:left;
+	font-size : 12pt;
+}
+
+.main div.experiences span.description, .main div.formations span.description {
+	display : block;
+	/*width : 84%;*/
+}
+
+.main {	font-size : 10.5pt; }
+
+div.experiences span.description, div.formations span.description {
+	border-left : 2px solid gray;
+}
+
+div.experiences div.level0 span.description span.intitule {
+	font-size: 13pt;
+}
+
+span.description {
+	margin-right : 20px;
+	margin-left : 0px;
+	padding : 5px;
+	padding-right : 0px;
+}
+
+div.experiences li {
+	border-top : 1px dotted gray;
+	
+}
+
+
+div.experiences div.level1 span.description {
+	border-left : 1px solid gray;
+}
+
+div.experiences li.temp span.description {
+	border-left: 1px dashed gray;
+}
+
+div.experiences span.presentation pre {
+	white-space: pre-wrap;
+}
+
+/* marge */
+li#ec li {
+	border : none;
+	margin : 0px;
+	padding : 2px;
+
+}
+
+.marge ul{
+	padding : 0;
+	margin : 0;
+	width : 100%;
+}
+
+.marge ul li {
+	border-top : 2px solid gray;
+	width : 100%;
+}
+.marge .intitule {
+	width : 100%;
+}
+
+.intitule {
+	font-size : 11pt;
+	font-weight : bold;
+}
+
+div.experiences span.text {display : none;}
+ 
+ .main .experiences .environnement{
+	font-style : italic;
+	font-weight : bold;
+ }
+ 
+ .marge em {
+	 color : gray;
+ }
+
+.main .experiences .presentation, .main .formations .lieu, .main .experiences .environnement, .marge em{
+		display : block;
+}
+
+.competencesSecondaires h2 {
+	color : gray;
+}
+
+.competences { font-size : 11.5pt }
+.competences li.competence {
+	margin-top : 0px;
+}
+
+.presentation {
+	margin-left : 5px;
+}
+
+
+
+div.experiences .description .intitule {
+	display : block;
+}
+
+.competences .intitule {
+	margin-left : 10px;
+	margin-right : 5px;
+	
+	display : inline;
+}
+
+.main div.competences span.description {
+	color : gray;
+	display : inline;
+	float : none;
+}
+
+.description .environnementTechnique {
+	font-style: italic;
+	color : gray;
+}
+
+div.competences_cols {
+	column-count: 2;
+	-moz-column-count: 2;
+	margin-top : 10px;
+	margin-bottom : 10px;
+}
+

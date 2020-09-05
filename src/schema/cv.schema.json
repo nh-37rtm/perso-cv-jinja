@@ -9,7 +9,9 @@
                 "type": "object",
                 "properties": {
                     "description": {},
-                    "realisation": { "$ref": "#/definitions/realisation"}
+                    "realisation": {
+                        "$ref": "#/definitions/realisation"
+                    }
                 }
             }
         },
@@ -27,7 +29,16 @@
                 "resume": {},
                 "detailsMemory": {},
                 "references": {},
-                "realisation": { "$ref": "#/definitions/realisation"}
+                "realisation": {
+                    "$ref": "#/definitions/realisation"
+                }
+            }
+        },
+        "connaissance": {
+            "type": "object",
+            "properties": {
+                "intitule": {},
+                "description": {}
             }
         }
     },
@@ -73,28 +84,20 @@
                 },
                 "experiences": {
                     "type": "array",
-                    "items": { "$ref": "#/definitions/experience" }
+                    "items": {
+                        "$ref": "#/definitions/experience"
+                    }
                 },
                 "competences": {
                     "type": "array",
                     "items": {
-                        "type": "object",
-                        "properties": {
-                            "dateDebut": {},
-                            "dateFin": {},
-                            "environnementTechnique": {}
-                        }
+                        "$ref": "#/definitions/connaissance"
                     }
                 },
-                "autreConnaissances": {
+                "connaissances": {
                     "type": "array",
                     "items": {
-                        "type": "object",
-                        "properties": {
-                            "dateDebut": {},
-                            "dateFin": {},
-                            "environnementTechnique": {}
-                        }
+                        "$ref": "#/definitions/connaissance"
                     }
                 }
             }
