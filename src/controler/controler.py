@@ -58,12 +58,10 @@ class Experience(JsonNode):
 
 def mapExperience(jsonExperience: Dict[str, object]) -> Experience:
 
-
-
     experience: Experience = Experience( jsonExperience )
     experience.jsonReference = jsonExperience
 
-    if 'dateDebut' in jsonExperience and 'dateFin' in jsonExperience:
+    if experience.jsonReference['dateDebut'] != '' and experience.jsonReference['dateFin'] != '':
         experience.dateDebut = datetime.strptime(
             jsonExperience['dateDebut'], '%Y-%m-%d')
         experience.dateFin = datetime.strptime(

@@ -40,6 +40,15 @@
                 "intitule": {},
                 "description": {}
             }
+        },
+        "formation": {
+            "type": "object",
+            "properties": {
+                "intitule": {},
+                "dateFin": {},
+                "lieu": {},
+                "contenu": {}
+            }
         }
     },
     "properties": {
@@ -99,7 +108,14 @@
                     "items": {
                         "$ref": "#/definitions/connaissance"
                     }
+                },
+                "formations": {
+                    "type": "array",
+                    "items": {
+                        "$ref": "#/definitions/formation"
+                    }
                 }
+
             }
         }
     }
