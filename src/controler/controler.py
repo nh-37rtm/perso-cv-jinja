@@ -35,11 +35,12 @@ class JsonNode():
     def __init__(self):
         self.jsonReference = None
 
+
 class Experience(JsonNode):
 
     # default constructor
     def __init__(self, entries):
-        self.dateDebut = None
+        #self.dateDebut = None
         self.dateFin = None
         self.dureeEnMois = None
         self.depth = None
@@ -51,24 +52,26 @@ class Experience(JsonNode):
         self.poste = None
         self.depthAsCssClass = None
         self.subExperiences: List['Experience'] = []
-            #https://stackoverflow.com/questions/1305532/convert-nested-python-dict-to-object
+        # https://stackoverflow.com/questions/1305532/convert-nested-python-dict-to-object
         self.__dict__.update(entries)
-
 
 
 def mapExperience(jsonExperience: Dict[str, object]) -> Experience:
 
-    experience: Experience = Experience( jsonExperience )
+    experience: Experience = Experience(jsonExperience)
     experience.jsonReference = jsonExperience
 
-    if experience.jsonReference['dateDebut'] != '' and experience.jsonReference['dateFin'] != '':
+    if experience.jsonReference['dateDebut'] != '':
         experience.dateDebut = datetime.strptime(
             jsonExperience['dateDebut'], '%Y-%m-%d')
+    else:
+        experience.dateDebut = None
+
+    if experience.jsonReference['dateFin'] != '':
         experience.dateFin = datetime.strptime(
             jsonExperience['dateFin'], '%Y-%m-%d')
     else:
-        jsonExperience['dateDebut'] = None
-        jsonExperience['dateFin'] = None
+        experience.dateFin = None
 
     return experience
 
@@ -82,8 +85,12 @@ def prepareExperience(experience: Experience):
         return experience.dateFin
 
     if len(experience.subExperiences) > 0:
-        lastExperience = max(experience.subExperiences, key=compareByDateFin)
-        firstExperience = min(experience.subExperiences, key=compareByDateDebut)
+        subExperiencesWithDateDebut = [ experience for experience in experience.subExperiences if experience.dateDebut != None ]
+        subExperiencesWithDateFin = [ experience for experience in experience.subExperiences if experience.dateFin != None ]
+        lastExperience = max(subExperiencesWithDateFin, key=compareByDateFin)
+
+        firstExperience = min(subExperiencesWithDateDebut,
+                              key=compareByDateDebut)
 
         if experience.dateFin == None:
             experience.dateFin = lastExperience.dateFin
@@ -92,8 +99,8 @@ def prepareExperience(experience: Experience):
             experience.dateDebut = firstExperience.dateDebut
 
     relDataMonth = relativedelta.relativedelta(
-            experience.dateFin, experience.dateDebut)
-    experience.dureeEnMois = relDataMonth.months
+        experience.dateFin, experience.dateDebut)
+    experience.dureeEnMois = relDataMonth.months + relDataMonth.years * 12
 
     experience.depthAsCssClass = 'level%s' % experience.depth
 
@@ -118,49 +125,73 @@ def initExperiencesLegacy(jsonExperiences: List[object]) -> Tuple[List[Experienc
 
                     subExperience = mapExperience(subJsonExperience)
                     currentExperience.subExperiences.append(subExperience)
-                    subExperience.depth=currentExperience.depth + 1
+                    subExperience.depth = currentExperience.depth + 1
                     experiencesToWalk.append(subExperience)
 
     return (rootExperienceList, experiencesList)
 
+
+def dateLoop(experiences: List[Experience]) -> None:
+
+    def filterByDate(experience: Experience):
+        if experience.dateDebut != None:
+            return True
+        else:
+            return False
+
+    experiencesWithDateDebut = filter(filterByDate, experiences)
+    sortedExperiencesWithDate = sorted(experiencesWithDateDebut,
+                                       key=lambda experience:
+                                       experience.dateDebut, reverse=True)
+
+    dateCourante = None
+    for experience in sortedExperiencesWithDate:
+        if experience.dateFin == None:
+            experience.dateFin = dateCourante
+        dateCourante = experience.dateDebut
+
+
 def controlExperience(jsonExperiencesStructure: object) -> List[Experience]:
-        rootExperienceList, flatenedExperienceList=initExperiencesLegacy(
-            jsonExperiencesStructure)
+    rootExperienceList, flatenedExperienceList = initExperiencesLegacy(
+        jsonExperiencesStructure)
 
-        def compare(experience: Experience):
-            return experience.depth
+    dateLoop(flatenedExperienceList)
 
-        flatenedExperienceList.sort(
-            key = compare, reverse = True
-        )
+    def compare(experience: Experience):
+        return experience.depth
 
-        for experience in flatenedExperienceList:
-            prepareExperience(experience)
+    flatenedExperienceList.sort(
+        key=compare, reverse=True
+    )
 
-        return rootExperienceList
+    for experience in flatenedExperienceList:
+        prepareExperience(experience)
+
+    return rootExperienceList
+
 
 def control(jsonStructure: object) -> List[Experience]:
 
-        experienceList: List[Experience]=initExperiencesLegacy(
-            jsonStructure['curriculum']['experiences'])
+    experienceList: List[Experience] = initExperiencesLegacy(
+        jsonStructure['curriculum']['experiences'])
 
-        def compare(experience: Experience):
-            return experience.depth
+    def compare(experience: Experience):
+        return experience.depth
 
-        experienceList.sort(
-            key = compare, reverse = True
-        )
+    experienceList.sort(
+        key=compare, reverse=True
+    )
 
-        for experience in experienceList:
-            prepareExperience(experience)
+    for experience in experienceList:
+        prepareExperience(experience)
 
-        return experienceList
+    return experienceList
 
-        """ iterate over all experiences, call the control method on each and set depth"""
+    """ iterate over all experiences, call the control method on each and set depth"""
 
-        # experiencesAsList = list(jsonStructure['curriculum']['experiences'])
+    # experiencesAsList = list(jsonStructure['curriculum']['experiences'])
 
-        # experiencesAsList.sort(
-        #     key=lambda experience:
-        #         experience['preformated']['dateDebut']
-        # )
+    # experiencesAsList.sort(
+    #     key=lambda experience:
+    #         experience['preformated']['dateDebut']
+    # )

@@ -7,8 +7,7 @@ import pprint
 import os
 import codecs
 import sys
-
-import controler.controler
+import src.controler.controler
 from jinja2 import FileSystemLoader, Template, Environment
 from typing import Generic, List, Dict, Iterable, Tuple, Any
 from pathlib import Path
@@ -23,7 +22,7 @@ class RenderContext:
         self.jinjaTemplateLoader_ = FileSystemLoader(os.path.join(
     os.path.dirname(Path(__file__)), 'templates'))
         self.jinjaTemplateEnv_ = Environment(loader=self.jinjaTemplateLoader_)
-        self.controler = controler.controler
+        self.controler = src.controler.controler
 
     def renderTemplate( self, templateName : str, data : object ) -> str:
         logging.info("rendering %s ..." % templateName )

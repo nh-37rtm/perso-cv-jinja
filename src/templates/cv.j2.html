@@ -37,35 +37,17 @@
                      {{ context.renderTemplate( 'experience.j2.html', experience ) }}
                   </li>
                   {% endfor %}
-         <div class="formations">
-            <h1>formations</h1>
-            <ul>
-               <li><span class="dates">2006-2008</span><span class="description"><span class="intitule"><strong>Maitrise
-                           Sciences et Technologies de l'Information et de la Communication</strong></span><span
-                        class="lieu">(Centre de Téléenseignement Universitaire de Besançon)<br></br><i>Web (PHP5), Base
-                           de données (MySQL, eyeDB), Initiation IA (Prolog), Langage fonctionnel
-                           (Méthode B), modélisation objet (Diagramme de classe).</i></span></span>
-                  <div class="clr"></div>
-               </li>
-               <li><span class="dates">2005-2006</span><span class="description"><span class="intitule"><strong>Licence
-                           Administration / Maintenance de Systèmes et d'Applications Réparties</strong></span><span
-                        class="lieu">(I.U.T Belfort Montbéliard)<br></br><i>Applications 3 tiers (Java/J2EE/Struts),
-                           UML, Réseau</i></span></span>
-                  <div class="clr"></div>
-               </li>
-               <li><span class="dates">2003-2005</span><span class="description"><span class="intitule"><strong>BTS
-                           Informatique et Réseau pour l'Industrie et les Services Techniques</strong></span><span
-                        class="lieu">(Lycée Follereau Belfort)<br></br><i>Developpement (C/C++), UML,
-                           Réseau</i></span></span>
-                  <div class="clr"></div>
-               </li>
-               <li><span class="dates">2003</span><span class="description"><span class="intitule"><strong>BAC STI génie
-                           électronique Mention assez bien</strong></span><span class="lieu">(Lycée Follereau
-                        Belfort)<br></br><i></i></span></span>
-                  <div class="clr"></div>
-               </li>
-            </ul>
-         </div>
+         
+      </div>
+      <div class="formations">
+         <h1>formations</h1>
+      <ul>
+         {% for formation in data.formations %}
+         <li>
+            {{ context.renderTemplate( 'formation.j2.html', formation ) }}
+         </li>
+         {% endfor %}
+      </ul>
       </div>
       <div class="clr"></div>
    </div>

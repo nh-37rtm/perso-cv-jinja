@@ -2,21 +2,33 @@
 <div class="entete">
     <span class="client">{{data.client}}
         <span class="domaine">
-            {{data.poste}}
+            {% if data.domaine != '' %}
+                ({{data.domaine}})
+            {% endif %}
         </span>
     </span>
-    <span class="dates">{{data.dateDebut}} - {{data.dateFin}} (
-        {{data.dureeEnMois}} mois )</span>
+
+    <span class="dates">
+        {% if data.dateDebut != None %}
+            du {{data.dateDebut.strftime('%d-%m-%Y')}}
+        {% endif %}
+        {% if data.dateFin != None %}
+            au {{data.dateFin.strftime('%d-%m-%Y')}} 
+        {% endif %}
+        {% if data.dureeEnMois > 0 %}
+            ( {{data.dureeEnMois}} mois )
+        {% endif %}
+    </span>
     <div class="clr" />
 </div>
 <div class="{{data.depthAsCssClass}}">
-    {% if data.typeExperience != 'group' %}
     <span class="description">
+    {% if data.typeExperience != 'group' %}
         <span class="intitule">{{data.intitule}}</span>
         <span class="presentation">{{data.presentation}}</span>
         <span class="environnementTechnique">{{data.environnementTechnique}}</span>
-    </span>
     {% endif %}
+
     {% if data.subExperiences | length > 0 %}
     <ul>
         {% for experience in data.subExperiences %}
@@ -26,6 +38,7 @@
         {% endfor %}
     </ul>
     {%endif%}
+    </span>
 </div>
 
 
