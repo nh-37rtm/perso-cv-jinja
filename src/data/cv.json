@@ -81,733 +81,1054 @@
                 "description": "Modélisation de données objet"
             }
         ],
-        "experiences": [
-            {
-                "typeExperience": "",
-                "client": "Amaris",
-                "domaine": "",
-                "dateDebut": "",
-                "dateFin": "",
-                "presentation": "",
-                "contenu": "",
-                "environnementTechnique": "",
-                "experiences": [
-                    {
-                        "typeExperience": "Evolutions sur un outil de gestion de matière et de commande",
-                        "client": "Chantiers de l'atlantique",
-                        "domaine": "Développeur Java",
-                        "dateDebut": "2018-10-01",
-                        "dateFin": "",
-                        "presentation": "Maintenance évolutive de EBC à distance (pour Nante). Développement d'interfaces en swing, mise en place d'une architecture de test facilitant le développement",
-                        "contenu": "",
-                        "environnementTechnique": "",
-                        "realisations": [
-                            {
-                                "text": "Appropriation du projet",
-                                "realisations": [
-                                    {
-                                        "text": "Migration du gestionnaire de source CVS vers un repository GIT externe"
-                                    },
-                                    {
-                                        "text": "Reprise et évolution des scripts de déploiements en ANT"
-                                    },
-                                    {
-                                        "text": "Mise en place d'un repository Maven local pour la gestion des dépendances"
-                                    }
-                                ]
-                            },
-                            {
-                                "text": "Reprise et Réalisation d’écrans java (swing) pour remonter différentes informations à partir de bases de données multiples",
-                                "realisations": [
-                                    {
-                                        "text": "Comparaison sur les quantités de matières"
-                                    },
-                                    {
-                                        "text": "Contrôles sur les disponibilités de pièces/matière"
-                                    }
-                                ]
-                            },
-                            {
-                                "text": "Réalisation de tests Unitaires et d’intégration avec bouchonnage"
-                            },
-                            {
-                                "text": "Déploiement de l’application en qualification"
-                            },
-                            {
-                                "text": "Participation à la réalisation d'un outil de gestion d'un référentiel de pièce"
-                            },
-                            {
-                                "text": "Migration des sources CVS vers GIT"
-                            }
-                        ]
-                    },
-                    {
-                        "typeExperience": "Développements et tests sur la plateforme monétique d'acceptation centralisée",
-                        "client": "Euro Information",
-                        "domaine": "Développeur Java",
-                        "dateDebut": "2018-03-01",
-                        "dateFin": "",
-                        "presentation": "Intégration de l'équipe de la plateforme monétique d'acceptation centralisée. Réalisation de tâches telles que : Aide à la conception, Réalisation de tests QC et de tests Automatisés en JUnit, Développement d'un module de tokenisation, Développement d'interfaces devbooster",
-                        "contenu": "",
-                        "environnementTechnique": "",
-                        "realisations": [
-                            {
-                                "text": "Réalisation de tests QC du module PSP Monetico Paiement"
-                            },
-                            {
-                                "text": "Réalisation d'un module de tokenisation avec interaction avec un HSM",
-                                "realisations": [
-                                    {
-                                        "text": "Réalisation du cahier de test"
-                                    },
-                                    {
-                                        "text": "Aide à la conception"
-                                    },
-                                    {
-                                        "text": "Module Vert.x pour échange avec les autres modules de l’application"
-                                    },
-                                    {
-                                        "text": "Échanges pour monitoring"
-                                    }
-                                ]
-                            },
-                            {
-                                "text": "Autoformation au Framework devbooster"
-                            },
-                            {
-                                "text": "Réalisation d’un outil de de statistiques (Key Performance Indicator) sur les transactions réalisées dans la journée",
-                                "realisations": [
-                                    {
-                                        "text": "Mise en place du batch d’extraction"
-                                    },
-                                    {
-                                        "text": "Analyse et envoi des données par mail"
-                                    }
-                                ]
-                            },
-                            {
-                                "text": "Réalisation d’un module C# (devbooster) sur site intranet afin de gérer le référentiel d’affiliation avec les clients et de routage/translation des transactions",
-                                "realisations": [
-                                    {
-                                        "text": "Réalisation de procédures stockées en T-SQL"
-                                    },
-                                    {
-                                        "text": "Aide à la conception"
-                                    },
-                                    {
-                                        "text": "Modélisation de la base de données"
-                                    },
-                                    {
-                                        "text": "POC pour réalisation d’un import de données via un fichier CSV"
-                                    }
-                                ]
-                            }
-                        ]
-                    },
-                    {
-                        "typeExperience": "Développements et tests de l'application de gestion des formations",
-                        "client": "Pôle Emploi",
-                        "domaine": "Développeur Java",
-                        "dateDebut": "2017-05-01",
-                        "dateFin": "",
-                        "presentation": "Participation aux différentes réunions agiles (Daily meating, rétrospective, revue de backlog ..), migration de services SOAP vers REST, migration de la persistance des données : Hibernate vers JPA Standard, tests automatisés à l'aide de JUnit et MockiTo.",
-                        "contenu": "",
-                        "environnementTechnique": "",
-                        "experiences": [
-                            {
-                                "typeExperience": "Formation d'une classe de 28 élèves de 3ième année au module 3JVA (Initiation JAVA/J2EE)",
-                                "client": "Supinfo",
-                                "domaine": "Professeur Java",
-                                "dateDebut": "2018-01-01",
-                                "dateFin": "",
-                                "presentation": "",
-                                "contenu": "",
-                                "environnementTechnique": "",
-                                "realisations": [
-                                    {
-                                        "text": "4 jours de formations théoriques avec utilisation de supports existants (exercices et corrections) : Servlets, JSP, JPA"
-                                    },
-                                    {
-                                        "text": "Suivit des élèves durant leur projet (Site de recette en java web)"
-                                    },
-                                    {
-                                        "text": "Corrections des projets"
-                                    },
-                                    {
-                                        "text": "1 jours de SOE (SUPINFO Oral Exams), notation Orale + Ecrit"
-                                    },
-                                    {
-                                        "text": "Réalisations sur environnement de formation",
-                                        "realisations": [
-                                            {
-                                                "text": "Installation d'un environnement de développement  pour les élèves (VM VMWare) avec Linux Ubuntu afin de simplifier la complexité due aux environnements hétérogènes utilisés par les élèves"
-                                            },
-                                            {
-                                                "text": "Mise en place d'un repository Git partagé pour un suivit incrémental des corrections sur les exercices"
-                                            }
-                                        ]
-                                    }
-                                ]
-                            }
-                        ],
-                            
-                        "realisations": [
-                            {
-                                "text": "Captures et bouchonnage d'appels services pour les tests à l'aide de DevTest"
-                            },
-                            {
-                                "text": "Réalisation et migration de services REST notamment des API dans le cadre de la gestion de vie d’une inscription d’un demandeur d’emploi à une formation."
-                            },
-                            {
-                                "text": "Réalisation de POC techniques",
-                                "realisations": [
-                                    {
-                                        "text": "Normes sur la mise en place d’une architecture REST utilisant les hyperliens (ou HATEOS)"
-                                    },
-                                    {
-                                        "text": "Dashboard de centralisation d’informations sur l’environnement (Builds Jenkins, Anomalies (ALM) …) en utilisant le framework NodeJS"
-                                    }
-                                ]
-                            }
-                        ]
-                    }
-                ]
-            },
-            {
-                "typeExperience": "",
-                "client": "SopraSteria",
-                "domaine": "",
-                "dateDebut": "",
-                "dateFin": "",
-                "presentation": "",
-                "contenu": "",
-                "environnementTechnique": "",
-                "experiences": [
-                    {
-                        "typeExperience": "Développements et tests de l'application de gestion des formations",
-                        "client": "Pôle Emploi/Aude Formation",
-                        "domaine": "Développeur Java",
-                        "dateDebut": "2015-06-01",
-                        "dateFin": "",
-                        "presentation": "Participation aux réunions et à la conception technique (DCG/TRC), Participation à l’implémentation des règles de gestion fonctionnelles et d’affichage en réalisant la modélisation et  les développements adéquats sur la base des documents de spécification. Utilisation d’outils de construction automatisée (Acrople SLD). Tests automatisés à l'aide de JUnit et MockiTo.",
-                        "contenu": "",
-                        "environnementTechnique": "",
-                        "realisations": [
-                            {
-                                "text": "Outil de tests unitaires automatiques avec base virtuelle HSQLDB se basant sur des fichiers DBUnit contenant des jeux de données fixes."
-                            },
-                            {
-                                "text": "batchs SQL Oracle",
-                                "realisations": [
-                                    {
-                                        "text": "Import de données sur des certifications de partenaires extérieurs"
-                                    }
-                                ]
-                            },
-                            {
-                                "text": "Réalisation d'un outil d'extraction de données d'entrées/sorties (fichier XML) pour une génération automatique de documentation."
-                            },
-                            {
-                                "text": "Réalisation de services SOAP à l’aide du framework Acropole SLD, dans le cadre de la gestion de vie d’une inscription d’un demandeur d’emploi à une formation."
-                            },
-                            {
-                                "text": "Réalisation d'un outil d'extraction automatique de données (CSV)"
-                            }
-                        ]
-                    },
-                    {
-                        "typeExperience": "Intervention au sein du centre de services SOPRA STERIA de Strasbourg",
-                        "client": "C.T.S.",
-                        "domaine": "Développeur Java",
-                        "dateDebut": "2015-03-01",
-                        "dateFin": "",
-                        "presentation": "Intervention au sein de la TMA pour le compte de la CTS. Correction de bugs sur une application java web complexe orientée services. Mise à jour du dossier de conception et des maquettes dynamiques associées.",
-                        "contenu": "",
-                        "environnementTechnique": "",
-                        "realisations": [
-                            {
-                                "text": "Maintenance, corrections et évolutions de l'application de gestion des clients de la CTS."
-                            },
-                            {
-                                "text": "Reconversion sur la technologie JAVA."
-                            },
-                            {
-                                "text": "Réalisation d’un script de déploiement d’archive"
-                            }
-                        ]
-                    },
-                    {
-                        "typeExperience": "",
-                        "client": "PSA",
-                        "domaine": "",
-                        "dateDebut": "",
-                        "dateFin": "",
-                        "presentation": "",
-                        "contenu": "",
-                        "environnementTechnique": "",
-                        "experiences": [
-                            {
-                                "typeExperience": "Développement et maintenance d’outils d’industrialisation",
-                                "client": "PSA/SIFA",
-                                "domaine": "Analyste Développeur/Intégrateur",
-                                "dateDebut": "2013-01-01",
-                                "dateFin": "",
-                                "presentation": "Maintenance et Développement d’outils d’industrialisation Création / Maintenance de scripts perl et ANT",
-                                "contenu": "",
-                                "environnementTechnique": "",
-                                "realisations": [
-                                    {
-                                        "text": "Assistance utilisateurs"
-                                    },
-                                    {
-                                        "text": "Participation à la conception et à la réalisation du successeur de POPEI",
-                                        "realisations": [
-                                            {
-                                                "text": "Module de génération de modèles orienté objet avec sa propre syntaxe et possibilité de modélisation dynamique à l'aide de morceaux de perl"
-                                            },
-                                            {
-                                                "text": "Automatisation de test à partir de jeux de test fixes pour éviter les régressions"
-                                            },
-                                            {
-                                                "text": "Participation à la conception et à la réalisation d'un outil d'automatisation de plus haut niveau se basant sur un scenario en XML"
-                                            }
-                                        ]
-                                    }
-                                ]
-                            },
-                            {
-                                "typeExperience": "Cartographie Stockage",
-                                "client": "PSA/ETSO/TME",
-                                "domaine": "Developpeur",
-                                "dateDebut": "2013-01-01",
-                                "dateFin": "",
-                                "presentation": "Remonté et synthétisation instantanée (cartographie) des données sur le stockage d’un serveur",
-                                "contenu": "",
-                                "environnementTechnique": "",
-                                "realisations": [
-                                    {
-                                        "text": "Réalisation d’un outil en ligne de commande",
-                                        "realisations": [
-                                            {
-                                                "text": "Réalisation d’une couche d’abstraction permettant le requêtage des outils indépendamment du constructeur (EMC, SVC)"
-                                            },
-                                            {
-                                                "text": "Modélisation et agrégation des données à l’aide d’une structure objet"
-                                            },
-                                            {
-                                                "text": "Sortie pré paramétrée par vues"
-                                            },
-                                            {
-                                                "text": "Utilisation d’un cache par commande (outils de persistance perl)"
-                                            }
-                                        ]
-                                    }
-                                ]
-                            },
-                            {
-                                "typeExperience": "Projet BCSF",
-                                "client": "Université de Strasbourg",
-                                "domaine": "Developpeur",
-                                "dateDebut": "2013-01-01",
-                                "dateFin": "",
-                                "presentation": "Réalisation d'un outil d'automatisation pour des traitements sur un nuage de points à partir de relevés d'intensité sismique, à l'aide d'outils géostatistiques",
-                                "contenu": "",
-                                "environnementTechnique": "",
-                                "realisations": [
-                                    {
-                                        "text": "Chaine d'automatisation"
-                                    },
-                                    {
-                                        "text": "Monté en compétence sur les outils géostatistiques"
-                                    },
-                                    {
-                                        "text": "Réalisation d’une documentation détaillée"
-                                    },
-                                    {
-                                        "text": "Ajout de paramètres utilisateurs customisables via des fichiers de configuration"
-                                    }
-                                ]
-                            },
-                            {
-                                "typeExperience": "Maintenance Applicative à l’aide d’outils internes, orientés ITIL. Enrichissement de tiquet SDI (Niveau2)",
-                                "client": "PSA/SIFA/TMI",
-                                "domaine": "Intégrateur / Industrialisateur",
-                                "dateDebut": "2012-07-01",
-                                "dateFin": "",
-                                "presentation": "Enrichissement de tiquet SDI (Niveau2)",
-                                "contenu": "",
-                                "environnementTechnique": ""
-                            },
-                            {
-                                "typeExperience": "Maintenance et évolution d'outil transverses",
-                                "client": "PSA/ETSO/Pôle transversal",
-                                "domaine": "Développeur outils et automatisation",
-                                "dateDebut": "2011-07-01",
-                                "dateFin": "",
-                                "presentation": "Développement, déploiement, maintenance, d'application intranet et statistiques sur le parc.",
-                                "contenu": "",
-                                "environnementTechnique": "",
-                                "realisations": [
-                                    {
-                                        "text": "Maintenance, correction et évolutions de l'application de surveillance SUSANE web et de son produit distribué sur le parc.",
-                                        "realisations": [
-                                            {
-                                                "text": "Migration en perl d'un module transversal de surveillance de processus"
-                                            },
-                                            {
-                                                "text": "Réalisation de plusieurs Déploiements sur l'ensemble du parc"
-                                            }
-                                        ]
-                                    },
-                                    {
-                                        "text": "Formation d'un collègue espagnol sur le fonctionnement de SUSANE"
-                                    },
-                                    {
-                                        "text": "Réalisation de synchronisations de l’outil de référentiel PSA (REFLEX), à partir de données fraiches collectées sur des serveurs à l'aide d'un outil de collecte"
-                                    }
-                                ]
-                            },
-                            {
-                                "typeExperience": "Outil de monitoring d'imprimante",
-                                "client": "ES",
-                                "domaine": "Développeur",
-                                "dateDebut": "2011-07-01",
-                                "dateFin": "",
-                                "presentation": "Intervention au site de Mundolsheim pour la création d'un outil de monitoring d'environ 300 imprimantes",
-                                "contenu": "",
-                                "environnementTechnique": "",
-                                "realisations": [
-                                    {
-                                        "text": "Réalisation d'un batch d'injection des données en base",
-                                        "realisations": [
-                                            {
-                                                "text": "Utilisation de SNMP pour récupérer le nombre de pages imprimées"
-                                            }
-                                        ]
-                                    },
-                                    {
-                                        "text": "développement d'une interface en PHP pour l'exploitation des données"
-                                    }
-                                ]
-                            },
-                            {
-                                "typeExperience": "Développement et maintenance d’outils de maintenance",
-                                "client": "PSA/ETSO/TME",
-                                "domaine": "Analyste Développeur/Outils Automatisation",
-                                "dateDebut": "2010-11-01",
-                                "dateFin": "",
-                                "presentation": "Réalisation d'outils d'administration de serveurs UNIX. Surveillance et automatisation de tests sur environnement hétérogène",
-                                "contenu": "",
-                                "environnementTechnique": "",
-                                "realisations": [
-                                    {
-                                        "text": "Réalisation d'un daemon gérant les connexions simultanées et permettant la gestion, la modification et la remonté d'information concernant les services (ports) sur les serveurs",
-                                        "realisations": [
-                                            {
-                                                "text": "Utilisation d'une base de données Oracle pour la persistance des données"
-                                            }
-                                        ]
-                                    },
-                                    {
-                                        "text": "Ajout de fonctionnalité sur une application web de gestion de compte, utilisant un ensemble propriétaire de librairies en javascript",
-                                        "realisations": [
-                                            {
-                                                "text": "Les données étaient rafraichies régulièrement avec l'état des serveurs, puis les données remontées dans une base de données oracle. L’exploitation des données se faisaient à travers un ORM en perl lui aussi propriétaire"
-                                            }
-                                        ]
-                                    },
-                                    {
-                                        "text": "Déploiement d'une application de surveillance essentiellement conçue en Korn SHELL, sur la totalité du parc PSA (+8000) y compris zone d'accès difficiles telles que DMZ, ZSR",
-                                        "realisations": [
-                                            {
-                                                "text": "Le déploiement à été réalisé par vagues successives en commençant par les serveurs ayant une criticité de fonctionnement la moins importante, puis en terminant par ceux nécessitant une approbation manuelle"
-                                            }
-                                        ]
-                                    }
-                                ]
-                            }
-                        ]
-                    }
-                ]
-            },
-            {
-                "typeExperience": "Réalisation de sites web et d’outils informatiques",
-                "client": "Donat et Associés",
-                "domaine": "Analyste Développeur/Intégrateur",
-                "dateDebut": "2008-11-17",
-                "dateFin": "",
-                "presentation": "Réalisation d'un site web de présentation. Evolution du site vers un site marchant Réalisation d'un Outil de gestion de clients+ intégration Word pour génération de documents (MS, OpenXML)",
-                "contenu": "",
-                "environnementTechnique": "",
-                "realisations": [
-                    {
-                        "text": "Réalisation d'un site web de marketing en ligne en utilisant Joomla Virtuemart proposant des produits de coaching individuel, avec customisation bas niveau",
-                        "realisations": [
-                            {
-                                "text": "Gestion du serveur à travers l‘interface web de gestion (OVH), (mails, DNS, etc.)"
-                            }
-                        ]
-                    },
-                    {
-                        "text": "Réalisation d'un logiciel de gestion client avec génération de document à partir d'un modèle MS OpenXML"
-                    },
-                    {
-                        "text": "Participation à l’initiation du référencement du site en utilisant les outils Google"
-                    }
-                ]
-            },
-            {
-                "typeExperience": "Réalisation et mise à jour de logiciels de calculs thermiques",
-                "client": "Logiciels Perrenoud",
-                "domaine": "Développeur",
-                "dateDebut": "2006-06-27",
-                "dateFin": "",
-                "presentation": "",
-                "contenu": "",
-                "environnementTechnique": "",
-                "realisations": [
-                    {
-                        "text": "Mise à jour (Ajout de fonctionnalités, correction de bugs), de divers modules existants."
-                    },
-                    {
-                        "text": "Participation à la création d'un logiciel simplifié de calcul (méthode DPE)."
-                    },
-                    {
-                        "text": "Refonte d'un module de mise à jour par internet (problème de sécurité, passage de ftp) http)."
-                    }
-                ]
-            },
-            {
-                "typeExperience": "Centralisation et exploitation des logs de plusieurs serveurs à l'aide d'un agent    en java se basant sur le protocole syslog.",
-                "client": "CAPM",
-                "domaine": "Développeur",
-                "dateDebut": "2006-04-01",
-                "dateFin": "",
-                "presentation": "",
-                "contenu": "",
-                "environnementTechnique": "",
-                "realisations": [
-                    {
-                        "text": "Centralisation des logs (protocole Syslog)"
-                    },
-                    {
-                        "text": "Développement d'un outil de centralisation (Java)",
-                        "realisations": [
-                            {
-                                "text": "L’outil à été publié sur Sourceforge (bsyslogagent, voir https://sourceforge.net/projects/bsyslog-agent/)"
-                            }
-                        ]
-                    },
-                    {
-                        "text": "Réalisation de scripts (bash)"
-                    },
-                    {
-                        "text": "Ajout de fonctionnalités sur le module webmin syslog-ng"
-                    },
-                    {
-                        "text": "Mise en place de l'analyse et de la visualisation des logs via un site intranet réalisé en PHP"
-                    }
-                ]
-            },
-            {
-                "typeExperience": "",
-                "client": "Projets de formation et Projets personels",
-                "domaine": "",
-                "dateDebut": "",
-                "dateFin": "",
-                "presentation": "",
-                "contenu": "",
-                "environnementTechnique": "",
-                "experiences": [
-                    {
-                        "typeExperience": "Intervention pour le CE de l'entreprise",
-                        "client": "Wärtsilä",
-                        "domaine": "Développeur",
-                        "dateDebut": "2005-04-01",
-                        "dateFin": "",
-                        "presentation": "",
-                        "contenu": "",
-                        "environnementTechnique": "",
-                        "realisations": [
-                            {
-                                "text": "Modélisation de la base de données"
-                            },
-                            {
-                                "text": "Réalisation d'un module de présentation de séjours en intégration sur le site existant"
-                            }
-                        ]
-                    },
-                    {
-                        "typeExperience": "Outils de transfert de fichiers",
-                        "client": "/",
-                        "domaine": "",
-                        "dateDebut": "2005-12-01",
-                        "dateFin": "",
-                        "presentation": "",
-                        "contenu": "",
-                        "environnementTechnique": "",
-                        "realisations": [
-                            {
-                                "text": "Conception orienté objet",
-                                "realisations": [
-                                    {
-                                        "text": "définition du protocole en se basant sur les opérations définies par le prof (opérations de base FTP)"
-                                    }
-                                ]
-                            },
-                            {
-                                "text": "réalisation du client et du serveur à l'aide de la serialisation java"
-                            }
-                        ]
-                    },
-                    {
-                        "typeExperience": "Projet Tir à l'arc du club d’Arcey",
-                        "client": "Club de tir à l'arc d'Arcey",
-                        "domaine": "Analyste développeur",
-                        "dateDebut": "2004-12-01",
-                        "dateFin": "",
-                        "presentation": "",
-                        "contenu": "",
-                        "environnementTechnique": "",
-                        "realisations": [
-                            {
-                                "text": "Communication TCP/IP avec l'automate de gestion des feux"
-                            },
-                            {
-                                "text": "Modélisation Bases de données (Locale et Distante)"
-                            },
-                            {
-                                "text": "Création d'une interface (client lourd) de gestion informatique des concours relativement évolutive."
-                            },
-                            {
-                                "text": "Gestion de la synchronisation des bases"
-                            },
-                            {
-                                "text": "Réalisation de composants Borland C++ Builder, pour simplifier le code / améliorer l’interactivité.",
-                                "realisations": [
-                                    {
-                                        "text": "Ex : grille colorée avec recherche intégrée."
-                                    }
-                                ]
-                            }
-                        ]
-                    },
-                    {
-                        "typeExperience": "Gestionnaire de téléchargements.",
-                        "client": "/",
-                        "domaine": "",
-                        "dateDebut": "2009-01-01",
-                        "dateFin": "",
-                        "presentation": "",
-                        "contenu": "",
-                        "environnementTechnique": "",
-                        "realisations": [
-                            {
-                                "text": "Modélisation des classes"
-                            },
-                            {
-                                "text": "Implémentation daemon de téléchargement côté serveur",
-                                "realisations": [
-                                    {
-                                        "text": "Implémentation d'un outil de téléchargement par morceaux pour le protocole HTTP"
-                                    },
-                                    {
-                                        "text": "Reprise des téléchargements en cours"
-                                    },
-                                    {
-                                        "text": "Gestion de l'authentification HTTP pour les téléchargements"
-                                    },
-                                    {
-                                        "text": "Interface web côté client en JQuery pour interaction avec le daemon"
-                                    }
-                                ]
-                            }
-                        ]
-                    },
-                    {
-                        "typeExperience": "Jeu d’échecs simple",
-                        "client": "/",
-                        "domaine": "",
-                        "dateDebut": "2009-01-01",
-                        "dateFin": "",
-                        "presentation": "",
-                        "contenu": "",
-                        "environnementTechnique": "",
-                        "realisations": [
-                            {
-                                "text": "Modélisation des classes"
-                            },
-                            {
-                                "text": "Implémentation daemon de téléchargement côté serveur",
-                                "realisations": [
-                                    {
-                                        "text": "Réalisation d’un prototype en Java."
-                                    },
-                                    {
-                                        "text": "Reprise des téléchargements en cours"
-                                    },
-                                    {
-                                        "text": "Mise en place d'une IA simple utilisant une logique à valeurs multiples (fuzzy logics)"
-                                    },
-                                    {
-                                        "text": "Tentatives d’optimisations lors du passage en C++ en utilisant les entiers 64bits."
-                                    }
-                                ]
-                            }
-                        ]
-                    },
-                    {
-                        "typeExperience": "Jeu d’échecs simple",
-                        "client": "/",
-                        "domaine": "",
-                        "dateDebut": "2009-01-01",
-                        "dateFin": "",
-                        "presentation": "",
-                        "contenu": "",
-                        "environnementTechnique": "",
-                        "realisations": [
-                            {
-                                "text": "Modélisation des classes"
-                            },
-                            {
-                                "text": "Installation de drupal sur un VPS OVH"
-                            },
-                            {
-                                "text": "Maintenance du blog et du serveur VPS"
-                            },
-                            {
-                                "text": "Réalisation des mises à jours à l'aide de Drush et Compose"
-                            }
-                        ]
-                    }
-                ]    
-            }
-        ],
-        "formations": [
-            {
-                "dateFin": "2006-2008",
-                "intitule": "Maitrise Sciences et Technologies de l'Information et de la Communication",
-                "lieu": "Centre de Téléenseignement Universitaire de Besançon",
-                "contenu": "Web (PHP5), Base de données (MySQL, eyeDB), Initiation IA (Prolog), Langage fonctionnel (Méthode B), modélisation objet (Diagramme de classe)."
-            },
-            {
-                "dateFin": "2005-2006",
-                "intitule": "Licence Administration / Maintenance de Systèmes et d'Applications Réparties",
-                "lieu": "I.U.T Belfort Montbéliard",
-                "contenu": "Applications 3 tiers (Java/J2EE/Struts), UML, Réseau"
-            },
-            {
-                "dateFin": "2003-2005",
-                "intitule": "BTS Informatique et Réseau pour l'Industrie et les Services Techniques",
-                "lieu": "Lycée Follereau Belfort",
-                "contenu": "Developpement (C/C++), UML, Réseau"
-            },
-            {
-                "dateFin": "2003",
-                "intitule": "BAC STI génie électronique Mention assez bien",
-                "lieu": "Lycée Follereau Belfort",
-                "contenu": ""
-            }
-        ]
+        
+
+	
+		
+		
+		"experiences" : [ 
+		{ 
+			"typeExperience" : "group",
+			"intitule" : "",
+			"client" : "Amaris",
+			"domaine" : "",
+			"dateDebut" : "",
+			"dateFin" : "",
+			"presentation" : "",
+			"contenu" : "",
+			"resume" : "",
+			"references" : "",
+			"environnementTechnique" : "",
+			
+					
+						"experiences" : [ 
+							
+							
+		{ 
+			"typeExperience" : "mission",
+			"intitule" : "Evolutions sur un outil de gestion de matière et de commande",
+			"client" : "Chantiers de l'atlantique",
+			"domaine" : "Développeur Java",
+			"dateDebut" : "2018-10-01",
+			"dateFin" : "",
+			"presentation" : "Maintenance évolutive de EBC à distance (pour Nante). Développement d'interfaces en swing, mise en place d'une architecture de test facilitant le développement",
+			"contenu" : "",
+			"resume" : "EBC est une application qui permet un échange de données dans le workflow des commandes de pièces. Entre le dessin, la découpe et les commandes",
+			"references" : "EBC est une application qui permet un échange de données dans le workflow des commandes de pièces. Entre le dessin, la découpe et les commandes",
+			"environnementTechnique" : "Eclipse, VMWare Horizon, Java 1.5, Oracle, PostGresSQL, SQLServeur, Swing, Maven, ANT, Git",
+			
+					
+						"realisations" : [ 
+							
+							
+		{ 
+			"text" : "Appropriation du projet", 
+		   	
+				"realisations" : [ 
+					
+					
+		{ 
+			"text" : "Migration du gestionnaire de source CVS vers un repository GIT externe"},
+	
+		{ 
+			"text" : "Reprise et évolution des scripts de déploiements en ANT"},
+	
+		{ 
+			"text" : "Mise en place d'un repository Maven local pour la gestion des dépendances"}]
+			
+		},
+	
+		{ 
+			"text" : "Reprise et Réalisation d’écrans java (swing) pour remonter différentes informations à partir de bases de données multiples", 
+		   	
+				"realisations" : [ 
+					
+					
+		{ 
+			"text" : "Comparaison sur les quantités de matières"},
+	
+		{ 
+			"text" : "Contrôles sur les disponibilités de pièces/matière"}]
+			
+		},
+	
+		{ 
+			"text" : "Réalisation de tests Unitaires et d’intégration avec bouchonnage"},
+	
+		{ 
+			"text" : "Déploiement de l’application en qualification"},
+	
+		{ 
+			"text" : "Participation à la réalisation d'un outil de gestion d'un référentiel de pièce"},
+	
+		{ 
+			"text" : "Migration des sources CVS vers GIT"}]
+					
+		
+		},
+
+
+	
+		{ 
+			"typeExperience" : "mission",
+			"intitule" : "Développements et tests sur la plateforme monétique d'acceptation centralisée",
+			"client" : "Euro Information",
+			"domaine" : "Développeur Java",
+			"dateDebut" : "2018-03-01",
+			"dateFin" : "",
+			"presentation" : "Intégration de l'équipe de la plateforme monétique d'acceptation centralisée. Réalisation de tâches telles que : Aide à la conception, Réalisation de tests QC et de tests Automatisés en JUnit, Développement d'un module de tokenisation, Développement d'interfaces devbooster",
+			"contenu" : "",
+			"resume" : "",
+			"references" : "",
+			"environnementTechnique" : "Eclipse, Java, Vert.x, Visual Studio (C#), DevBooster, SQLServeur",
+			
+					
+						"realisations" : [ 
+							
+							
+		{ 
+			"text" : "Réalisation de tests QC du module PSP Monetico Paiement"},
+	
+		{ 
+			"text" : "Réalisation d'un module de tokenisation avec interaction avec un HSM", 
+		   	
+				"realisations" : [ 
+					
+					
+		{ 
+			"text" : "Réalisation du cahier de test"},
+	
+		{ 
+			"text" : "Aide à la conception"},
+	
+		{ 
+			"text" : "Module Vert.x pour échange avec les autres modules de l’application"},
+	
+		{ 
+			"text" : "Échanges pour monitoring"}]
+			
+		},
+	
+		{ 
+			"text" : "Autoformation au Framework devbooster"},
+	
+		{ 
+			"text" : "Réalisation d’un outil de de statistiques (Key Performance Indicator) sur les transactions réalisées dans la journée", 
+		   	
+				"realisations" : [ 
+					
+					
+		{ 
+			"text" : "Mise en place du batch d’extraction"},
+	
+		{ 
+			"text" : "Analyse et envoi des données par mail"}]
+			
+		},
+	
+		{ 
+			"text" : "Réalisation d’un module C# (devbooster) sur site intranet afin de gérer le référentiel d’affiliation avec les clients et de routage/translation des transactions", 
+		   	
+				"realisations" : [ 
+					
+					
+		{ 
+			"text" : "Réalisation de procédures stockées en T-SQL"},
+	
+		{ 
+			"text" : "Aide à la conception"},
+	
+		{ 
+			"text" : "Modélisation de la base de données"},
+	
+		{ 
+			"text" : "POC pour réalisation d’un import de données via un fichier CSV"}]
+			
+		}]
+					
+		
+		},
+
+
+	
+		{ 
+			"typeExperience" : "mission",
+			"intitule" : "Développements et tests de l'application de gestion des formations",
+			"client" : "Pôle Emploi",
+			"domaine" : "Développeur Java",
+			"dateDebut" : "2017-05-01",
+			"dateFin" : "",
+			"presentation" : "Participation aux différentes réunions agiles (Daily meating, rétrospective, revue de backlog ..), migration de services SOAP vers REST, migration de la persistance des données : Hibernate vers JPA Standard, tests automatisés à l'aide de JUnit et MockiTo.",
+			"contenu" : "",
+			"resume" : "",
+			"references" : "",
+			"environnementTechnique" : "Eclipse, Maven 3.2,JEE6 : Java 1.6, JPA (EclipseLink), JaxRS, NodeJS, PostMan/SoapUI, Putty, DevTest (Workstation), Weblogic 12",
+			
+					
+						"experiences" : [ 
+							
+							
+		{ 
+			"typeExperience" : "temp",
+			"intitule" : "Formation d'une classe de 28 élèves de 3ième année au module 3JVA (Initiation JAVA/J2EE)",
+			"client" : "Supinfo",
+			"domaine" : "Professeur Java",
+			"dateDebut" : "2018-01-01",
+			"dateFin" : "",
+			"presentation" : "",
+			"contenu" : "",
+			"resume" : "",
+			"references" : "",
+			"environnementTechnique" : "Linux (Ubuntu), Eclipse, J2EE, Git",
+			
+					
+						"realisations" : [ 
+							
+							
+		{ 
+			"text" : "4 jours de formations théoriques avec utilisation de supports existants (exercices et corrections) : Servlets, JSP, JPA"},
+	
+		{ 
+			"text" : "Suivit des élèves durant leur projet (Site de recette en java web)"},
+	
+		{ 
+			"text" : "Corrections des projets"},
+	
+		{ 
+			"text" : "1 jours de SOE (SUPINFO Oral Exams), notation Orale + Ecrit"},
+	
+		{ 
+			"text" : "Réalisations sur environnement de formation", 
+		   	
+				"realisations" : [ 
+					
+					
+		{ 
+			"text" : "Installation d'un environnement de développement  pour les élèves (VM VMWare) avec Linux Ubuntu afin de simplifier la complexité due aux environnements hétérogènes utilisés par les élèves"},
+	
+		{ 
+			"text" : "Mise en place d'un repository Git partagé pour un suivit incrémental des corrections sur les exercices"}]
+			
+		}]
+					
+		
+		}],
+					
+						"realisations" : [ 
+							
+							
+		{ 
+			"text" : "Captures et bouchonnage d'appels services pour les tests à l'aide de DevTest"},
+	
+		{ 
+			"text" : "Réalisation et migration de services REST notamment des API dans le cadre de la gestion de vie d’une inscription d’un demandeur d’emploi à une formation."},
+	
+		{ 
+			"text" : "Réalisation de POC techniques", 
+		   	
+				"realisations" : [ 
+					
+					
+		{ 
+			"text" : "Normes sur la mise en place d’une architecture REST utilisant les hyperliens (ou HATEOS)"},
+	
+		{ 
+			"text" : "Dashboard de centralisation d’informations sur l’environnement (Builds Jenkins, Anomalies (ALM) …) en utilisant le framework NodeJS"}]
+			
+		}]
+					
+		
+		}]
+					
+		
+		},
+
+
+	
+		{ 
+			"typeExperience" : "group",
+			"intitule" : "",
+			"client" : "SopraSteria",
+			"domaine" : "",
+			"dateDebut" : "",
+			"dateFin" : "",
+			"presentation" : "",
+			"contenu" : "",
+			"resume" : "",
+			"references" : "",
+			"environnementTechnique" : "",
+			
+					
+						"experiences" : [ 
+							
+							
+		{ 
+			"typeExperience" : "mission",
+			"intitule" : "Développements et tests de l'application de gestion des formations",
+			"client" : "Pôle Emploi/Aude Formation",
+			"domaine" : "Développeur Java",
+			"dateDebut" : "2015-06-01",
+			"dateFin" : "",
+			"presentation" : "Participation aux réunions et à la conception technique (DCG/TRC), Participation à l’implémentation des règles de gestion fonctionnelles et d’affichage en réalisant la modélisation et  les développements adéquats sur la base des documents de spécification. Utilisation d’outils de construction automatisée (Acrople SLD). Tests automatisés à l'aide de JUnit et MockiTo.",
+			"contenu" : "",
+			"resume" : "",
+			"references" : "",
+			"environnementTechnique" : "Windows, Linux (serveurs),Eclipse Kepler, Maven 3.2,J2EE : Java 1.6, Acropole SLD, MockiTo, Perl, Jenkins, Weblogic 10/11/12, plSQL, Putty",
+			
+					
+						"realisations" : [ 
+							
+							
+		{ 
+			"text" : "Outil de tests unitaires automatiques avec base virtuelle HSQLDB se basant sur des fichiers DBUnit contenant des jeux de données fixes."},
+	
+		{ 
+			"text" : "batchs SQL Oracle", 
+		   	
+				"realisations" : [ 
+					
+					
+		{ 
+			"text" : "Import de données sur des certifications de partenaires extérieurs"}]
+			
+		},
+	
+		{ 
+			"text" : "Réalisation d'un outil d'extraction de données d'entrées/sorties (fichier XML) pour une génération automatique de documentation."},
+	
+		{ 
+			"text" : "Réalisation de services SOAP à l’aide du framework Acropole SLD, dans le cadre de la gestion de vie d’une inscription d’un demandeur d’emploi à une formation."},
+	
+		{ 
+			"text" : "Réalisation d'un outil d'extraction automatique de données (CSV)"}]
+					
+		
+		},
+
+
+	
+		{ 
+			"typeExperience" : "mission",
+			"intitule" : "Intervention au sein du centre de services SOPRA STERIA de Strasbourg",
+			"client" : "C.T.S.",
+			"domaine" : "Développeur Java",
+			"dateDebut" : "2015-03-01",
+			"dateFin" : "",
+			"presentation" : "Intervention au sein de la TMA pour le compte de la CTS. Correction de bugs sur une application java web complexe orientée services. Mise à jour du dossier de conception et des maquettes dynamiques associées.",
+			"contenu" : "",
+			"resume" : "",
+			"references" : "",
+			"environnementTechnique" : "Windows, Linux (serveurs) Eclipse Kepler, Maven 3.2,Java 1.6, HTML/CSS/Javascript, JQuery, Tomcat,Jira",
+			
+					
+						"realisations" : [ 
+							
+							
+		{ 
+			"text" : "Maintenance, corrections et évolutions de l'application de gestion des clients de la CTS."},
+	
+		{ 
+			"text" : "Reconversion sur la technologie JAVA."},
+	
+		{ 
+			"text" : "Réalisation d’un script de déploiement d’archive"}]
+					
+		
+		},
+
+
+	
+		{ 
+			"typeExperience" : "group",
+			"intitule" : "",
+			"client" : "PSA",
+			"domaine" : "",
+			"dateDebut" : "",
+			"dateFin" : "",
+			"presentation" : "",
+			"contenu" : "",
+			"resume" : "",
+			"references" : "",
+			"environnementTechnique" : "",
+			
+					
+						"experiences" : [ 
+							
+							
+		{ 
+			"typeExperience" : "mission",
+			"intitule" : "Développement et maintenance d’outils d’industrialisation",
+			"client" : "PSA/SIFA",
+			"domaine" : "Analyste Développeur/Intégrateur",
+			"dateDebut" : "2013-01-01",
+			"dateFin" : "",
+			"presentation" : "Maintenance et Développement d’outils d’industrialisation Création / Maintenance de scripts perl et ANT",
+			"contenu" : "",
+			"resume" : "",
+			"references" : "",
+			"environnementTechnique" : "Unix (hétérogène), Perl 5.8.8, ANT 1.8.2, Eclipse (SVN + SFTP), XML, Expressions rationnelles, Jira",
+			
+					
+						"realisations" : [ 
+							
+							
+		{ 
+			"text" : "Assistance utilisateurs"},
+	
+		{ 
+			"text" : "Participation à la conception et à la réalisation du successeur de POPEI", 
+		   	
+				"realisations" : [ 
+					
+					
+		{ 
+			"text" : "Module de génération de modèles orienté objet avec sa propre syntaxe et possibilité de modélisation dynamique à l'aide de morceaux de perl"},
+	
+		{ 
+			"text" : "Automatisation de test à partir de jeux de test fixes pour éviter les régressions"},
+	
+		{ 
+			"text" : "Participation à la conception et à la réalisation d'un outil d'automatisation de plus haut niveau se basant sur un scenario en XML"}]
+			
+		}]
+					
+		
+		},
+
+
+	
+		{ 
+			"typeExperience" : "mission",
+			"intitule" : "Cartographie Stockage",
+			"client" : "PSA/ETSO/TME",
+			"domaine" : "Developpeur",
+			"dateDebut" : "2013-01-01",
+			"dateFin" : "",
+			"presentation" : "Remonté et synthétisation instantanée (cartographie) des données sur le stockage d’un serveur",
+			"contenu" : "",
+			"resume" : "Réalisation d'un outil d'automatisation pour des traitements sur un nuage de points à partir de relevés d'intensité sismique, à l'aide d'outils géostatistiques",
+			"references" : "Réalisation d'un outil d'automatisation pour des traitements sur un nuage de points à partir de relevés d'intensité sismique, à l'aide d'outils géostatistiques",
+			"environnementTechnique" : "Unix (Hétérogène), Perl 5.8.8, ANT 1.8.2, Expressions rationnelles",
+			
+					
+						"realisations" : [ 
+							
+							
+		{ 
+			"text" : "Réalisation d’un outil en ligne de commande", 
+		   	
+				"realisations" : [ 
+					
+					
+		{ 
+			"text" : "Réalisation d’une couche d’abstraction permettant le requêtage des outils indépendamment du constructeur (EMC, SVC)"},
+	
+		{ 
+			"text" : "Modélisation et agrégation des données à l’aide d’une structure objet"},
+	
+		{ 
+			"text" : "Sortie pré paramétrée par vues"},
+	
+		{ 
+			"text" : "Utilisation d’un cache par commande (outils de persistance perl)"}]
+			
+		}]
+					
+		
+		},
+
+
+	
+		{ 
+			"typeExperience" : "temp",
+			"intitule" : "Projet BCSF",
+			"client" : "Université de Strasbourg",
+			"domaine" : "Developpeur",
+			"dateDebut" : "2013-01-01",
+			"dateFin" : "",
+			"presentation" : "Réalisation d'un outil d'automatisation pour des traitements sur un nuage de points à partir de relevés d'intensité sismique, à l'aide d'outils géostatistiques",
+			"contenu" : "",
+			"resume" : "Réalisation d'un outil d'automatisation pour des traitements sur un nuage de points à partir de relevés d'intensité sismique, à l'aide d'outils géostatistiques",
+			"references" : "Réalisation d'un outil d'automatisation pour des traitements sur un nuage de points à partir de relevés d'intensité sismique, à l'aide d'outils géostatistiques",
+			"environnementTechnique" : "Windows, Perl, Python, OSGeo, Saga GIS, Quantom GIS (QGGIS)",
+			
+					
+						"realisations" : [ 
+							
+							
+		{ 
+			"text" : "Chaine d'automatisation"},
+	
+		{ 
+			"text" : "Monté en compétence sur les outils géostatistiques"},
+	
+		{ 
+			"text" : "Réalisation d’une documentation détaillée"},
+	
+		{ 
+			"text" : "Ajout de paramètres utilisateurs customisables via des fichiers de configuration"}]
+					
+		
+		},
+
+
+	
+		{ 
+			"typeExperience" : "mission",
+			"intitule" : "Maintenance Applicative à l’aide d’outils internes, orientés ITIL. Enrichissement de tiquet SDI (Niveau2)",
+			"client" : "PSA/SIFA/TMI",
+			"domaine" : "Intégrateur / Industrialisateur",
+			"dateDebut" : "2012-07-01",
+			"dateFin" : "",
+			"presentation" : "Enrichissement de tiquet SDI (Niveau2)",
+			"contenu" : "",
+			"resume" : "",
+			"references" : "",
+			"environnementTechnique" : "KSH, Unix (hétérogène), SDI"},
+
+
+	
+		{ 
+			"typeExperience" : "mission",
+			"intitule" : "Maintenance et évolution d'outil transverses",
+			"client" : "PSA/ETSO/Pôle transversal",
+			"domaine" : "Développeur outils et automatisation",
+			"dateDebut" : "2011-07-01",
+			"dateFin" : "",
+			"presentation" : "Développement, déploiement, maintenance, d'application intranet et statistiques sur le parc.",
+			"contenu" : "",
+			"resume" : "",
+			"references" : "",
+			"environnementTechnique" : "Perl 5.8.8, KSH, parc UNIX (hétérogène) environ 8000 serveurs, Oracle, SQL Developper, SVN (client texte)",
+			
+					
+						"realisations" : [ 
+							
+							
+		{ 
+			"text" : "Maintenance, correction et évolutions de l'application de surveillance SUSANE web et de son produit distribué sur le parc.", 
+		   	
+				"realisations" : [ 
+					
+					
+		{ 
+			"text" : "Migration en perl d'un module transversal de surveillance de processus"},
+	
+		{ 
+			"text" : "Réalisation de plusieurs Déploiements sur l'ensemble du parc"}]
+			
+		},
+	
+		{ 
+			"text" : "Formation d'un collègue espagnol sur le fonctionnement de SUSANE"},
+	
+		{ 
+			"text" : "Réalisation de synchronisations de l’outil de référentiel PSA (REFLEX), à partir de données fraiches collectées sur des serveurs à l'aide d'un outil de collecte"}]
+					
+		
+		},
+
+
+	
+		{ 
+			"typeExperience" : "temp",
+			"intitule" : "Outil de monitoring d'imprimante",
+			"client" : "ES",
+			"domaine" : "Développeur",
+			"dateDebut" : "2011-07-01",
+			"dateFin" : "",
+			"presentation" : "Intervention au site de Mundolsheim pour la création d'un outil de monitoring d'environ 300 imprimantes",
+			"contenu" : "",
+			"resume" : "",
+			"references" : "",
+			"environnementTechnique" : "PHP, Mysql, Bash, SNMP",
+			
+					
+						"realisations" : [ 
+							
+							
+		{ 
+			"text" : "Réalisation d'un batch d'injection des données en base", 
+		   	
+				"realisations" : [ 
+					
+					
+		{ 
+			"text" : "Utilisation de SNMP pour récupérer le nombre de pages imprimées"}]
+			
+		},
+	
+		{ 
+			"text" : "développement d'une interface en PHP pour l'exploitation des données"}]
+					
+		
+		},
+
+
+	
+		{ 
+			"typeExperience" : "mission",
+			"intitule" : "Développement et maintenance d’outils de maintenance",
+			"client" : "PSA/ETSO/TME",
+			"domaine" : "Analyste Développeur/Outils Automatisation",
+			"dateDebut" : "2010-11-01",
+			"dateFin" : "",
+			"presentation" : "Réalisation d'outils d'administration de serveurs UNIX. Surveillance et automatisation de tests sur environnement hétérogène",
+			"contenu" : "",
+			"resume" : "",
+			"references" : "",
+			"environnementTechnique" : "Perl 5.8.8, KSH, HTML/CSS, Javascript, parc UNIX (hétérogène) environ 8000 serveurs, ORM    propriétaire (perl), Oracle, SQL Developper",
+			
+					
+						"realisations" : [ 
+							
+							
+		{ 
+			"text" : "Réalisation d'un daemon gérant les connexions simultanées et permettant la gestion, la modification et la remonté d'information concernant les services (ports) sur les serveurs", 
+		   	
+				"realisations" : [ 
+					
+					
+		{ 
+			"text" : "Utilisation d'une base de données Oracle pour la persistance des données"}]
+			
+		},
+	
+		{ 
+			"text" : "Ajout de fonctionnalité sur une application web de gestion de compte, utilisant un ensemble propriétaire de librairies en javascript", 
+		   	
+				"realisations" : [ 
+					
+					
+		{ 
+			"text" : "Les données étaient rafraichies régulièrement avec l'état des serveurs, puis les données remontées dans une base de données oracle. L’exploitation des données se faisaient à travers un ORM en perl lui aussi propriétaire"}]
+			
+		},
+	
+		{ 
+			"text" : "Déploiement d'une application de surveillance essentiellement conçue en Korn SHELL, sur la totalité du parc PSA (+8000) y compris zone d'accès difficiles telles que DMZ, ZSR", 
+		   	
+				"realisations" : [ 
+					
+					
+		{ 
+			"text" : "Le déploiement à été réalisé par vagues successives en commençant par les serveurs ayant une criticité de fonctionnement la moins importante, puis en terminant par ceux nécessitant une approbation manuelle"}]
+			
+		}]
+					
+		
+		}]
+					
+		
+		}]
+					
+		
+		},
+
+
+	
+		{ 
+			"typeExperience" : "mission",
+			"intitule" : "Réalisation de sites web et d’outils informatiques",
+			"client" : "Donat et Associés",
+			"domaine" : "Analyste Développeur/Intégrateur",
+			"dateDebut" : "2008-11-17",
+			"dateFin" : "",
+			"presentation" : "Réalisation d'un site web de présentation. Evolution du site vers un site marchant Réalisation d'un Outil de gestion de clients+ intégration Word pour génération de documents (MS, OpenXML)",
+			"contenu" : "",
+			"resume" : "",
+			"references" : "",
+			"environnementTechnique" : "Eclipse/Java, Javascript, Joomla 1.5/Virtuaemart/PHP5, VB6 , XML, Office; Gimp",
+			
+					
+						"realisations" : [ 
+							
+							
+		{ 
+			"text" : "Réalisation d'un site web de marketing en ligne en utilisant Joomla Virtuemart proposant des produits de coaching individuel, avec customisation bas niveau", 
+		   	
+				"realisations" : [ 
+					
+					
+		{ 
+			"text" : "Gestion du serveur à travers l‘interface web de gestion (OVH), (mails, DNS, etc.)"}]
+			
+		},
+	
+		{ 
+			"text" : "Réalisation d'un logiciel de gestion client avec génération de document à partir d'un modèle MS OpenXML"},
+	
+		{ 
+			"text" : "Participation à l’initiation du référencement du site en utilisant les outils Google"}]
+					
+		
+		},
+
+
+	
+		{ 
+			"typeExperience" : "mission",
+			"intitule" : "Réalisation et mise à jour de logiciels de calculs thermiques",
+			"client" : "Logiciels Perrenoud",
+			"domaine" : "Développeur",
+			"dateDebut" : "2006-06-27",
+			"dateFin" : "",
+			"presentation" : "",
+			"contenu" : "",
+			"resume" : "",
+			"references" : "",
+			"environnementTechnique" : "VB6 (Visual Studio 6), VB .NET, API Windows",
+			
+					
+						"realisations" : [ 
+							
+							
+		{ 
+			"text" : "Mise à jour (Ajout de fonctionnalités, correction de bugs), de divers modules existants."},
+	
+		{ 
+			"text" : "Participation à la création d'un logiciel simplifié de calcul (méthode DPE)."},
+	
+		{ 
+			"text" : "Refonte d'un module de mise à jour par internet (problème de sécurité, passage de ftp) http)."}]
+					
+		
+		},
+
+
+	
+		{ 
+			"typeExperience" : "stage",
+			"intitule" : "Centralisation et exploitation des logs de plusieurs serveurs à l'aide d'un agent    en java se basant sur le protocole syslog.",
+			"client" : "CAPM",
+			"domaine" : "Développeur",
+			"dateDebut" : "2006-04-01",
+			"dateFin" : "",
+			"presentation" : "",
+			"contenu" : "",
+			"resume" : "",
+			"references" : "",
+			"environnementTechnique" : "Eclipse 3.1, PHP, Java, Perl, HTML/CSS, Javascript, Windows XP/2003 serveur, Linux, (Ubuntu/Debian), syslog-ng,syslogd, php-syslog-ng, Awstats, Expression rationnelles.",
+			
+					
+						"realisations" : [ 
+							
+							
+		{ 
+			"text" : "Centralisation des logs (protocole Syslog)"},
+	
+		{ 
+			"text" : "Développement d'un outil de centralisation (Java)", 
+		   	
+				"realisations" : [ 
+					
+					
+		{ 
+			"text" : "L’outil à été publié sur Sourceforge (bsyslogagent, voir https://sourceforge.net/projects/bsyslog-agent/)"}]
+			
+		},
+	
+		{ 
+			"text" : "Réalisation de scripts (bash)"},
+	
+		{ 
+			"text" : "Ajout de fonctionnalités sur le module webmin syslog-ng"},
+	
+		{ 
+			"text" : "Mise en place de l'analyse et de la visualisation des logs via un site intranet réalisé en PHP"}]
+					
+		
+		},
+
+
+	
+		{ 
+			"typeExperience" : "perso",
+			"intitule" : "",
+			"client" : "Projets de formation et Projets personels",
+			"domaine" : "",
+			"dateDebut" : "",
+			"dateFin" : "",
+			"presentation" : "",
+			"contenu" : "",
+			"resume" : "",
+			"references" : "",
+			"environnementTechnique" : "",
+			
+					
+						"experiences" : [ 
+							
+							
+		{ 
+			"typeExperience" : "perso",
+			"intitule" : "Intervention pour le CE de l'entreprise",
+			"client" : "Wärtsilä",
+			"domaine" : "Développeur",
+			"dateDebut" : "2005-04-01",
+			"dateFin" : "",
+			"presentation" : "",
+			"contenu" : "",
+			"resume" : "",
+			"references" : "",
+			"environnementTechnique" : "HTML/CSS,JavascriptVB/ASP,Windows XP,MS SQL Serveur,IIS",
+			
+					
+						"realisations" : [ 
+							
+							
+		{ 
+			"text" : "Modélisation de la base de données"},
+	
+		{ 
+			"text" : "Réalisation d'un module de présentation de séjours en intégration sur le site existant"}]
+					
+		
+		},
+
+
+	
+		{ 
+			"typeExperience" : "perso",
+			"intitule" : "Outils de transfert de fichiers",
+			"client" : "/",
+			"domaine" : "",
+			"dateDebut" : "2005-12-01",
+			"dateFin" : "",
+			"presentation" : "",
+			"contenu" : "",
+			"resume" : "",
+			"references" : "",
+			"environnementTechnique" : "",
+			
+					
+						"realisations" : [ 
+							
+							
+		{ 
+			"text" : "Conception orienté objet", 
+		   	
+				"realisations" : [ 
+					
+					
+		{ 
+			"text" : "définition du protocole en se basant sur les opérations définies par le prof (opérations de base FTP)"}]
+			
+		},
+	
+		{ 
+			"text" : "réalisation du client et du serveur à l'aide de la serialisation java"}]
+					
+		
+		},
+
+
+	
+		{ 
+			"typeExperience" : "perso",
+			"intitule" : "Projet Tir à l'arc du club d’Arcey",
+			"client" : "Club de tir à l'arc d'Arcey",
+			"domaine" : "Analyste développeur",
+			"dateDebut" : "2004-12-01",
+			"dateFin" : "",
+			"presentation" : "",
+			"contenu" : "",
+			"resume" : "",
+			"references" : "",
+			"environnementTechnique" : "C/C++ (Borland c++ Builder 6.0), Windows 2000, MySQL (API C), ODBC, MS ACCESS",
+			
+					
+						"realisations" : [ 
+							
+							
+		{ 
+			"text" : "Communication TCP/IP avec l'automate de gestion des feux"},
+	
+		{ 
+			"text" : "Modélisation Bases de données (Locale et Distante)"},
+	
+		{ 
+			"text" : "Création d'une interface (client lourd) de gestion informatique des concours relativement évolutive."},
+	
+		{ 
+			"text" : "Gestion de la synchronisation des bases"},
+	
+		{ 
+			"text" : "Réalisation de composants Borland C++ Builder, pour simplifier le code / améliorer l’interactivité.", 
+		   	
+				"realisations" : [ 
+					
+					
+		{ 
+			"text" : "Ex : grille colorée avec recherche intégrée."}]
+			
+		}]
+					
+		
+		},
+
+
+	
+		{ 
+			"typeExperience" : "perso",
+			"intitule" : "Gestionnaire de téléchargements.",
+			"client" : "/",
+			"domaine" : "",
+			"dateDebut" : "2009-01-01",
+			"dateFin" : "",
+			"presentation" : "",
+			"contenu" : "",
+			"resume" : "",
+			"references" : "",
+			"environnementTechnique" : "Perl, LWP, Protocole HTTP, HTML/CSS, Javascript (JQuery).",
+			
+					
+						"realisations" : [ 
+							
+							
+		{ 
+			"text" : "Modélisation des classes"},
+	
+		{ 
+			"text" : "Implémentation daemon de téléchargement côté serveur", 
+		   	
+				"realisations" : [ 
+					
+					
+		{ 
+			"text" : "Implémentation d'un outil de téléchargement par morceaux pour le protocole HTTP"},
+	
+		{ 
+			"text" : "Reprise des téléchargements en cours"},
+	
+		{ 
+			"text" : "Gestion de l'authentification HTTP pour les téléchargements"},
+	
+		{ 
+			"text" : "Interface web côté client en JQuery pour interaction avec le daemon"}]
+			
+		}]
+					
+		
+		},
+
+
+	
+		{ 
+			"typeExperience" : "perso",
+			"intitule" : "Jeu d’échecs simple",
+			"client" : "/",
+			"domaine" : "",
+			"dateDebut" : "2009-01-01",
+			"dateFin" : "",
+			"presentation" : "",
+			"contenu" : "",
+			"resume" : "",
+			"references" : "",
+			"environnementTechnique" : "C++ (STL), Visual Studio Express, Java/Eclipse.",
+			
+					
+						"realisations" : [ 
+							
+							
+		{ 
+			"text" : "Modélisation des classes"},
+	
+		{ 
+			"text" : "Implémentation daemon de téléchargement côté serveur", 
+		   	
+				"realisations" : [ 
+					
+					
+		{ 
+			"text" : "Réalisation d’un prototype en Java."},
+	
+		{ 
+			"text" : "Reprise des téléchargements en cours"},
+	
+		{ 
+			"text" : "Mise en place d'une IA simple utilisant une logique à valeurs multiples (fuzzy logics)"},
+	
+		{ 
+			"text" : "Tentatives d’optimisations lors du passage en C++ en utilisant les entiers 64bits."}]
+			
+		}]
+					
+		
+		},
+
+
+	
+		{ 
+			"typeExperience" : "perso",
+			"intitule" : "Jeu d’échecs simple",
+			"client" : "/",
+			"domaine" : "",
+			"dateDebut" : "2009-01-01",
+			"dateFin" : "",
+			"presentation" : "",
+			"contenu" : "",
+			"resume" : "",
+			"references" : "",
+			"environnementTechnique" : "Linux Debian, CPanel, Webmin, Drupal, PHP",
+			
+					
+						"realisations" : [ 
+							
+							
+		{ 
+			"text" : "Modélisation des classes"},
+	
+		{ 
+			"text" : "Installation de drupal sur un VPS OVH"},
+	
+		{ 
+			"text" : "Maintenance du blog et du serveur VPS"},
+	
+		{ 
+			"text" : "Réalisation des mises à jours à l'aide de Drush et Compose"}]
+					
+		
+		}]
+					
+		
+		}],
+		"formations" : [ 
+		
+		{
+			"dateFin":"2006-2008",
+			"intitule" : "Maitrise Sciences et Technologies de l'Information et de la Communication",
+			"lieu" : "Centre de Téléenseignement Universitaire de Besançon",
+			"contenu" : "Web (PHP5), Base de données (MySQL, eyeDB), Initiation IA (Prolog), Langage fonctionnel (Méthode B), modélisation objet (Diagramme de classe)."
+		},
+
+	
+		
+		{
+			"dateFin":"2005-2006",
+			"intitule" : "Licence Administration / Maintenance de Systèmes et d'Applications Réparties",
+			"lieu" : "I.U.T Belfort Montbéliard",
+			"contenu" : "Applications 3 tiers (Java/J2EE/Struts), UML, Réseau"
+		},
+
+	
+		
+		{
+			"dateFin":"2003-2005",
+			"intitule" : "BTS Informatique et Réseau pour l'Industrie et les Services Techniques",
+			"lieu" : "Lycée Follereau Belfort",
+			"contenu" : "Developpement (C/C++), UML, Réseau"
+		},
+
+	
+		
+		{
+			"dateFin":"2003",
+			"intitule" : "BAC STI génie électronique Mention assez bien",
+			"lieu" : "Lycée Follereau Belfort",
+			"contenu" : ""
+		}]
+		
+							
+	}
     }
 }
