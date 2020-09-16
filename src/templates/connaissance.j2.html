@@ -1,8 +1,20 @@
 <li class="competence">
     {% if data.intitule %}
-        <span class="intitule" >{{data.intitule}} :</span>
+        <span class="intitule">{{data.intitule}} :</span>
     {% endif %}
-    <span class="description">
-        <em>{{data.description}}</em>
-    </span>
+    <div class="table" style="width:100%">
+        <div class="table-row">
+            <div class="desc-cell">
+                <em>{{data.description}}</em>
+            </div>
+            {% if 'afinite' in data and data.afinite > 0 %}
+            <div class="pb-cell">
+                <div class="comp_pb">
+                    <div style="width:{{ data.afinite }}%" class="comp_pb_bg">&nbsp;</div>
+                </div>
+            </div>
+            {% endif %}
+        </div>
+    </div>
+
 </li>

@@ -61,13 +61,15 @@ def mapExperience(jsonExperience: Dict[str, object]) -> Experience:
     experience: Experience = Experience(jsonExperience)
     experience.jsonReference = jsonExperience
 
-    if experience.jsonReference['dateDebut'] != '':
+    if 'dateDebut' in experience.jsonReference \
+        and experience.jsonReference['dateDebut'] != '':
         experience.dateDebut = datetime.strptime(
             jsonExperience['dateDebut'], '%Y-%m-%d')
     else:
         experience.dateDebut = None
 
-    if experience.jsonReference['dateFin'] != '':
+    if 'dateFin' in experience.jsonReference \
+        and experience.jsonReference['dateFin'] != '':
         experience.dateFin = datetime.strptime(
             jsonExperience['dateFin'], '%Y-%m-%d')
     else:
@@ -76,26 +78,42 @@ def mapExperience(jsonExperience: Dict[str, object]) -> Experience:
     return experience
 
 
-def prepareExperience(experience: Experience):
+def getFirstExperience( experiencesAsList : List[Experience]) -> Experience:
 
     def compareByDateDebut(experience: Experience):
         return experience.dateDebut
 
+    subExperiencesWithDateDebut = [ experience for experience in experiencesAsList if experience.dateDebut != None ]
+
+    if len (subExperiencesWithDateDebut) <= 0 :
+        return None
+
+    return min(subExperiencesWithDateDebut, key=compareByDateDebut)
+
+def getLastExperience( experiencesAsList : List[Experience]) -> Experience:
+
     def compareByDateFin(experience: Experience):
         return experience.dateFin
 
-    if len(experience.subExperiences) > 0:
-        subExperiencesWithDateDebut = [ experience for experience in experience.subExperiences if experience.dateDebut != None ]
-        subExperiencesWithDateFin = [ experience for experience in experience.subExperiences if experience.dateFin != None ]
-        lastExperience = max(subExperiencesWithDateFin, key=compareByDateFin)
+    subExperiencesWithDateFin = [ experience for experience in experiencesAsList if experience.dateFin != None ]
 
-        firstExperience = min(subExperiencesWithDateDebut,
-                              key=compareByDateDebut)
+    if len (subExperiencesWithDateFin) <= 0 :
+        return None
+    return max(subExperiencesWithDateFin, key=compareByDateFin)
+
+
+def prepareExperience(experience: Experience):
+
+    if len(experience.subExperiences) > 0:
 
         if experience.dateFin == None:
-            experience.dateFin = lastExperience.dateFin
+            
+            lastExperience = getLastExperience( experience.subExperiences )
+            experience.dateFin = None if lastExperience == None else lastExperience.dateFin
 
         if experience.dateDebut == None:
+            
+            firstExperience = getFirstExperience( experience.subExperiences )
             experience.dateDebut = firstExperience.dateDebut
 
     relDataMonth = relativedelta.relativedelta(

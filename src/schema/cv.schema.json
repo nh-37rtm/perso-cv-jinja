@@ -38,7 +38,17 @@
             "type": "object",
             "properties": {
                 "intitule": {},
-                "description": {}
+                "description": {},
+                "afinite": {
+                    "type": "integer"
+                },
+                "connaissances": {
+                    "type": "array",
+                    "items": {
+                        "type": "object",
+                        "$ref": "#/definitions/connaissance"
+                    }
+                }
             }
         },
         "formation": {

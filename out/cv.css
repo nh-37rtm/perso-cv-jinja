@@ -1,213 +1,288 @@
-
-* {font-family : calibri, verdana, arial;}
-div.clr {clear : both;}
-
-h1 {
-	font-size : 14pt;
-	text-transform : uppercase;
-	background-color : #d35018; /* orange sombre */
-	margin : 0;
-	color : white;
-	padding : 3px;
+* {
+    font-family: calibri, verdana, arial;
 }
 
-.marge h1{
- background-color : gray;
+div.clr {
+    clear: both;
+}
+
+h1 {
+    font-size: 14pt;
+    text-transform: uppercase;
+    background-color: #d35018;
+    /* orange sombre */
+    margin: 0;
+    color: white;
+    padding: 3px;
+}
+
+.marge h1 {
+    background-color: gray;
 }
 
 div.poste {
-	
-	font-size : 15pt;
-	/*width : 100%;*/
-	text-align : center;
-	text-transform : uppercase;
-	margin : 0 auto;
-	margin-top : 10px;
-	margin-bottom : 10px;
-	font-weight : bold;
+    font-size: 15pt;
+    /*width : 100%;*/
+    text-align: center;
+    text-transform: uppercase;
+    margin: 0 auto;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-weight: bold;
 }
 
 .perso {
-	display : none;
+    display: none;
 }
 
 div.main {
-	width : 100%;	
+    width: 100%;
 }
 
 div.marge {
-	float : left;
-	width : 22%;
-	padding : 10px;
+    float: left;
+    width: 22%;
+    padding: 10px;
 }
+
 div.content {
-	float : right;
-	width : 74%;
+    float: right;
+    width: 74%;
 }
 
 .main ul {
-	margin : 0;
-	padding : 0;
+    margin: 0;
+    padding: 0;
 }
 
 .main ul li {
-
-	list-style : none;
-	margin-bottom : 10px;
-	margin-top : 10px;
-	margin-left : 3px;
-	
+    list-style: none;
+    margin-left: 3px;
 }
 
-.main span.dates{
-	display : block;
-	float : right;
-	margin: 0px;
-	font-size : 12pt;
-	/*background: linear-gradient(
+.main div.formations ul li,
+.main div.experiences ul li {
+    margin-bottom: 5px;
+    margin-top: 5px;
+}
+
+.main span.dates {
+    display: block;
+    float: right;
+    margin: 0px;
+    font-size: 12pt;
+    /*background: linear-gradient(
   to bottom,
   #5d9634,
   #5d9634 50%,
   #538c2b 50%,
   #538c2b
 );*/
-
 }
 
 .main span.domaine {
-	color : gray;
-	display : inline;
+    color: gray;
+    display: inline;
 }
 
 .main span.client {
-	display : block;
-	float:left;
-	font-size : 12pt;
+    display: block;
+    float: left;
+    font-size: 12pt;
 }
 
-.main div.experiences span.description, .main div.formations span.description {
-	display : block;
-	/*width : 84%;*/
+.main div.experiences span.description,
+.main div.formations span.description {
+    display: block;
+    /*width : 84%;*/
 }
 
-.main {	font-size : 10.5pt; }
+.main {
+    font-size: 10.5pt;
+}
 
-div.experiences span.description, div.formations span.description {
-	border-left : 2px solid gray;
+div.experiences span.description,
+div.formations span.description {
+    border-left: 2px solid gray;
 }
 
 div.experiences div.level0 span.description span.intitule {
-	font-size: 13pt;
+    font-size: 13pt;
 }
 
 span.description {
-	margin-right : 20px;
-	margin-left : 0px;
-	padding : 5px;
-	padding-right : 0px;
+    margin-right: 20px;
+    margin-left: 0px;
+    padding: 5px;
+    padding-right: 0px;
 }
 
 div.experiences li {
-	border-top : 1px dotted gray;
-	
+    border-top: 1px dotted gray;
 }
 
+.main div.experiences ul li:first-child {
+    border-top: none
+}
 
 div.experiences div.level1 span.description {
-	border-left : 1px solid gray;
+    border-left: 1px solid gray;
 }
 
 div.experiences li.temp span.description {
-	border-left: 1px dashed gray;
+    border-left: 1px dashed gray;
 }
 
 div.experiences span.presentation pre {
-	white-space: pre-wrap;
+    white-space: pre-wrap;
 }
+
 
 /* marge */
+
 li#ec li {
-	border : none;
-	margin : 0px;
-	padding : 2px;
-
+    border: none;
+    margin: 0px;
+    padding: 2px;
 }
 
-.marge ul{
-	padding : 0;
-	margin : 0;
-	width : 100%;
+.marge ul {
+    padding: 0;
+    margin: 0;
+    width: 100%;
 }
 
-.marge ul li {
-	border-top : 2px solid gray;
-	width : 100%;
+.main .marge ul li {
+    border-top: 2px dotted gray;
+    /*padding : 2px;*/
+    /*border-top : 1px gray;*/
+    /*width : 100%;*/
 }
+
+.main .marge ul li>div {
+    border: 0px;
+    padding-top: 2px;
+    padding-bottom: 2px;
+    margin: 0px;
+}
+
+.main .marge ul li:first-child {
+    border: none;
+}
+
 .marge .intitule {
-	width : 100%;
+    width: 100%;
 }
 
 .intitule {
-	font-size : 11pt;
-	font-weight : bold;
+    font-size: 11pt;
+    font-weight: bold;
 }
 
-div.experiences span.text {display : none;}
- 
- .main .experiences .environnement{
-	font-style : italic;
-	font-weight : bold;
- }
- 
- .marge em {
-	 color : gray;
- }
+div.experiences span.text {
+    display: none;
+}
 
-.main .experiences .presentation, .main .formations .lieu, .main .experiences .environnement, .marge em{
-		display : block;
+.main .experiences .environnement {
+    font-style: italic;
+    font-weight: bold;
+}
+
+.marge em {
+    color: gray;
+}
+
+.main .experiences .presentation,
+.main .formations .lieu,
+.main .experiences .environnement {
+    display: block;
 }
 
 .competencesSecondaires h2 {
-	color : gray;
+    color: gray;
 }
 
-.competences { font-size : 11.5pt }
+.competences {
+    font-size: 11.5pt
+}
+
 .competences li.competence {
-	margin-top : 0px;
+    margin-top: 0px;
 }
 
 .presentation {
-	margin-left : 5px;
+    margin-left: 5px;
 }
 
-
-
 div.experiences .description .intitule {
-	display : block;
+    display: block;
 }
 
 .competences .intitule {
-	margin-left : 10px;
-	margin-right : 5px;
-	
-	display : inline;
+    margin-left: 10px;
+    margin-right: 5px;
+    display: inline;
 }
 
-.main div.competences span.description {
-	color : gray;
-	display : inline;
-	float : none;
+.main div.competences,
+.main .marge div.description {
+    color: gray;
+    /*display : inline;*/
+    display: inline-block;
+    max-width: 60%;
+    vertical-align: middle;
 }
 
 .description .environnementTechnique {
-	font-style: italic;
-	color : gray;
+    font-style: italic;
+    color: gray;
 }
 
 div.competences_cols {
-	column-count: 2;
-	-moz-column-count: 2;
-	margin-top : 10px;
-	margin-bottom : 10px;
+    column-count: 2;
+    -moz-column-count: 2;
+    margin-top: 10px;
+    margin-bottom: 10px;
 }
 
+div.comp_pb {
+    width: 100%;
+    height: 10px;
+    border: 2px solid gray;
+    float: right;
+}
+
+div.comp_pb_bg {
+    background-color: #ddd;
+    /*background: 
+    /*
+    repeating-linear-gradient(
+        45deg,
+        transparent,
+        #ccc 20px
+    );*/
+
+    height: 100%
+}
+
+.table {
+    display: table;
+}
+
+.table-row {
+    display: table-row;
+}
+
+.desc-cell {
+    width: 70%;
+    padding-right: 5px;
+    display: table-cell;
+}
+
+.pb-cell {
+    width: 30%;
+    text-align: right;
+    vertical-align: middle;
+    padding-left: 5px;
+    display: table-cell;
+}

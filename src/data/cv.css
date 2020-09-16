@@ -140,7 +140,7 @@ li#ec li {
 }
 
 .marge ul li {
-	border-top : 2px solid gray;
+	/*border-top : 2px groove gray;*/
 	width : 100%;
 }
 .marge .intitule {
