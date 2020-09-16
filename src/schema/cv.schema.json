@@ -4,12 +4,14 @@
     "description": "A product from Acme's catalog",
     "definitions": {
         "realisation": {
-            "type": "array",
-            "items": {
-                "type": "object",
-                "properties": {
-                    "description": {},
-                    "realisation": {
+            "type": "object",
+            "properties": {
+                "description": {},
+                "text" : {},
+                "realisations": {
+                    "type": "array",
+                    "items": {
+                        "type": "object",
                         "$ref": "#/definitions/realisation"
                     }
                 }
@@ -29,8 +31,19 @@
                 "resume": {},
                 "detailsMemory": {},
                 "references": {},
-                "realisation": {
-                    "$ref": "#/definitions/realisation"
+                "experiences": {
+                    "type": "array",
+                    "items": {
+                        "type": "object",
+                        "$ref": "#/definitions/experience"
+                    }
+                },
+                "realisations": {
+                    "type": "array",
+                    "items": {
+                        "type": "object",
+                        "$ref": "#/definitions/realisation"
+                    }
                 }
             }
         },
@@ -125,7 +138,6 @@
                         "$ref": "#/definitions/formation"
                     }
                 }
-
             }
         }
     }

@@ -76,7 +76,7 @@
             },
             {
                 "intitule": "Languages (Par ordre d'afinité)",
-                "description": "Java, Perl, PHP,ASP,HTML/CSS/Javascript, Visual Basic; XML/XSLT"
+                "description": "Java, Perl, Python, PHP,ASP,HTML/CSS/Javascript, Visual Basic; XML/XSLT"
             },
             {
                 "intitule": "EDI utilisés",
@@ -98,7 +98,9 @@
                 "description": "Modélisation de données objet"
             }
         ],
-        "experiences": [{
+        "experiences": [
+            
+            {
                 "typeExperience": "group",
                 "intitule": "",
                 "client": "Ace Digitale",
@@ -110,16 +112,74 @@
                 "resume": "",
                 "references": "",
                 "environnementTechnique": "",
+                
                 "experiences": [{
+
                     "typeExperience": "mission",
                     "client": "Next2C (Abopress)",
                     "dateDebut": "2019-09-11",
                     "dateFin": "",
-                    "intitule": "",
+                    "intitule": "Automatisations et Migrations d'applications",
                     "domaine": "Automatisation / DevOps",
-                    "presentation": "Reprise/Migration sur infrastructure existante et automatisations de tâches",
+                    "presentation": "Migration de sites, automatisations de tâches, maintenance du parc",
                     "environnementTechnique": "Visual Studio Code (avec module remote development), VMWare ESX (5.1), MySQL, GitLab; Python, Shell (Bash); Docker (docker-compose); SaltStack; Jenkins",
-                    "references": "Darko Calic (Manager Commercial), Philippe Horesh (Manager SC), Olivier Camus (Manager ... absent), Marc-Alexandre (Produit, sympa ++), Claude Mansilla (Developeuse Cobol, consciencieuse++), Nadine Bischoff (Service client++), Lucile Siksik (data manager++), Cecilia Cvetanovic (Produit, logique++ toujours raison), Nicolas Kuentz (Developpeur), Virgile Alonas(Developpeur++), Steeven Dauphin "
+                    "references": "Darko Calic (Manager Commercial), Philippe Horesh (Manager SC), Olivier Camus (Manager ... absent), Marc-Alexandre (Produit, sympa ++), Claude Mansilla (Developeuse Cobol, consciencieuse++), Nadine Bischoff (Service client++), Lucile Siksik (data manager++), Cecilia Cvetanovic (Produit, logique++ toujours raison), Nicolas Kuentz (Developpeur), Virgile Alonas(Developpeur++), Steeven Dauphin ",
+                    "realisations": [
+                        {
+                            "description" : "Maintenance système et applicative sur un parc d’environ 30 serveurs (dont les ¾ sous unix)",
+                            "realisations": [
+                                {
+                                    "text" : "Mise à jour du système de sauvegarde sur les serveurs Unix (BorgBackup)"
+                                },
+                                {
+                                    "text" : "Participation à la gestion du contrôleur de domaine (AD, DNS)"
+                                },
+                                {
+                                    "text" : "Création de machines virtuelles et maintenance des VM ProxMox existantes"
+                                },
+                                {
+                                    "text" : "Maintenance de machines virtuelles hébergés sur OVH (Cloud ProxMox +VM Plesk)"
+                                },
+                                {
+                                    "text" : "Maintenance d’une infra téléphonique cisco (création et gestion de synchronisation AD/Outils via les interfaces)"
+                                },
+                                {
+                                    "text" : "Maintenance d’un serveur Unix (SCO OpenServer)"
+                                }
+                            ]
+                            
+                        },
+                        {
+                          "description":"Participation à la migration de l’infrastructure (déménagement)" ,
+                          "realisations": [
+                              {
+                                  "text" : "Changement de plages d’adresse IP"
+                              },
+                              {
+                                "text" : "igration de conteneurs applicatifs (docker)"
+                              }
+                          ]
+                        },
+                        {
+                            "description" : "Conteneurisation de services pour tests et mise en prod",
+                            "realisations": [
+                                {
+                                    "text" : "Création d’un environnement de test (docker-compose) pour debugage sur applicatif de serveur SSO"
+                                },
+                                {
+                                    "text" : "Utilisation d’images telles que NodeJS, Nginx, Redis"
+                                },
+                                {
+                                    "text" : "Utilisation d’outils tels que DnsMask"
+                                },
+                                {
+                                    "text" : "Mise à jour de configurations docker-compose (NextCloud, Dokuwiki, RequestTraquer)"
+                                }
+                            ]
+                            
+                        }
+
+                    ]
                 }]
             },
             {
