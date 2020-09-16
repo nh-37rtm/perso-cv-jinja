@@ -206,6 +206,7 @@
                         "resume": "EBC est une application qui permet un échange de données dans le workflow des commandes de pièces. Entre le dessin, la découpe et les commandes",
                         "references": "EBC est une application qui permet un échange de données dans le workflow des commandes de pièces. Entre le dessin, la découpe et les commandes",
                         "environnementTechnique": "Eclipse, VMWare Horizon, Java 1.5, Oracle, PostGresSQL, SQLServeur, Swing, Maven, ANT, Git",
+                        "detailMemory" : "EBC est un outil qui permet de transférer des données sur la matières entre plusieurs applications : CATMAT le catalogue de matière, SPMAT l'outil de ",
                         "realisations": [{
                                 "text": "Appropriation du projet",
                                 "realisations": [{
@@ -255,6 +256,7 @@
                         "resume": "",
                         "references": "",
                         "environnementTechnique": "Eclipse, Java, Vert.x, Visual Studio (C#), DevBooster, SQLServeur",
+                        "detailsMemory" : "Micro services Vert.x, échange via un Bus, Routage et Translation à partir d'un référentiel client Point d'acquisition => Acquereur Librairie pour échanges simplifiés avec le HSM Verticle avec echange module de monitoring, Gestion de charge simplifiée (multi HSM), TAG des paquets",
                         "realisations": [{
                                 "text": "Réalisation de tests QC du module PSP Monetico Paiement"
                             },
@@ -861,9 +863,6 @@
                                         "text": "Réalisation d’un prototype en Java."
                                     },
                                     {
-                                        "text": "Reprise des téléchargements en cours"
-                                    },
-                                    {
                                         "text": "Mise en place d'une IA simple utilisant une logique à valeurs multiples (fuzzy logics)"
                                     },
                                     {
@@ -875,7 +874,7 @@
                     },
                     {
                         "typeExperience": "perso",
-                        "intitule": "Jeu d’échecs simple",
+                        "intitule": "Installation et maintenance d'un blog Drupal",
                         "client": "/",
                         "domaine": "",
                         "dateDebut": "2009-01-01",
