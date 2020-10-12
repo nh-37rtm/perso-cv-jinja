@@ -1,0 +1,245 @@
+
+{% for realisation in data.realisations %}
+<w:p w14:paraId="5E9F1598" w14:textId="77777777" w:rsidR="00D67040" w:rsidRPr="00683D84" w:rsidRDefault="00D67040" w:rsidP="00D67040">
+    <w:pPr>
+        <w:rPr>
+            <w:rFonts w:ascii="Century Gothic" w:hAnsi="Century Gothic"/>
+        </w:rPr>
+    </w:pPr>
+</w:p>
+<w:p w14:paraId="180C5BD6" w14:textId="77777777" w:rsidR="00D67040" w:rsidRPr="00683D84" w:rsidRDefault="00D67040" w:rsidP="00D67040">
+    <w:pPr>
+        <w:pStyle w:val="Titre3"/>
+        <w:numPr>
+            <w:ilvl w:val="0"/>
+            <w:numId w:val="13"/>
+        </w:numPr>
+        <w:spacing w:line="276" w:lineRule="auto"/>
+        <w:rPr>
+            <w:rFonts w:ascii="Century Gothic" w:hAnsi="Century Gothic" w:cs="Calibri"/>
+            <w:bCs/>
+            <w:color w:val="auto"/>
+            <w:sz w:val="22"/>
+            <w:szCs w:val="20"/>
+        </w:rPr>
+    </w:pPr>
+    <w:r w:rsidRPr="00683D84">
+        <w:rPr>
+            <w:rFonts w:ascii="Century Gothic" w:hAnsi="Century Gothic" w:cs="Calibri"/>
+            <w:bCs/>
+            <w:color w:val="auto"/>
+            <w:sz w:val="22"/>
+            <w:szCs w:val="20"/>
+        </w:rPr>
+        <w:t>{{realisation.description}}.</w:t>
+    </w:r>
+</w:p>
+    {{ context.renderTemplate( 'efor/realisation.j2.xml', realisation ) }}
+{% endfor %}
+<w:p w14:paraId="2D2BDEA2" w14:textId="77777777" w:rsidR="00D67040" w:rsidRPr="00683D84" w:rsidRDefault="00D67040" w:rsidP="00D67040">
+    <w:pPr>
+        <w:pStyle w:val="Titre3"/>
+        <w:numPr>
+            <w:ilvl w:val="0"/>
+            <w:numId w:val="9"/>
+        </w:numPr>
+        <w:spacing w:line="276" w:lineRule="auto"/>
+        <w:rPr>
+            <w:rFonts w:ascii="Century Gothic" w:hAnsi="Century Gothic" w:cs="Calibri"/>
+            <w:b/>
+            <w:bCs/>
+            <w:color w:val="auto"/>
+            <w:sz w:val="22"/>
+            <w:szCs w:val="20"/>
+        </w:rPr>
+    </w:pPr>
+    <w:r w:rsidRPr="00683D84">
+        <w:rPr>
+            <w:rFonts w:ascii="Century Gothic" w:hAnsi="Century Gothic" w:cs="Calibri"/>
+            <w:b/>
+            <w:bCs/>
+            <w:color w:val="auto"/>
+            <w:sz w:val="22"/>
+            <w:szCs w:val="20"/>
+        </w:rPr>
+        <w:t xml:space="preserve">Validation IQ, OQ, PQ : </w:t>
+    </w:r>
+    <w:r w:rsidRPr="00683D84">
+        <w:rPr>
+            <w:rFonts w:ascii="Century Gothic" w:hAnsi="Century Gothic" w:cs="Calibri"/>
+            <w:bCs/>
+            <w:color w:val="auto"/>
+            <w:sz w:val="22"/>
+            <w:szCs w:val="20"/>
+        </w:rPr>
+        <w:t>réalisation des étapes de qualification définies dans le PV :</w:t>
+    </w:r>
+</w:p>
+<w:p w14:paraId="0708C80B" w14:textId="77777777" w:rsidR="00D67040" w:rsidRPr="00683D84" w:rsidRDefault="00D67040" w:rsidP="00D67040">
+    <w:pPr>
+        <w:pStyle w:val="Titre3"/>
+        <w:numPr>
+            <w:ilvl w:val="0"/>
+            <w:numId w:val="11"/>
+        </w:numPr>
+        <w:spacing w:line="276" w:lineRule="auto"/>
+        <w:rPr>
+            <w:rFonts w:ascii="Century Gothic" w:hAnsi="Century Gothic" w:cs="Calibri"/>
+            <w:b/>
+            <w:bCs/>
+            <w:color w:val="auto"/>
+            <w:sz w:val="22"/>
+            <w:szCs w:val="20"/>
+        </w:rPr>
+    </w:pPr>
+    <w:r w:rsidRPr="00683D84">
+        <w:rPr>
+            <w:rFonts w:ascii="Century Gothic" w:hAnsi="Century Gothic" w:cs="Calibri"/>
+            <w:b/>
+            <w:bCs/>
+            <w:color w:val="auto"/>
+            <w:sz w:val="22"/>
+            <w:szCs w:val="20"/>
+        </w:rPr>
+        <w:t>Rédaction des procédures de validation</w:t>
+    </w:r>
+    <w:r w:rsidRPr="00683D84">
+        <w:rPr>
+            <w:rFonts w:ascii="Century Gothic" w:hAnsi="Century Gothic" w:cs="Calibri"/>
+            <w:bCs/>
+            <w:color w:val="auto"/>
+            <w:sz w:val="22"/>
+            <w:szCs w:val="20"/>
+        </w:rPr>
+        <w:t xml:space="preserve"> décrivant les différentes étapes de validation du projet.</w:t>
+    </w:r>
+</w:p>
+<w:p w14:paraId="76EF03A4" w14:textId="77777777" w:rsidR="00D67040" w:rsidRPr="00683D84" w:rsidRDefault="00D67040" w:rsidP="00D67040">
+    <w:pPr>
+        <w:pStyle w:val="Titre3"/>
+        <w:numPr>
+            <w:ilvl w:val="0"/>
+            <w:numId w:val="11"/>
+        </w:numPr>
+        <w:spacing w:line="276" w:lineRule="auto"/>
+        <w:rPr>
+            <w:rFonts w:ascii="Century Gothic" w:hAnsi="Century Gothic" w:cs="Calibri"/>
+            <w:b/>
+            <w:bCs/>
+            <w:color w:val="auto"/>
+            <w:sz w:val="22"/>
+            <w:szCs w:val="20"/>
+        </w:rPr>
+    </w:pPr>
+    <w:r w:rsidRPr="00683D84">
+        <w:rPr>
+            <w:rFonts w:ascii="Century Gothic" w:hAnsi="Century Gothic" w:cs="Calibri"/>
+            <w:b/>
+            <w:bCs/>
+            <w:color w:val="auto"/>
+            <w:sz w:val="22"/>
+            <w:szCs w:val="20"/>
+        </w:rPr>
+        <w:t>Réalisation d’essais / tests de validation</w:t>
+    </w:r>
+    <w:r w:rsidRPr="00683D84">
+        <w:rPr>
+            <w:rFonts w:ascii="Century Gothic" w:hAnsi="Century Gothic" w:cs="Calibri"/>
+            <w:bCs/>
+            <w:color w:val="auto"/>
+            <w:sz w:val="22"/>
+            <w:szCs w:val="20"/>
+        </w:rPr>
+        <w:t xml:space="preserve"> sur le terrain, contrôle de la conformité des essais effectués.</w:t>
+    </w:r>
+</w:p>
+<w:p w14:paraId="4A6BACE1" w14:textId="77777777" w:rsidR="00D67040" w:rsidRPr="00683D84" w:rsidRDefault="00D67040" w:rsidP="00D67040">
+    <w:pPr>
+        <w:pStyle w:val="Titre3"/>
+        <w:numPr>
+            <w:ilvl w:val="0"/>
+            <w:numId w:val="11"/>
+        </w:numPr>
+        <w:spacing w:line="276" w:lineRule="auto"/>
+        <w:rPr>
+            <w:rFonts w:ascii="Century Gothic" w:hAnsi="Century Gothic" w:cs="Calibri"/>
+            <w:color w:val="auto"/>
+            <w:sz w:val="22"/>
+            <w:szCs w:val="20"/>
+        </w:rPr>
+    </w:pPr>
+    <w:r w:rsidRPr="00683D84">
+        <w:rPr>
+            <w:rFonts w:ascii="Century Gothic" w:hAnsi="Century Gothic" w:cs="Calibri"/>
+            <w:b/>
+            <w:bCs/>
+            <w:color w:val="auto"/>
+            <w:sz w:val="22"/>
+            <w:szCs w:val="20"/>
+        </w:rPr>
+        <w:t>Rédaction des rapports de validation</w:t>
+    </w:r>
+    <w:r w:rsidRPr="00683D84">
+        <w:rPr>
+            <w:rFonts w:ascii="Century Gothic" w:hAnsi="Century Gothic" w:cs="Calibri"/>
+            <w:bCs/>
+            <w:color w:val="auto"/>
+            <w:sz w:val="22"/>
+            <w:szCs w:val="20"/>
+        </w:rPr>
+        <w:t xml:space="preserve"> décrivant les résultats obtenus et attestant ou non de la conformité des solutions testées</w:t>
+    </w:r>
+</w:p>
+<w:p w14:paraId="1FD408C9" w14:textId="77777777" w:rsidR="00D67040" w:rsidRPr="00683D84" w:rsidRDefault="00D67040" w:rsidP="00D67040">
+    <w:pPr>
+        <w:pStyle w:val="Titre3"/>
+        <w:numPr>
+            <w:ilvl w:val="0"/>
+            <w:numId w:val="9"/>
+        </w:numPr>
+        <w:spacing w:line="276" w:lineRule="auto"/>
+        <w:rPr>
+            <w:rFonts w:ascii="Century Gothic" w:hAnsi="Century Gothic" w:cs="Calibri"/>
+            <w:sz w:val="22"/>
+            <w:szCs w:val="20"/>
+        </w:rPr>
+    </w:pPr>
+    <w:r w:rsidRPr="00683D84">
+        <w:rPr>
+            <w:rFonts w:ascii="Century Gothic" w:hAnsi="Century Gothic" w:cs="Calibri"/>
+            <w:bCs/>
+            <w:color w:val="auto"/>
+            <w:sz w:val="22"/>
+            <w:szCs w:val="20"/>
+        </w:rPr>
+        <w:t>Application des nouveaux labels en production</w:t>
+    </w:r>
+    <w:r w:rsidRPr="00683D84">
+        <w:rPr>
+            <w:rFonts w:ascii="Century Gothic" w:hAnsi="Century Gothic" w:cs="Calibri"/>
+            <w:color w:val="auto"/>
+            <w:sz w:val="22"/>
+            <w:szCs w:val="20"/>
+        </w:rPr>
+        <w:t xml:space="preserve"> et rapport final de validation</w:t>
+    </w:r>
+    <w:r w:rsidRPr="00683D84">
+        <w:rPr>
+            <w:rFonts w:ascii="Century Gothic" w:hAnsi="Century Gothic" w:cs="Calibri"/>
+            <w:sz w:val="22"/>
+            <w:szCs w:val="20"/>
+        </w:rPr>
+        <w:t>.</w:t>
+    </w:r>
+</w:p>
+<w:p w14:paraId="2461C0B7" w14:textId="77777777" w:rsidR="00D67040" w:rsidRPr="00683D84" w:rsidRDefault="00D67040" w:rsidP="00D67040">
+    <w:pPr>
+        <w:pStyle w:val="Titre3"/>
+        <w:rPr>
+            <w:rFonts w:ascii="Century Gothic" w:hAnsi="Century Gothic"/>
+            <w:color w:val="7B5F90"/>
+            <w:kern w:val="32"/>
+            <w:szCs w:val="32"/>
+        </w:rPr>
+    </w:pPr>
+</w:p>

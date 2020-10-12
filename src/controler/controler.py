@@ -55,6 +55,16 @@ class Experience(JsonNode):
         # https://stackoverflow.com/questions/1305532/convert-nested-python-dict-to-object
         self.__dict__.update(entries)
 
+class Realisation(JsonNode):
+
+    # default constructor
+    def __init__(self, entries):
+        self.description = None
+        self.subRealisations: List['Realisation'] = []
+        self.depth = None
+        self.jsonReference = None
+        # https://stackoverflow.com/questions/1305532/convert-nested-python-dict-to-object
+        self.__dict__.update(entries)
 
 def mapExperience(jsonExperience: Dict[str, object]) -> Experience:
 
@@ -76,6 +86,15 @@ def mapExperience(jsonExperience: Dict[str, object]) -> Experience:
         experience.dateFin = None
 
     return experience
+
+
+def mapRealisation(jsonRealisation: Dict[str, object]) -> Realisation:
+
+    realisation: Realisation = Realisation(jsonRealisation)
+    realisation.jsonReference = jsonRealisation
+    realisation.description = jsonRealisation['description']
+
+    return realisation
 
 
 def getFirstExperience( experiencesAsList : List[Experience]) -> Experience:
@@ -149,6 +168,31 @@ def initExperiencesLegacy(jsonExperiences: List[object]) -> Tuple[List[Experienc
     return (rootExperienceList, experiencesList)
 
 
+def initRealisationLegacy(jsonRealisations: List[object]) -> Tuple[List[Realisation], List[Realisation]]:
+
+    realisationsList: List[Realisation] = []
+    rootRealisationList: List[Realisation] = []
+
+    """ iterate over all Realisations, call the control method on each and set depth"""
+    for rootJsonRealisation in jsonRealisations:
+        rootRealisation = mapRealisation(rootJsonRealisation)
+        rootRealisation.depth = 0
+        rootRealisationList.append(rootRealisation)
+        RealisationsToWalk: List[Realisation] = [rootRealisation]
+
+        while (len(RealisationsToWalk) > 0):
+            currentRealisation = RealisationsToWalk.pop()
+            realisationsList.append(currentRealisation)
+            if 'realisations' in currentRealisation.jsonReference:
+                for subJsonRealisation in currentRealisation.jsonReference['realisations']:
+
+                    subRealisation = mapRealisation(subJsonRealisation)
+                    currentRealisation.subRealisations.append(subRealisation)
+                    subRealisation.depth = currentRealisation.depth + 1
+                    RealisationsToWalk.append(subRealisation)
+
+    return (rootRealisationList, realisationsList)
+
 def dateLoop(experiences: List[Experience]) -> None:
 
     def filterByDate(experience: Experience):
@@ -187,6 +231,43 @@ def controlExperience(jsonExperiencesStructure: object) -> List[Experience]:
 
     return rootExperienceList
 
+def controlFlatenExperience(jsonExperiencesStructure: object) -> List[Experience]:
+    rootExperienceList, flatenedExperienceList = initExperiencesLegacy(
+        jsonExperiencesStructure)
+
+    dateLoop(flatenedExperienceList)
+
+    def compareMissions(experience: Experience):
+        logging.debug( ( "comparing with dateDebut : %s, on %s" % (experience.dateFin, experience.intitule) ))
+        return experience.dateDebut
+
+    def compare(experience: Experience):
+        return experience.depth
+
+    flatenedExperienceList.sort(
+        key=compare, reverse=True
+    )
+
+    for experience in flatenedExperienceList:
+        prepareExperience(experience)
+
+
+    for experience in flatenedExperienceList:
+        prepareExperience(experience)
+
+
+    flatenedMissionList = [ experience for experience in flatenedExperienceList if experience.typeExperience == 'mission' ]
+    flatenedMissionList.sort(
+        key=compareMissions, reverse=True
+    )
+
+    return flatenedMissionList
+
+
+def controlRealisation(jsonStructure: object) -> List[Realisation] :
+    rootRealisationsList, flatenedRealisationsList = initRealisationLegacy(jsonStructure)
+    return rootRealisationsList
+    
 
 def control(jsonStructure: object) -> List[Experience]:
 
