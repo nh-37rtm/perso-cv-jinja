@@ -60,11 +60,11 @@ class Realisation(JsonNode):
     # default constructor
     def __init__(self, entries):
         self.description = None
-        self.subRealisations: List['Realisation'] = []
+        self.realisations: List['Realisation'] = []
         self.depth = None
         self.jsonReference = None
         # https://stackoverflow.com/questions/1305532/convert-nested-python-dict-to-object
-        self.__dict__.update(entries)
+        # self.__dict__.update(entries)
 
 def mapExperience(jsonExperience: Dict[str, object]) -> Experience:
 
@@ -187,7 +187,7 @@ def initRealisationLegacy(jsonRealisations: List[object]) -> Tuple[List[Realisat
                 for subJsonRealisation in currentRealisation.jsonReference['realisations']:
 
                     subRealisation = mapRealisation(subJsonRealisation)
-                    currentRealisation.subRealisations.append(subRealisation)
+                    currentRealisation.realisations.append(subRealisation)
                     subRealisation.depth = currentRealisation.depth + 1
                     RealisationsToWalk.append(subRealisation)
 
@@ -232,6 +232,7 @@ def controlExperience(jsonExperiencesStructure: object) -> List[Experience]:
     return rootExperienceList
 
 def controlFlatenExperience(jsonExperiencesStructure: object) -> List[Experience]:
+
     rootExperienceList, flatenedExperienceList = initExperiencesLegacy(
         jsonExperiencesStructure)
 
@@ -256,7 +257,7 @@ def controlFlatenExperience(jsonExperiencesStructure: object) -> List[Experience
         prepareExperience(experience)
 
 
-    flatenedMissionList = [ experience for experience in flatenedExperienceList if experience.typeExperience == 'mission' ]
+    flatenedMissionList = [ experience for experience in flatenedExperienceList if experience.typeExperience != 'group' ]
     flatenedMissionList.sort(
         key=compareMissions, reverse=True
     )

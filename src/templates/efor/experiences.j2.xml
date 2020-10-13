@@ -235,7 +235,7 @@
                             <w:rPr>
                                 <w:rFonts w:ascii="Century Gothic" w:hAnsi="Century Gothic"/>
                             </w:rPr>
-                            <w:t>Gestion de projet transverse, Qualification de labels et d’imprimantes packaging, Implantation en production d’un nouveau labelling</w:t>
+                            <w:t>{{experience.environnementTechnique}}</w:t>
                         </w:r>
                     </w:p>
                     <w:p w14:paraId="46901D1E" w14:textId="77777777" w:rsidR="00D67040" w:rsidRPr="00683D84" w:rsidRDefault="00D67040" w:rsidP="00D67040">
@@ -284,105 +284,113 @@
                     </w:p>
                      {{ context.renderTemplate( 'efor/realisation.j2.xml', realisation ) }}
                     {% endfor %}
-                    <w:p w14:paraId="552B0113" w14:textId="77777777" w:rsidR="00D67040" w:rsidRPr="00683D84" w:rsidRDefault="00D67040" w:rsidP="00D67040">
+                    <w:p w14:paraId="7E1D12AE" w14:textId="77777777" w:rsidR="00683D84" w:rsidRPr="00683D84" w:rsidRDefault="00683D84" w:rsidP="00683D84">
                         <w:pPr>
                             <w:pStyle w:val="Titre3"/>
+                            <w:ind w:left="587" w:hanging="360"/>
                             <w:rPr>
                                 <w:rFonts w:ascii="Century Gothic" w:hAnsi="Century Gothic"/>
-                                <w:color w:val="7F7F7F"/>
+                                <w:color w:val="413922"/>
                                 <w:kern w:val="32"/>
+                                <w:sz w:val="28"/>
                                 <w:szCs w:val="32"/>
                             </w:rPr>
                         </w:pPr>
                         <w:r w:rsidRPr="00683D84">
                             <w:rPr>
                                 <w:rFonts w:ascii="Century Gothic" w:hAnsi="Century Gothic"/>
-                                <w:color w:val="7F7F7F"/>
+                                <w:color w:val="413922"/>
+                                <w:sz w:val="36"/>
+                            </w:rPr>
+                            <w:t>Outils techniques</w:t>
+                        </w:r>
+                        <w:r w:rsidRPr="00683D84">
+                            <w:rPr>
+                                <w:rFonts w:ascii="Century Gothic" w:hAnsi="Century Gothic"/>
+                                <w:color w:val="413922"/>
+                                <w:kern w:val="32"/>
+                                <w:sz w:val="28"/>
+                                <w:szCs w:val="32"/>
+                            </w:rPr>
+                            <w:t xml:space="preserve"> :</w:t>
+                        </w:r>
+                    </w:p>
+
+                    <w:p w14:paraId="3C629984" w14:textId="77777777" w:rsidR="00683D84" w:rsidRPr="00683D84" w:rsidRDefault="00683D84" w:rsidP="00683D84">
+                        <w:pPr>
+                            <w:pStyle w:val="Paragraphedeliste1"/>
+                            <w:numPr>
+                                <w:ilvl w:val="0"/>
+                                <w:numId w:val="6"/>
+                            </w:numPr>
+                            <w:spacing w:before="80" w:after="80"/>
+                            <w:rPr>
+                                <w:rFonts w:ascii="Century Gothic" w:hAnsi="Century Gothic" w:cs="Arial"/>
+                                <w:sz w:val="22"/>
                                 <w:szCs w:val="22"/>
                             </w:rPr>
-                            <w:t>Qualification d’un logiciel de pilotage de bancs d’essais de traction</w:t>
+                        </w:pPr>
+                        <w:r w:rsidRPr="00683D84">
+                            <w:rPr>
+                                <w:rFonts w:ascii="Century Gothic" w:hAnsi="Century Gothic" w:cs="Arial"/>
+                                <w:sz w:val="22"/>
+                                <w:szCs w:val="22"/>
+                            </w:rPr>
+                            <w:t>{{experience.environnementTechnique}}</w:t>
                         </w:r>
                     </w:p>
-                    <w:p w14:paraId="6DD51283" w14:textId="77777777" w:rsidR="00D67040" w:rsidRPr="00683D84" w:rsidRDefault="00D67040" w:rsidP="00D67040">
+                    <w:p w14:paraId="170D0941" w14:textId="77777777" w:rsidR="00683D84" w:rsidRPr="00683D84" w:rsidRDefault="00C44748" w:rsidP="00683D84">
                         <w:pPr>
-                            <w:pStyle w:val="Paragraphedeliste"/>
+                            <w:spacing w:before="120" w:after="120"/>
                             <w:rPr>
                                 <w:rFonts w:ascii="Century Gothic" w:hAnsi="Century Gothic"/>
-                                <w:color w:val="7B5F90"/>
-                                <w:kern w:val="32"/>
-                                <w:szCs w:val="32"/>
+                                <w:color w:val="413922"/>
+                                <w:sz w:val="36"/>
                             </w:rPr>
                         </w:pPr>
+                        <w:r>
+                            <w:rPr>
+                                <w:rFonts w:ascii="Century Gothic" w:hAnsi="Century Gothic"/>
+                                <w:b/>
+                                <w:noProof/>
+                            </w:rPr>
+                            <w:pict w14:anchorId="109E9DF3">
+                                <v:rect id="Rectangle 38" o:spid="_x0000_s1026" style="position:absolute;margin-left:-80.95pt;margin-top:.35pt;width:606.1pt;height:99pt;z-index:-1;visibility:visible;mso-height-relative:margin;v-text-anchor:middle" o:gfxdata="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&#xA;" fillcolor="#bd9968" stroked="f" strokeweight="1.5pt">
+                                    <v:fill opacity="9252f"/>
+                                </v:rect>
+                            </w:pict>
+                        </w:r>
+                        <w:r w:rsidR="00683D84" w:rsidRPr="00683D84">
+                            <w:rPr>
+                                <w:rFonts w:ascii="Century Gothic" w:hAnsi="Century Gothic"/>
+                                <w:color w:val="413922"/>
+                                <w:sz w:val="36"/>
+                            </w:rPr>
+                            <w:t xml:space="preserve">Succès de l’intervention : </w:t>
+                        </w:r>
                     </w:p>
-                    <w:p w14:paraId="223418EA" w14:textId="77777777" w:rsidR="00D67040" w:rsidRPr="00683D84" w:rsidRDefault="00D67040" w:rsidP="00D67040">
+                    <w:p w14:paraId="6A28C85F" w14:textId="77777777" w:rsidR="00683D84" w:rsidRPr="0027087E" w:rsidRDefault="0027087E" w:rsidP="0027087E">
                         <w:pPr>
-                            <w:numPr>
-                                <w:ilvl w:val="0"/>
-                                <w:numId w:val="12"/>
-                            </w:numPr>
                             <w:autoSpaceDE w:val="0"/>
                             <w:autoSpaceDN w:val="0"/>
-                            <w:adjustRightInd w:val="0"/>
-                            <w:spacing w:before="80" w:line="276" w:lineRule="auto"/>
-                            <w:jc w:val="both"/>
+                            <w:spacing w:before="120" w:after="120"/>
                             <w:rPr>
-                                <w:rFonts w:ascii="Century Gothic" w:hAnsi="Century Gothic" w:cs="Arial"/>
-                                <w:bCs/>
-                                <w:sz w:val="22"/>
+                                <w:rFonts w:ascii="Century Gothic" w:hAnsi="Century Gothic"/>
                             </w:rPr>
                         </w:pPr>
-                        <w:r w:rsidRPr="00683D84">
+                        <w:r w:rsidRPr="0027087E">
                             <w:rPr>
-                                <w:rFonts w:ascii="Century Gothic" w:hAnsi="Century Gothic" w:cs="Arial"/>
-                                <w:bCs/>
-                                <w:sz w:val="22"/>
+                                <w:rFonts w:ascii="Century Gothic" w:hAnsi="Century Gothic"/>
                             </w:rPr>
-                            <w:t>Définition du plan de validation et de la stratégie de validation pour application en production.</w:t>
+                            <w:t>Résumer la mission</w:t>
+                        </w:r>
+                        <w:r>
+                            <w:rPr>
+                                <w:rFonts w:ascii="Century Gothic" w:hAnsi="Century Gothic"/>
+                            </w:rPr>
+                            <w:t xml:space="preserve"> avec :</w:t>
                         </w:r>
                     </w:p>
-                    <w:p w14:paraId="43AC7D15" w14:textId="77777777" w:rsidR="00D67040" w:rsidRPr="00683D84" w:rsidRDefault="00D67040" w:rsidP="00D67040">
-                        <w:pPr>
-                            <w:numPr>
-                                <w:ilvl w:val="0"/>
-                                <w:numId w:val="12"/>
-                            </w:numPr>
-                            <w:autoSpaceDE w:val="0"/>
-                            <w:autoSpaceDN w:val="0"/>
-                            <w:adjustRightInd w:val="0"/>
-                            <w:spacing w:before="80" w:line="276" w:lineRule="auto"/>
-                            <w:jc w:val="both"/>
-                            <w:rPr>
-                                <w:rFonts w:ascii="Century Gothic" w:hAnsi="Century Gothic" w:cs="Arial"/>
-                                <w:bCs/>
-                                <w:sz w:val="22"/>
-                            </w:rPr>
-                        </w:pPr>
-                        <w:r w:rsidRPr="00683D84">
-                            <w:rPr>
-                                <w:rFonts w:ascii="Century Gothic" w:hAnsi="Century Gothic" w:cs="Arial"/>
-                                <w:bCs/>
-                                <w:sz w:val="22"/>
-                            </w:rPr>
-                            <w:t xml:space="preserve">Planification </w:t>
-                        </w:r>
-                        <w:r w:rsidRPr="00683D84">
-                            <w:rPr>
-                                <w:rFonts w:ascii="Century Gothic" w:hAnsi="Century Gothic" w:cs="Arial"/>
-                                <w:bCs/>
-                                <w:color w:val="000000"/>
-                                <w:sz w:val="22"/>
-                            </w:rPr>
-                            <w:t>des différentes étapes du projet avec la définition de deadlines, affectations des actions à l’équipe et feedback.</w:t>
-                        </w:r>
-                    </w:p>
-                    <w:sectPr w:rsidR="00D67040" w:rsidRPr="00683D84" w:rsidSect="008F57B0">
-                        <w:headerReference w:type="default" r:id="rId9"/>
-                        <w:footerReference w:type="default" r:id="rId10"/>
-                        <w:pgSz w:w="11900" w:h="16840"/>
-                        <w:pgMar w:top="1418" w:right="1418" w:bottom="0" w:left="1418" w:header="0" w:footer="0" w:gutter="0"/>
-                        <w:cols w:space="708"/>
-                        <w:docGrid w:linePitch="360"/>
-                    </w:sectPr>
                     {% endfor %}
                 </w:body>
             </w:document>

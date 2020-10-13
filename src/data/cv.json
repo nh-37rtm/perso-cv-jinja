@@ -14,10 +14,12 @@
                 "numero": 3
             }
         },
-        "connaissances": [{
+        "connaissances": [
+            {
                 "intitule": "Autres Languages (déjà utilisés)",
                 "description": "C/C++ (STL), C#, JSP, NodeJS, Lua",
-                "connaissances": [{
+                "connaissances": [
+                    {
                         "description": "C/C++"
                     },
                     {
@@ -59,7 +61,8 @@
                 "description": "Science fiction. Vélo, badminton, danse"
             }
         ],
-        "competences": [{
+        "competences": [
+            {
                 "description": "Réalisation, déploiement et maintenance d'applications",
                 "afinite": 70
             },
@@ -99,7 +102,6 @@
             }
         ],
         "experiences": [
-            
             {
                 "typeExperience": "group",
                 "intitule": "",
@@ -112,76 +114,73 @@
                 "resume": "",
                 "references": "",
                 "environnementTechnique": "",
-                
-                "experiences": [{
-
-                    "typeExperience": "mission",
-                    "client": "Next2C (Abopress)",
-                    "dateDebut": "2019-09-11",
-                    "dateFin": "2020-08-30",
-                    "intitule": "Automatisations et Migrations d'applications",
-                    "domaine": "Automatisation / DevOps",
-                    "presentation": "Migration de sites, automatisations de tâches, maintenance du parc",
-                    "environnementTechnique": "Visual Studio Code (avec module remote development), VMWare ESX (5.1), MySQL, GitLab; Python, Shell (Bash); Docker (docker-compose); SaltStack; Jenkins",
-                    "references": "Darko Calic (Manager Commercial), Philippe Horesh (Manager SC), Olivier Camus (Manager ... absent), Marc-Alexandre (Produit, sympa ++), Claude Mansilla (Developeuse Cobol, consciencieuse++), Nadine Bischoff (Service client++), Lucile Siksik (data manager++), Cecilia Cvetanovic (Produit, logique++ toujours raison), Nicolas Kuentz (Developpeur), Virgile Alonas(Developpeur++), Steeven Dauphin ",
-                    "service" : "Informatique Abopress",
-                    "realisations": [
-                        {
-                            "description" : "Maintenance système et applicative sur un parc d’environ 30 serveurs (dont les ¾ sous unix)",
-                            "realisations": [
-                                {
-                                    "description" : "Mise à jour du système de sauvegarde sur les serveurs Unix (BorgBackup)"
-                                },
-                                {
-                                    "description" : "Participation à la gestion du contrôleur de domaine (AD, DNS)"
-                                },
-                                {
-                                    "description" : "Création de machines virtuelles et maintenance des VM ProxMox existantes"
-                                },
-                                {
-                                    "description" : "Maintenance de machines virtuelles hébergés sur OVH (Cloud ProxMox +VM Plesk)"
-                                },
-                                {
-                                    "description" : "Maintenance d’une infra téléphonique cisco (création et gestion de synchronisation AD/Outils via les interfaces)"
-                                },
-                                {
-                                    "description" : "Maintenance d’un serveur Unix (SCO OpenServer)"
-                                }
-                            ]
-                            
-                        },
-                        {
-                          "description":"Participation à la migration de l’infrastructure (déménagement)" ,
-                          "realisations": [
-                              {
-                                  "description" : "Changement de plages d’adresse IP"
-                              },
-                              {
-                                "description" : "igration de conteneurs applicatifs (docker)"
-                              }
-                          ]
-                        },
-                        {
-                            "description" : "Conteneurisation de services pour tests et mise en prod",
-                            "realisations": [
-                                {
-                                    "description" : "Création d’un environnement de test (docker-compose) pour debugage sur applicatif de serveur SSO"
-                                },
-                                {
-                                    "description" : "Utilisation d’images telles que NodeJS, Nginx, Redis"
-                                },
-                                {
-                                    "description" : "Utilisation d’outils tels que DnsMask"
-                                },
-                                {
-                                    "description" : "Mise à jour de configurations docker-compose (NextCloud, Dokuwiki, RequestTraquer)"
-                                }
-                            ]
-                            
-                        }
-
-                    ]
-                }]
+                "experiences": [
+                    {
+                        "typeExperience": "mission",
+                        "client": "Next2C (Abopress)",
+                        "dateDebut": "2019-09-11",
+                        "dateFin": "2020-08-30",
+                        "intitule": "Automatisations et Migrations d'applications",
+                        "domaine": "Automatisation / DevOps",
+                        "presentation": "Migration de sites, automatisations de tâches, maintenance du parc",
+                        "environnementTechnique": "Visual Studio Code (avec module remote development), VMWare ESX (5.1), MySQL, GitLab; Python, Shell (Bash); Docker (docker-compose); SaltStack; Jenkins",
+                        "references": "Darko Calic (Manager Commercial), Philippe Horesh (Manager SC), Olivier Camus (Manager ... absent), Marc-Alexandre (Produit, sympa ++), Claude Mansilla (Developeuse Cobol, consciencieuse++), Nadine Bischoff (Service client++), Lucile Siksik (data manager++), Cecilia Cvetanovic (Produit, logique++ toujours raison), Nicolas Kuentz (Developpeur), Virgile Alonas(Developpeur++), Steeven Dauphin ",
+                        "service": "Informatique Abopress",
+                        "realisations": [
+                            {
+                                "description": "Maintenance système et applicative sur un parc d’environ 30 serveurs (dont les ¾ sous unix)",
+                                "realisations": [
+                                    {
+                                        "description": "Mise à jour du système de sauvegarde sur les serveurs Unix (BorgBackup)"
+                                    },
+                                    {
+                                        "description": "Participation à la gestion du contrôleur de domaine (AD, DNS)"
+                                    },
+                                    {
+                                        "description": "Création de machines virtuelles et maintenance des VM ProxMox existantes"
+                                    },
+                                    {
+                                        "description": "Maintenance de machines virtuelles hébergés sur OVH (Cloud ProxMox +VM Plesk)"
+                                    },
+                                    {
+                                        "description": "Maintenance d’une infra téléphonique cisco (création et gestion de synchronisation AD/Outils via les interfaces)"
+                                    },
+                                    {
+                                        "description": "Maintenance d’un serveur Unix (SCO OpenServer)"
+                                    }
+                                ]
+                            },
+                            {
+                                "description": "Participation à la migration de l’infrastructure (déménagement)",
+                                "realisations": [
+                                    {
+                                        "description": "Changement de plages d’adresse IP"
+                                    },
+                                    {
+                                        "description": "Migration de conteneurs applicatifs (docker)"
+                                    }
+                                ]
+                            },
+                            {
+                                "description": "Conteneurisation de services pour tests et mise en prod",
+                                "realisations": [
+                                    {
+                                        "description": "Création d’un environnement de test (docker-compose) pour debugage sur applicatif de serveur SSO"
+                                    },
+                                    {
+                                        "description": "Utilisation d’images telles que NodeJS, Nginx, Redis"
+                                    },
+                                    {
+                                        "description": "Utilisation d’outils tels que DnsMask"
+                                    },
+                                    {
+                                        "description": "Mise à jour de configurations docker-compose (NextCloud, Dokuwiki, RequestTraquer)"
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                ]
             },
             {
                 "typeExperience": "group",
@@ -195,7 +194,8 @@
                 "resume": "",
                 "references": "",
                 "environnementTechnique": "",
-                "experiences": [{
+                "experiences": [
+                    {
                         "typeExperience": "mission",
                         "intitule": "Evolutions sur un outil de gestion de matière et de commande",
                         "client": "Chantiers de l'atlantique",
@@ -206,12 +206,14 @@
                         "contenu": "",
                         "resume": "EBC est une application qui permet un échange de données dans le workflow des commandes de pièces. Entre le dessin, la découpe et les commandes",
                         "references": "EBC est une application qui permet un échange de données dans le workflow des commandes de pièces. Entre le dessin, la découpe et les commandes",
-                        "environnementTechnique": "Eclipse, VMWare Horizon, Java 1.5, Oracle, PostGresSQL, SQLServeur, Swing, Maven, ANT, Git",
-                        "detailMemory" : "EBC est un outil qui permet de transférer des données sur la matières entre plusieurs applications : CATMAT le catalogue de matière, SPMAT l'outil de ",
-                        "service" : "Centre de service Amaris",
-                        "realisations": [{
+                        "environnementTechnique": "Eclipse, VMWare Horizon, Java 1.5, Oracle, PostGresSQL, SQLServeur, Swing, Maven, ANT, Git, Hibernate",
+                        "detailMemory": "EBC est un outil qui permet de transférer des données sur la matières entre plusieurs applications : CATMAT le catalogue de matière, SPMAT l'outil de ",
+                        "service": "Centre de service Amaris",
+                        "realisations": [
+                            {
                                 "description": "Appropriation du projet",
-                                "realisations": [{
+                                "realisations": [
+                                    {
                                         "description": "Migration du gestionnaire de source CVS vers un repository GIT externe"
                                     },
                                     {
@@ -224,7 +226,8 @@
                             },
                             {
                                 "description": "Reprise et Réalisation d’écrans java (swing) pour remonter différentes informations à partir de bases de données multiples",
-                                "realisations": [{
+                                "realisations": [
+                                    {
                                         "description": "Comparaison sur les quantités de matières"
                                     },
                                     {
@@ -258,14 +261,16 @@
                         "resume": "",
                         "references": "",
                         "environnementTechnique": "Eclipse, Java, Vert.x, Visual Studio (C#), DevBooster, SQLServeur",
-                        "detailsMemory" : "Micro services Vert.x, échange via un Bus, Routage et Translation à partir d'un référentiel client Point d'acquisition => Acquereur Librairie pour échanges simplifiés avec le HSM Verticle avec echange module de monitoring, Gestion de charge simplifiée (multi HSM), TAG des paquets",
-                        "service" : "Monétique",
-                        "realisations": [{
+                        "detailsMemory": "Micro services Vert.x, échange via un Bus, Routage et Translation à partir d'un référentiel client Point d'acquisition => Acquereur Librairie pour échanges simplifiés avec le HSM Verticle avec echange module de monitoring, Gestion de charge simplifiée (multi HSM), TAG des paquets",
+                        "service": "Monétique",
+                        "realisations": [
+                            {
                                 "description": "Réalisation de tests QC du module PSP Monetico Paiement"
                             },
                             {
                                 "description": "Réalisation d'un module de tokenisation avec interaction avec un HSM",
-                                "realisations": [{
+                                "realisations": [
+                                    {
                                         "description": "Réalisation du cahier de test"
                                     },
                                     {
@@ -284,7 +289,8 @@
                             },
                             {
                                 "description": "Réalisation d’un outil de de statistiques (Key Performance Indicator) sur les transactions réalisées dans la journée",
-                                "realisations": [{
+                                "realisations": [
+                                    {
                                         "description": "Mise en place du batch d’extraction"
                                     },
                                     {
@@ -294,7 +300,8 @@
                             },
                             {
                                 "description": "Réalisation d’un module C# (devbooster) sur site intranet afin de gérer le référentiel d’affiliation avec les clients et de routage/translation des transactions",
-                                "realisations": [{
+                                "realisations": [
+                                    {
                                         "description": "Réalisation de procédures stockées en T-SQL"
                                     },
                                     {
@@ -322,43 +329,49 @@
                         "resume": "",
                         "references": "",
                         "environnementTechnique": "Eclipse, Maven 3.2,JEE6 : Java 1.6, JPA (EclipseLink), JaxRS, NodeJS, PostMan/SoapUI, Putty, DevTest (Workstation), Weblogic 12",
-                        "experiences": [{
-                            "typeExperience": "temp",
-                            "intitule": "Formation d'une classe de 28 élèves de 3ième année au module 3JVA (Initiation JAVA/J2EE)",
-                            "client": "Supinfo",
-                            "domaine": "Professeur Java",
-                            "dateDebut": "2018-01-01",
-                            "dateFin": "",
-                            "presentation": "",
-                            "contenu": "",
-                            "resume": "",
-                            "references": "",
-                            "environnementTechnique": "Linux (Ubuntu), Eclipse, J2EE, Git",
-                            "realisations": [{
-                                    "description": "4 jours de formations théoriques avec utilisation de supports existants (exercices et corrections) : Servlets, JSP, JPA"
-                                },
-                                {
-                                    "description": "Suivit des élèves durant leur projet (Site de recette en java web)"
-                                },
-                                {
-                                    "description": "Corrections des projets"
-                                },
-                                {
-                                    "description": "1 jours de SOE (SUPINFO Oral Exams), notation Orale + Ecrit"
-                                },
-                                {
-                                    "description": "Réalisations sur environnement de formation",
-                                    "realisations": [{
-                                            "description": "Installation d'un environnement de développement  pour les élèves (VM VMWare) avec Linux Ubuntu afin de simplifier la complexité due aux environnements hétérogènes utilisés par les élèves"
-                                        },
-                                        {
-                                            "description": "Mise en place d'un repository Git partagé pour un suivit incrémental des corrections sur les exercices"
-                                        }
-                                    ]
-                                }
-                            ]
-                        }],
-                        "realisations": [{
+                        "service": "Aude Formation",
+                        "experiences": [
+                            {
+                                "typeExperience": "temp",
+                                "intitule": "Formation d'une classe de 28 élèves de 3ième année au module 3JVA (Initiation JAVA/J2EE)",
+                                "client": "Supinfo",
+                                "domaine": "Professeur Java",
+                                "dateDebut": "2018-01-01",
+                                "dateFin": "",
+                                "presentation": "",
+                                "contenu": "",
+                                "resume": "",
+                                "references": "",
+                                "environnementTechnique": "Linux (Ubuntu), Eclipse, J2EE, Git",
+                                "realisations": [
+                                    {
+                                        "description": "4 jours de formations théoriques avec utilisation de supports existants (exercices et corrections) : Servlets, JSP, JPA"
+                                    },
+                                    {
+                                        "description": "Suivit des élèves durant leur projet (Site de recette en java web)"
+                                    },
+                                    {
+                                        "description": "Corrections des projets"
+                                    },
+                                    {
+                                        "description": "1 jours de SOE (SUPINFO Oral Exams), notation Orale + Ecrit"
+                                    },
+                                    {
+                                        "description": "Réalisations sur environnement de formation",
+                                        "realisations": [
+                                            {
+                                                "description": "Installation d'un environnement de développement  pour les élèves (VM VMWare) avec Linux Ubuntu afin de simplifier la complexité due aux environnements hétérogènes utilisés par les élèves"
+                                            },
+                                            {
+                                                "description": "Mise en place d'un repository Git partagé pour un suivit incrémental des corrections sur les exercices"
+                                            }
+                                        ]
+                                    }
+                                ]
+                            }
+                        ],
+                        "realisations": [
+                            {
                                 "description": "Captures et bouchonnage d'appels services pour les tests à l'aide de DevTest"
                             },
                             {
@@ -366,7 +379,8 @@
                             },
                             {
                                 "description": "Réalisation de POC techniques",
-                                "realisations": [{
+                                "realisations": [
+                                    {
                                         "description": "Normes sur la mise en place d’une architecture REST utilisant les hyperliens (ou HATEOS)"
                                     },
                                     {
@@ -390,7 +404,8 @@
                 "resume": "",
                 "references": "",
                 "environnementTechnique": "",
-                "experiences": [{
+                "experiences": [
+                    {
                         "typeExperience": "mission",
                         "intitule": "Développements et tests de l'application de gestion des formations",
                         "client": "Pôle Emploi",
@@ -401,16 +416,19 @@
                         "contenu": "",
                         "resume": "",
                         "references": "",
-                        "service" : "Aude Formation",
+                        "service": "Aude Formation",
                         "environnementTechnique": "Windows, Linux (serveurs),Eclipse Kepler, Maven 3.2,J2EE : Java 1.6, Acropole SLD, MockiTo, Perl, Jenkins, Weblogic 10/11/12, plSQL, Putty",
-                        "realisations": [{
+                        "realisations": [
+                            {
                                 "description": "Outil de tests unitaires automatiques avec base virtuelle HSQLDB se basant sur des fichiers DBUnit contenant des jeux de données fixes."
                             },
                             {
                                 "description": "batchs SQL Oracle",
-                                "realisations": [{
-                                    "description": "Import de données sur des certifications de partenaires extérieurs"
-                                }]
+                                "realisations": [
+                                    {
+                                        "description": "Import de données sur des certifications de partenaires extérieurs"
+                                    }
+                                ]
                             },
                             {
                                 "description": "Réalisation d'un outil d'extraction de données d'entrées/sorties (fichier XML) pour une génération automatique de documentation."
@@ -436,7 +454,8 @@
                         "references": "",
                         "environnementTechnique": "Windows, Linux (serveurs) Eclipse Kepler, Maven 3.2,Java 1.6, HTML/CSS/Javascript, JQuery, Tomcat,Jira",
                         "service": "Centre de services SopraSteria",
-                        "realisations": [{
+                        "realisations": [
+                            {
                                 "description": "Maintenance, corrections et évolutions de l'application de gestion des clients de la CTS."
                             },
                             {
@@ -459,7 +478,8 @@
                         "resume": "",
                         "references": "",
                         "environnementTechnique": "",
-                        "experiences": [{
+                        "experiences": [
+                            {
                                 "typeExperience": "mission",
                                 "intitule": "Développement et maintenance d’outils d’industrialisation",
                                 "client": "PSA",
@@ -469,15 +489,18 @@
                                 "presentation": "Maintenance et Développement d’outils d’industrialisation Création / Maintenance de scripts perl et ANT",
                                 "contenu": "",
                                 "resume": "",
-                                "references": "",
+                                "references": "Pascal Hosatte, Jean-Luc Schmerber, Vincent Larrive, Pascal Joly, Sergei",
                                 "service": "SIFA",
                                 "environnementTechnique": "Unix (hétérogène), Perl 5.8.8, ANT 1.8.2, Eclipse (SVN + SFTP), XML, Expressions rationnelles, Jira",
-                                "realisations": [{
+                                "detailsMemory" : "POPEI à reprendre, je monte en compétence, j'arrive à me dépatouiller. ",
+                                "realisations": [
+                                    {
                                         "description": "Assistance utilisateurs"
                                     },
                                     {
                                         "description": "Participation à la conception et à la réalisation du successeur de POPEI",
-                                        "realisations": [{
+                                        "realisations": [
+                                            {
                                                 "description": "Module de génération de modèles orienté objet avec sa propre syntaxe et possibilité de modélisation dynamique à l'aide de morceaux de perl"
                                             },
                                             {
@@ -502,23 +525,26 @@
                                 "resume": "Réalisation d'un outil d'automatisation et de symthétisation des données de stockage associés aux differents types de serveurs",
                                 "references": "Samuel Godey, Pascal Joly (Le Vieux)",
                                 "environnementTechnique": "Unix (Hétérogène), Perl 5.8.8, ANT 1.8.2, Expressions rationnelles",
-                                "service" : "ETSO/TME",
-                                "realisations": [{
-                                    "description": "Réalisation d’un outil en ligne de commande",
-                                    "realisations": [{
-                                            "description": "Réalisation d’une couche d’abstraction permettant le requêtage des outils indépendamment du constructeur (EMC, SVC)"
-                                        },
-                                        {
-                                            "description": "Modélisation et agrégation des données à l’aide d’une structure objet"
-                                        },
-                                        {
-                                            "description": "Sortie pré paramétrée par vues"
-                                        },
-                                        {
-                                            "description": "Utilisation d’un cache par commande (outils de persistance perl)"
-                                        }
-                                    ]
-                                }]
+                                "service": "ETSO/TME",
+                                "realisations": [
+                                    {
+                                        "description": "Réalisation d’un outil en ligne de commande",
+                                        "realisations": [
+                                            {
+                                                "description": "Réalisation d’une couche d’abstraction permettant le requêtage des outils indépendamment du constructeur (EMC, SVC)"
+                                            },
+                                            {
+                                                "description": "Modélisation et agrégation des données à l’aide d’une structure objet"
+                                            },
+                                            {
+                                                "description": "Sortie pré paramétrée par vues"
+                                            },
+                                            {
+                                                "description": "Utilisation d’un cache par commande (outils de persistance perl)"
+                                            }
+                                        ]
+                                    }
+                                ]
                             },
                             {
                                 "typeExperience": "temp",
@@ -533,7 +559,8 @@
                                 "references": "Antoine Schlupp",
                                 "environnementTechnique": "Windows, Perl, Python, OSGeo, Saga GIS, Quantom GIS (QGGIS)",
                                 "service": "Service d'études et de recherche en Sismologie",
-                                "realisations": [{
+                                "realisations": [
+                                    {
                                         "description": "Chaine d'automatisation"
                                     },
                                     {
@@ -571,12 +598,14 @@
                                 "presentation": "Développement, déploiement, maintenance, d'application intranet et statistiques sur le parc.",
                                 "contenu": "",
                                 "resume": "",
-                            "references": "Anne-Sophie, Ludovic Guerre, Jean-Louis Angevele, Sebastien Desjardin (Mr FiFo), Vincent Larrive",
+                                "references": "Anne-Sophie, Ludovic Guerre, Jean-Louis Angevele, Sebastien Desjardin (Mr FiFo), Vincent Larrive",
                                 "service": "ETSO/Pôle transversal",
                                 "environnementTechnique": "Perl 5.8.8, KSH, parc UNIX (hétérogène) environ 8000 serveurs, Oracle, SQL Developper, SVN (client texte)",
-                                "realisations": [{
+                                "realisations": [
+                                    {
                                         "description": "Maintenance, correction et évolutions de l'application de surveillance SUSANE web et de son produit distribué sur le parc.",
-                                        "realisations": [{
+                                        "realisations": [
+                                            {
                                                 "description": "Migration en perl d'un module transversal de surveillance de processus"
                                             },
                                             {
@@ -604,12 +633,15 @@
                                 "resume": "",
                                 "references": "Hervé",
                                 "environnementTechnique": "PHP, Mysql, Bash, SNMP",
-                                "service": "Servoce informatique",
-                                "realisations": [{
+                                "service": "Service informatique",
+                                "realisations": [
+                                    {
                                         "description": "Réalisation d'un batch d'injection des données en base",
-                                        "realisations": [{
-                                            "description": "Utilisation de SNMP pour récupérer le nombre de pages imprimées"
-                                        }]
+                                        "realisations": [
+                                            {
+                                                "description": "Utilisation de SNMP pour récupérer le nombre de pages imprimées"
+                                            }
+                                        ]
                                     },
                                     {
                                         "description": "développement d'une interface en PHP pour l'exploitation des données"
@@ -618,7 +650,7 @@
                             },
                             {
                                 "typeExperience": "mission",
-                                "intitule": "Développement et maintenance d’outils de maintenance",
+                                "intitule": "Développement et maintenance d’outils de maintenance système",
                                 "client": "PSA",
                                 "domaine": "Analyste Développeur/Outils Automatisation",
                                 "dateDebut": "2010-11-01",
@@ -627,25 +659,32 @@
                                 "contenu": "",
                                 "resume": "",
                                 "references": "Ludovic Guerre, Vincent Larrive, ",
-                                "service" : "ETSO/TME",
+                                "service": "ETSO/TME",
                                 "environnementTechnique": "Perl 5.8.8, KSH, HTML/CSS, Javascript, parc UNIX (hétérogène) environ 8000 serveurs, ORM    propriétaire (perl), Oracle, SQL Developper",
-                                "realisations": [{
+                                "realisations": [
+                                    {
                                         "description": "Réalisation d'un daemon gérant les connexions simultanées et permettant la gestion, la modification et la remonté d'information concernant les services (ports) sur les serveurs",
-                                        "realisations": [{
-                                            "description": "Utilisation d'une base de données Oracle pour la persistance des données"
-                                        }]
+                                        "realisations": [
+                                            {
+                                                "description": "Utilisation d'une base de données Oracle pour la persistance des données"
+                                            }
+                                        ]
                                     },
                                     {
                                         "description": "Ajout de fonctionnalité sur une application web de gestion de compte, utilisant un ensemble propriétaire de librairies en javascript",
-                                        "realisations": [{
-                                            "description": "Les données étaient rafraichies régulièrement avec l'état des serveurs, puis les données remontées dans une base de données oracle. L’exploitation des données se faisaient à travers un ORM en perl lui aussi propriétaire"
-                                        }]
+                                        "realisations": [
+                                            {
+                                                "description": "Les données étaient rafraichies régulièrement avec l'état des serveurs, puis les données remontées dans une base de données oracle. L’exploitation des données se faisaient à travers un ORM en perl lui aussi propriétaire"
+                                            }
+                                        ]
                                     },
                                     {
                                         "description": "Déploiement d'une application de surveillance essentiellement conçue en Korn SHELL, sur la totalité du parc PSA (+8000) y compris zone d'accès difficiles telles que DMZ, ZSR",
-                                        "realisations": [{
-                                            "description": "Le déploiement à été réalisé par vagues successives en commençant par les serveurs ayant une criticité de fonctionnement la moins importante, puis en terminant par ceux nécessitant une approbation manuelle"
-                                        }]
+                                        "realisations": [
+                                            {
+                                                "description": "Le déploiement à été réalisé par vagues successives en commençant par les serveurs ayant une criticité de fonctionnement la moins importante, puis en terminant par ceux nécessitant une approbation manuelle"
+                                            }
+                                        ]
                                     }
                                 ]
                             }
@@ -666,11 +705,14 @@
                 "references": "Arlette et Jerome Joly",
                 "service": "service informatique",
                 "environnementTechnique": "Eclipse/Java, Javascript, Joomla 1.5/Virtuaemart/PHP5, VB6 , XML, Office; Gimp",
-                "realisations": [{
+                "realisations": [
+                    {
                         "description": "Réalisation d'un site web de marketing en ligne en utilisant Joomla Virtuemart proposant des produits de coaching individuel, avec customisation bas niveau",
-                        "realisations": [{
-                            "description": "Gestion du serveur à travers l‘interface web de gestion (OVH), (mails, DNS, etc.)"
-                        }]
+                        "realisations": [
+                            {
+                                "description": "Gestion du serveur à travers l‘interface web de gestion (OVH), (mails, DNS, etc.)"
+                            }
+                        ]
                     },
                     {
                         "description": "Réalisation d'un logiciel de gestion client avec génération de document à partir d'un modèle MS OpenXML"
@@ -692,7 +734,8 @@
                 "resume": "",
                 "references": "Thierry Mouge, Vincent Mouge, Deux developpeurs techniciens",
                 "environnementTechnique": "VB6 (Visual Studio 6), VB .NET, API Windows",
-                "realisations": [{
+                "realisations": [
+                    {
                         "description": "Mise à jour (Ajout de fonctionnalités, correction de bugs), de divers modules existants."
                     },
                     {
@@ -715,14 +758,17 @@
                 "resume": "",
                 "references": "",
                 "environnementTechnique": "Eclipse 3.1, PHP, Java, Perl, HTML/CSS, Javascript, Windows XP/2003 serveur, Linux, (Ubuntu/Debian), syslog-ng,syslogd, php-syslog-ng, Awstats, Expression rationnelles.",
-                "realisations": [{
+                "realisations": [
+                    {
                         "description": "Centralisation des logs (protocole Syslog)"
                     },
                     {
                         "description": "Développement d'un outil de centralisation (Java)",
-                        "realisations": [{
-                            "description": "L’outil à été publié sur Sourceforge (bsyslogagent, voir https://sourceforge.net/projects/bsyslog-agent/)"
-                        }]
+                        "realisations": [
+                            {
+                                "description": "L’outil à été publié sur Sourceforge (bsyslogagent, voir https://sourceforge.net/projects/bsyslog-agent/)"
+                            }
+                        ]
                     },
                     {
                         "description": "Réalisation de scripts (bash)"
@@ -736,7 +782,7 @@
                 ]
             },
             {
-                "typeExperience": "perso",
+                "typeExperience": "group",
                 "intitule": "",
                 "client": "Projets de formation et Projets personels",
                 "domaine": "",
@@ -747,7 +793,8 @@
                 "resume": "",
                 "references": "",
                 "environnementTechnique": "",
-                "experiences": [{
+                "experiences": [
+                    {
                         "typeExperience": "stage etudes",
                         "intitule": "Intervention pour le CE de l'entreprise",
                         "client": "Wärtsilä",
@@ -759,7 +806,8 @@
                         "resume": "",
                         "references": "",
                         "environnementTechnique": "HTML/CSS,JavascriptVB/ASP,Windows XP,MS SQL Serveur,IIS",
-                        "realisations": [{
+                        "realisations": [
+                            {
                                 "description": "Modélisation de la base de données"
                             },
                             {
@@ -779,11 +827,14 @@
                         "resume": "",
                         "references": "",
                         "environnementTechnique": "",
-                        "realisations": [{
+                        "realisations": [
+                            {
                                 "description": "Conception orienté objet",
-                                "realisations": [{
-                                    "description": "définition du protocole en se basant sur les opérations définies par le prof (opérations de base FTP)"
-                                }]
+                                "realisations": [
+                                    {
+                                        "description": "définition du protocole en se basant sur les opérations définies par le prof (opérations de base FTP)"
+                                    }
+                                ]
                             },
                             {
                                 "description": "réalisation du client et du serveur à l'aide de la serialisation java"
@@ -802,7 +853,8 @@
                         "resume": "",
                         "references": "",
                         "environnementTechnique": "C/C++ (Borland c++ Builder 6.0), Windows 2000, MySQL (API C), ODBC, MS ACCESS",
-                        "realisations": [{
+                        "realisations": [
+                            {
                                 "description": "Communication TCP/IP avec l'automate de gestion des feux"
                             },
                             {
@@ -816,9 +868,11 @@
                             },
                             {
                                 "description": "Réalisation de composants Borland C++ Builder, pour simplifier le code / améliorer l’interactivité.",
-                                "realisations": [{
-                                    "description": "Ex : grille colorée avec recherche intégrée."
-                                }]
+                                "realisations": [
+                                    {
+                                        "description": "Ex : grille colorée avec recherche intégrée."
+                                    }
+                                ]
                             }
                         ]
                     },
@@ -834,12 +888,14 @@
                         "resume": "",
                         "references": "",
                         "environnementTechnique": "Perl, LWP, Protocole HTTP, HTML/CSS, Javascript (JQuery).",
-                        "realisations": [{
+                        "realisations": [
+                            {
                                 "description": "Modélisation des classes"
                             },
                             {
                                 "description": "Implémentation daemon de téléchargement côté serveur",
-                                "realisations": [{
+                                "realisations": [
+                                    {
                                         "description": "Implémentation d'un outil de téléchargement par morceaux pour le protocole HTTP"
                                     },
                                     {
@@ -867,21 +923,18 @@
                         "resume": "",
                         "references": "",
                         "environnementTechnique": "C++ (STL), Visual Studio Express, Java/Eclipse.",
-                        "realisations": [{
+                        "realisations": [
+                            {
                                 "description": "Modélisation des classes"
                             },
                             {
-                                "description": "Implémentation daemon de téléchargement côté serveur",
-                                "realisations": [{
-                                        "description": "Réalisation d’un prototype en Java."
-                                    },
-                                    {
-                                        "description": "Mise en place d'une IA simple utilisant une logique à valeurs multiples (fuzzy logics)"
-                                    },
-                                    {
-                                        "description": "Tentatives d’optimisations lors du passage en C++ en utilisant les entiers 64bits."
-                                    }
-                                ]
+                                "description": "Réalisation d’un prototype en Java."
+                            },
+                            {
+                                "description": "Mise en place d'une IA simple utilisant une logique à valeurs multiples (fuzzy logics)"
+                            },
+                            {
+                                "description": "Tentatives d’optimisations lors du passage en C++ en utilisant les entiers 64bits."
                             }
                         ]
                     },
@@ -897,8 +950,9 @@
                         "resume": "",
                         "references": "",
                         "environnementTechnique": "Linux Debian, CPanel, Webmin, Drupal, PHP",
-                        "detailsMemory" : "correction d'un bug sur les bares de progression qui fonctionnait en rest mais 000Webhost ajoutais à toutes les pages du codes pours les statistiques : https://www.drupal.org/node/708916#comment-2719716",
-                        "realisations": [{
+                        "detailsMemory": "correction d'un bug sur les bares de progression qui fonctionnait en rest mais 000Webhost ajoutais à toutes les pages du codes pours les statistiques : https://www.drupal.org/node/708916#comment-2719716",
+                        "realisations": [
+                            {
                                 "description": "Modélisation des classes"
                             },
                             {
@@ -915,7 +969,8 @@
                 ]
             }
         ],
-        "formations": [{
+        "formations": [
+            {
                 "dateFin": "10-06-2020 au 12-06-2020",
                 "intitule": "React Native, développer des applications mobiles natives - réf : FRNCV1",
                 "lieu": "Formation à distance",
