@@ -262,10 +262,12 @@
                         "references": "",
                         "environnementTechnique": "Eclipse, Java, Vert.x, Visual Studio (C#), DevBooster, SQLServeur",
                         "detailsMemory": "Micro services Vert.x, échange via un Bus, Routage et Translation à partir d'un référentiel client Point d'acquisition => Acquereur Librairie pour échanges simplifiés avec le HSM Verticle avec echange module de monitoring, Gestion de charge simplifiée (multi HSM), TAG des paquets",
+
                         "service": "Monétique",
                         "realisations": [
                             {
-                                "description": "Réalisation de tests QC du module PSP Monetico Paiement"
+                                "description": "Réalisation de tests QC du module PSP Monetico Paiement",
+                                "text": "le module PMAC pour monético payement est réalisé mais il manque les tests et l'intégration"
                             },
                             {
                                 "description": "Réalisation d'un module de tokenisation avec interaction avec un HSM",
@@ -381,10 +383,13 @@
                                 "description": "Réalisation de POC techniques",
                                 "realisations": [
                                     {
-                                        "description": "Normes sur la mise en place d’une architecture REST utilisant les hyperliens (ou HATEOS)"
+                                        "description": "Normes sur la mise en place d’une architecture REST utilisant les hyperliens (ou HATEOS)",
+                                        "text" : "tests pour faire de l'HATEOS et anticipation sur la possible migration vers une architecture HATEOS"
                                     },
                                     {
-                                        "description": "Dashboard de centralisation d’informations sur l’environnement (Builds Jenkins, Anomalies (ALM) …) en utilisant le framework NodeJS"
+                                        "description": "Dashboard de centralisation d’informations sur l’environnement (Builds Jenkins, Anomalies (ALM) …) en utilisant le framework NodeJS",
+                                        "text" : "Synthétisation et accès à l'information des différents outils utilisés de façon redondante dans l'équipe pour faire gagner du temps",
+                                        "resultats" : "Les API (Rest pour la plupart) intégrés dans les différents outils permettent de réussir à remonter facilement les information, l'utilisation de NodeJS ne facilite pas notre tache mais nou arrivons à un résultat convenable malgrés les différents blocages. accès réseau etc, monté en comptétance sur le debug de NodeJS"
                                     }
                                 ]
                             }
@@ -426,18 +431,26 @@
                                 "description": "batchs SQL Oracle",
                                 "realisations": [
                                     {
-                                        "description": "Import de données sur des certifications de partenaires extérieurs"
+                                        "description": "Import de données sur des certifications de partenaires extérieurs",
+                                        "text" : "Réalisation du module backend + de méthode de synchronisation (en plusieurs étapes) des enregistrements d'autres tables. Reprise du fonctionnement existant des batchs avec "
                                     }
                                 ]
                             },
                             {
-                                "description": "Réalisation d'un outil d'extraction de données d'entrées/sorties (fichier XML) pour une génération automatique de documentation."
+                                "description": "Réalisation d'un outil d'extraction de données d'entrées/sorties (fichier XML) pour une génération automatique de documentation.",
+                                "text" : "Parsing XML des fichiers de configuration Acropole SLD, afin de synthétiser les données sur certains critères et faciliter l'accès aux informations"
                             },
                             {
-                                "description": "Réalisation de services SOAP à l’aide du framework Acropole SLD, dans le cadre de la gestion de vie d’une inscription d’un demandeur d’emploi à une formation."
+                                "description": "Réalisation de services SOAP à l’aide du framework Acropole SLD, dans le cadre de la gestion de vie d’une inscription d’un demandeur d’emploi à une formation.",
+                                "text": "estimation : une centaine de services, modification/ajout/suppression avec des contraintes métier fortes, des jeux de données difficile à préparer"
                             },
                             {
-                                "description": "Réalisation d'un outil d'extraction automatique de données (CSV)"
+                                "description": "Réalisation d'un outil d'extraction automatique de données (CSV)",
+                                "text" : "requetage en base avec contruction de requettes dynamiques et extraction des noms de champs pour diagnostiques ou réel besoin des données"
+                            },
+                            {
+                                "description": "Réalisation d'un environnement de developpement (out of the box) pour les nouveaux arrivants",
+                                "text" : "Eclipse avec acropoe SLD déjà installé ainsi qu'une préparation et un script d'installation"
                             }
                         ]
                     },
@@ -456,10 +469,10 @@
                         "service": "Centre de services SopraSteria",
                         "realisations": [
                             {
-                                "description": "Maintenance, corrections et évolutions de l'application de gestion des clients de la CTS."
+                                "description": "Maintenance, corrections et évolutions de l'application de gestion des clients de la CTS"
                             },
                             {
-                                "description": "Reconversion sur la technologie JAVA."
+                                "description": "Reconversion sur la technologie JAVA"
                             },
                             {
                                 "description": "Réalisation d’un script de déploiement d’archive"
@@ -498,18 +511,21 @@
                                         "description": "Assistance utilisateurs"
                                     },
                                     {
-                                        "description": "Participation à la conception et à la réalisation du successeur de POPEI",
+                                        "description": "Participation à la conception et à la réalisation d'un outil d'aide à l'intégration et au déploiement d'application (POPEI)",
+                                        "resultats": "L'outil est développé petit à petit, et est utilisé par les premières equipes d'industrialisateurs, la migration des anciens projets POPEI vers le successeur prend beaucoup de temps, les equipes doivent êtres formés au nouvel outil",
                                         "realisations": [
                                             {
-                                                "description": "Module de génération de modèles orienté objet avec sa propre syntaxe et possibilité de modélisation dynamique à l'aide de morceaux de perl"
+                                                "description": "Module de génération de modèles orienté objet avec sa propre syntaxe et possibilité de modélisation dynamique à l'aide de morceaux de perl",
+                                                "resultats" : "Malgré mon conseil de se tourner vers un moteur existant, on me demande de faire un moteur custom pour SIFA, avec sa propre syntaxe. Le moteur de template est dévelopé par dessus la maquette que j'ai utilisé (manque de temps), l'outil n'est pas forcement optimisé à mes souhaits mais fonctionne et est suffisement rapide pour une utilisation dans le projet. Pendant le développement et suite aux difficultés de stabilités pour le parsing et l'ajout de nouvelles expressions au moteur de template je décide de faire une suite de test avancée avec des cas de tests de chaque situations, et un test supplémentaire après chaque correction de bugs"
                                             },
                                             {
                                                 "description": "Automatisation de test à partir de jeux de test fixes pour éviter les régressions"
-                                            },
-                                            {
-                                                "description": "Participation à la conception et à la réalisation d'un outil d'automatisation de plus haut niveau se basant sur un scenario en XML"
                                             }
+                                        
                                         ]
+                                    },
+                                    {
+                                        "description": "Participation à la conception et à la réalisation d'un outil d'automatisation de plus haut niveau se basant sur un scenario en XML"
                                     }
                                 ]
                             },
@@ -522,25 +538,28 @@
                                 "dateFin": "",
                                 "presentation": "Remonté et synthétisation instantanée (cartographie) des données sur le stockage d’un serveur",
                                 "contenu": "",
-                                "resume": "Réalisation d'un outil d'automatisation et de symthétisation des données de stockage associés aux differents types de serveurs",
+                                "resume": "Réalisation d'un outil d'automatisation et de synthétisation des données de stockage associés aux differents types de serveurs",
                                 "references": "Samuel Godey, Pascal Joly (Le Vieux)",
-                                "environnementTechnique": "Unix (Hétérogène), Perl 5.8.8, ANT 1.8.2, Expressions rationnelles",
+                                "environnementTechnique": "Unix (Hétérogène), Perl 5.8.8, Expressions rationnelles, Baies EMC, SVC",
                                 "service": "ETSO/TME",
                                 "realisations": [
                                     {
                                         "description": "Réalisation d’un outil en ligne de commande",
+                                        "resultats": "L'outil en plus d'être utilisé dans les changements de prod est egalement présenté à l'équipe client",
                                         "realisations": [
                                             {
-                                                "description": "Réalisation d’une couche d’abstraction permettant le requêtage des outils indépendamment du constructeur (EMC, SVC)"
+                                                "description": "Réalisation d’une couche d’abstraction permettant le requêtage des outils indépendamment du constructeur (EMC, SVC)",
+                                                "detailsMemory" : "utilisation d'outils en ligne de commande avec parsing des résultats, Json, Texte, XML"
                                             },
                                             {
                                                 "description": "Modélisation et agrégation des données à l’aide d’une structure objet"
                                             },
                                             {
-                                                "description": "Sortie pré paramétrée par vues"
+                                                "description": "Sortie synthétique pré paramétrée par vues"
                                             },
                                             {
-                                                "description": "Utilisation d’un cache par commande (outils de persistance perl)"
+                                                "description": "Utilisation d’un cache par commande (outils de persistance perl)",
+                                                "detailsMemory": "Samuel m'explique que les requettes doivent décharger au maximum les baies. j'observe que le goulot d'étrangelement se situe d'avantage dans le nombre de requettes dans les outils existants (boucles imbriquées). Je decide donc d'utiliser des requettes plus globales (plus de données) cependant bien plus rapides pour un grand nombre d'association de stockage. il me vient l'idée de faire un cache paramétrable local pour alléger les baies de stockage"
                                             }
                                         ]
                                     }
@@ -559,19 +578,28 @@
                                 "references": "Antoine Schlupp",
                                 "environnementTechnique": "Windows, Perl, Python, OSGeo, Saga GIS, Quantom GIS (QGGIS)",
                                 "service": "Service d'études et de recherche en Sismologie",
+                                
                                 "realisations": [
-                                    {
-                                        "description": "Chaine d'automatisation"
-                                    },
-                                    {
-                                        "description": "Monté en compétence sur les outils géostatistiques"
-                                    },
-                                    {
-                                        "description": "Réalisation d’une documentation détaillée"
-                                    },
-                                    {
-                                        "description": "Ajout de paramètres utilisateurs customisables via des fichiers de configuration"
-                                    }
+                                    { 
+                                        "description": "Réalisation de l'outil semi automatique pour la création de cartes d'isoséistes",
+                                        "resultats": "Les cartes sont générés avec succès et validés par Antoine, certains bugs sont corrigés et la documentation approfondie progressivement",
+                                        "realisations": [
+                                            {
+                                                "description": "Chaine d'automatisation"
+                                            },
+                                            {
+                                                "description": "Monté en compétence sur les outils géostatistiques"
+                                            },
+                                            {
+                                                "description": "Réalisation d’une documentation détaillée"
+                                            },
+                                            {
+                                                "description": "Ajout de paramètres utilisateurs customisables via des fichiers de configuration",
+                                                "detailsMemory" : "Après utilisation il s'avère que certains paramètres (comme l'arrondis ou certaines distances) doivent être ajustables pour rendre l'outil plus flexible"
+                                            }
+
+                                        ]
+                                     }
                                 ]
                             },
                             {
@@ -603,7 +631,7 @@
                                 "environnementTechnique": "Perl 5.8.8, KSH, parc UNIX (hétérogène) environ 8000 serveurs, Oracle, SQL Developper, SVN (client texte)",
                                 "realisations": [
                                     {
-                                        "description": "Maintenance, correction et évolutions de l'application de surveillance SUSANE web et de son produit distribué sur le parc.",
+                                        "description": "Maintenance, correction et évolutions de l'application de surveillance SUSANE web et de son produit distribué sur le parc",
                                         "realisations": [
                                             {
                                                 "description": "Migration en perl d'un module transversal de surveillance de processus"
@@ -631,7 +659,7 @@
                                 "presentation": "Intervention au site de Mundolsheim pour la création d'un outil de monitoring d'environ 300 imprimantes",
                                 "contenu": "",
                                 "resume": "",
-                                "references": "Hervé",
+                                "references": "Hervé, Michael Bernardoff",
                                 "environnementTechnique": "PHP, Mysql, Bash, SNMP",
                                 "service": "Service informatique",
                                 "realisations": [
@@ -644,7 +672,8 @@
                                         ]
                                     },
                                     {
-                                        "description": "développement d'une interface en PHP pour l'exploitation des données"
+                                        "description": "développement d'une interface en PHP pour l'exploitation des données",
+                                        "resultats": "L'outil fonctionne, il est validé lors d'une présentation"
                                     }
                                 ]
                             },
@@ -704,7 +733,7 @@
                 "resume": "",
                 "references": "Arlette et Jerome Joly",
                 "service": "service informatique",
-                "environnementTechnique": "Eclipse/Java, Javascript, Joomla 1.5/Virtuaemart/PHP5, VB6 , XML, Office; Gimp",
+                "environnementTechnique": "Eclipse/Java, Javascript, Joomla 1.5/Virtuemart/PHP5, VB6 , XML, Office; Gimp",
                 "realisations": [
                     {
                         "description": "Réalisation d'un site web de marketing en ligne en utilisant Joomla Virtuemart proposant des produits de coaching individuel, avec customisation bas niveau",
@@ -736,13 +765,13 @@
                 "environnementTechnique": "VB6 (Visual Studio 6), VB .NET, API Windows",
                 "realisations": [
                     {
-                        "description": "Mise à jour (Ajout de fonctionnalités, correction de bugs), de divers modules existants."
+                        "description": "Mise à jour (Ajout de fonctionnalités, correction de bugs), de divers modules existants"
                     },
                     {
-                        "description": "Participation à la création d'un logiciel simplifié de calcul (méthode DPE)."
+                        "description": "Participation à la création d'un logiciel simplifié de calcul (méthode DPE)"
                     },
                     {
-                        "description": "Refonte d'un module de mise à jour par internet (problème de sécurité, passage de ftp) http)."
+                        "description": "Refonte d'un module de mise à jour par internet (problème de sécurité, passage de ftp à http)"
                     }
                 ]
             },
@@ -973,14 +1002,14 @@
             {
                 "dateFin": "10-06-2020 au 12-06-2020",
                 "intitule": "React Native, développer des applications mobiles natives - réf : FRNCV1",
-                "lieu": "Formation à distance",
-                "contenu": "React Native, NodeJs, Redux"
+                "lieu": "Formation Orsys à distance",
+                "contenu": "Introduction au développement mobile, avec présentation et pratique progressive sur des outils tels que : React Native, NodeJs, Redux"
             },
             {
-                "dateFin": "17-05-2019 au 30-05-2019",
+                "dateFin": "17-05-2019 au 30-06-2019",
                 "intitule": "Formation Docker et Ansible",
                 "lieu": "Greta des Hauts-de-Seine",
-                "contenu": "Administration Système, Docker, Ansible"
+                "contenu": "Formation progressive avec des rappels sur l'Administration Système, et le scripting (Stockage, Droits, Packets, Gestion des processus ...), pratiques et création d'environnement virtuels à l'aide de Docker, Docker Swarm, Ansible, Portainer"
             },
             {
                 "dateFin": "2006-2008",

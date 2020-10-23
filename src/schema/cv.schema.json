@@ -8,6 +8,8 @@
             "properties": {
                 "description": {},
                 "text" : {},
+                "resultats" : {},
+                "detailsMemory": {},
                 "realisations": {
                     "type": "array",
                     "items": {
