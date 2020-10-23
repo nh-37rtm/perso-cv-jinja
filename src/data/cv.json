@@ -777,7 +777,7 @@
             },
             {
                 "typeExperience": "stage",
-                "intitule": "Centralisation et exploitation des logs de plusieurs serveurs à l'aide d'un agent    en java se basant sur le protocole syslog.",
+                "intitule": "Centralisation et exploitation des logs de plusieurs serveurs à l'aide d'un agent  en java se basant sur le protocole syslog",
                 "client": "CAPM",
                 "domaine": "Développeur",
                 "dateDebut": "2006-04-01",
@@ -786,7 +786,7 @@
                 "contenu": "",
                 "resume": "",
                 "references": "",
-                "environnementTechnique": "Eclipse 3.1, PHP, Java, Perl, HTML/CSS, Javascript, Windows XP/2003 serveur, Linux, (Ubuntu/Debian), syslog-ng,syslogd, php-syslog-ng, Awstats, Expression rationnelles.",
+                "environnementTechnique": "Eclipse 3.1, PHP, Java, Perl, HTML/CSS, Javascript, Windows XP/2003 serveur, Linux, (Ubuntu/Debian), syslog-ng,syslogd, php-syslog-ng, Awstats, Expression rationnelles",
                 "realisations": [
                     {
                         "description": "Centralisation des logs (protocole Syslog)"
