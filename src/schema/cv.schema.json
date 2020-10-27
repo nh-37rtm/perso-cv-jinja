@@ -22,10 +22,20 @@
         "experience": {
             "type": "object",
             "properties": {
+                "objectif": {
+                    "type" : "array",
+                    "items": {
+                        "type": "object",
+                        "properties": {
+                            "description" : {}
+                        }
+                    }
+                },
                 "dateDebut": {},
                 "dateFin": {},
                 "environnementTechnique": {},
                 "typeExperience": {},
+                "secteur": {},
                 "domaine": {},
                 "client": {},
                 "intitule": {},

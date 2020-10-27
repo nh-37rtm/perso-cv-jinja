@@ -48,7 +48,8 @@ def readJson():
         context = RenderContext()
         # control(result)
         # renderedCv = context.renderTemplate("cv.j2.html", result['curriculum'])
-        renderedCv = context.renderTemplate("efor/experiences.j2.xml", result['curriculum'])
+        # renderedCv = context.renderTemplate("efor/experiences.j2.xml", result['curriculum'])
+        renderedCv = context.renderTemplate("altran/s_experiences.j2.xml", result['curriculum'])
         writeFile(renderedCv)
 
 

@@ -79,7 +79,7 @@
             },
             {
                 "intitule": "Languages (Par ordre d'afinité)",
-                "description": "Java, Perl, Python, PHP,ASP,HTML/CSS/Javascript, Visual Basic; XML/XSLT"
+                "description": "Java, Perl, Python, NodeJS, PHP,ASP,HTML/CSS/Javascript, Visual Basic; XML/XSLT"
             },
             {
                 "intitule": "EDI utilisés",
@@ -87,7 +87,7 @@
             },
             {
                 "intitule": "Frameworks utilisés",
-                "description": "J2EE/JEE6, JQuery"
+                "description": "J2EE/JEE6, JQuery, vert.x"
             },
             {
                 "intitule": "Mapping Objet/Relationnel",
@@ -97,6 +97,10 @@
                 "intitule": "Gestion des sources",
                 "description": "Git, SVN, Clearcase"
             },
+            {
+                "intitule": "Containerisation",
+                "description": "Création et Migration d’applications en container applicatifs Docker"
+            }
             {
                 "description": "Modélisation de données objet"
             }
@@ -114,16 +118,23 @@
                 "resume": "",
                 "references": "",
                 "environnementTechnique": "",
+                "objectif": [
+                    {
+                        "description" : ""
+                    }
+                ],
                 "experiences": [
                     {
                         "typeExperience": "mission",
                         "client": "Next2C (Abopress)",
                         "dateDebut": "2019-09-11",
                         "dateFin": "2020-08-30",
+                        "secteur": "Vente et distribution de magasines",
                         "intitule": "Automatisations et Migrations d'applications",
                         "domaine": "Automatisation / DevOps",
                         "presentation": "Migration de sites, automatisations de tâches, maintenance du parc",
-                        "environnementTechnique": "Visual Studio Code (avec module remote development), VMWare ESX (5.1), MySQL, GitLab; Python, Shell (Bash); Docker (docker-compose); SaltStack; Jenkins",
+                        "environnementTechnique": "Visual Studio Code (avec module remote development), VMWare ESX (5.1), ProxMox, MySQL, GitLab; Python, Shell (Bash); Docker (docker-compose); SaltStack; Jenkins",
+                        "detailsMemory": "Le serveur VMWare était sur un vieux ESX, le proxmox",
                         "references": "Darko Calic (Manager Commercial), Philippe Horesh (Manager SC), Olivier Camus (Manager ... absent), Marc-Alexandre (Produit, sympa ++), Claude Mansilla (Developeuse Cobol, consciencieuse++), Nadine Bischoff (Service client++), Lucile Siksik (data manager++), Cecilia Cvetanovic (Produit, logique++ toujours raison), Nicolas Kuentz (Developpeur), Virgile Alonas(Developpeur++), Steeven Dauphin ",
                         "service": "Informatique Abopress",
                         "realisations": [
@@ -874,7 +885,7 @@
                         "typeExperience": "stage etude",
                         "intitule": "Projet Tir à l'arc du club d’Arcey",
                         "client": "Club de tir à l'arc d'Arcey",
-                        "domaine": "Analyste développeur",
+                        "domaine": "Scripting et Administration système",
                         "dateDebut": "2004-12-01",
                         "dateFin": "",
                         "presentation": "",

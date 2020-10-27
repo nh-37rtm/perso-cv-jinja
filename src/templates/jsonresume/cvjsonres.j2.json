@@ -1,6 +1,6 @@
 {
     
-    "$schema": "/mnt/c/Users/heimn/git/CvJinja/src/templates/jsonresume/schema/schema.json",
+    "$schema": "file:///mnt/c/Users/heimn/git/CvJinja/src/templates/jsonresume/schema/schema.json",
     "basics": {
         "name": "John Doe",
         "label": "Programmer",
