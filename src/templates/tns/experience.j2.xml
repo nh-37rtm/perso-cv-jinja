@@ -1,0 +1,383 @@
+<w:tbl>
+    <w:tblPr>
+        <w:tblStyle w:val="Grilledutableau"/>
+        <w:tblW w:w="0" w:type="auto"/>
+        <w:tblInd w:w="137" w:type="dxa"/>
+        <w:tblLook w:val="04A0" w:firstRow="1" w:lastRow="0" w:firstColumn="1" w:lastColumn="0" w:noHBand="0" w:noVBand="1"/>
+    </w:tblPr>
+    <w:tblGrid>
+        <w:gridCol w:w="1940"/>
+        <w:gridCol w:w="3196"/>
+        <w:gridCol w:w="4057"/>
+    </w:tblGrid>
+    <w:tr w:rsidR="00AD71F3" w14:paraId="2004D821" w14:textId="77777777" w:rsidTr="00AD71F3">
+        <w:tc>
+            <w:tcPr>
+                <w:tcW w:w="1985" w:type="dxa"/>
+                <w:tcBorders>
+                    <w:top w:val="single" w:sz="12" w:space="0" w:color="002060"/>
+                    <w:left w:val="single" w:sz="12" w:space="0" w:color="002060"/>
+                    <w:bottom w:val="single" w:sz="12" w:space="0" w:color="002060"/>
+                    <w:right w:val="nil"/>
+                </w:tcBorders>
+                <w:hideMark/>
+            </w:tcPr>
+            <w:p w14:paraId="1822EB84" w14:textId="77777777" w:rsidR="00AD71F3" w:rsidRDefault="00AD71F3">
+                <w:pPr>
+                    <w:spacing w:line="240" w:lineRule="auto"/>
+                    <w:rPr>
+                        <w:b/>
+                        <w:szCs w:val="10"/>
+                    </w:rPr>
+                </w:pPr>
+                <w:r>
+                    <w:rPr>
+                        <w:b/>
+                        <w:szCs w:val="10"/>
+                    </w:rPr>
+                    <w:t>{{data.dateDebut.strftime('%Y-%m')}} - {{data.dateFin.strftime('%Y-%m')}} 
+                            {%- if data.dureeEnMois > 0 -%}
+                                    ({{-data.dureeEnMois}} mois)
+                            {%- endif %}</w:t>
+                </w:r>
+            </w:p>
+        </w:tc>
+        <w:tc>
+            <w:tcPr>
+                <w:tcW w:w="3685" w:type="dxa"/>
+                <w:tcBorders>
+                    <w:top w:val="single" w:sz="12" w:space="0" w:color="002060"/>
+                    <w:left w:val="nil"/>
+                    <w:bottom w:val="single" w:sz="12" w:space="0" w:color="002060"/>
+                    <w:right w:val="nil"/>
+                </w:tcBorders>
+                <w:hideMark/>
+            </w:tcPr>
+            <w:p w14:paraId="0EB1ED04" w14:textId="77777777" w:rsidR="00AD71F3" w:rsidRDefault="00AD71F3">
+                <w:pPr>
+                    <w:spacing w:line="240" w:lineRule="auto"/>
+                    <w:jc w:val="center"/>
+                    <w:rPr>
+                        <w:b/>
+                        <w:sz w:val="24"/>
+                        <w:szCs w:val="10"/>
+                    </w:rPr>
+                </w:pPr>
+                <w:r>
+                    <w:rPr>
+                        <w:b/>
+                        <w:szCs w:val="10"/>
+                    </w:rPr>
+                    <w:t>{{data.domaine}}</w:t>
+                </w:r>
+            </w:p>
+        </w:tc>
+        <w:tc>
+            <w:tcPr>
+                <w:tcW w:w="4649" w:type="dxa"/>
+                <w:tcBorders>
+                    <w:top w:val="single" w:sz="12" w:space="0" w:color="002060"/>
+                    <w:left w:val="nil"/>
+                    <w:bottom w:val="single" w:sz="12" w:space="0" w:color="002060"/>
+                    <w:right w:val="single" w:sz="12" w:space="0" w:color="002060"/>
+                </w:tcBorders>
+                <w:hideMark/>
+            </w:tcPr>
+            <w:p w14:paraId="5ADE5F8F" w14:textId="77777777" w:rsidR="00AD71F3" w:rsidRDefault="00AD71F3">
+                <w:pPr>
+                    <w:spacing w:line="240" w:lineRule="auto"/>
+                    <w:jc w:val="center"/>
+                    <w:rPr>
+                        <w:b/>
+                        <w:sz w:val="24"/>
+                        <w:szCs w:val="10"/>
+                    </w:rPr>
+                </w:pPr>
+                <w:r>
+                    <w:rPr>
+                        <w:b/>
+                        <w:szCs w:val="10"/>
+                    </w:rPr>
+                    <w:t>{{data.client}}</w:t>
+                </w:r>
+            </w:p>
+        </w:tc>
+    </w:tr>
+    <w:tr w:rsidR="00AD71F3" w14:paraId="1C40C5B7" w14:textId="77777777" w:rsidTr="00AD71F3">
+        <w:tc>
+            <w:tcPr>
+                <w:tcW w:w="1985" w:type="dxa"/>
+                <w:tcBorders>
+                    <w:top w:val="single" w:sz="12" w:space="0" w:color="002060"/>
+                    <w:left w:val="nil"/>
+                    <w:bottom w:val="dotted" w:sz="12" w:space="0" w:color="808080" w:themeColor="background1" w:themeShade="80"/>
+                    <w:right w:val="nil"/>
+                </w:tcBorders>
+            </w:tcPr>
+            <w:p w14:paraId="74E42208" w14:textId="77777777" w:rsidR="00AD71F3" w:rsidRDefault="00AD71F3">
+                <w:pPr>
+                    <w:spacing w:line="240" w:lineRule="auto"/>
+                    <w:rPr>
+                        <w:b/>
+                        <w:sz w:val="6"/>
+                        <w:szCs w:val="10"/>
+                    </w:rPr>
+                </w:pPr>
+            </w:p>
+        </w:tc>
+        <w:tc>
+            <w:tcPr>
+                <w:tcW w:w="8334" w:type="dxa"/>
+                <w:gridSpan w:val="2"/>
+                <w:tcBorders>
+                    <w:top w:val="single" w:sz="12" w:space="0" w:color="002060"/>
+                    <w:left w:val="nil"/>
+                    <w:bottom w:val="dotted" w:sz="12" w:space="0" w:color="808080" w:themeColor="background1" w:themeShade="80"/>
+                    <w:right w:val="nil"/>
+                </w:tcBorders>
+            </w:tcPr>
+            <w:p w14:paraId="6EFA8803" w14:textId="77777777" w:rsidR="00AD71F3" w:rsidRDefault="00AD71F3">
+                <w:pPr>
+                    <w:spacing w:line="240" w:lineRule="auto"/>
+                    <w:rPr>
+                        <w:b/>
+                        <w:sz w:val="10"/>
+                        <w:szCs w:val="10"/>
+                    </w:rPr>
+                </w:pPr>
+            </w:p>
+        </w:tc>
+    </w:tr>
+    <w:tr w:rsidR="00AD71F3" w14:paraId="0A014BB6" w14:textId="77777777" w:rsidTr="00AD71F3">
+        <w:tc>
+            <w:tcPr>
+                <w:tcW w:w="1985" w:type="dxa"/>
+                <w:tcBorders>
+                    <w:top w:val="dotted" w:sz="12" w:space="0" w:color="808080" w:themeColor="background1" w:themeShade="80"/>
+                    <w:left w:val="dotted" w:sz="12" w:space="0" w:color="808080" w:themeColor="background1" w:themeShade="80"/>
+                    <w:bottom w:val="nil"/>
+                    <w:right w:val="single" w:sz="12" w:space="0" w:color="002060"/>
+                </w:tcBorders>
+                <w:shd w:val="clear" w:color="auto" w:fill="F2F2F2" w:themeFill="background1" w:themeFillShade="F2"/>
+                <w:hideMark/>
+            </w:tcPr>
+            <w:p w14:paraId="7BEDC33C" w14:textId="77777777" w:rsidR="00AD71F3" w:rsidRDefault="00AD71F3">
+                <w:pPr>
+                    <w:spacing w:line="240" w:lineRule="auto"/>
+                    <w:rPr>
+                        <w:b/>
+                        <w:sz w:val="24"/>
+                        <w:szCs w:val="10"/>
+                    </w:rPr>
+                </w:pPr>
+                <w:r>
+                    <w:rPr>
+                        <w:b/>
+                        <w:sz w:val="24"/>
+                        <w:szCs w:val="10"/>
+                    </w:rPr>
+                    <w:t>Contexte</w:t>
+                </w:r>
+            </w:p>
+        </w:tc>
+        <w:tc>
+            <w:tcPr>
+                <w:tcW w:w="8334" w:type="dxa"/>
+                <w:gridSpan w:val="2"/>
+                <w:tcBorders>
+                    <w:top w:val="dotted" w:sz="12" w:space="0" w:color="808080" w:themeColor="background1" w:themeShade="80"/>
+                    <w:left w:val="single" w:sz="12" w:space="0" w:color="002060"/>
+                    <w:bottom w:val="nil"/>
+                    <w:right w:val="dotted" w:sz="12" w:space="0" w:color="808080" w:themeColor="background1" w:themeShade="80"/>
+                </w:tcBorders>
+                <w:shd w:val="clear" w:color="auto" w:fill="F2F2F2" w:themeFill="background1" w:themeFillShade="F2"/>
+                <w:hideMark/>
+            </w:tcPr>
+            <w:p w14:paraId="6B67D91E" w14:textId="77777777" w:rsidR="00AD71F3" w:rsidRDefault="00AD71F3">
+                <w:pPr>
+                    <w:spacing w:line="240" w:lineRule="auto"/>
+                    <w:jc w:val="center"/>
+                    <w:rPr>
+                        <w:b/>
+                        <w:sz w:val="24"/>
+                        <w:szCs w:val="10"/>
+                    </w:rPr>
+                </w:pPr>
+                <w:r>
+                    <w:rPr>
+                        <w:b/>
+                        <w:szCs w:val="10"/>
+                    </w:rPr>
+                    <w:t>Missions</w:t>
+                </w:r>
+            </w:p>
+        </w:tc>
+    </w:tr>
+    <w:tr w:rsidR="00AD71F3" w14:paraId="7D7DC0E9" w14:textId="77777777" w:rsidTr="00AD71F3">
+        <w:tc>
+            <w:tcPr>
+                <w:tcW w:w="1985" w:type="dxa"/>
+                <w:tcBorders>
+                    <w:top w:val="nil"/>
+                    <w:left w:val="dotted" w:sz="12" w:space="0" w:color="808080" w:themeColor="background1" w:themeShade="80"/>
+                    <w:bottom w:val="nil"/>
+                    <w:right w:val="single" w:sz="12" w:space="0" w:color="002060"/>
+                </w:tcBorders>
+                <w:vAlign w:val="center"/>
+                <w:hideMark/>
+            </w:tcPr>
+            <w:p w14:paraId="7174448A" w14:textId="77777777" w:rsidR="00AD71F3" w:rsidRDefault="00AD71F3">
+                <w:pPr>
+                    <w:spacing w:line="240" w:lineRule="auto"/>
+                    <w:rPr>
+                        <w:b/>
+                        <w:sz w:val="24"/>
+                        <w:szCs w:val="10"/>
+                    </w:rPr>
+                </w:pPr>
+                <w:r>
+                    <w:rPr>
+                        <w:b/>
+                        <w:sz w:val="24"/>
+                        <w:szCs w:val="10"/>
+                    </w:rPr>
+                    <w:t>Réalisations</w:t>
+                </w:r>
+            </w:p>
+        </w:tc>
+        <w:tc>
+            <w:tcPr>
+                <w:tcW w:w="8334" w:type="dxa"/>
+                <w:gridSpan w:val="2"/>
+                <w:tcBorders>
+                    <w:top w:val="nil"/>
+                    <w:left w:val="single" w:sz="12" w:space="0" w:color="002060"/>
+                    <w:bottom w:val="nil"/>
+                    <w:right w:val="dotted" w:sz="12" w:space="0" w:color="808080" w:themeColor="background1" w:themeShade="80"/>
+                </w:tcBorders>
+            </w:tcPr>
+            {% for realisation in context.controler.controlRealisation( data.realisations ) %}
+                {{ context.renderTemplate( 'tns/realisation.j2.xml', realisation ) }}
+            {% endfor %}
+        </w:tc>
+    </w:tr>
+    <w:tr w:rsidR="00AD71F3" w14:paraId="599B645F" w14:textId="77777777" w:rsidTr="00AD71F3">
+        <w:tc>
+            <w:tcPr>
+                <w:tcW w:w="1985" w:type="dxa"/>
+                <w:tcBorders>
+                    <w:top w:val="nil"/>
+                    <w:left w:val="dotted" w:sz="12" w:space="0" w:color="808080" w:themeColor="background1" w:themeShade="80"/>
+                    <w:bottom w:val="nil"/>
+                    <w:right w:val="single" w:sz="12" w:space="0" w:color="002060"/>
+                </w:tcBorders>
+                <w:vAlign w:val="center"/>
+            </w:tcPr>
+            <w:p w14:paraId="5C5EAC0B" w14:textId="77777777" w:rsidR="00AD71F3" w:rsidRDefault="00AD71F3">
+                <w:pPr>
+                    <w:pStyle w:val="Paragraphedeliste"/>
+                    <w:spacing w:line="240" w:lineRule="auto"/>
+                    <w:rPr>
+                        <w:b/>
+                        <w:color w:val="000000" w:themeColor="text1"/>
+                        <w:sz w:val="10"/>
+                        <w:szCs w:val="10"/>
+                    </w:rPr>
+                </w:pPr>
+            </w:p>
+        </w:tc>
+        <w:tc>
+            <w:tcPr>
+                <w:tcW w:w="8334" w:type="dxa"/>
+                <w:gridSpan w:val="2"/>
+                <w:tcBorders>
+                    <w:top w:val="nil"/>
+                    <w:left w:val="single" w:sz="12" w:space="0" w:color="002060"/>
+                    <w:bottom w:val="nil"/>
+                    <w:right w:val="nil"/>
+                </w:tcBorders>
+                <w:vAlign w:val="center"/>
+            </w:tcPr>
+            <w:p w14:paraId="36FB1683" w14:textId="77777777" w:rsidR="00AD71F3" w:rsidRDefault="00AD71F3">
+                <w:pPr>
+                    <w:pStyle w:val="Paragraphedeliste"/>
+                    <w:spacing w:line="240" w:lineRule="auto"/>
+                    <w:rPr>
+                        <w:b/>
+                        <w:sz w:val="10"/>
+                        <w:szCs w:val="10"/>
+                    </w:rPr>
+                </w:pPr>
+            </w:p>
+        </w:tc>
+    </w:tr>
+    <w:tr w:rsidR="00AD71F3" w14:paraId="2BFA81C6" w14:textId="77777777" w:rsidTr="00AD71F3">
+        <w:tc>
+            <w:tcPr>
+                <w:tcW w:w="1985" w:type="dxa"/>
+                <w:tcBorders>
+                    <w:top w:val="nil"/>
+                    <w:left w:val="dotted" w:sz="12" w:space="0" w:color="808080" w:themeColor="background1" w:themeShade="80"/>
+                    <w:bottom w:val="dotted" w:sz="12" w:space="0" w:color="808080" w:themeColor="background1" w:themeShade="80"/>
+                    <w:right w:val="single" w:sz="12" w:space="0" w:color="002060"/>
+                </w:tcBorders>
+                <w:hideMark/>
+            </w:tcPr>
+            <w:p w14:paraId="396686F9" w14:textId="77777777" w:rsidR="00AD71F3" w:rsidRDefault="00AD71F3">
+                <w:pPr>
+                    <w:spacing w:line="240" w:lineRule="auto"/>
+                    <w:rPr>
+                        <w:b/>
+                        <w:sz w:val="24"/>
+                        <w:szCs w:val="10"/>
+                    </w:rPr>
+                </w:pPr>
+                <w:r>
+                    <w:rPr>
+                        <w:b/>
+                        <w:sz w:val="24"/>
+                        <w:szCs w:val="10"/>
+                    </w:rPr>
+                    <w:t>Environnement technique</w:t>
+                </w:r>
+            </w:p>
+        </w:tc>
+        <w:tc>
+            <w:tcPr>
+                <w:tcW w:w="8334" w:type="dxa"/>
+                <w:gridSpan w:val="2"/>
+                <w:tcBorders>
+                    <w:top w:val="nil"/>
+                    <w:left w:val="single" w:sz="12" w:space="0" w:color="002060"/>
+                    <w:bottom w:val="dotted" w:sz="12" w:space="0" w:color="808080" w:themeColor="background1" w:themeShade="80"/>
+                    <w:right w:val="dotted" w:sz="12" w:space="0" w:color="808080" w:themeColor="background1" w:themeShade="80"/>
+                </w:tcBorders>
+            </w:tcPr>
+            <w:p w14:paraId="2D54DEF7" w14:textId="39A8261E" w:rsidR="00AD71F3" w:rsidRPr="00AD71F3" w:rsidRDefault="00AD71F3" w:rsidP="00AD71F3">
+                <w:pPr>
+                    <w:pStyle w:val="Paragraphedeliste"/>
+                    <w:numPr>
+                        <w:ilvl w:val="0"/>
+                        <w:numId w:val="1"/>
+                    </w:numPr>
+                    <w:spacing w:line="240" w:lineRule="auto"/>
+                    <w:rPr>
+                        <w:color w:val="000000" w:themeColor="text1"/>
+                        <w:sz w:val="24"/>
+                        <w:szCs w:val="10"/>
+                    </w:rPr>
+                </w:pPr>
+                <w:proofErr w:type="spellStart"/>
+                <w:r>
+                    <w:rPr>
+                        <w:color w:val="000000" w:themeColor="text1"/>
+                        <w:sz w:val="24"/>
+                        <w:szCs w:val="10"/>
+                    </w:rPr>
+                    <w:t>{{data.environnementTechnique}}</w:t>
+                </w:r>
+                <w:proofErr w:type="spellEnd"/>
+            </w:p>
+        </w:tc>
+    </w:tr>
+</w:tbl>

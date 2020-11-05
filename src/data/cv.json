@@ -100,7 +100,7 @@
             {
                 "intitule": "Containerisation",
                 "description": "Création et Migration d’applications en container applicatifs Docker"
-            }
+            },
             {
                 "description": "Modélisation de données objet"
             }
@@ -132,6 +132,7 @@
                         "secteur": "Vente et distribution de magasines",
                         "intitule": "Automatisations et Migrations d'applications",
                         "domaine": "Automatisation / DevOps",
+                        "contexte": "Equipe de 7 personnes, 4 personne produit et 3 developpeurs",
                         "presentation": "Migration de sites, automatisations de tâches, maintenance du parc",
                         "environnementTechnique": "Visual Studio Code (avec module remote development), VMWare ESX (5.1), ProxMox, MySQL, GitLab; Python, Shell (Bash); Docker (docker-compose); SaltStack; Jenkins",
                         "detailsMemory": "Le serveur VMWare était sur un vieux ESX, le proxmox",
@@ -212,7 +213,9 @@
                         "client": "Chantiers de l'atlantique",
                         "domaine": "Développeur Java",
                         "dateDebut": "2018-10-01",
-                        "dateFin": "2018-03-01",
+                        "dateFin": "2019-03-01",
+                        "secteur": "Construction de navires et de structures flottantes complexes",
+                        "contexte": "Equipe de 4 personnes dont 2 analystes dévelopeurs",
                         "presentation": "Maintenance évolutive de EBC à distance (pour Nante). Développement d'interfaces en swing, mise en place d'une architecture de test facilitant le développement",
                         "contenu": "",
                         "resume": "EBC est une application qui permet un échange de données dans le workflow des commandes de pièces. Entre le dessin, la découpe et les commandes",
@@ -265,6 +268,7 @@
                         "intitule": "Développements et tests sur la plateforme monétique d'acceptation centralisée",
                         "client": "Euro Information",
                         "domaine": "Développeur Java",
+                        "contexte": "Equipe de 6 personnes, dont 1 Manager",
                         "dateDebut": "2018-03-01",
                         "dateFin": "",
                         "presentation": "Intégration de l'équipe de la plateforme monétique d'acceptation centralisée. Réalisation de tâches telles que : Aide à la conception, Réalisation de tests QC et de tests Automatisés en JUnit, Développement d'un module de tokenisation, Développement d'interfaces devbooster",
@@ -738,7 +742,7 @@
                 "client": "Donat et Associés",
                 "domaine": "Analyste Développeur/Intégrateur",
                 "dateDebut": "2008-11-17",
-                "dateFin": "",
+                "dateFin": "2010-07-01",
                 "presentation": "Réalisation d'un site web de présentation. Evolution du site vers un site marchant Réalisation d'un Outil de gestion de clients+ intégration Word pour génération de documents (MS, OpenXML)",
                 "contenu": "",
                 "resume": "",
@@ -768,7 +772,7 @@
                 "client": "Logiciels Perrenoud",
                 "domaine": "Développeur",
                 "dateDebut": "2006-06-27",
-                "dateFin": "",
+                "dateFin": "2007-08-01",
                 "presentation": "",
                 "contenu": "",
                 "resume": "",

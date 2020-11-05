@@ -233,6 +233,7 @@
                                       {% for experience in context.controler.controlFlatenExperience(data.experiences) %}
                                             {{ context.renderTemplate( 'altran/parts/s_xp.j2.xml', experience ) }}
                                       {% endfor %}
+
                                 </w:tbl>
                                 <w:p w14:paraId="4DD7093B" w14:textId="77777777" w:rsidR="00E75FE8" w:rsidRPr="00E969ED" w:rsidRDefault="00E75FE8" w:rsidP="000C3D85">
                                     <w:pPr>

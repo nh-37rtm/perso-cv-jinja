@@ -139,6 +139,9 @@ def prepareExperience(experience: Experience):
         experience.dateFin, experience.dateDebut)
     experience.dureeEnMois = relDataMonth.months + relDataMonth.years * 12
 
+    if experience.dureeEnMois <= 0:
+        logging.debug("durée de l'experience (%s) <= 0" % experience.intitule)
+
     experience.depthAsCssClass = 'level%s' % experience.depth
 
 
