@@ -156,7 +156,9 @@
                                         "description": "Documentation du module"
                                     }
                                 ]
-                            }, 
+                            }
+                        ]
+                    },
                     {
                         "typeExperience": "mission",
                         "client": "Next2C (Abopress)",
