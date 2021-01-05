@@ -9,6 +9,7 @@
             "type": "python",
             "request": "launch",
             "program": "src/generate.py",
+            "args": [ "-o", "./toto.html", "-t", "./src/templates/cv.j2.html"],
             "console": "integratedTerminal",
         }
     ]

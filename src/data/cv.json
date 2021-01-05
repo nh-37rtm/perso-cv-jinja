@@ -125,6 +125,39 @@
                 ],
                 "experiences": [
                     {
+                        "typeExperience": "bénévolat",
+                        "client": "Coopalim Strasbourg",
+                        "dateDebut": "2020-09-11",
+                        "dateFin": "2020-10-01",
+                        "secteur": "Vente Alimentaire",
+                        "intitule": "Développement, tests et déploiement de services",
+                        "domaine": "Developpeur Java / DevOps",
+                        "contexte": "Equipe de 5 personnes",
+                        "presentation": "Développement, tests et déploiement de services",
+                        "environnementTechnique": "Visual Studio Code (avec module remote development), Docker Swarm, Java 1.8, JBoss (Wildfly)",
+                        "detailsMemory": "Alexandre me drive, je passe pas mal de temps à me remetre dans le dev java J2EE, à potasser dans mon env perso",
+                        "references": "",
+                        "service": "Service informatique de Coopalim",
+                        "realisations": [
+                            {
+                                "description": "Création et deploiement d'une image Docker d'application Symphony de l'application Elefan",
+                                "detailsMemory" : "l'application est un gestionnaire de client et de tache  clients pour magasin coopératif"
+                            }, 
+                            {
+                                "description": "développement d'un module Keycloak",
+                                "realisations": [
+                                    {
+                                        "description" : "Montage d'un environnement docker et Wildfly J2EE en intégrant des images : Mysql, Jboss (WildFly), Keycloak"
+                                    },
+                                    {
+                                        "description": "Réalisation et développement de tests unitaires et d'intégration à l'aide d'Arquillian"
+                                    },
+                                    {
+                                        "description": "Documentation du module"
+                                    }
+                                ]
+                            }, 
+                    {
                         "typeExperience": "mission",
                         "client": "Next2C (Abopress)",
                         "dateDebut": "2019-09-11",
