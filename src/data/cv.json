@@ -1,5 +1,5 @@
 {
-    "$schema": "/mnt/c/Users/heimn/git/CvJinja/src/schema/cv.schema.json",
+    "$schema": "/home/nheim/src/cv-jinja/src/schema/cv.schema.json",
     "curriculum": {
         "poste": "Développeur",
         "etatCivil": {
@@ -46,7 +46,7 @@
             },
             {
                 "intitule": "Bases de données",
-                "description": "eyeDB ; ODBC, JDBC."
+                "description": "eyeDB ; Oracle; SQLServer"
             },
             {
                 "intitule": "Autres logiciels/Outils utilisés",
@@ -106,6 +106,8 @@
             }
         ],
         "experiences": [
+
+            
             {
                 "typeExperience": "group",
                 "intitule": "",
@@ -124,6 +126,138 @@
                     }
                 ],
                 "experiences": [
+                    {
+                        "client": "Hub-One",
+                        "dateFin": "2022-05-01",
+                        "dateDebut": "2022-01-01",
+                        "domaine": "Ingénieur Devops",
+                        "detailsMemory": "j'arrive : Nicolas Bauneau, se décharge des projets ennuyeux, je dois faire du nétoyage. Environnement en grande partie azure, contexte compliqué pour les mises en productions. ce sont les premières application qui arrive en production et personne ne se mouille ni aucune procédure n'est faite pour la mise en production ",
+                        "references": "Nicolas Bauneau, Remi, Cyrille, Florian Jolivet, Laurence, Pierrick, Sébastien Mortel, Charles, Sassi, Jerome",
+                        "environnementTechnique": "Environnement + infra Azure, 4 Clusters Kubernetes (Azure), Microservices .NET, Terraform, Shell, PowerShell, Python",
+                        "realisations": [
+                            { 
+                                "description" : "Montée en compétence et prise charge du fonctionnement du provisionning (Azure), du déploiement (Kubernetes) d'environ 6 applications en mode cloud",
+                                "realisations": [
+                                    { 
+                                        "description": "Réalisation de pipelines à l'aide des différents templates existants, pour un déploiment continu sur 3 applications",
+                                        "detailsMemory": "Horus Bord de ligne, Horus Logistique, Licensing, MFM, Yourstore"
+                                    },
+                                    { 
+                                        "description": "Mise en place d'une chaine de livraison pour un projet déployé en OnPremise chez le client",
+                                        "realisations": [
+                                            { "description": "Dockerisation et adaptation de Dockerfile pour simplifier le packaging"},
+                                            { "description": "Variabilisation et packaging d'une application composée, à partir de plusieurs repository Git" },
+                                            { "description": "Création des pipelines OnPremise spécifiques à l'application, afin d'obtenir une archive livrable sur le serveur client (via un artifact)" }
+                                        ]
+                                    },
+                                    { 
+                                        "description": "Maintenance et debug sur plusieurs pipelines (CI/CD)",
+                                        "realisations": [
+                                            { 
+                                                "description" : "Accompagnement de plusieurs équipe sur la prise en main des pipelines projet",
+                                                "detailsMemory": "Fonctionnements sur les pipelines OnPremise HOBDL, Debug et fonctionnement général sur Horus Logistique, Debug et PR Yourstore, MFM fonctionnement général avec selection des versions etc ..."
+                                            },
+                                            { "description" : "Debugage sur PR equipes suite à modifications des pipelines"},
+                                            { "description" : "Réalisation de documentations techniques, procédures et de troobleshoot en Markdown"},
+                                            { "description" : "Participation à des points audio réguliers avec les architectes et la partie infra"}
+                                        ]
+                                    },
+                                    { 
+                                        "description" : "Amélioration continue des pipelines et de l'environnement",
+                                        "realisations": [
+                                            { "description" : "Mise en place d'une purge automatique pour libérer de l'espace de stockage sur les ACR"},
+                                            { "description" : "Simplification des template de déploiement standards en séparant la partie infra de la partie applicative"},
+                                            { "description" : "Amélioration d'un pipeline de purge pour supprimer des resources (Namespace Kubernetes, Elements de l'APP gateway azure)"}
+                                        ]
+                                    },
+                                    
+                                    { 
+                                        "description": "Réalisation et mise à jour d'outils",
+                                        "realisations": [
+                                            { "description": "Réalisation d'un outil générique de templating (Python + Jinja2) pour automatiser la génération de mails (mise à disposition des environnements) à partir d'un fichier de paramétrage en yaml"},
+                                            { "description": "Mise à jour d'un module de génération de clef RSA et de chiffrement de données (en .NET) pour simplifier l'utilisation automatisée"},
+                                            { "description": "Réalisation de scripts pour simplifier l'accès (aux développeurs) à un environnement de test OnPremise (Réccupération de clef keyvault, Port forwarding)"}
+
+                                        ]
+                                    },
+                                    
+                                    { 
+                                        "description": "Maintenance et debug sur plusieurs pipelines (CI/CD)",
+                                        "realisations": [
+                                            { 
+                                                "description" : "Accompagnement de plusieurs équipe sur la prise en main des pipelines projet",
+                                                "detailsMemory": "Fonctionnements sur les pipelines OnPremise HOBDL, Debug et fonctionnement général sur Horus Logistique, Debug et PR Yourstore, MFM fonctionnement général avec selection des versions etc ..."
+                                            },
+                                            { "description" : "Debugage sur PR equipes suite à modifications des pipelines"},
+                                            { "description" : "Réalisation de documentations techniques, procédures et de troobleshoot en Markdown"},
+                                            { "description" : "Participation à des points audio réguliers avec les architectes et la partie infra"}
+                                        ]
+                                    }
+                                ]   
+                            }
+                        ]
+                    },
+
+                    {
+                        "client": "Ace Digitale",
+                        "dateDebut": "2021-01-03",
+                        "dateFin": "2022-01-01",
+                        "domaine": "Développeur C#, Devops",
+                        "detailsMemory": "Marc-Alexandre Zaenker, Cecilia Cvi, Florian Jolivet, Yanis Rajbaoui, Antoine",
+                        "environnementTechnique": "Azure Devops, Git, Dotnet Core 3.1",
+                        "intitule": "Développement et maintenance d'un CRM",
+                        "realisations": [
+                            {
+                                "description": "Environnement/Devops ",
+                                "realisations": [
+                                    {   "description": "Reprise et remise en route des environnements (Dev, Recette et Prod) et de la chaine devops (Azure DevOps)" },
+                                    {   "description": "Création d’un environnement de test à l’aide de containers Docker, SQL Server intégré à la chaine de livraison Azure DevOps" },
+                                    {   "description": "Accompagnement de l’équipe de développement dans la prise en main d’Azure DevOps " },
+                                    {   
+                                        "description": "Installation d’un Cluster Kubernetes (Bare Metal) pour préparer et simplifier la réalisation d’une version microservices de l’application" ,
+                                        "realisations": [
+                                            { "description" : "Installation d’un stack grafana pour le monitoring"},
+                                            { "description" : "Installation d’environnements sur différents namespaces"},
+                                            { "description" : "Intégration d’une chaine de déploiement Azure Devops avec déploiement automatique sur le cluster (gestion dynamique des déploiements de microservices)"},
+                                            { "description" : "Optimisation des pipelines de build et de déploiement (au niveau temps)"},
+                                            { "description" : "Déploiement d’une API Gateway Ocelot"}
+                                            
+                                        ]
+                                     }
+                                ]
+                            },
+                            {
+                                "description": "Développement",
+                                "realisations": [
+                                    {   "description": "Reprise du projet dotNet existant" },
+                                    {   "description": "Réalisation d’un poc en React Native/Web" },
+                                    {   "description": "Réalisation d’un service de génération de template razor vers PDF côté backend" },
+                                    {   "description": "Réalisation d’un module de gestion d’astreintes" },
+                                    {   "description": "Réalisation de TU et de tests d’intégration" },
+                                    {   "description": "Rafraichissement de l’interface de l’application CSS, ASP.NET (Razor)" },
+                                    {   "description": "Réalisation de la pagination pour plusieurs modules existants" },
+                                    {   "description": "Optimisation de génération de zip sous la forme d’un streaming de fichier"}
+                                    
+                                ]
+                                
+                            },
+                            {
+                                "description": "Dev/ops",
+                                "realisations": [
+                                    {   "description": "Installation d'un cluster" },
+                                    {   "description": "Réalisation d’un poc en React Native/Web" },
+                                    {   "description": "Réalisation d’un service de génération de template razor vers PDF côté backend" },
+                                    {   "description": "Réalisation d’un module de gestion d’astreintes" },
+                                    {   "description": "Réalisation de TU et de tests d’intégration" },
+                                    {   "description": "Rafraichissement de l’interface de l’application CSS, ASP.NET (Razor)" },
+                                    {   "description": "Réalisation de la pagination pour plusieurs modules existants" }
+                                    
+                                ]
+                                
+                            }
+                        ]
+                    },
+ 
                     {
                         "typeExperience": "bénévolat",
                         "client": "Coopalim Strasbourg",
@@ -1049,6 +1183,30 @@
             }
         ],
         "formations": [
+            {
+                "dateFin": "5 jours 2021",
+                "intitule": "Formation M-AZ400 Azure DevOps",
+                "lieu": "Formation Orsys à distance",
+                "contenu": "Introduction au développement mobile, avec présentation et pratique progressive sur des outils tels que : React Native, NodeJs, Redux"
+            },
+            {
+                "dateFin": "5 jours 2021",
+                "intitule": "Formation M-AZ204 Développement Solutions Microsoft Azure",
+                "lieu": "Formation Orsys à distance",
+                "contenu": "Introduction au développement mobile, avec présentation et pratique progressive sur des outils tels que : React Native, NodeJs, Redux"
+            },
+            {
+                "dateFin": "3 jours 2021",
+                "intitule": "Formation Kubernetes",
+                "lieu": "Formation CPF",
+                "contenu": "Initiation, deployments, services, pods, configmaps"
+            },
+            {
+                "dateFin": "3 jours 2021",
+                "intitule": "Formation Angular 8",
+                "lieu": "Formation Orsys à distance",
+                "contenu": "Introduction au développement mobile, avec présentation et pratique progressive sur des outils tels que : React Native, NodeJs, Redux"
+            },
             {
                 "dateFin": "10-06-2020 au 12-06-2020",
                 "intitule": "React Native, développer des applications mobiles natives - réf : FRNCV1",

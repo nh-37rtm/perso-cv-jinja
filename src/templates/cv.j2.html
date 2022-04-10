@@ -2,7 +2,7 @@
 
 <head>
    <title>CV</title>
-   <link rel="stylesheet" type="text/css" href="cv.css">
+   <link rel="stylesheet" type="text/css" href="./data/cv.css">
    </link>
 </head>
 
@@ -17,7 +17,7 @@
          <h1>COMPéTENCES</h1>
          <ul>
             {% for competence in data.competences %}
-               {{ context.renderTemplate(   'connaissance.j2.html', competence ) }}
+               {{ context.renderTemplate('connaissance.j2.html', competence ) }}
             {% endfor %}
          </ul>
          <h1>AUTRES CONNAISSANCES</h1>
