@@ -127,6 +127,44 @@
                 ],
                 "experiences": [
                     {
+                        "client": "Ace Digitale",
+                        "dateDebut": "2022-01-05",
+                        "dateFin": "",
+                        "domaine": "Développeur C#, Devops",
+                        "detailsMemory": "Cecilia Cvi, Yanis Rajbaoui, Antoine, Alexandre, Yosri",
+                        "environnementTechnique": "Azure Devops, Git, Dotnet Core 3.1",
+                        "intitule": "Développement et maintenance d'un CRM",
+                        "realisations": [
+                            {
+                                "description": "Environnement/Devops ",
+                                "realisations": [
+                                    {   "description": "Mise en place d’une architecture projet avec des éléments comme : Kafka, Postgres, MSSql, Keycloak" },
+                                    {   "description": "Dockerisation de plusieurs microservices projets : Angular, dotNet, Java" },
+                                    {   "description": "Accompagnement de l’équipe de développement dans la prise en main d’Azure DevOps " },
+                                    {   
+                                        "description": "Maintenance d’un serveur Kubernetes Bare Metal (6 nœuds), environ 100 pods et 3 namespaces applicatifs" ,
+                                        "realisations": [
+                                            { "description" : "Installation et paramétrage d'un stack de monitoring via Helm ex : Loki-stack"},
+                                            { "description" : "Installation d’environnements sur différents namespaces"},
+                                            { "description" : "Installation d’un driver CSI pour la gestion du provisionnement automatique via un cluster Ceph"},
+                                            { "description" : "Gestion manuelle d’une partie des volumes persistents : LVM, via un accès SSH"},
+                                            { "description" : "Déploiement d’une API Gateway Ocelot"},
+                                            { "description" : "Réalisation d’une chaine de livraison automatisée et indépendente par microservice (pour 5 microservices) en utilisant des scripts python + templates Azure"}
+                                        ]
+                                     }
+                                ]
+                            },
+                            {
+                                "description": "Développement",
+                                "realisations": [
+                                    {   "description": "Réalisation d’un consumer Kafka en C# avec tentative de reconnexion multiples" },
+                                    {   "description": "Amélioration d’un moteur de template jinja2 écrit en python pour ajouter un paramétrage via un fichier de configuration" },                                    {   "description": "Maintenance d’une application dotNet en fin de vie (débogage et ajustements)" }
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        
                         "client": "Hub-One",
                         "dateFin": "2022-05-01",
                         "dateDebut": "2022-01-01",
