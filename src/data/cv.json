@@ -130,8 +130,9 @@
                         "client": "Ace Digitale",
                         "dateDebut": "2022-01-05",
                         "dateFin": "",
-                        "domaine": "Développeur C#, Devops",
-                        "detailsMemory": "Cecilia Cvi, Yanis Rajbaoui, Antoine, Alexandre, Yosri",
+                        "domaine": "Développeur C#, Python, Devops",
+                        "detailsMemory": "",
+                        "references": "Antoine Chatelard, Yosri Naghmouchi, François Grosjean",
                         "environnementTechnique": "Azure Devops, Git, Dotnet Core 3.1",
                         "intitule": "Développement et maintenance d'un CRM",
                         "realisations": [
