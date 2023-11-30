@@ -57,7 +57,7 @@
                 "description": "Anglais (moyen + technique), Italien (notions)"
             },
             {
-                "intitule": "Autres centres d'intérets",
+                "intitule": "Autres centres d'intérêts",
                 "description": "Science fiction. Vélo, badminton, danse"
             }
         ],
@@ -67,7 +67,7 @@
                 "afinite": 70
             },
             {
-                "description": "Réalisation d'outils de developpement (librairies)",
+                "description": "Réalisation d'outils de développement (librairies)",
                 "afinite": 80
             },
             {
@@ -78,7 +78,7 @@
                 "description": "Documentation des utilisateurs"
             },
             {
-                "intitule": "Languages (Par ordre d'afinité)",
+                "intitule": "Languages (Par ordre d’affinité)",
                 "description": "Java, Perl, Python, NodeJS, PHP,ASP,HTML/CSS/Javascript, Visual Basic; XML/XSLT"
             },
             {
@@ -126,6 +126,59 @@
                     }
                 ],
                 "experiences": [
+                    {
+                        "client": "Ace Digitale",
+                        "dateDebut": "2023-05-01",
+                        "dateFin": "",
+                        "domaine": "Développeur Python",
+                        "detailsMemory": "Première expérience dans un pôle sécurité, au début très attentionnée. je fait quelques présentations suites à mes découvertes. Le rapport détonant. Le développement sur le module Atlassian avance bien, je fait des choses plutôt rapidement selon Vincent, et dans un premier temps. Puis après leur avoir indiqué qu'au niveau Dev il y avait des façon de simplifier les tests pour le faire unitairement sans avoir une montagne à monter à la main en dev. puis aucune remarque, peu d'avancement alors que la date de fin de l'année et du lancement des scans officiels approche.",
+                        "references": "Vincent, Fabien Virot, Bastien, Esther, Maxence, Amaury",
+                        "environnementTechnique": "Python, Gitlab, Docker, Splunk, VSCode (module remote development), HashiCorp Vault, dev containers, Ansible Tower",
+                        "intitule": "Développeur Outils et Industrialisation",
+                        "realisations": [
+                            {
+                                "description": "Refonte d'un module de hunting sur Outils Atlassian (Jira, Confluence)",
+                                "realisations": [
+                                    "reprise du projet existant",
+                                    "amélioration du découpage des dépendances",
+                                    "mise en place d'un flux de traitement optimisé grace à des appels asynchrones et plusieurs pool de traitements en parallèle",
+                                    "ajout d'un mode partiel pour faciliter les tests (grande quantité d'articles à scanner)",
+                                    "réalisation de tests sur plusieurs types d'environnements, scan direct, via proxy, résultats dans splunk",
+                                    "réalisation d'un pipeline de build (POC) permettant : le build via l'outil interne de gestion des packages/images (JFrog Artifactory) et le run (via un runner gitlab)"
+                                ]
+                            },
+                            { "description": "Gestion de tickets de suivit des vulnérabilités/suivit d'application des patchs au sein d'Enedis" },
+                            { "description": "Identification et présentation d'améliorations possible dans la gestion courante de tickets, le développement des modules" },
+                            { "description": "Réalisation d'un script de test de non regression pour les expressions régulières de détection d'informations sensibles, permettant de faciliter les optimisations sur les expressions existantes" },
+                            { "description": "Réalisation d'une appliance de VM (VirtualBox) pour simplifier le setup de l'environnement de développement aux nouveaux arrivants" },
+                            {
+                                "description": "Participation à la définition d'une architecture (et démarrage de mise en place) pour lancement des scans de hunting",
+                                "realisations": [
+                                    {   "description": "création d'une image docker de base" },
+                                    {   "description": "POC et tests sur la " },
+                                    {   "description": "Accompagnement de l’équipe de développement dans la prise en main d’Azure DevOps " },
+                                    {   
+                                        "description": "Maintenance d’un serveur Kubernetes Bare Metal (6 nœuds), environ 100 pods et 3 namespaces applicatifs" ,
+                                        "realisations": [
+                                            { "description" : "Installation et paramétrage d'un stack de monitoring via Helm ex : Loki-stack"},
+                                            { "description" : "Installation d’environnements sur différents namespaces"},
+                                            { "description" : "Installation d’un driver CSI pour la gestion du provisionnement automatique via un cluster Ceph"},
+                                            { "description" : "Gestion manuelle d’une partie des volumes persistents : LVM, via un accès SSH"},
+                                            { "description" : "Déploiement d’une API Gateway Ocelot"},
+                                            { "description" : "Réalisation d’une chaine de livraison automatisée et indépendente par microservice (pour 5 microservices) en utilisant des scripts python + templates Azure"}
+                                        ]
+                                     }
+                                ]
+                            },
+                            {
+                                "description": "Développement",
+                                "realisations": [
+                                    {   "description": "Réalisation d’un consumer Kafka en C# avec tentative de reconnexion multiples" },
+                                    {   "description": "Amélioration d’un moteur de template jinja2 écrit en python pour ajouter un paramétrage via un fichier de configuration" },                                    {   "description": "Maintenance d’une application dotNet en fin de vie (débogage et ajustements)" }
+                                ]
+                            }
+                        ]
+                    },
                     {
                         "client": "Ace Digitale",
                         "dateDebut": "2022-01-05",
