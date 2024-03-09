@@ -1,0 +1,158 @@
+{
+    "$schema": "http://json-schema.org/draft-07/schema#",
+    "title": "Product",
+    "description": "A product from Acme's catalog",
+    "definitions": {
+        "realisation": {
+            "type": "object",
+            "properties": {
+                "description": {},
+                "text" : {},
+                "resultats" : {},
+                "detailsMemory": {},
+                "realisations": {
+                    "type": "array",
+                    "items": {
+                        "type": "object",
+                        "$ref": "#/definitions/realisation"
+                    }
+                }
+            }
+        },
+        "experience": {
+            "type": "object",
+            "properties": {
+                "objectif": {
+                    "type" : "array",
+                    "items": {
+                        "type": "object",
+                        "properties": {
+                            "description" : {}
+                        }
+                    }
+                },
+                "dateDebut": {},
+                "dateFin": {},
+                "environnementTechnique": {},
+                "typeExperience": {},
+                "secteur": {},
+                "contexte":{},
+                "domaine": {},
+                "client": {},
+                "intitule": {},
+                "presentation": {},
+                "resume": {},
+                "detailsMemory": {},
+                "references": {},
+                "experiences": {
+                    "type": "array",
+                    "items": {
+                        "type": "object",
+                        "$ref": "#/definitions/experience"
+                    }
+                },
+                "realisations": {
+                    "type": "array",
+                    "items": {
+                        "type": "object",
+                        "$ref": "#/definitions/realisation"
+                    }
+                },
+                "service" : {}
+            }
+        },
+        "connaissance": {
+            "type": "object",
+            "properties": {
+                "intitule": {},
+                "description": {},
+                "afinite": {
+                    "type": "integer"
+                },
+                "connaissances": {
+                    "type": "array",
+                    "items": {
+                        "type": "object",
+                        "$ref": "#/definitions/connaissance"
+                    }
+                }
+            }
+        },
+        "formation": {
+            "type": "object",
+            "properties": {
+                "intitule": {},
+                "dateFin": {},
+                "lieu": {},
+                "contenu": {}
+            }
+        }
+    },
+    "properties": {
+        "curriculum": {
+            "required": [
+                "etatCivil",
+                "competences"
+            ],
+            "type": "object",
+            "properties": {
+                "poste": {
+                    "type": "string"
+                },
+                "etatCivil": {
+                    "type": "object",
+                    "properties": {
+                        "nom": {},
+                        "prenom": {},
+                        "mail": {
+                            "type": "string"
+                        },
+                        "telephone": {},
+                        "dateNaissance": {},
+                        "adresse": {
+                            "type": "object",
+                            "properties": {
+                                "codePostal": {
+                                    "type": "integer",
+                                    "minimum": 10000,
+                                    "maximum": 98000
+                                },
+                                "intitule": {
+                                    "pattern": "^\\d{4}$"
+                                },
+                                "numero": {
+                                    "type": "integer",
+                                    "ville": {}
+                                }
+                            }
+                        }
+                    }
+                },
+                "experiences": {
+                    "type": "array",
+                    "items": {
+                        "$ref": "#/definitions/experience"
+                    }
+                },
+                "competences": {
+                    "type": "array",
+                    "items": {
+                        "$ref": "#/definitions/connaissance"
+                    }
+                },
+                "connaissances": {
+                    "type": "array",
+                    "items": {
+                        "$ref": "#/definitions/connaissance"
+                    }
+                },
+                "formations": {
+                    "type": "array",
+                    "items": {
+                        "$ref": "#/definitions/formation"
+                    }
+                }
+            }
+        }
+    }
+}
