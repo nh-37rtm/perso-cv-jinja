@@ -22,6 +22,14 @@ optional arguments:
 
 running exemple :
 ````
-./src/generate.py -o ./toto.html -t ./src/templates/cv.j2.html
+python3 ./src/generate.py -o ./out/cv.html -t ./src/templates/cv.j2.html
+
+# not working ?
+wkhtmltopdf ./out/cv.html ./out/cv.pdf
 ````
+
+
+## Get files
+
+C:\Users\heimn>scp local-debian:/home/nheim/src/perso-cv-jinja/out/cv.* .
 

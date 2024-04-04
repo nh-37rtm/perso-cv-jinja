@@ -64,45 +64,69 @@
         "competences": [
             {
                 "description": "Réalisation, déploiement et maintenance d'applications",
-                "afinite": 70
+                "afinite": 70,
+                "tags": [
+                    "devops"
+                ]
             },
             {
                 "description": "Réalisation d'outils de développement (librairies)",
-                "afinite": 80
+                "afinite": 80,
+                "tags": [
+                    "devops"
+                ]
             },
             {
                 "description": "Réalisation et Automatisation de tests",
-                "afinite": 60
+                "afinite": 60,
+                "tags": [
+                    "devops"
+                ]
             },
             {
                 "description": "Documentation des utilisateurs"
             },
             {
                 "intitule": "Languages (Par ordre d’affinité)",
-                "description": "Java, Perl, Python, NodeJS, PHP,ASP,HTML/CSS/Javascript, Visual Basic; XML/XSLT"
+                "description": "Java, Perl, Python, NodeJS, PHP,ASP,HTML/CSS/Javascript, Visual Basic; XML/XSLT",
+                "tags": "developpeur"
             },
             {
                 "intitule": "EDI utilisés",
-                "description": "Eclipse, Visual Studio Code, Visual Sudio"
+                "description": "Eclipse, Visual Studio Code, Visual Sudio",
+                "tags": "developpeur"
             },
             {
                 "intitule": "Frameworks utilisés",
-                "description": "J2EE/JEE6, JQuery, vert.x"
+                "description": "J2EE/JEE6, JQuery, vert.x",
+                "tags": "developpeur"
             },
             {
                 "intitule": "Mapping Objet/Relationnel",
-                "description": "JPA(Hibernate, EclipseLink)"
+                "description": "JPA(Hibernate, EclipseLink)",
+                "tags": "developpeur"
             },
             {
                 "intitule": "Gestion des sources",
-                "description": "Git, SVN, Clearcase"
+                "description": "Git, SVN, Clearcase",
+                "tags": [
+                    "devops",
+                    "developpeur"
+                ]
             },
             {
                 "intitule": "Containerisation",
-                "description": "Création et Migration d’applications en container applicatifs Docker"
+                "description": "Création et Migration d’applications en container applicatifs Docker",
+                "tags": [
+                    "devops",
+                    "developpeur"
+                ]
             },
             {
-                "description": "Modélisation de données objet"
+                "description": "Modélisation de données objet",
+                "tags": [
+                    "developpeur"
+                ]
             }
         ],
         "experiences": [
@@ -111,18 +135,49 @@
                 "intitule": "",
                 "client": "Ace Digitale",
                 "domaine": "",
-                "presentation": "",
+                "presentation": "Dockerisation et décomposition d'applications en microservices, déploiment d'infrastructure virtuelles sur des plateformes variées dans certains cas automatisés grace à des descripteur terraform. Réalisation de CI/CD d",
                 "contenu": "",
                 "resume": "",
                 "references": "",
-                "environnementTechnique": "",
+                "realisations": [
+                    {
+                        "description": "Dockerisation et décomposition d'applications en microservices."
+                    },
+                    {
+                        "description": "déploiment d'infrastructure virtuelles sur des plateformes variées dans certains cas automatisés grace à des descripteurs terraform."
+                    },
+                    {
+                        "description": "Réalisation de CI/CD portables et simplifiées à l'aide de scripts en python."
+                    },
+                    {
+                        "description": "Accompagnement des équipes sur des bonnes pratiques de développement portables et facilitant l'intégration future notament à l'aide de compose files et de dev containers."
+                    },
+                    {
+                        "descritption": "Déploiement et maintenance de clusters HA kubernetes sur plusieurs plateformes"
+                    },
+                    {
+                        "description": "Réalisation d'outils d'aide au developpement, Chargement flexible de la configuration (Python), échanges robustes Kafka (C#), module de fédération d'identité Keycloak (Java), Scripts de sauvegarde sur données système/Persistent Volumes Kube à l'aide de BorgBackup"
+                    }
+                ],
+                "environnements": [
+                    {
+                        "Cloud": "Azure",
+                        "CI/CD": "Gitlab, Azure devops",
+                        "Gestion des sources": "Git",
+                        "Système": "Linux Debian/Ubuntu, CentOS"
+                    }
+                ],
                 "experiences": [
                     {
                         "client": "Enedis",
                         "dateDebut": "2023-05-01",
                         "dateFin": "2024-02-02",
                         "domaine": "Développeur Python, outils et Devops",
-                        "domaines": [ "Développeur Python", "Développeur Outils", "DevOps" ],
+                        "domaines": [
+                            "Développeur Python",
+                            "Développeur Outils",
+                            "DevOps"
+                        ],
                         "presentation": "Intégration d'une équipe du cert Enedis dans le cadre de la reprise d'un projet de hunting, ",
                         "detailsMemory": "Première expérience dans un pôle sécurité, au début très attentionnée. je fait quelques présentations suites à mes découvertes. Le rapport détonant. Le développement sur le module Atlassian avance bien, je fait des choses plutôt rapidement selon Vincent, et dans un premier temps. Puis après leur avoir indiqué qu'au niveau Dev il y avait des façon de simplifier les tests pour le faire unitairement sans avoir une montagne à monter à la main en dev. puis aucune remarque, peu d'avancement alors que la date de fin de l'année et du lancement des scans officiels approche.",
                         "references": "Vincent Garcia, Fabien Virot, Bastien, Esther, Maxence, Amaury",
@@ -132,24 +187,50 @@
                             {
                                 "description": "Refonte d'un module de hunting sur Outils Atlassian (Jira, Confluence)",
                                 "realisations": [
-                                    { "description": "reprise du projet existant" },
-                                    { "description":"amélioration du découpage des dépendances" },
-                                    { "description":"mise en place d'un flux de traitement optimisé grace à des appels asynchrones et plusieurs pool de traitements en parallèle" },
-                                    { "description":"ajout d'un mode partiel pour faciliter les tests (grande quantité d'articles à scanner)" },
-                                    { "description":"réalisation de tests sur plusieurs types d'environnements, scan direct, via proxy, résultats dans splunk" },
-                                    { "description": "réalisation d'un pipeline de build (POC) permettant : le build via l'outil interne de gestion des packages/images (JFrog Artifactory) et le run (via un runner gitlab)" }
+                                    {
+                                        "description": "reprise du projet existant"
+                                    },
+                                    {
+                                        "description": "amélioration du découpage des dépendances"
+                                    },
+                                    {
+                                        "description": "mise en place d'un flux de traitement optimisé grace à des appels asynchrones et plusieurs pool de traitements en parallèle"
+                                    },
+                                    {
+                                        "description": "ajout d'un mode partiel pour faciliter les tests (grande quantité d'articles à scanner)"
+                                    },
+                                    {
+                                        "description": "réalisation de tests sur plusieurs types d'environnements, scan direct, via proxy, résultats dans splunk"
+                                    },
+                                    {
+                                        "description": "réalisation d'un pipeline de build (POC) permettant : le build via l'outil interne de gestion des packages/images (JFrog Artifactory) et le run (via un runner gitlab)"
+                                    }
                                 ]
                             },
-                            { "description": "Gestion de tickets de suivit des vulnérabilités/suivit d'application des patchs au sein d'Enedis" },
-                            { "description": "Identification et présentation d'améliorations possible dans la gestion courante de tickets, le développement des modules" },
-                            { "description": "Réalisation d'un script de test de non regression pour les expressions régulières de détection d'informations sensibles, permettant de faciliter les optimisations sur les expressions existantes" },
-                            { "description": "Réalisation d'une appliance de VM (VirtualBox) pour simplifier le setup de l'environnement de développement aux nouveaux arrivants" },
+                            {
+                                "description": "Gestion de tickets de suivit des vulnérabilités/suivit d'application des patchs au sein d'Enedis"
+                            },
+                            {
+                                "description": "Identification et présentation d'améliorations possible dans la gestion courante de tickets, le développement des modules"
+                            },
+                            {
+                                "description": "Réalisation d'un script de test de non regression pour les expressions régulières de détection d'informations sensibles, permettant de faciliter les optimisations sur les expressions existantes"
+                            },
+                            {
+                                "description": "Réalisation d'une appliance de VM (VirtualBox) pour simplifier le setup de l'environnement de développement aux nouveaux arrivants"
+                            },
                             {
                                 "description": "Participation à la définition d'une architecture (et démarrage de mise en place) pour lancement des scans de hunting",
                                 "realisations": [
-                                    { "description": "création d'une image docker de base" },
-                                    { "description": "POC et tests sur la VM de qualification" },
-                                    { "description": "Développement d'un module de gestion de configuration pour facilement centraliser la configuration de différentes sources, variables d’environnement (Runner Gitlab), fichiers de configuration et Hachicorp Vault"}
+                                    {
+                                        "description": "création d'une image docker de base"
+                                    },
+                                    {
+                                        "description": "POC et tests sur la VM de qualification"
+                                    },
+                                    {
+                                        "description": "Développement d'un module de gestion de configuration pour facilement centraliser la configuration de différentes sources, variables d’environnement (Runner Gitlab), fichiers de configuration et Hachicorp Vault"
+                                    }
                                 ]
                             }
                         ]
@@ -159,7 +240,12 @@
                         "dateDebut": "2022-01-05",
                         "dateFin": "",
                         "domaine": "Développeur C#, Python, DevOps",
-                        "domaines": [ "DevOps", "Développeur c#", "Développeur Python", "Développeur Outils" ],
+                        "domaines": [
+                            "DevOps",
+                            "Développeur c#",
+                            "Développeur Python",
+                            "Développeur Outils"
+                        ],
                         "detailsMemory": "",
                         "references": "Antoine Chatelard, Yosri Naghmouchi, François Grosjean",
                         "environnementTechnique": "Azure Devops, Git, Dotnet Core 3.1, Keycloak",
@@ -169,35 +255,57 @@
                             {
                                 "description": "Environnement/Devops ",
                                 "realisations": [
-                                    {   "description": "Mise en place d’une architecture projet avec des éléments comme : Kafka, Postgres, MSSql, Keycloak" },
-                                    {   "description": "Dockerisation de plusieurs microservices projets : Angular, dotNet, Java" },
-                                    {   "description": "Accompagnement de l’équipe de développement dans la prise en main d’Azure DevOps " },
-                                    {   
-                                        "description": "Maintenance d’un serveur Kubernetes Bare Metal (6 nœuds), environ 100 pods et 3 namespaces applicatifs" ,
+                                    {
+                                        "description": "Mise en place d’une architecture projet avec des éléments comme : Kafka, Postgres, MSSql, Keycloak"
+                                    },
+                                    {
+                                        "description": "Dockerisation de plusieurs microservices projets : Angular, dotNet, Java"
+                                    },
+                                    {
+                                        "description": "Accompagnement de l’équipe de développement dans la prise en main d’Azure DevOps "
+                                    },
+                                    {
+                                        "description": "Maintenance d’un serveur Kubernetes Bare Metal (6 nœuds), environ 100 pods et 3 namespaces applicatifs",
                                         "realisations": [
-                                            { "description" : "Installation et paramétrage d'un stack de monitoring via Helm ex : Loki-stack"},
-                                            { "description" : "Installation d’environnements sur différents namespaces"},
-                                            { "description" : "Installation d’un driver CSI pour la gestion du provisionnement automatique via un cluster Ceph"},
-                                            { "description" : "Gestion manuelle d’une partie des volumes persistants : LVM, via un accès SSH"},
-                                            { "description" : "Réalisation d’une chaîne de livraison automatisée et indépendante par microservice (pour 5 microservices) en utilisant des scripts python + templates Azure"}
+                                            {
+                                                "description": "Installation et paramétrage d'un stack de monitoring via Helm ex : Loki-stack"
+                                            },
+                                            {
+                                                "description": "Installation d’environnements sur différents namespaces"
+                                            },
+                                            {
+                                                "description": "Installation d’un driver CSI pour la gestion du provisionnement automatique via un cluster Ceph"
+                                            },
+                                            {
+                                                "description": "Gestion manuelle d’une partie des volumes persistants : LVM, via un accès SSH"
+                                            },
+                                            {
+                                                "description": "Réalisation d’une chaîne de livraison automatisée et indépendante par microservice (pour 5 microservices) en utilisant des scripts python + templates Azure"
+                                            }
                                         ]
-                                     }
+                                    }
                                 ]
                             },
                             {
                                 "description": "Développement",
                                 "realisations": [
-                                    {   "description": "Réalisation d’un consumer Kafka en C# avec tentative de reconnexion multiples" },
-                                    {   "description": "Amélioration d’un moteur de template jinja2 écrit en python pour ajouter un paramétrage via un fichier de configuration" },                                    
-                                    {   "description": "Maintenance d’une application dotNet en fin de vie (débogage et ajustements)" },
-                                    {   "description": "Réalisation d'un microservice en python servant de serveur de fichier HTTP, un test de charge du microservice est réalisé et automatisé à l'aide d'un script en python"}
-
+                                    {
+                                        "description": "Réalisation d’un consumer Kafka en C# avec tentative de reconnexion multiples"
+                                    },
+                                    {
+                                        "description": "Amélioration d’un moteur de template jinja2 écrit en python pour ajouter un paramétrage via un fichier de configuration"
+                                    },
+                                    {
+                                        "description": "Maintenance d’une application dotNet en fin de vie (débogage et ajustements)"
+                                    },
+                                    {
+                                        "description": "Réalisation d'un microservice en python servant de serveur de fichier HTTP, un test de charge du microservice est réalisé et automatisé à l'aide d'un script en python"
+                                    }
                                 ]
                             }
                         ]
                     },
                     {
-                        
                         "client": "Hub-One",
                         "dateFin": "2022-05-01",
                         "dateDebut": "2022-01-01",
@@ -208,53 +316,75 @@
                         "intitule": "Automatisations et Industrialisation",
                         "presentation": "Maintenance de pipelines sous Azure Devops, accompagnement de développeurs dans le cadre d'industrialisations de projet",
                         "realisations": [
-                            { "description" : "Montée en compétence et prise charge du fonctionnement du provisionning (Azure), du déploiement (Kubernetes) d'environ 6 applications en mode cloud" },
-
-                            { 
+                            {
+                                "description": "Montée en compétence et prise charge du fonctionnement du provisionning (Azure), du déploiement (Kubernetes) d'environ 6 applications en mode cloud"
+                            },
+                            {
                                 "description": "Réalisation de pipelines à l'aide des différents templates existants, pour un déploiement continu sur 3 applications",
                                 "detailsMemory": "Horus Bord de ligne, Horus Logistique, Licensing, MFM, Yourstore"
                             },
-                            { 
+                            {
                                 "description": "Mise en place d'une chaine de livraison pour un projet déployé en OnPremise chez le client",
                                 "realisations": [
-                                    { "description": "Dockerisation et adaptation de Dockerfile pour simplifier le packaging"},
-                                    { "description": "Variabilisation et packaging d'une application composée, à partir de plusieurs repository Git" },
-                                    { "description": "Création des pipelines OnPremise spécifiques à l'application, afin d'obtenir une archive livrable sur le serveur client (via un artifact)" }
+                                    {
+                                        "description": "Dockerisation et adaptation de Dockerfile pour simplifier le packaging"
+                                    },
+                                    {
+                                        "description": "Variabilisation et packaging d'une application composée, à partir de plusieurs repository Git"
+                                    },
+                                    {
+                                        "description": "Création des pipelines OnPremise spécifiques à l'application, afin d'obtenir une archive livrable sur le serveur client (via un artifact)"
+                                    }
                                 ]
                             },
-                            { 
+                            {
                                 "description": "Maintenance et debug sur plusieurs pipelines (CI/CD)",
                                 "realisations": [
-                                    { 
-                                        "description" : "Accompagnement de plusieurs équipes sur la prise en main des pipelines projet",
+                                    {
+                                        "description": "Accompagnement de plusieurs équipes sur la prise en main des pipelines projet",
                                         "detailsMemory": "Fonctionnements sur les pipelines OnPremise HOBDL, Debug et fonctionnement général sur Horus Logistique, Debug et PR Yourstore, MFM fonctionnement général avec selection des versions etc ..."
                                     },
-                                    { "description" : "Debugage sur PR equipes suite à modifications des pipelines"},
-                                    { "description" : "Réalisation de documentations techniques, procédures et de troobleshoot en Markdown"},
-                                    { "description" : "Participation à des points audio réguliers avec les architectes et la partie infra"}
+                                    {
+                                        "description": "Debugage sur PR equipes suite à modifications des pipelines"
+                                    },
+                                    {
+                                        "description": "Réalisation de documentations techniques, procédures et de troobleshoot en Markdown"
+                                    },
+                                    {
+                                        "description": "Participation à des points audio réguliers avec les architectes et la partie infra"
+                                    }
                                 ]
                             },
-                            { 
-                                "description" : "Amélioration continue des pipelines et de l'environnement",
+                            {
+                                "description": "Amélioration continue des pipelines et de l'environnement",
                                 "realisations": [
-                                    { "description" : "Mise en place d'une purge automatique pour libérer de l'espace de stockage sur les ACR"},
-                                    { "description" : "Simplification des template de déploiement standards en séparant la partie infra de la partie applicative"},
-                                    { "description" : "Amélioration d'un pipeline de purge pour supprimer des ressources (Namespace Kubernetes, Elements de l'APP gateway azure)"}
+                                    {
+                                        "description": "Mise en place d'une purge automatique pour libérer de l'espace de stockage sur les ACR"
+                                    },
+                                    {
+                                        "description": "Simplification des template de déploiement standards en séparant la partie infra de la partie applicative"
+                                    },
+                                    {
+                                        "description": "Amélioration d'un pipeline de purge pour supprimer des ressources (Namespace Kubernetes, Elements de l'APP gateway azure)"
+                                    }
                                 ]
                             },
-                            
-                            { 
+                            {
                                 "description": "Réalisation et mise à jour d'outils",
                                 "realisations": [
-                                    { "description": "Réalisation d'un outil générique de templating (Python + Jinja2) pour automatiser la génération de mails (mise à disposition des environnements) à partir d'un fichier de paramétrage en yaml"},
-                                    { "description": "Mise à jour d'un module de génération de clef RSA et de chiffrement de données (en .NET) pour simplifier l'utilisation automatisée"},
-                                    { "description": "Réalisation de scripts pour simplifier l'accès (aux développeurs) à un environnement de test OnPremise (Récupération de clef keyvault, Port forwarding)"}
-
+                                    {
+                                        "description": "Réalisation d'un outil générique de templating (Python + Jinja2) pour automatiser la génération de mails (mise à disposition des environnements) à partir d'un fichier de paramétrage en yaml"
+                                    },
+                                    {
+                                        "description": "Mise à jour d'un module de génération de clef RSA et de chiffrement de données (en .NET) pour simplifier l'utilisation automatisée"
+                                    },
+                                    {
+                                        "description": "Réalisation de scripts pour simplifier l'accès (aux développeurs) à un environnement de test OnPremise (Récupération de clef keyvault, Port forwarding)"
+                                    }
                                 ]
                             }
                         ]
                     },
-
                     {
                         "client": "Ace Digitale",
                         "dateDebut": "2021-01-03",
@@ -269,54 +399,94 @@
                             {
                                 "description": "Environnement/Devops ",
                                 "realisations": [
-                                    {   "description": "Reprise et remise en route des environnements (Dev, Recette et Prod) et de la chaine devops (Azure DevOps)" },
-                                    {   "description": "Création d’un environnement de test à l’aide de containers Docker, SQL Server intégré à la chaine de livraison Azure DevOps" },
-                                    {   "description": "Accompagnement de l’équipe de développement dans la prise en main d’Azure DevOps " },
-                                    {   
-                                        "description": "Installation d’un Cluster Kubernetes (Bare Metal) pour préparer et simplifier la réalisation d’une version microservices de l’application" ,
+                                    {
+                                        "description": "Reprise et remise en route des environnements (Dev, Recette et Prod) et de la chaine devops (Azure DevOps)"
+                                    },
+                                    {
+                                        "description": "Création d’un environnement de test à l’aide de containers Docker, SQL Server intégré à la chaine de livraison Azure DevOps"
+                                    },
+                                    {
+                                        "description": "Accompagnement de l’équipe de développement dans la prise en main d’Azure DevOps "
+                                    },
+                                    {
+                                        "description": "Installation d’un Cluster Kubernetes (Bare Metal) pour préparer et simplifier la réalisation d’une version microservices de l’application",
                                         "realisations": [
-                                            { "description" : "Installation d’un stack grafana pour le monitoring"},
-                                            { "description" : "Installation d’environnements sur différents namespaces"},
-                                            { "description" : "Intégration d’une chaine de déploiement Azure Devops avec déploiement automatique sur le cluster (gestion dynamique des déploiements de microservices)"},
-                                            { "description" : "Optimisation des pipelines de build et de déploiement (au niveau temps)"},
-                                            { "description" : "Déploiement d’une API Gateway Ocelot"}
-                                            
+                                            {
+                                                "description": "Installation d’un stack grafana pour le monitoring"
+                                            },
+                                            {
+                                                "description": "Installation d’environnements sur différents namespaces"
+                                            },
+                                            {
+                                                "description": "Intégration d’une chaine de déploiement Azure Devops avec déploiement automatique sur le cluster (gestion dynamique des déploiements de microservices)"
+                                            },
+                                            {
+                                                "description": "Optimisation des pipelines de build et de déploiement (au niveau temps)"
+                                            },
+                                            {
+                                                "description": "Déploiement d’une API Gateway Ocelot"
+                                            }
                                         ]
-                                     }
+                                    }
                                 ]
                             },
                             {
                                 "description": "Développement",
                                 "realisations": [
-                                    {   "description": "Reprise du projet dotNet existant" },
-                                    {   "description": "Réalisation d’un poc en React Native/Web" },
-                                    {   "description": "Réalisation d’un service de génération de template razor vers PDF côté backend" },
-                                    {   "description": "Réalisation d’un module de gestion d’astreintes" },
-                                    {   "description": "Réalisation de TU et de tests d’intégration" },
-                                    {   "description": "Rafraîchissement de l’interface de l’application CSS, ASP.NET (Razor)" },
-                                    {   "description": "Réalisation de la pagination pour plusieurs modules existants" },
-                                    {   "description": "Optimisation de génération de zip sous la forme d’un streaming de fichier"}
-                                    
+                                    {
+                                        "description": "Reprise du projet dotNet existant"
+                                    },
+                                    {
+                                        "description": "Réalisation d’un poc en React Native/Web"
+                                    },
+                                    {
+                                        "description": "Réalisation d’un service de génération de template razor vers PDF côté backend"
+                                    },
+                                    {
+                                        "description": "Réalisation d’un module de gestion d’astreintes"
+                                    },
+                                    {
+                                        "description": "Réalisation de TU et de tests d’intégration"
+                                    },
+                                    {
+                                        "description": "Rafraîchissement de l’interface de l’application CSS, ASP.NET (Razor)"
+                                    },
+                                    {
+                                        "description": "Réalisation de la pagination pour plusieurs modules existants"
+                                    },
+                                    {
+                                        "description": "Optimisation de génération de zip sous la forme d’un streaming de fichier"
+                                    }
                                 ]
-                                
                             },
                             {
                                 "description": "Dev/ops",
                                 "realisations": [
-                                    {   "description": "Installation d'un cluster" },
-                                    {   "description": "Réalisation d’un poc en React Native/Web" },
-                                    {   "description": "Réalisation d’un service de génération de template razor vers PDF côté backend" },
-                                    {   "description": "Réalisation d’un module de gestion d’astreintes" },
-                                    {   "description": "Réalisation de TU et de tests d’intégration" },
-                                    {   "description": "Rafraîchissement de l’interface de l’application CSS, ASP.NET (Razor)" },
-                                    {   "description": "Réalisation de la pagination pour plusieurs modules existants" }
-                                    
+                                    {
+                                        "description": "Installation d'un cluster"
+                                    },
+                                    {
+                                        "description": "Réalisation d’un poc en React Native/Web"
+                                    },
+                                    {
+                                        "description": "Réalisation d’un service de génération de template razor vers PDF côté backend"
+                                    },
+                                    {
+                                        "description": "Réalisation d’un module de gestion d’astreintes"
+                                    },
+                                    {
+                                        "description": "Réalisation de TU et de tests d’intégration"
+                                    },
+                                    {
+                                        "description": "Rafraîchissement de l’interface de l’application CSS, ASP.NET (Razor)"
+                                    },
+                                    {
+                                        "description": "Réalisation de la pagination pour plusieurs modules existants"
+                                    }
                                 ]
-                                
                             }
                         ]
                     },
- 
                     {
                         "typeExperience": "bénévolat",
                         "client": "Coopalim Strasbourg",
@@ -334,13 +504,13 @@
                         "realisations": [
                             {
                                 "description": "Création et deploiement d'une image Docker d'application Symphony de l'application Elefan",
-                                "detailsMemory" : "l'application est un gestionnaire de client et de tache  clients pour magasin coopératif"
-                            }, 
+                                "detailsMemory": "l'application est un gestionnaire de client et de tache  clients pour magasin coopératif"
+                            },
                             {
                                 "description": "développement d'un module Keycloak",
                                 "realisations": [
                                     {
-                                        "description" : "Montage d'un environnement docker et Wildfly J2EE en intégrant des images : Mysql, Jboss (WildFly), Keycloak"
+                                        "description": "Montage d'un environnement docker et Wildfly J2EE en intégrant des images : Mysql, Jboss (WildFly), Keycloak"
                                     },
                                     {
                                         "description": "Réalisation et développement de tests unitaires et d'intégration à l'aide d'Arquillian"
@@ -503,7 +673,6 @@
                         "references": "",
                         "environnementTechnique": "Eclipse, Java, Vert.x, Visual Studio (C#), DevBooster, SQLServeur",
                         "detailsMemory": "Micro services Vert.x, échange via un Bus, Routage et Translation à partir d'un référentiel client Point d'acquisition => Acquereur Librairie pour échanges simplifiés avec le HSM Verticle avec echange module de monitoring, Gestion de charge simplifiée (multi HSM), TAG des paquets",
-
                         "service": "Monétique",
                         "realisations": [
                             {
@@ -625,12 +794,12 @@
                                 "realisations": [
                                     {
                                         "description": "Normes sur la mise en place d’une architecture REST utilisant les hyperliens (ou HATEOS)",
-                                        "text" : "tests pour faire de l'HATEOS et anticipation sur la possible migration vers une architecture HATEOS"
+                                        "text": "tests pour faire de l'HATEOS et anticipation sur la possible migration vers une architecture HATEOS"
                                     },
                                     {
                                         "description": "Dashboard de centralisation d’informations sur l’environnement (Builds Jenkins, Anomalies (ALM) …) en utilisant le framework NodeJS",
-                                        "text" : "Synthétisation et accès à l'information des différents outils utilisés de façon redondante dans l'équipe pour faire gagner du temps",
-                                        "resultats" : "Les API (Rest pour la plupart) intégrés dans les différents outils permettent de réussir à remonter facilement les information, l'utilisation de NodeJS ne facilite pas notre tache mais nou arrivons à un résultat convenable malgrés les différents blocages. accès réseau etc, monté en comptétance sur le debug de NodeJS"
+                                        "text": "Synthétisation et accès à l'information des différents outils utilisés de façon redondante dans l'équipe pour faire gagner du temps",
+                                        "resultats": "Les API (Rest pour la plupart) intégrés dans les différents outils permettent de réussir à remonter facilement les information, l'utilisation de NodeJS ne facilite pas notre tache mais nou arrivons à un résultat convenable malgrés les différents blocages. accès réseau etc, monté en comptétance sur le debug de NodeJS"
                                     }
                                 ]
                             }
@@ -671,13 +840,13 @@
                                 "realisations": [
                                     {
                                         "description": "Import de données sur des certifications de partenaires extérieurs",
-                                        "text" : "Réalisation du module backend + de méthode de synchronisation (en plusieurs étapes) des enregistrements d'autres tables. Reprise du fonctionnement existant des batchs avec "
+                                        "text": "Réalisation du module backend + de méthode de synchronisation (en plusieurs étapes) des enregistrements d'autres tables. Reprise du fonctionnement existant des batchs avec "
                                     }
                                 ]
                             },
                             {
                                 "description": "Réalisation d'un outil d'extraction de données d'entrées/sorties (fichier XML) pour une génération automatique de documentation.",
-                                "text" : "Parsing XML des fichiers de configuration Acropole SLD, afin de synthétiser les données sur certains critères et faciliter l'accès aux informations"
+                                "text": "Parsing XML des fichiers de configuration Acropole SLD, afin de synthétiser les données sur certains critères et faciliter l'accès aux informations"
                             },
                             {
                                 "description": "Réalisation de services SOAP à l’aide du framework Acropole SLD, dans le cadre de la gestion de vie d’une inscription d’un demandeur d’emploi à une formation.",
@@ -685,11 +854,11 @@
                             },
                             {
                                 "description": "Réalisation d'un outil d'extraction automatique de données (CSV)",
-                                "text" : "requetage en base avec contruction de requettes dynamiques et extraction des noms de champs pour diagnostiques ou réel besoin des données"
+                                "text": "requetage en base avec contruction de requettes dynamiques et extraction des noms de champs pour diagnostiques ou réel besoin des données"
                             },
                             {
                                 "description": "Réalisation d'un environnement de developpement (out of the box) pour les nouveaux arrivants",
-                                "text" : "Eclipse avec acropoe SLD déjà installé ainsi qu'une préparation et un script d'installation"
+                                "text": "Eclipse avec acropoe SLD déjà installé ainsi qu'une préparation et un script d'installation"
                             }
                         ]
                     },
@@ -744,7 +913,7 @@
                                 "references": "Pascal Hosatte, Jean-Luc Schmerber, Vincent Larrive, Pascal Joly, Sergei",
                                 "service": "SIFA",
                                 "environnementTechnique": "Unix (hétérogène), Perl 5.8.8, ANT 1.8.2, Eclipse (SVN + SFTP), XML, Expressions rationnelles, Jira",
-                                "detailsMemory" : "POPEI à reprendre, je monte en compétence, j'arrive à me dépatouiller. ",
+                                "detailsMemory": "POPEI à reprendre, je monte en compétence, j'arrive à me dépatouiller. ",
                                 "realisations": [
                                     {
                                         "description": "Assistance utilisateurs"
@@ -755,12 +924,11 @@
                                         "realisations": [
                                             {
                                                 "description": "Module de génération de modèles orienté objet avec sa propre syntaxe et possibilité de modélisation dynamique à l'aide de morceaux de perl",
-                                                "resultats" : "Malgré mon conseil de se tourner vers un moteur existant, on me demande de faire un moteur custom pour SIFA, avec sa propre syntaxe. Le moteur de template est dévelopé par dessus la maquette que j'ai utilisé (manque de temps), l'outil n'est pas forcement optimisé à mes souhaits mais fonctionne et est suffisement rapide pour une utilisation dans le projet. Pendant le développement et suite aux difficultés de stabilités pour le parsing et l'ajout de nouvelles expressions au moteur de template je décide de faire une suite de test avancée avec des cas de tests de chaque situations, et un test supplémentaire après chaque correction de bugs"
+                                                "resultats": "Malgré mon conseil de se tourner vers un moteur existant, on me demande de faire un moteur custom pour SIFA, avec sa propre syntaxe. Le moteur de template est dévelopé par dessus la maquette que j'ai utilisé (manque de temps), l'outil n'est pas forcement optimisé à mes souhaits mais fonctionne et est suffisement rapide pour une utilisation dans le projet. Pendant le développement et suite aux difficultés de stabilités pour le parsing et l'ajout de nouvelles expressions au moteur de template je décide de faire une suite de test avancée avec des cas de tests de chaque situations, et un test supplémentaire après chaque correction de bugs"
                                             },
                                             {
                                                 "description": "Automatisation de test à partir de jeux de test fixes pour éviter les régressions"
                                             }
-                                        
                                         ]
                                     },
                                     {
@@ -788,7 +956,7 @@
                                         "realisations": [
                                             {
                                                 "description": "Réalisation d’une couche d’abstraction permettant le requêtage des outils indépendamment du constructeur (EMC, SVC)",
-                                                "detailsMemory" : "utilisation d'outils en ligne de commande avec parsing des résultats, Json, Texte, XML"
+                                                "detailsMemory": "utilisation d'outils en ligne de commande avec parsing des résultats, Json, Texte, XML"
                                             },
                                             {
                                                 "description": "Modélisation et agrégation des données à l’aide d’une structure objet"
@@ -817,9 +985,8 @@
                                 "references": "Antoine Schlupp",
                                 "environnementTechnique": "Windows, Perl, Python, OSGeo, Saga GIS, Quantom GIS (QGGIS)",
                                 "service": "Service d'études et de recherche en Sismologie",
-                                
                                 "realisations": [
-                                    { 
+                                    {
                                         "description": "Réalisation de l'outil semi automatique pour la création de cartes d'isoséistes",
                                         "resultats": "Les cartes sont générés avec succès et validés par Antoine, certains bugs sont corrigés et la documentation approfondie progressivement",
                                         "realisations": [
@@ -834,11 +1001,10 @@
                                             },
                                             {
                                                 "description": "Ajout de paramètres utilisateurs customisables via des fichiers de configuration",
-                                                "detailsMemory" : "Après utilisation il s'avère que certains paramètres (comme l'arrondis ou certaines distances) doivent être ajustables pour rendre l'outil plus flexible"
+                                                "detailsMemory": "Après utilisation il s'avère que certains paramètres (comme l'arrondis ou certaines distances) doivent être ajustables pour rendre l'outil plus flexible"
                                             }
-
                                         ]
-                                     }
+                                    }
                                 ]
                             },
                             {
@@ -855,8 +1021,12 @@
                                 "service": "SIFA/TMI",
                                 "environnementTechnique": "KSH, Unix (hétérogène), SDI",
                                 "realisations": [
-                                    { "description" : "Enrichissement de tiquet SDI (Niveau2)" },
-                                    { "description" : "Réalisation de POC pour tentatives d'automatisation de taches" }
+                                    {
+                                        "description": "Enrichissement de tiquet SDI (Niveau2)"
+                                    },
+                                    {
+                                        "description": "Réalisation de POC pour tentatives d'automatisation de taches"
+                                    }
                                 ]
                             },
                             {

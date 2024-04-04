@@ -6,11 +6,19 @@
     "configurations": [
         {
             "name": "Python: Current File",
-            "type": "python",
+            "type": "debugpy",
             "request": "launch",
             "program": "src/generate.py",
             "args": [ "-o", "./toto.xml", "-t", "./src/templates/ace2023/xp.j2.xml"],
             "console": "integratedTerminal",
-        }
+            "justMyCode": false,
+        },
+        {
+            "name": "Debug Unit Test",
+            "purpose": ["debug-test"],
+            "type": "debugpy",
+            "request": "launch",
+            "justMyCode": false,
+        },
     ]
 }

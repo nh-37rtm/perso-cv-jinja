@@ -70,14 +70,14 @@ class ITimeSpanElement():
     date_debut: CustomDateTime
     date_fin: CustomDateTime
 
-class IOptionalTimeSpanElement(CVBaseModel):
+class IOptionalTimeSpanElement():
     date_debut: t.Optional[CustomDateTime] = None
     date_fin: t.Optional[CustomDateTime] = None
 
 
-class Realisation():
+class Realisation(BaseModel):
     description: str
-    realisations: t.Optional[list['Realisation']]
+    realisations: t.Optional[list['Realisation']] = None
 
 
 class BaseExperience(ITimeSpanElement):
@@ -95,7 +95,6 @@ class Experience(BaseExperience):
     details_memory: t.Optional[str]
     references: t.Optional[str]
     environnement_technique: str
-    intitule: t.Optional[str]
     realisations: list[Realisation]
     
 class JExperienceList(list[Experience], JsonObject):
@@ -106,4 +105,3 @@ class JExperience(Experience, JsonObject):
 
 class VExperience(CVBaseModel, Experience):
     pass
-

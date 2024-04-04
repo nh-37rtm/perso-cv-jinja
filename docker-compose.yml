@@ -1,8 +1,53 @@
-version: "3"
+# require to run with docker compose --project-directory .
+# ex : docker compose --project-directory . -f ./indus/docker/dev.docker-compose.yml up
+version: '3.6'
+
+# this file setup the dev-container
 services:
-  app:
-    build: 
+  dev_container:
+    build:
       context: .
-      dockerfile: Dockerfile
+      dockerfile: ./Dockerfile
+      # target: dev_env
+      #args:
+        # HPI_DOCKER_REGISTRY_URL: hpi-docker-stages.artifactory-principale.enedis.fr
+        # Empty variables just copy current shell variables inside container
+        # HPI_BUILD_TIME_ENV:
+    #container_name: dev_container_core
+    user: "dev:dev"
+    # for debug
+    #user: "root:root"
+    # extra_hosts:
+      # host.docker.internal: host-gateway
+      # require a tunnel on host
+      # qual-col-noe-zci.enedis.fr: "127.0.0.1"
+
+    # definition explicite
+    env_file: .env
+    environment:
+        # to have poetry and pypi credentials inside dev container do not forget to set
+        # HPI_RUN_TIME_ENV="
+        # POETRY_HTTP_BASIC_HPI_PYPI_USERNAME=xxx
+        # POETRY_HTTP_BASIC_HPI_PYPI_PASSWORD=xxx
+        # "
+        # before running docker-compose up
+        HPI_RUN_TIME_ENV:
+    network_mode: host
+    restart: always
+    entrypoint: /bin/bash
+    command: [ "-c", "/bin/sleep 999999" ]
+    # entrypoint: /docker-run-entrypoint.sh
     volumes:
-      ./src:
+      - type: bind
+        source: ./
+        target: /app/
+        # env de dev vscode
+      - type: volume
+        source: hpi_vscode
+        target: /home/hpi/.vscode-server
+volumes:
+  hpi_vscode:
+
+networks:
+  hpi:
+    driver: bridge
