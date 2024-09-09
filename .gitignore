@@ -3,3 +3,5 @@ jinja_cv/controler/__pycache__/controler.cpython-37.pyc
 **/**.pyc
 .devcontainer
 
+jinja_cv/jinja_cv.egg-info/**
+out/toto.docx

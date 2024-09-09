@@ -84,7 +84,10 @@
                 "intitule": {},
                 "dateFin": {},
                 "lieu": {},
-                "contenu": {}
+                "contenu": {},
+                "initiale": {
+                    "type": "boolean"
+                }
             }
         }
     },

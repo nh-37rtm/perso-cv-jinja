@@ -1,5 +1,5 @@
 {
-    "$schema": "/home/nheim/src/perso-cv-jinja/src/schema/cv.schema.json",
+    "$schema": "/app/jinja_cv/schema/cv.schema.json",
     "curriculum": {
         "poste": "Développeur outils/ DevOps",
         "etatCivil": {
@@ -157,6 +157,9 @@
                     },
                     {
                         "description": "Réalisation d'outils d'aide au developpement, Chargement flexible de la configuration (Python), échanges robustes Kafka (C#), module de fédération d'identité Keycloak (Java), Scripts de sauvegarde sur données système/Persistent Volumes Kube à l'aide de BorgBackup"
+                    },
+                    {
+                        "description": "Installation et configuration d’un stack de monitoring à l’aide d’un Chart Helm (Grafana, Loki, Prometheus, Promtail)"
                     }
                 ],
                 "environnements": [
@@ -229,7 +232,7 @@
                                         "description": "POC et tests sur la VM de qualification"
                                     },
                                     {
-                                        "description": "Développement d'un module de gestion de configuration pour facilement centraliser la configuration de différentes sources, variables d’environnement (Runner Gitlab), fichiers de configuration et Hachicorp Vault"
+                                        "description": "Développement d'un module de gestion de configuration pour facilement centraliser la configuration de différentes sources, variables d’environnement (Runner Gitlab), fichiers de configuration et Hashicorp Vault"
                                     }
                                 ]
                             }
@@ -397,7 +400,7 @@
                         "contexte": "Développement et maintenance d'un logiciel SIRH/GRH",
                         "realisations": [
                             {
-                                "description": "Environnement/Devops ",
+                                "description": "Environnement/Devops",
                                 "realisations": [
                                     {
                                         "description": "Reprise et remise en route des environnements (Dev, Recette et Prod) et de la chaine devops (Azure DevOps)"
@@ -460,7 +463,7 @@
                                 ]
                             },
                             {
-                                "description": "Dev/ops",
+                                "description": "Environnement/Devops",
                                 "realisations": [
                                     {
                                         "description": "Installation d'un cluster"
@@ -602,6 +605,11 @@
                 "resume": "",
                 "references": "",
                 "environnementTechnique": "",
+                "realisations": [
+                    {
+                        "description": "Développement et maintenance Full Stack d’applications le plus souvent dans des équipes fonctionnant en mode agile."
+                    }
+                ],
                 "experiences": [
                     {
                         "typeExperience": "mission",
@@ -817,6 +825,25 @@
                 "resume": "",
                 "references": "",
                 "environnementTechnique": "",
+                "realisations": [
+                    {
+                        "description": "Réalisation d’outils et automatisations transverses pour les équipes de maintenance système et d’industrialisation d’application.",
+                        "realisations": [
+                            {
+                                "description": "Monitoring système du parc PSA"
+                            },
+                            {
+                                "description": "Réalisation d’un outil de templating avec ses propres mots clefs (en perl)"
+                            },
+                            {
+                                "description": "Participation à la réalisation d’un outil d’automatisation no code pour simplifier le packaging et le déploiement des applications"
+                            },
+                            {
+                                "description": "Réalisation d’un outil de requêtage et de synthèse sur les configurations de stockage du parc."
+                            }
+                        ]
+                    }
+                ],
                 "experiences": [
                     {
                         "typeExperience": "mission",
@@ -1416,61 +1443,73 @@
                 "dateFin": "5 jours 2021",
                 "intitule": "Formation M-AZ400 Azure DevOps",
                 "lieu": "Formation Orsys à distance",
-                "contenu": "Initiation Cloud Azure et Infrastructure Azure"
+                "contenu": "Initiation Cloud Azure et Infrastructure Azure",
+                "initiale": false
             },
             {
                 "dateFin": "5 jours 2021",
                 "intitule": "Formation M-AZ204 Développement Solutions Microsoft Azure",
                 "lieu": "Formation Orsys à distance",
-                "contenu": "Initiation Azure Devops et outils Cloud Azure"
+                "contenu": "Initiation Azure Devops et outils Cloud Azure",
+                "initiale": false
             },
             {
                 "dateFin": "3 jours 2021",
                 "intitule": "Formation Kubernetes",
                 "lieu": "Formation CPF",
-                "contenu": "Initiation, deployments, services, pods, configmaps"
+                "contenu": "Initiation, deployments, services, pods, configmaps",
+                "initiale": false
             },
             {
                 "dateFin": "3 jours 2021",
                 "intitule": "Formation Angular 8",
                 "lieu": "Formation Orsys à distance",
-                "contenu": "Introduction au développement mobile"
+                "contenu": "Introduction au développement mobile",
+                "initiale": false
+
             },
             {
                 "dateFin": "10-06-2020 au 12-06-2020",
                 "intitule": "React Native, développer des applications mobiles natives - réf : FRNCV1",
                 "lieu": "Formation Orsys à distance",
-                "contenu": "Introduction au développement mobile, avec présentation et pratique progressive sur des outils tels que : React Native, NodeJs, Redux"
+                "contenu": "Introduction au développement mobile, avec présentation et pratique progressive sur des outils tels que : React Native, NodeJs, Redux",
+                "initiale": false
             },
             {
                 "dateFin": "17-05-2019 au 30-06-2019",
                 "intitule": "Formation Docker et Ansible",
                 "lieu": "Greta des Hauts-de-Seine",
-                "contenu": "Formation progressive avec des rappels sur l'Administration Système, et le scripting (Stockage, Droits, Packets, Gestion des processus ...), pratiques et création d'environnement virtuels à l'aide de Docker, Docker Swarm, Ansible, Portainer"
+                "contenu": "Formation progressive avec des rappels sur l'Administration Système, et le scripting (Stockage, Droits, Packets, Gestion des processus ...), pratiques et création d'environnement virtuels à l'aide de Docker, Docker Swarm, Ansible, Portainer",
+                "initiale": false
             },
             {
                 "dateFin": "2006-2008",
                 "intitule": "Maitrise Sciences et Technologies de l'Information et de la Communication",
                 "lieu": "Centre de Téléenseignement Universitaire de Besançon",
-                "contenu": "Web (PHP5), Base de données (MySQL, eyeDB), Initiation IA (Prolog), Langage fonctionnel (Méthode B), modélisation objet (Diagramme de classe)."
+                "contenu": "Web (PHP5), Base de données (MySQL, eyeDB), Initiation IA (Prolog), Langage fonctionnel (Méthode B), modélisation objet (Diagramme de classe).",
+                "initiale": true
+
             },
             {
                 "dateFin": "2005-2006",
                 "intitule": "Licence Administration / Maintenance de Systèmes et d'Applications Réparties",
                 "lieu": "I.U.T Belfort Montbéliard",
-                "contenu": "Applications 3 tiers (Java/J2EE/Struts), UML, Réseau"
+                "contenu": "Applications 3 tiers (Java/J2EE/Struts), UML, Réseau",
+                "initiale": true
             },
             {
                 "dateFin": "2003-2005",
                 "intitule": "BTS Informatique et Réseau pour l'Industrie et les Services Techniques",
                 "lieu": "Lycée Follereau Belfort",
-                "contenu": "Developpement (C/C++), UML, Réseau"
+                "contenu": "Developpement (C/C++), UML, Réseau",
+                "initiale": true
             },
             {
                 "dateFin": "2003",
                 "intitule": "BAC STI génie électronique Mention assez bien",
                 "lieu": "Lycée Follereau Belfort",
-                "contenu": " "
+                "contenu": " ",
+                "initiale": true
             }
         ]
     }

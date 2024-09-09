@@ -10,9 +10,9 @@ services:
       dockerfile: ./Dockerfile
       # target: dev_env
       #args:
-        # HPI_DOCKER_REGISTRY_URL: hpi-docker-stages.artifactory-principale.enedis.fr
+        # CVP_DOCKER_REGISTRY_URL: hpi-docker-stages.artifactory-principale.enedis.fr
         # Empty variables just copy current shell variables inside container
-        # HPI_BUILD_TIME_ENV:
+        # CVP_BUILD_TIME_ENV:
     #container_name: dev_container_core
     user: "dev:dev"
     # for debug
@@ -26,12 +26,12 @@ services:
     env_file: .env
     environment:
         # to have poetry and pypi credentials inside dev container do not forget to set
-        # HPI_RUN_TIME_ENV="
-        # POETRY_HTTP_BASIC_HPI_PYPI_USERNAME=xxx
-        # POETRY_HTTP_BASIC_HPI_PYPI_PASSWORD=xxx
+        # CVP_RUN_TIME_ENV="
+        # POETRY_HTTP_BASIC_CVP_PYPI_USERNAME=xxx
+        # POETRY_HTTP_BASIC_CVP_PYPI_PASSWORD=xxx
         # "
         # before running docker-compose up
-        HPI_RUN_TIME_ENV:
+        CVP_RUN_TIME_ENV:
     network_mode: host
     restart: always
     entrypoint: /bin/bash
@@ -43,10 +43,10 @@ services:
         target: /app/
         # env de dev vscode
       - type: volume
-        source: hpi_vscode
+        source: CVP_vscode
         target: /home/hpi/.vscode-server
 volumes:
-  hpi_vscode:
+  CVP_vscode:
 
 networks:
   hpi:
