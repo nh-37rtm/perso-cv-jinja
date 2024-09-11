@@ -112,6 +112,7 @@
                         },
                         "telephone": {},
                         "dateNaissance": {},
+                        "anneesExp" : {},
                         "adresse": {
                             "type": "object",
                             "properties": {

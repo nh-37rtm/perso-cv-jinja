@@ -33,3 +33,5 @@ wkhtmltopdf ./out/cv.html ./out/cv.pdf
 
 C:\Users\heimn>scp local-debian:/home/nheim/src/perso-cv-jinja/out/cv.* .
 
+
+python3 ./jinja_cv/generate.py -o ./out/cv.html -t ./src/templates/dossier_competence/dc.j2.html

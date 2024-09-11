@@ -1,0 +1,25 @@
+<html>
+
+<head>
+    <link rel="stylesheet" type="text/css" href="dc.css">
+</head>
+
+<div class="etatCivil">
+    <p><span>{{ data.etatCivil.nom }} {{ data.etatCivil.prenom }}</span></p>
+    <p><span>{{ data.poste }}</span></p>
+    <p><span>{{ data.etatCivil.anneesExp }} ans d'expérience</span></p>
+</div>
+
+
+<ul class="experiences">
+    <h1>Expériences professionnelles</h1>
+    {% for experience in context.controler.controlFlatenExperience(data.experiences) %}
+
+    <li class="{{experience.typeExperience}}">
+        {{ context.renderTemplate( 'experience.j2.html', experience ) }}
+    </li>
+
+    {% endfor %}
+</ul>
+
+</html>

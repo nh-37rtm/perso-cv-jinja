@@ -1,0 +1,41 @@
+<table>
+    <tbody>
+        <tr>
+            <th>Période</th>
+            <td>
+                {%- if data.dateDebut != None -%}
+                De {{data.dateDebut.strftime('%d-%m-%Y')}}
+                {%- endif -%}
+                {%- if data.dateFin != None %} à {{data.dateFin.strftime('%d-%m-%Y')}}
+                {%- endif -%}{% if data.dureeEnMois > 0 %} ( {{data.dureeEnMois}} mois ){%- endif %}
+            </td>
+        </tr>
+        <tr>
+            <th>Client - Poste</th>
+            <td class="client">{{data.client}} : {{ data.domaine }}</td>
+        </tr>
+
+        <tr>
+            <th>Synthèse</th>
+            <td>{{data.presentation}}</td>
+        </tr>
+
+        <tr>
+            <th>Description de la mission</th>
+            <td class="description">
+                <p><span>Activités:</span></p>
+                <ul>
+                    {% for realisation in context.controler.controlRealisation( data.realisations ) %}
+                    {{ context.renderTemplate( 'rea.j2.html', realisation ) }}
+                    {% endfor %}
+                </ul>
+            </td>
+        </tr>
+
+        <tr>
+            <th>Environnement technique</th>
+            <td>{{data.environnementTechnique}}</td>
+        </tr>
+    </tbody>
+
+</table>

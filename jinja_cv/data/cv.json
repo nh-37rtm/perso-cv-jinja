@@ -3,9 +3,10 @@
     "curriculum": {
         "poste": "Développeur outils/ DevOps",
         "etatCivil": {
-            "nom": "Nicolas HEIM",
+            "nom": "HEIM",
             "prenom": "Heim",
             "dateNaissance": "24 juillet 1984",
+            "anneesExp": "15",
             "mail": "heim.nico@gmail.com",
             "telephone": "0689708718",
             "adresse": {
