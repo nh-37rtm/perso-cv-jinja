@@ -13,7 +13,10 @@
 
 <ul class="experiences">
     <h1>Expériences professionnelles</h1>
-    {% for experience in context.controler.controlFlatenExperience(data.experiences) if experience.typeExperience != "perso" %}
+    {% 
+        for experience in context.controler.controlFlatenExperience(data.experiences) 
+        if experience.typeExperience != "perso" 
+    %}
 
     <li class="{{experience.typeExperience}}">
         {{ context.renderTemplate( 'experience.j2.html', experience ) }}
@@ -22,7 +25,10 @@
     {% endfor %}
 
     <h1>Expériences personnelles</h1>
-    {% for experience in context.controler.controlFlatenExperience(data.experiences) if experience.typeExperience == "perso" %}
+    {% 
+        for experience in context.controler.controlFlatenExperience(data.experiences)
+        if experience.typeExperience == "perso" 
+    %}
 
     <li class="{{experience.typeExperience}}">
         {{ context.renderTemplate( 'experience.j2.html', experience ) }}
