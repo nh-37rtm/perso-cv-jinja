@@ -135,6 +135,7 @@
                 "typeExperience": "group",
                 "intitule": "",
                 "client": "Ace Digitale",
+                "dateFin": "2024-04-02",
                 "domaine": "",
                 "presentation": "Dockerisation et décomposition d'applications en microservices, déploiment d'infrastructure virtuelles sur des plateformes variées dans certains cas automatisés grace à des descripteur terraform. Réalisation de CI/CD d",
                 "contenu": "",
@@ -1230,6 +1231,65 @@
                 "environnementTechnique": "",
                 "experiences": [
                     {
+                        "typeExperience": "perso",
+                        "intitule": "Partage de fichier sur VPN",
+                        "client": "Ami",
+                        "domaine": "outils/devops",
+                        "dateDebut": "2024-07-01",
+                        "dateFin": "2024-07-15",
+                        "presentation": "Installation d'un partage de fichier sécurisé ne passant pas via les outils GAFA",
+                        "contenu": "",
+                        "resume": "",
+                        "references": "",
+                        "environnementTechnique": "Docker, Samba, OpenVPN, Syncthing",
+                        "detailsMemory": "",
+                        "realisations": [
+                            {
+                                "description": "Dockerisation Samba/OpenVPN"
+                            },
+                            {
+                                "description": "Ouverture de l'abonnement sur un VPS, installation et paramétrages"
+                            },
+                            {
+                                "description": "Tests de fonctionnement et de compatibilité IPV6"
+                            },
+                            {
+                                "description": "Tests pour intération du mode hors connexion à l'aide de Syncthing"
+                            }
+                        ]
+                    },
+                    {
+                        "typeExperience": "perso",
+                        "intitule": "Site dynamique pour une association",
+                        "client": "Ami",
+                        "domaine": "developpement python / devops",
+                        "dateDebut": "2024-06-01",
+                        "dateFin": "2024-06-25",
+                        "presentation": "Migration d'un site fonctionnant sur un joomla obsolète sur un outil simplifié de gestion dynamique de contenu",
+                        "contenu": "",
+                        "resume": "",
+                        "references": "",
+                        "environnementTechnique": "Docker, Python, Quart",
+                        "detailsMemory": "",
+                        "realisations": [
+                            {
+                                "description": "Création d'un environnement Docker proche de celui de l'hébergeur pour tests de migration"
+                            },                            
+                            {
+                                "description": "Modélisation des classes du site (pydantic + json schema)"
+                            },
+                            {
+                                "description": "migration des données du site existant"
+                            },
+                            {
+                                "description": "dynamisation du template du site"
+                            },
+                            {
+                                "description": "Dockerisation du projet python"
+                            }
+                        ]
+                    },
+                    {
                         "typeExperience": "stage",
                         "intitule": "Centralisation et exploitation des logs de plusieurs serveurs à l'aide d'un agent  en java se basant sur le protocole syslog",
                         "client": "CAPM",
@@ -1467,7 +1527,6 @@
                 "lieu": "Formation Orsys à distance",
                 "contenu": "Introduction au développement mobile",
                 "initiale": false
-
             },
             {
                 "dateFin": "10-06-2020 au 12-06-2020",
@@ -1489,7 +1548,6 @@
                 "lieu": "Centre de Téléenseignement Universitaire de Besançon",
                 "contenu": "Web (PHP5), Base de données (MySQL, eyeDB), Initiation IA (Prolog), Langage fonctionnel (Méthode B), modélisation objet (Diagramme de classe).",
                 "initiale": true
-
             },
             {
                 "dateFin": "2005-2006",

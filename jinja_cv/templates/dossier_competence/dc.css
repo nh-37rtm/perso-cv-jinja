@@ -5,6 +5,9 @@
 
 * {font-family : calibri, verdana, arial;}
 
+li:first-letter, p:first-letter, a:first-letter {
+    text-transform: uppercase;
+}
 
 ul.experiences > li {
     margin-bottom: 20px;
@@ -22,17 +25,20 @@ td.client {
 }
 
 
-h1 {
+h1, table th {
     background-color:  hsl(22, 100%, 42%);
+}
+
+h1 {
     color: hsla(0, 0%, 100%, 0.741);
     padding: 0;
     margin: 0;
+    margin-top : 50px;
     text-transform: uppercase;
     width: 700px;
 }
 table th {
     text-align: left;
-    background-color:  hsl(22, 100%, 42%);
     color: white;
     width: 20px;
     vertical-align: text-top;
