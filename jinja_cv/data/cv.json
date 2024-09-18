@@ -213,7 +213,7 @@
                                 ]
                             },
                             {
-                                "description": "Gestion de tickets de suivit des vulnérabilités/suivit d'application des patchs au sein d'Enedis"
+                                "description": "Gestion de tickets de suivi des vulnérabilités/suivi d'application des patchs au sein d'Enedis"
                             },
                             {
                                 "description": "Identification et présentation d'améliorations possible dans la gestion courante de tickets, le développement des modules"
@@ -770,7 +770,7 @@
                                         "description": "4 jours de formations théoriques avec utilisation de supports existants (exercices et corrections) : Servlets, JSP, JPA"
                                     },
                                     {
-                                        "description": "Suivit des élèves durant leur projet (Site de recette en java web)"
+                                        "description": "suivi des élèves durant leur projet (Site de recette en java web)"
                                     },
                                     {
                                         "description": "Corrections des projets"
@@ -785,7 +785,7 @@
                                                 "description": "Installation d'un environnement de développement  pour les élèves (VM VMWare) avec Linux Ubuntu afin de simplifier la complexité due aux environnements hétérogènes utilisés par les élèves"
                                             },
                                             {
-                                                "description": "Mise en place d'un repository Git partagé pour un suivit incrémental des corrections sur les exercices"
+                                                "description": "Mise en place d'un repository Git partagé pour un suivi incrémental des corrections sur les exercices"
                                             }
                                         ]
                                     }
