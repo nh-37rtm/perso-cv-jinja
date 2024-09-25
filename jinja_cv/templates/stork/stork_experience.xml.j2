@@ -1,0 +1,341 @@
+<w:p w14:paraId="586A35EC" w14:textId="77777777" w:rsidR="00DC6E60" w:rsidRPr="009B4601" w:rsidRDefault="00DC6E60" w:rsidP="00DC6E60">
+    <w:pPr>
+        <w:rPr>
+            <w:rFonts w:ascii="Open Sans" w:hAnsi="Open Sans" w:cs="Open Sans"/>
+        </w:rPr>
+    </w:pPr>
+</w:p>
+<w:tbl>
+    <w:tblPr>
+        <w:tblStyle w:val="TableGrid"/>
+        <w:tblW w:w="6570" w:type="pct"/>
+        <w:tblInd w:w="-1423" w:type="dxa"/>
+        <w:tblLook w:val="04A0" w:firstRow="1" w:lastRow="0" w:firstColumn="1" w:lastColumn="0" w:noHBand="0" w:noVBand="1"/>
+    </w:tblPr>
+    <w:tblGrid>
+        <w:gridCol w:w="12346"/>
+    </w:tblGrid>
+    <w:tr w:rsidR="00DC6E60" w14:paraId="6BE8482A" w14:textId="77777777" w:rsidTr="00401EF6">
+        <w:trPr>
+            <w:trHeight w:val="1622"/>
+        </w:trPr>
+        <w:tc>
+            <w:tcPr>
+                <w:tcW w:w="5000" w:type="pct"/>
+                <w:shd w:val="clear" w:color="auto" w:fill="048B9A"/>
+            </w:tcPr>
+            <w:p w14:paraId="7DA38229" w14:textId="77777777" w:rsidR="00DC6E60" w:rsidRDefault="00DC6E60" w:rsidP="00401EF6">
+                <w:pPr>
+                    <w:spacing w:before="240" w:line="360" w:lineRule="auto"/>
+                    <w:ind w:left="1310"/>
+                    <w:rPr>
+                        <w:rFonts w:ascii="Open Sans" w:hAnsi="Open Sans" w:cs="Open Sans"/>
+                        <w:color w:val="FFFFFF" w:themeColor="background1"/>
+                    </w:rPr>
+                </w:pPr>
+                <w:r>
+                    <w:rPr>
+                        <w:rFonts w:ascii="Open Sans" w:hAnsi="Open Sans" w:cs="Open Sans"/>
+                        <w:color w:val="FFFFFF" w:themeColor="background1"/>
+                    </w:rPr>
+                    <w:t xml:space="preserve">Société : {{data.client}}</w:t>
+                </w:r>
+            </w:p>
+            <w:p w14:paraId="04C56086" w14:textId="77777777" w:rsidR="00DC6E60" w:rsidRPr="00013BED" w:rsidRDefault="00DC6E60" w:rsidP="00401EF6">
+                <w:pPr>
+                    <w:spacing w:line="360" w:lineRule="auto"/>
+                    <w:ind w:left="1310"/>
+                    <w:rPr>
+                        <w:rFonts w:ascii="Open Sans" w:hAnsi="Open Sans" w:cs="Open Sans"/>
+                        <w:b/>
+                        <w:bCs/>
+                        <w:color w:val="FFFFFF" w:themeColor="background1"/>
+                    </w:rPr>
+                </w:pPr>
+                <w:r>
+                    <w:rPr>
+                        <w:rFonts w:ascii="Open Sans" w:hAnsi="Open Sans" w:cs="Open Sans"/>
+                        <w:color w:val="FFFFFF" w:themeColor="background1"/>
+                    </w:rPr>
+                    <w:t xml:space="preserve">Statut / Intitulé du poste : {{ data.domaine }}</w:t>
+                </w:r>
+            </w:p>
+            <w:p w14:paraId="2314B173" w14:textId="77777777" w:rsidR="00DC6E60" w:rsidRPr="00013BED" w:rsidRDefault="00DC6E60" w:rsidP="00401EF6">
+                <w:pPr>
+                    <w:spacing w:line="360" w:lineRule="auto"/>
+                    <w:ind w:left="1310"/>
+                    <w:rPr>
+                        <w:rFonts w:ascii="Open Sans" w:hAnsi="Open Sans" w:cs="Open Sans"/>
+                        <w:color w:val="FFFFFF" w:themeColor="background1"/>
+                    </w:rPr>
+                </w:pPr>
+                <w:r>
+                    <w:rPr>
+                        <w:rFonts w:ascii="Open Sans" w:hAnsi="Open Sans" w:cs="Open Sans"/>
+                        <w:color w:val="FFFFFF" w:themeColor="background1"/>
+                    </w:rPr>
+                    <w:t>
+    {%- if data.dateDebut != None -%}
+    De {{data.dateDebut.strftime('%d-%m-%Y')}}
+    {%- endif -%}
+    {%- if data.dateFin != None %} à {{data.dateFin.strftime('%d-%m-%Y')}}
+    {%- endif -%}{% if data.dureeEnMois > 0 %} ( {{data.dureeEnMois}} mois ){%- endif %}</w:t>
+                </w:r>
+            </w:p>
+        </w:tc>
+    </w:tr>
+</w:tbl>
+<w:p w14:paraId="492566B9" w14:textId="77777777" w:rsidR="00DC6E60" w:rsidRPr="009B4601" w:rsidRDefault="00DC6E60" w:rsidP="00DC6E60">
+    <w:pPr>
+        <w:spacing w:before="240"/>
+        <w:rPr>
+            <w:rFonts w:ascii="Open Sans" w:hAnsi="Open Sans" w:cs="Open Sans"/>
+        </w:rPr>
+    </w:pPr>
+    <w:r w:rsidRPr="004274B3">
+        <w:rPr>
+            <w:rFonts w:ascii="Open Sans" w:hAnsi="Open Sans" w:cs="Open Sans"/>
+            <w:b/>
+            <w:bCs/>
+        </w:rPr>
+        <w:t>Contexte du projet</w:t>
+    </w:r>
+    <w:r w:rsidRPr="009B4601">
+        <w:rPr>
+            <w:rFonts w:ascii="Open Sans" w:hAnsi="Open Sans" w:cs="Open Sans"/>
+        </w:rPr>
+        <w:t> :</w:t>
+    </w:r>
+</w:p>
+<w:p w14:paraId="3AE29D9A" w14:textId="77777777" w:rsidR="00DC6E60" w:rsidRPr="004274B3" w:rsidRDefault="00DC6E60" w:rsidP="00DC6E60">
+    <w:pPr>
+        <w:spacing w:after="0" w:line="276" w:lineRule="auto"/>
+        <w:rPr>
+            <w:rFonts w:ascii="Open Sans" w:hAnsi="Open Sans" w:cs="Open Sans"/>
+        </w:rPr>
+    </w:pPr>
+    <w:proofErr w:type="gramStart"/>
+    <w:r>
+        <w:rPr>
+            <w:rFonts w:ascii="Open Sans" w:hAnsi="Open Sans" w:cs="Open Sans"/>
+        </w:rPr>
+        <w:t>{{data.presentation}}</w:t>
+    </w:r>
+    <w:proofErr w:type="gramEnd"/>
+</w:p>
+<w:p w14:paraId="22C4E0FB" w14:textId="77777777" w:rsidR="00DC6E60" w:rsidRPr="009B4601" w:rsidRDefault="00DC6E60" w:rsidP="00DC6E60">
+    <w:pPr>
+        <w:spacing w:after="0" w:line="276" w:lineRule="auto"/>
+        <w:rPr>
+            <w:rFonts w:ascii="Open Sans" w:hAnsi="Open Sans" w:cs="Open Sans"/>
+        </w:rPr>
+    </w:pPr>
+</w:p>
+                    
+{%- if context.hasattr(data, 'objectifs') and data.objectifs != None -%}
+    <w:p w14:paraId="75F7D452" w14:textId="77777777" w:rsidR="00DC6E60" w:rsidRDefault="00DC6E60" w:rsidP="00DC6E60">
+        <w:pPr>
+            <w:rPr>
+                <w:rFonts w:ascii="Open Sans" w:hAnsi="Open Sans" w:cs="Open Sans"/>
+            </w:rPr>
+        </w:pPr>
+        <w:r w:rsidRPr="004274B3">
+            <w:rPr>
+                <w:rFonts w:ascii="Open Sans" w:hAnsi="Open Sans" w:cs="Open Sans"/>
+                <w:b/>
+                <w:bCs/>
+            </w:rPr>
+            <w:t>Objectifs de la mission / projet / projet d’étude</w:t>
+        </w:r>
+        <w:r>
+            <w:rPr>
+                <w:rFonts w:ascii="Open Sans" w:hAnsi="Open Sans" w:cs="Open Sans"/>
+            </w:rPr>
+            <w:t> :</w:t>
+        </w:r>
+    </w:p>
+
+    {% for list_element in data.objectifs %}
+        {{ context.renderTemplate( 'string_array_as_list_element.xml.j2', list_element ) }}
+    {% endfor %}
+{% endif %}
+
+<w:p w14:paraId="1A076514" w14:textId="77777777" w:rsidR="00DC6E60" w:rsidRPr="009B4601" w:rsidRDefault="00DC6E60" w:rsidP="00DC6E60">
+    <w:pPr>
+        <w:spacing w:after="0"/>
+        <w:rPr>
+            <w:rFonts w:ascii="Open Sans" w:hAnsi="Open Sans" w:cs="Open Sans"/>
+        </w:rPr>
+    </w:pPr>
+</w:p>
+<w:p w14:paraId="28BD64CB" w14:textId="77777777" w:rsidR="00DC6E60" w:rsidRDefault="00DC6E60" w:rsidP="00DC6E60">
+    <w:pPr>
+        <w:rPr>
+            <w:rFonts w:ascii="Open Sans" w:hAnsi="Open Sans" w:cs="Open Sans"/>
+        </w:rPr>
+    </w:pPr>
+    <w:r w:rsidRPr="004274B3">
+        <w:rPr>
+            <w:rFonts w:ascii="Open Sans" w:hAnsi="Open Sans" w:cs="Open Sans"/>
+            <w:b/>
+            <w:bCs/>
+        </w:rPr>
+        <w:t>Réalisation(s)</w:t>
+    </w:r>
+    <w:r w:rsidRPr="009B4601">
+        <w:rPr>
+            <w:rFonts w:ascii="Open Sans" w:hAnsi="Open Sans" w:cs="Open Sans"/>
+        </w:rPr>
+        <w:t> :</w:t>
+    </w:r>
+</w:p>
+
+{% for realisation in context.controler.controlRealisation( data.realisations ) %}
+    {{ context.renderTemplate( 'stork_rea.xml.j2', realisation ) }}
+{% endfor %}
+
+<w:p w14:paraId="28AC7C98" w14:textId="77777777" w:rsidR="00DC6E60" w:rsidRPr="009B4601" w:rsidRDefault="00DC6E60" w:rsidP="00DC6E60">
+    <w:pPr>
+        <w:spacing w:after="0"/>
+        <w:rPr>
+            <w:rFonts w:ascii="Open Sans" w:hAnsi="Open Sans" w:cs="Open Sans"/>
+        </w:rPr>
+    </w:pPr>
+</w:p>
+<w:p w14:paraId="7C34A7F6" w14:textId="77777777" w:rsidR="00DC6E60" w:rsidRDefault="00DC6E60" w:rsidP="00DC6E60">
+    <w:pPr>
+        <w:rPr>
+            <w:rFonts w:ascii="Open Sans" w:hAnsi="Open Sans" w:cs="Open Sans"/>
+        </w:rPr>
+    </w:pPr>
+    <w:r w:rsidRPr="004274B3">
+        <w:rPr>
+            <w:rFonts w:ascii="Open Sans" w:hAnsi="Open Sans" w:cs="Open Sans"/>
+            <w:b/>
+            <w:bCs/>
+        </w:rPr>
+        <w:t>Outils et environnements</w:t>
+    </w:r>
+    <w:r>
+        <w:rPr>
+            <w:rFonts w:ascii="Open Sans" w:hAnsi="Open Sans" w:cs="Open Sans"/>
+        </w:rPr>
+        <w:t> :</w:t>
+    </w:r>
+</w:p>
+<w:p w14:paraId="0B1C72EB" w14:textId="77777777" w:rsidR="00DC6E60" w:rsidRPr="004274B3" w:rsidRDefault="00DC6E60" w:rsidP="00DC6E60">
+    <w:pPr>
+        <w:numPr>
+            <w:ilvl w:val="0"/>
+            <w:numId w:val="2"/>
+        </w:numPr>
+        <w:spacing w:after="0" w:line="276" w:lineRule="auto"/>
+        <w:rPr>
+            <w:rFonts w:ascii="Open Sans" w:hAnsi="Open Sans" w:cs="Open Sans"/>
+        </w:rPr>
+    </w:pPr>
+    <w:proofErr w:type="gramStart"/>
+    <w:r>
+        <w:rPr>
+            <w:rFonts w:ascii="Open Sans" w:hAnsi="Open Sans" w:cs="Open Sans"/>
+        </w:rPr>
+        <w:t>{{data.environnementTechnique}}</w:t>
+    </w:r>
+    <w:proofErr w:type="gramEnd"/>
+</w:p>
+<w:p w14:paraId="43D80AA9" w14:textId="77777777" w:rsidR="00DC6E60" w:rsidRPr="009B4601" w:rsidRDefault="00DC6E60" w:rsidP="00DC6E60">
+    <w:pPr>
+        <w:rPr>
+            <w:rFonts w:ascii="Open Sans" w:hAnsi="Open Sans" w:cs="Open Sans"/>
+        </w:rPr>
+    </w:pPr>
+</w:p>
+{%- if context.hasattr(data, "resultats") and data.resultats != None -%}
+    <w:tbl>
+        <w:tblPr>
+            <w:tblStyle w:val="TableGrid"/>
+            <w:tblW w:w="6570" w:type="pct"/>
+            <w:tblInd w:w="-1423" w:type="dxa"/>
+            <w:tblLook w:val="04A0" w:firstRow="1" w:lastRow="0" w:firstColumn="1" w:lastColumn="0" w:noHBand="0" w:noVBand="1"/>
+        </w:tblPr>
+        <w:tblGrid>
+            <w:gridCol w:w="12346"/>
+        </w:tblGrid>
+        <w:tr w:rsidR="00DC6E60" w14:paraId="7C6A02E4" w14:textId="77777777" w:rsidTr="00401EF6">
+            <w:tc>
+                <w:tcPr>
+                    <w:tcW w:w="5000" w:type="pct"/>
+                    <w:shd w:val="clear" w:color="auto" w:fill="048B9A"/>
+                </w:tcPr>
+                <w:p w14:paraId="521DC2F2" w14:textId="77777777" w:rsidR="00DC6E60" w:rsidRPr="0054558A" w:rsidRDefault="00DC6E60" w:rsidP="00401EF6">
+                    <w:pPr>
+                        <w:spacing w:before="240"/>
+                        <w:ind w:left="1310"/>
+                        <w:rPr>
+                            <w:rFonts w:ascii="Open Sans" w:hAnsi="Open Sans" w:cs="Open Sans"/>
+                            <w:color w:val="FFFFFF" w:themeColor="background1"/>
+                        </w:rPr>
+                    </w:pPr>
+                    <w:r w:rsidRPr="00013BED">
+                        <w:rPr>
+                            <w:rFonts w:ascii="Open Sans" w:hAnsi="Open Sans" w:cs="Open Sans"/>
+                            <w:b/>
+                            <w:bCs/>
+                            <w:color w:val="FFFFFF" w:themeColor="background1"/>
+                        </w:rPr>
+                        <w:t>Résultats obtenus / chiffres clés</w:t>
+                    </w:r>
+                    <w:r w:rsidRPr="0054558A">
+                        <w:rPr>
+                            <w:rFonts w:ascii="Open Sans" w:hAnsi="Open Sans" w:cs="Open Sans"/>
+                            <w:color w:val="FFFFFF" w:themeColor="background1"/>
+                        </w:rPr>
+                        <w:t> :</w:t>
+                    </w:r>
+                </w:p>
+                <w:p w14:paraId="5ACC97AD" w14:textId="77777777" w:rsidR="00DC6E60" w:rsidRPr="0054558A" w:rsidRDefault="00DC6E60" w:rsidP="00401EF6">
+                    <w:pPr>
+                        <w:ind w:left="1310"/>
+                        <w:rPr>
+                            <w:rFonts w:ascii="Open Sans" w:hAnsi="Open Sans" w:cs="Open Sans"/>
+                            <w:color w:val="FFFFFF" w:themeColor="background1"/>
+                        </w:rPr>
+                    </w:pPr>
+                </w:p>
+                {% for list_element in data.resultats %}
+                    <w:p w14:paraId="75E3B8E9" w14:textId="77777777" w:rsidR="00DC6E60" w:rsidRPr="00013BED" w:rsidRDefault="00DC6E60" w:rsidP="00DC6E60">
+                        <w:pPr>
+                            <w:pStyle w:val="ListParagraph"/>
+                            <w:numPr>
+                                <w:ilvl w:val="0"/>
+                                <w:numId w:val="1"/>
+                            </w:numPr>
+                            <w:spacing w:line="276" w:lineRule="auto"/>
+                            <w:ind w:left="2019"/>
+                            <w:rPr>
+                                <w:rFonts w:ascii="Open Sans" w:hAnsi="Open Sans" w:cs="Open Sans"/>
+                                <w:color w:val="FFFFFF" w:themeColor="background1"/>
+                            </w:rPr>
+                        </w:pPr>
+                        <w:proofErr w:type="gramStart"/>
+                        <w:r>
+                            <w:rPr>
+                                <w:rFonts w:ascii="Open Sans" w:hAnsi="Open Sans" w:cs="Open Sans"/>
+                                <w:color w:val="FFFFFF" w:themeColor="background1"/>
+                            </w:rPr>
+                            <w:t>{{list_element}}</w:t>
+                        </w:r>
+                        <w:proofErr w:type="gramEnd"/>
+                    </w:p>              
+                {% endfor %}
+            </w:tc>
+        </w:tr>
+    </w:tbl>
+{% endif %}
+<w:p w14:paraId="1ADD1861" w14:textId="77777777" w:rsidR="00121477" w:rsidRDefault="00121477"/>
+<w:sectPr w:rsidR="00121477">
+    <w:pgSz w:w="12240" w:h="15840"/>
+    <w:pgMar w:top="1417" w:right="1417" w:bottom="1417" w:left="1417" w:header="720" w:footer="720" w:gutter="0"/>
+    <w:cols w:space="720"/>
+    <w:docGrid w:linePitch="360"/>
+</w:sectPr>

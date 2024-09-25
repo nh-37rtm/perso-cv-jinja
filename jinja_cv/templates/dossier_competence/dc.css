@@ -19,6 +19,7 @@ ul.experiences>li {
     padding: 0px;
     margin: 0px;
     list-style-type: none;
+    font-size: 12pt;
 
 }
 
@@ -35,20 +36,20 @@ tr {
 
 h1 {
     background-color: hsl(22, 100%, 42%);
-    color: hsla(0, 0%, 100%, 0.741);
+    color: white;
     padding-left: 10px;
     margin: 0;
     text-transform: uppercase;
     width: auto;
 }
 
-table
-{
+table {
     border-spacing: 0px;
     margin-bottom: 10px
 }
 
-table th, tr td {
+table th,
+tr td {
     border-bottom: 1px solid white;
 }
 
@@ -60,10 +61,14 @@ table th {
     vertical-align: text-top;
     padding: 10px;
     margin: 10px;
+    font-weight: bold;
+    font-size: 20pt;
 }
 
-td {
+td,
+th {
     padding: 10px;
+    font-size: 17pt;
 }
 
 td.description {
@@ -84,5 +89,42 @@ div.etatCivil {
 
     table {
         page-break-inside: avoid;
+    }
+}
+
+/* @font-face {
+    font-family: Calibri;
+    font-weight: bold;
+    src: url('file:////home/nheim/src/perso-cv-jinja/out/fonts/calibrib.ttf') format("truetype");
+}
+
+@font-face {
+    font-family: Calibri;
+    font-weight: normal;
+    src: url('file:////home/nheim/src/perso-cv-jinja/out/fonts/calibri.ttf') format("truetype");
+} */
+
+@page {
+    size: A4;
+}
+
+html,
+body {
+    /* width: 210mm;
+    height: 297mm;
+    min-height: 297mm; */
+    size: A4;
+    margin: auto;
+}
+
+@media print {
+
+    html,
+    body {
+        /* width: 210mm;
+        height: 297mm;
+        min-height: 297mm; */
+        size: A4;
+        margin: auto;
     }
 }

@@ -23,6 +23,15 @@
             "justMyCode": false,
         },
         {
+            "name": "Python: DC Stork",
+            "type": "debugpy",
+            "request": "launch",
+            "program": "jinja_cv/generate.py",
+            "args": [ "-o", "./out/dc_stork.xml", "-t", "./jinja_cv/templates/stork/stork_dc.xml.j2"],
+            "console": "integratedTerminal",
+            "justMyCode": false,
+        },
+        {
             "name": "Debug Unit Test",
             "purpose": ["debug-test"],
             "type": "debugpy",

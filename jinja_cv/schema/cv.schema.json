@@ -58,7 +58,25 @@
                         "$ref": "#/definitions/realisation"
                     }
                 },
-                "service" : {}
+                "service" : {},
+                "problematiques": {
+                    "type" : "array",
+                    "items": {
+                        "type": "string"
+                    }
+                },
+                "objectifs": {
+                    "type" : "array",
+                    "items": {
+                        "type": "string"
+                    }
+                },
+                "resultats": {
+                    "type" : "array",
+                    "items": {
+                        "type": "string"
+                    }
+                }
             }
         },
         "connaissance": {
@@ -85,6 +103,7 @@
                 "dateFin": {},
                 "lieu": {},
                 "contenu": {},
+                "defailsMemory": {},
                 "initiale": {
                     "type": "boolean"
                 }

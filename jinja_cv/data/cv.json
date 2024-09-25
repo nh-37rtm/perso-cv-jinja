@@ -39,7 +39,7 @@
             },
             {
                 "intitule": "Modélisation",
-                "description": "Analyse des besoins, analyse fonctionnelle et technique."
+                "description": "Analyse des besoins, analyse fonctionnelle et technique"
             },
             {
                 "intitule": "Administration",
@@ -137,28 +137,28 @@
                 "client": "Ace Digitale",
                 "dateFin": "2024-04-02",
                 "domaine": "",
-                "presentation": "Dockerisation et décomposition d'applications en microservices, déploiment d'infrastructure virtuelles sur des plateformes variées dans certains cas automatisés grace à des descripteur terraform. Réalisation de CI/CD d",
+                "presentation": "Dockerisation et décomposition d'applications en microservices, déploiement d'infrastructure virtuelles sur des plateformes variées dans certains cas automatisés grâce à des descripteur terraform. Réalisation de CI/CD d",
                 "contenu": "",
                 "resume": "",
                 "references": "",
                 "realisations": [
                     {
-                        "description": "Dockerisation et décomposition d'applications en microservices."
+                        "description": "Dockerisation et décomposition d'applications en microservices"
                     },
                     {
-                        "description": "déploiment d'infrastructure virtuelles sur des plateformes variées dans certains cas automatisés grace à des descripteurs terraform."
+                        "description": "déploiement d'infrastructure virtuelles sur des plateformes variées dans certains cas automatisés grâce à des descripteurs terraform"
                     },
                     {
-                        "description": "Réalisation de CI/CD portables et simplifiées à l'aide de scripts en python."
+                        "description": "Réalisation de CI/CD portables et simplifiées à l'aide de scripts en python"
                     },
                     {
-                        "description": "Accompagnement des équipes sur des bonnes pratiques de développement portables et facilitant l'intégration future notament à l'aide de compose files et de dev containers."
+                        "description": "Accompagnement des équipes sur des bonnes pratiques de développement portables et facilitant l'intégration future notamment à l'aide de compose files et de dev containers"
                     },
                     {
-                        "descritption": "Déploiement et maintenance de clusters HA kubernetes sur plusieurs plateformes"
+                        "description": "Déploiement et maintenance de clusters HA kubernetes sur plusieurs plateformes"
                     },
                     {
-                        "description": "Réalisation d'outils d'aide au developpement, Chargement flexible de la configuration (Python), échanges robustes Kafka (C#), module de fédération d'identité Keycloak (Java), Scripts de sauvegarde sur données système/Persistent Volumes Kube à l'aide de BorgBackup"
+                        "description": "Réalisation d'outils d'aide au développement, Chargement flexible de la configuration (Python), échanges robustes Kafka (C#), module de fédération d'identité Keycloak (Java), Scripts de sauvegarde sur données système/Persistent Volumes Kube à l'aide de BorgBackup"
                     },
                     {
                         "description": "Installation et configuration d’un stack de monitoring à l’aide d’un Chart Helm (Grafana, Loki, Prometheus, Promtail)"
@@ -184,10 +184,22 @@
                             "DevOps"
                         ],
                         "presentation": "Intégration d'une équipe du cert Enedis dans le cadre de la reprise d'un projet de hunting, ",
-                        "detailsMemory": "Première expérience dans un pôle sécurité, au début très attentionnée. je fait quelques présentations suites à mes découvertes. Le rapport détonant. Le développement sur le module Atlassian avance bien, je fait des choses plutôt rapidement selon Vincent, et dans un premier temps. Puis après leur avoir indiqué qu'au niveau Dev il y avait des façon de simplifier les tests pour le faire unitairement sans avoir une montagne à monter à la main en dev. puis aucune remarque, peu d'avancement alors que la date de fin de l'année et du lancement des scans officiels approche.",
+                        "detailsMemory": "Première expérience dans un pôle sécurité, au début très attentionnée. je fait quelques présentations suites à mes découvertes. Le rapport détonant. Le développement sur le module Atlassian avance bien, je fait des choses plutôt rapidement selon Vincent, et dans un premier temps. Puis après leur avoir indiqué qu'au niveau Dev il y avait des façon de simplifier les tests pour le faire unitairement sans avoir une montagne à monter à la main en dev. puis aucune remarque, peu d'avancement alors que la date de fin de l'année et du lancement des scans officiels approche",
                         "references": "Vincent Garcia, Fabien Virot, Bastien, Esther, Maxence, Amaury",
-                        "environnementTechnique": "Python, Gitlab, Docker, Splunk, VSCode (module remote development), HashiCorp Vault, dev containers, Ansible Tower",
+                        "environnementTechnique": "Python, GitLab, Docker, Splunk, VSCode (module remote development), HashiCorp Vault, dev containers, Ansible Tower",
                         "intitule": "Développeur Outils et Industrialisation",
+                        "objectifs": [
+                            "Création d'un module de hunting dans le but de trouver les informations sensibles sur l'intranet Jira et Confluence d'Enedis",
+                            "Guider l'équipe sur des meilleures pratiques de développement"
+                        ],
+                        "problematiques": [
+                            "Les modifications sur les modules étaient devenues très lourdes à cause: d'une mauvaise gestion des branches, des dépendances avec l'interface graphique de la partie générique des modules, d'une mauvaise gestion des mots de passes et variables d'environnement"
+                        ],
+                        "resultats": [
+                            "Le module remonte avec succès informations sensibles sur le serveur Splunk (de la zone sécurisée) de l'entreprise en utilisant les api des différents outils intranet, plus de 100.000 informations sensibles retrouvées",
+                            "Une livraison en quelques minutes à la place d'une livraison en une journée grâce à la nouvelle architecture des modules applicatifs",
+                            "Installation d'un environnement de travail d'un nouvel arrivant en 2h à la place de presque une semaine"
+                        ],
                         "realisations": [
                             {
                                 "description": "Refonte d'un module de hunting sur Outils Atlassian (Jira, Confluence)",
@@ -199,16 +211,19 @@
                                         "description": "amélioration du découpage des dépendances"
                                     },
                                     {
-                                        "description": "mise en place d'un flux de traitement optimisé grace à des appels asynchrones et plusieurs pool de traitements en parallèle"
+                                        "description": "mise en place d'un flux de traitement optimisé grâce à des appels asynchrones et plusieurs pool de traitements en parallèle"
                                     },
                                     {
                                         "description": "ajout d'un mode partiel pour faciliter les tests (grande quantité d'articles à scanner)"
                                     },
                                     {
-                                        "description": "réalisation de tests sur plusieurs types d'environnements, scan direct, via proxy, résultats dans splunk"
+                                        "description": "réalisation de tests sur plusieurs types d'environnements, scan direct, via proxy, résultats dans Splunk"
                                     },
                                     {
-                                        "description": "réalisation d'un pipeline de build (POC) permettant : le build via l'outil interne de gestion des packages/images (JFrog Artifactory) et le run (via un runner gitlab)"
+                                        "description": "réalisation d'un pipeline de build permettant : le build via l'outil interne de gestion des packages/images (JFrog Artifactory) et le run (via un runner gitlab)"
+                                    },
+                                    {
+                                        "description": "réalisation d'un module de récupération de variables/mots de passe (Vault entreprise) qui simplifie largement la gestion des mots de passe applicatifs (le module est par exemple utilisé lors de la récupération des informations associées à l'environnement"
                                     }
                                 ]
                             },
@@ -256,6 +271,12 @@
                         "environnementTechnique": "Azure Devops, Git, Dotnet Core 3.1, Keycloak",
                         "intitule": "Développement et maintenance d'un logiciel SIRH/GRH",
                         "presentation": "réalisation d'outils et industrialisation d'application (Dockerisation)",
+                        "objectifs": [
+                            "Maintenance évolutive d'une application SIRH"
+                        ],
+                        "resultats": [
+                            "Utilisation de l'application en production avec environ 30 utilisateurs"
+                        ],
                         "realisations": [
                             {
                                 "description": "Environnement/Devops ",
@@ -304,7 +325,7 @@
                                         "description": "Maintenance d’une application dotNet en fin de vie (débogage et ajustements)"
                                     },
                                     {
-                                        "description": "Réalisation d'un microservice en python servant de serveur de fichier HTTP, un test de charge du microservice est réalisé et automatisé à l'aide d'un script en python"
+                                        "description": "Réalisation d'un microservice en python servant de serveur de fichier HTTP (Flask), un test de charge du microservice est réalisé et automatisé à l'aide d'un script en python"
                                     }
                                 ]
                             }
@@ -315,22 +336,32 @@
                         "dateFin": "2022-05-01",
                         "dateDebut": "2022-01-01",
                         "domaine": "Développeur d'outils, Devops",
-                        "detailsMemory": "j'arrive : Nicolas Bauneau, se décharge des projets ennuyeux, je dois faire du nétoyage. Environnement en grande partie azure, contexte compliqué pour les mises en productions. ce sont les premières application qui arrive en production et personne ne se mouille ni aucune procédure n'est faite pour la mise en production ",
+                        "detailsMemory": "j'arrive : Nicolas Bauneau, se décharge des projets ennuyeux, je dois faire du nettoyage. Environnement en grande partie azure, contexte compliqué pour les mises en productions. ce sont les premières application qui arrive en production et personne ne se mouille ni aucune procédure n'est faite pour la mise en production ",
                         "references": "Nicolas Bauneau, Remi, Cyrille, Florian Jolivet, Laurence, Pierrick, Sébastien Mortel, Charles, Sassi, Jerome",
                         "environnementTechnique": "Environnement + infra Azure, 4 Clusters Kubernetes (Azure), Microservices .NET, Terraform, Shell, PowerShell, Python, NodeRed",
                         "intitule": "Automatisations et Industrialisation",
                         "presentation": "Maintenance de pipelines sous Azure Devops, accompagnement de développeurs dans le cadre d'industrialisations de projet",
+                        "objectifs": [
+                            "Maintenance évolutive des CI/CD existantes",
+                            "Trouver une solution de déploiement OnPremise pour une CI/CD créée pour être déployée sur Azure"
+                        ],
+                        "resultats": [
+                            "les premières versions de l'application Horus BDL sont livrées normalement sur l'environnement de production du client"
+                        ],
                         "realisations": [
                             {
-                                "description": "Montée en compétence et prise charge du fonctionnement du provisionning (Azure), du déploiement (Kubernetes) d'environ 6 applications en mode cloud"
+                                "description": "Montée en compétence et prise charge du fonctionnement du provisioning (Azure), du déploiement (Kubernetes) d'environ 6 applications en mode cloud"
                             },
                             {
                                 "description": "Réalisation de pipelines à l'aide des différents templates existants, pour un déploiement continu sur 3 applications",
                                 "detailsMemory": "Horus Bord de ligne, Horus Logistique, Licensing, MFM, Yourstore"
                             },
                             {
-                                "description": "Mise en place d'une chaine de livraison pour un projet déployé en OnPremise chez le client",
+                                "description": "Mise en place d'une chaîne de livraison pour un projet déployé en OnPremise chez le client",
                                 "realisations": [
+                                    {
+                                        "description": "Intégration de plusieurs services sur une"
+                                    },
                                     {
                                         "description": "Dockerisation et adaptation de Dockerfile pour simplifier le packaging"
                                     },
@@ -343,17 +374,17 @@
                                 ]
                             },
                             {
-                                "description": "Maintenance et debug sur plusieurs pipelines (CI/CD)",
+                                "description": "Maintenance et debug sur plusieurs pipelines (CI/CD) écrites en Yaml Azure Devops",
                                 "realisations": [
                                     {
                                         "description": "Accompagnement de plusieurs équipes sur la prise en main des pipelines projet",
-                                        "detailsMemory": "Fonctionnements sur les pipelines OnPremise HOBDL, Debug et fonctionnement général sur Horus Logistique, Debug et PR Yourstore, MFM fonctionnement général avec selection des versions etc ..."
+                                        "detailsMemory": "Fonctionnements sur les pipelines OnPremise HOBDL, Debug et fonctionnement général sur Horus Logistique, Debug et PR Yourstore, MFM fonctionnement général avec selection des versions etc .."
                                     },
                                     {
-                                        "description": "Debugage sur PR equipes suite à modifications des pipelines"
+                                        "description": "Débogage sur PR équipes suite à modifications des pipelines"
                                     },
                                     {
-                                        "description": "Réalisation de documentations techniques, procédures et de troobleshoot en Markdown"
+                                        "description": "Réalisation de documentations techniques, procédures et de troubleshoot en Markdown"
                                     },
                                     {
                                         "description": "Participation à des points audio réguliers avec les architectes et la partie infra"
@@ -367,7 +398,7 @@
                                         "description": "Mise en place d'une purge automatique pour libérer de l'espace de stockage sur les ACR"
                                     },
                                     {
-                                        "description": "Simplification des template de déploiement standards en séparant la partie infra de la partie applicative"
+                                        "description": "Simplification des templates standards de déploiement en séparant la partie infra de la partie applicative"
                                     },
                                     {
                                         "description": "Amélioration d'un pipeline de purge pour supprimer des ressources (Namespace Kubernetes, Elements de l'APP gateway azure)"
@@ -384,7 +415,7 @@
                                         "description": "Mise à jour d'un module de génération de clef RSA et de chiffrement de données (en .NET) pour simplifier l'utilisation automatisée"
                                     },
                                     {
-                                        "description": "Réalisation de scripts pour simplifier l'accès (aux développeurs) à un environnement de test OnPremise (Récupération de clef keyvault, Port forwarding)"
+                                        "description": "Réalisation de scripts pour simplifier l'accès (aux développeurs) à un environnement de test OnPremise (Récupération de clef Azure KeyVault, Port forwarding)"
                                     }
                                 ]
                             }
@@ -405,10 +436,10 @@
                                 "description": "Environnement/Devops",
                                 "realisations": [
                                     {
-                                        "description": "Reprise et remise en route des environnements (Dev, Recette et Prod) et de la chaine devops (Azure DevOps)"
+                                        "description": "Reprise et remise en route des environnements (Dev, Recette et Prod) et de la chaîne devops (Azure DevOps)"
                                     },
                                     {
-                                        "description": "Création d’un environnement de test à l’aide de containers Docker, SQL Server intégré à la chaine de livraison Azure DevOps"
+                                        "description": "Création d’un environnement de test à l’aide de containers Docker, SQL Server intégré à la chaîne de livraison Azure DevOps"
                                     },
                                     {
                                         "description": "Accompagnement de l’équipe de développement dans la prise en main d’Azure DevOps "
@@ -417,13 +448,13 @@
                                         "description": "Installation d’un Cluster Kubernetes (Bare Metal) pour préparer et simplifier la réalisation d’une version microservices de l’application",
                                         "realisations": [
                                             {
-                                                "description": "Installation d’un stack grafana pour le monitoring"
+                                                "description": "Installation d’un stack Grafana pour le monitoring"
                                             },
                                             {
                                                 "description": "Installation d’environnements sur différents namespaces"
                                             },
                                             {
-                                                "description": "Intégration d’une chaine de déploiement Azure Devops avec déploiement automatique sur le cluster (gestion dynamique des déploiements de microservices)"
+                                                "description": "Intégration d’une chaîne de déploiement Azure Devops avec déploiement automatique sur le cluster (gestion dynamique des déploiements de microservices)"
                                             },
                                             {
                                                 "description": "Optimisation des pipelines de build et de déploiement (au niveau temps)"
@@ -503,12 +534,12 @@
                         "contexte": "Equipe de 5 personnes",
                         "presentation": "Développement, tests et déploiement de services",
                         "environnementTechnique": "Visual Studio Code (avec module remote development), Docker Swarm, Java 1.8, JBoss (Wildfly)",
-                        "detailsMemory": "Alexandre me drive, je passe pas mal de temps à me remetre dans le dev java J2EE, à potasser dans mon env perso",
+                        "detailsMemory": "Alexandre me drive, je passe pas mal de temps à me remettre dans le dev java J2EE, à potasser dans mon env perso",
                         "references": "",
                         "service": "Service informatique de Coopalim",
                         "realisations": [
                             {
-                                "description": "Création et deploiement d'une image Docker d'application Symphony de l'application Elefan",
+                                "description": "Création et déploiement d'une image Docker d'application Symphony de l'application Elefan",
                                 "detailsMemory": "l'application est un gestionnaire de client et de tache  clients pour magasin coopératif"
                             },
                             {
@@ -535,10 +566,10 @@
                         "secteur": "Vente et distribution de magasines",
                         "intitule": "Automatisations et Migrations d'applications",
                         "domaine": "Automatisation / DevOps",
-                        "contexte": "Equipe de 7 personnes, 4 personne produit et 3 developpeurs",
+                        "contexte": "Equipe de 7 personnes, 4 personne produit et 3 développeurs",
                         "presentation": "Migration de sites, automatisations de tâches, maintenance du parc",
                         "environnementTechnique": "Visual Studio Code (avec module remote development), VMWare ESX (5.1), ProxMox, MySQL, GitLab; Python, Shell (Bash); Docker (docker-compose); SaltStack; Jenkins",
-                        "detailsMemory": "Le serveur VMWare était sur un vieux ESX, le proxmox",
+                        "detailsMemory": "Le serveur VMWare était sur un vieux ESX, le Proxmox",
                         "references": "Darko Calic (Manager Commercial), Philippe Horesh (Manager SC), Olivier Camus (Manager ... absent), Marc-Alexandre (Produit, sympa ++), Claude Mansilla (Developeuse Cobol, consciencieuse++), Nadine Bischoff (Service client++), Lucile Siksik (data manager++), Cecilia Cvetanovic (Produit, logique++ toujours raison), Nicolas Kuentz (Developpeur), Virgile Alonas(Developpeur++), Steeven Dauphin ",
                         "service": "Informatique Abopress",
                         "realisations": [
@@ -609,7 +640,7 @@
                 "environnementTechnique": "",
                 "realisations": [
                     {
-                        "description": "Développement et maintenance Full Stack d’applications le plus souvent dans des équipes fonctionnant en mode agile."
+                        "description": "Développement et maintenance Full Stack d’applications le plus souvent dans des équipes fonctionnant en mode agile"
                     }
                 ],
                 "experiences": [
@@ -746,12 +777,15 @@
                         "domaine": "Développeur Java",
                         "dateDebut": "2017-05-01",
                         "dateFin": "",
-                        "presentation": "Participation aux différentes réunions agiles (Daily meating, rétrospective, revue de backlog ..), migration de services SOAP vers REST, migration de la persistance des données : Hibernate vers JPA Standard, tests automatisés à l'aide de JUnit et MockiTo.",
+                        "presentation": "Participation aux différentes réunions agiles (Daily meating, rétrospective, revue de backlog ..), migration de services SOAP vers REST, migration de la persistance des données : Hibernate vers JPA Standard, tests automatisés à l'aide de JUnit et MockiTo",
                         "contenu": "",
                         "resume": "",
                         "references": "",
                         "environnementTechnique": "Eclipse, Maven 3.2,JEE6 : Java 1.6, JPA (EclipseLink), JaxRS, NodeJS, PostMan/SoapUI, Putty, DevTest (Workstation), Weblogic 12",
                         "service": "Aude Formation",
+                        "objectifs": [
+                            "Maintenance, stabilisation, évolution de l'application Aude formation"
+                        ],
                         "experiences": [
                             {
                                 "typeExperience": "temp",
@@ -797,7 +831,7 @@
                                 "description": "Captures et bouchonnage d'appels services pour les tests à l'aide de DevTest"
                             },
                             {
-                                "description": "Réalisation et migration de services REST notamment des API dans le cadre de la gestion de vie d’une inscription d’un demandeur d’emploi à une formation."
+                                "description": "Réalisation et migration de services REST notamment des API dans le cadre de la gestion de vie d’une inscription d’un demandeur d’emploi à une formation"
                             },
                             {
                                 "description": "Réalisation de POC techniques",
@@ -829,7 +863,7 @@
                 "environnementTechnique": "",
                 "realisations": [
                     {
-                        "description": "Réalisation d’outils et automatisations transverses pour les équipes de maintenance système et d’industrialisation d’application.",
+                        "description": "Réalisation d’outils et automatisations transverses pour les équipes de maintenance système et d’industrialisation d’application",
                         "realisations": [
                             {
                                 "description": "Monitoring système du parc PSA"
@@ -841,7 +875,7 @@
                                 "description": "Participation à la réalisation d’un outil d’automatisation no code pour simplifier le packaging et le déploiement des applications"
                             },
                             {
-                                "description": "Réalisation d’un outil de requêtage et de synthèse sur les configurations de stockage du parc."
+                                "description": "Réalisation d’un outil de requêtage et de synthèse sur les configurations de stockage du parc"
                             }
                         ]
                     }
@@ -854,7 +888,7 @@
                         "domaine": "Développeur Java",
                         "dateDebut": "2015-06-01",
                         "dateFin": "",
-                        "presentation": "Participation aux réunions et à la conception technique (DCG/TRC), Participation à l’implémentation des règles de gestion fonctionnelles et d’affichage en réalisant la modélisation et  les développements adéquats sur la base des documents de spécification. Utilisation d’outils de construction automatisée (Acrople SLD). Tests automatisés à l'aide de JUnit et MockiTo.",
+                        "presentation": "Participation aux réunions et à la conception technique (DCG/TRC), Participation à l’implémentation des règles de gestion fonctionnelles et d’affichage en réalisant la modélisation et  les développements adéquats sur la base des documents de spécification. Utilisation d’outils de construction automatisée (Acrople SLD). Tests automatisés à l'aide de JUnit et MockiTo",
                         "contenu": "",
                         "resume": "",
                         "references": "",
@@ -862,7 +896,7 @@
                         "environnementTechnique": "Windows, Linux (serveurs),Eclipse Kepler, Maven 3.2,J2EE : Java 1.6, Acropole SLD, MockiTo, Perl, Jenkins, Weblogic 10/11/12, plSQL, Putty",
                         "realisations": [
                             {
-                                "description": "Outil de tests unitaires automatiques avec base virtuelle HSQLDB se basant sur des fichiers DBUnit contenant des jeux de données fixes."
+                                "description": "Outil de tests unitaires automatiques avec base virtuelle HSQLDB se basant sur des fichiers DBUnit contenant des jeux de données fixes"
                             },
                             {
                                 "description": "batchs SQL Oracle",
@@ -874,11 +908,11 @@
                                 ]
                             },
                             {
-                                "description": "Réalisation d'un outil d'extraction de données d'entrées/sorties (fichier XML) pour une génération automatique de documentation.",
+                                "description": "Réalisation d'un outil d'extraction de données d'entrées/sorties (fichier XML) pour une génération automatique de documentation",
                                 "text": "Parsing XML des fichiers de configuration Acropole SLD, afin de synthétiser les données sur certains critères et faciliter l'accès aux informations"
                             },
                             {
-                                "description": "Réalisation de services SOAP à l’aide du framework Acropole SLD, dans le cadre de la gestion de vie d’une inscription d’un demandeur d’emploi à une formation.",
+                                "description": "Réalisation de services SOAP à l’aide du framework Acropole SLD, dans le cadre de la gestion de vie d’une inscription d’un demandeur d’emploi à une formation",
                                 "text": "estimation : une centaine de services, modification/ajout/suppression avec des contraintes métier fortes, des jeux de données difficile à préparer"
                             },
                             {
@@ -894,14 +928,18 @@
                     {
                         "typeExperience": "mission",
                         "intitule": "Intervention au sein du centre de services SOPRA STERIA de Strasbourg",
-                        "client": "C.T.S.",
+                        "client": "C.T.S",
                         "domaine": "Développeur Java",
                         "dateDebut": "2015-03-01",
                         "dateFin": "",
-                        "presentation": "Intervention au sein de la TMA pour le compte de la CTS. Correction de bugs sur une application java web orientée services. Mise à jour du dossier de conception et des maquettes dynamiques associées.",
+                        "presentation": "Intervention au sein de la TMA pour le compte de la CTS. Correction de bugs sur une application java web orientée services. Mise à jour du dossier de conception et des maquettes dynamiques associées",
                         "contenu": "",
                         "resume": "",
                         "references": "",
+                        "objectifs": [
+                            "Maintenance, corrections et évolutions de l'application de gestion des clients de la CTS",
+                            "Reconversion sur la technologie JAVA"
+                        ],
                         "environnementTechnique": "Windows, Linux (serveurs) Eclipse Kepler, Maven 3.2,Java 1.6, HTML/CSS/Javascript, JQuery, Tomcat,Jira",
                         "service": "Centre de services SopraSteria",
                         "realisations": [
@@ -943,6 +981,10 @@
                                 "service": "SIFA",
                                 "environnementTechnique": "Unix (hétérogène), Perl 5.8.8, ANT 1.8.2, Eclipse (SVN + SFTP), XML, Expressions rationnelles, Jira",
                                 "detailsMemory": "POPEI à reprendre, je monte en compétence, j'arrive à me dépatouiller. ",
+                                "objectifs": [
+                                    "Maintenance, corrections et évolutions de l'application de l’outil d’industrialisation POPEI et de ses scripts de gestion d'application",
+                                    "Les outils doivent rester accessibles aux utilisateurs non-développeurs"
+                                ],
                                 "realisations": [
                                     {
                                         "description": "Assistance utilisateurs"
@@ -1020,7 +1062,7 @@
                                         "resultats": "Les cartes sont générés avec succès et validés par Antoine, certains bugs sont corrigés et la documentation approfondie progressivement",
                                         "realisations": [
                                             {
-                                                "description": "Chaine d'automatisation"
+                                                "description": "chaîne d'automatisation"
                                             },
                                             {
                                                 "description": "Monté en compétence sur les outils géostatistiques"
@@ -1038,7 +1080,7 @@
                             },
                             {
                                 "typeExperience": "mission",
-                                "intitule": "Maintenance Applicative à l’aide d’outils internes, orientés ITIL.",
+                                "intitule": "Maintenance Applicative à l’aide d’outils internes, orientés ITIL",
                                 "client": "PSA",
                                 "domaine": "Intégrateur / Industrialisateur",
                                 "dateDebut": "2012-07-01",
@@ -1049,9 +1091,12 @@
                                 "references": "Emilie Mermet, Vincent Larrive, Sandra Cuenin",
                                 "service": "SIFA/TMI",
                                 "environnementTechnique": "KSH, Unix (hétérogène), SDI",
+                                "objectifs": [
+                                    "Traiter et tenter de réduire les incidents créés par les utilisateurs ou les outils de surveillance"
+                                ],
                                 "realisations": [
                                     {
-                                        "description": "Enrichissement de tiquet SDI (Niveau2)"
+                                        "description": "Analyse corrective et préventive d’applications par le biai d'un enrichissement de tiquet SDI (Niveau2)"
                                     },
                                     {
                                         "description": "Réalisation de POC pour tentatives d'automatisation de taches"
@@ -1065,12 +1110,16 @@
                                 "domaine": "Développeur outils et automatisation",
                                 "dateDebut": "2011-07-02",
                                 "dateFin": "",
-                                "presentation": "Développement, déploiement, maintenance, d'application intranet et statistiques sur le parc.",
+                                "presentation": "Développement, déploiement, maintenance, d'application intranet et statistiques sur le parc",
                                 "contenu": "",
                                 "resume": "",
+                                "objectifs": [
+                                    "Répondre à un besoin de développement de nouveaux outils, de correction de bugs",
+                                    "Assister et dépanner les utilisateurs"
+                                ],
                                 "references": "Anne-Sophie, Ludovic Guerre, Jean-Louis Angevele, Sebastien Desjardin (Mr FiFo), Vincent Larrive",
-                                "service": "ETSO/Pôle transversal",
-                                "environnementTechnique": "Perl 5.8.8, KSH, parc UNIX (hétérogène) environ 8000 serveurs, Oracle, SQL Developper, SVN (client texte)",
+                                "service": "ETSO/SRVA, Pôle transversal",
+                                "environnementTechnique": "Perl 5.8.8, KSH, parc UNIX (hétérogène) environ 8000 serveurs, Oracle, SQL Développer, SVN (client texte)",
                                 "realisations": [
                                     {
                                         "description": "Maintenance, correction et évolutions de l'application de surveillance SUSANE web et de son produit distribué sur le parc",
@@ -1084,7 +1133,7 @@
                                         ]
                                     },
                                     {
-                                        "description": "Formation d'un collègue espagnol sur le fonctionnement de SUSANE"
+                                        "description": "Formation d'un collègue espagnol (en anglais) sur le fonctionnement de SUSANE"
                                     },
                                     {
                                         "description": "Réalisation de synchronisations de l’outil de référentiel PSA (REFLEX), à partir de données fraiches collectées sur des serveurs à l'aide d'un outil de collecte"
@@ -1132,12 +1181,22 @@
                                 "references": "Ludovic Guerre, Vincent Larrive, ",
                                 "service": "ETSO/TME",
                                 "environnementTechnique": "Perl 5.8.8, KSH, HTML/CSS, Javascript, parc UNIX (hétérogène) environ 8000 serveurs, ORM    propriétaire (perl), Oracle, SQL Developper",
+                                "objectifs": [
+                                    "Répondre à un besoin de développement de nouveaux outils, de correction de bugs",
+                                    "Assister et dépanner les utilisateurs"
+                                ],
                                 "realisations": [
                                     {
                                         "description": "Réalisation d'un daemon gérant les connexions simultanées et permettant la gestion, la modification et la remonté d'information concernant les services (ports) sur les serveurs",
                                         "realisations": [
                                             {
                                                 "description": "Utilisation d'une base de données Oracle pour la persistance des données"
+                                            },
+                                            {
+                                                "description": "Création d'un client console afin de faciliter la gestion du processus en temps réel"
+                                            },
+                                            {
+                                                "description": "L'état du parc était rafraichi une fois par jour via un script de récupération"
                                             }
                                         ]
                                     },
@@ -1170,11 +1229,16 @@
                 "domaine": "Analyste Développeur/Intégrateur",
                 "dateDebut": "2008-11-17",
                 "dateFin": "2010-07-01",
-                "presentation": "Réalisation d'un site web de présentation. Evolution du site vers un site marchant Réalisation d'un Outil de gestion de clients+ intégration Word pour génération de documents (MS, OpenXML)",
+                "presentation": "Réalisation d'un site web de présentation. Evolution du site vers un site marchant Réalisation d'un Outil de gestion de clients+ intégration Word pour génération de documents (MS, Open XML)",
                 "contenu": "",
                 "resume": "",
                 "references": "Arlette et Jerome Joly",
                 "service": "service informatique",
+                "objectifs": [
+                    "Publier et vendre les produits de coaching vendu par l’entreprise",
+                    "Automatiser des tâches répétitives",
+                    "Assister les collaborateurs en informatique"
+                ],
                 "environnementTechnique": "Eclipse/Java, Javascript, Joomla 1.5/Virtuemart/PHP5, VB6 , XML, Office; Gimp",
                 "realisations": [
                     {
@@ -1229,15 +1293,19 @@
                 "resume": "",
                 "references": "",
                 "environnementTechnique": "",
+                "objectifs": [
+                    "Proposer et mettre en place un outil de gestion de fichier simple et sécurisée",
+                    "Ne pas utiliser des outils de GAFAM comme Microsoft OneDrive/Google Drive"
+                ],
                 "experiences": [
                     {
                         "typeExperience": "perso",
                         "intitule": "Partage de fichier sur VPN",
-                        "client": "Ami",
+                        "client": "Projet personnel",
                         "domaine": "outils/devops",
                         "dateDebut": "2024-07-01",
                         "dateFin": "2024-07-15",
-                        "presentation": "Installation d'un partage de fichier sécurisé ne passant pas via les outils GAFA",
+                        "presentation": "Installation d'un partage de fichier sécurisé",
                         "contenu": "",
                         "resume": "",
                         "references": "",
@@ -1261,20 +1329,25 @@
                     {
                         "typeExperience": "perso",
                         "intitule": "Site dynamique pour une association",
-                        "client": "Ami",
+                        "client": "Projet personnel",
                         "domaine": "developpement python / devops",
                         "dateDebut": "2024-06-01",
                         "dateFin": "2024-06-25",
-                        "presentation": "Migration d'un site fonctionnant sur un joomla obsolète sur un outil simplifié de gestion dynamique de contenu",
+                        "presentation": "Migration d'un site joomla obsolète",
                         "contenu": "",
                         "resume": "",
                         "references": "",
                         "environnementTechnique": "Docker, Python, Quart",
                         "detailsMemory": "",
+                        "objectifs": [
+                            "Migration du site existant vers une gestion simplifiée mais semi dynamique du contenu",
+                            "Conserver les formulaires de contact existants",
+                            "Protéger les formulaires et le système d'envoi de mails des abus"
+                        ],
                         "realisations": [
                             {
                                 "description": "Création d'un environnement Docker proche de celui de l'hébergeur pour tests de migration"
-                            },                            
+                            },
                             {
                                 "description": "Modélisation des classes du site (pydantic + json schema)"
                             },
@@ -1286,6 +1359,17 @@
                             },
                             {
                                 "description": "Dockerisation du projet python"
+                            },
+                            {
+                                "description": "Sécurisation du formulaire",
+                                "realisations": [
+                                    {
+                                        "description": "Intégration de google recapcha"
+                                    },
+                                    {
+                                        "description": "mise en place d'une protection CSRF via un token JWT"
+                                    }
+                                ]
                             }
                         ]
                     },
@@ -1348,7 +1432,7 @@
                     {
                         "typeExperience": "perso",
                         "intitule": "Outils de transfert de fichiers",
-                        "client": "/",
+                        "client": "Projet personnel",
                         "domaine": "",
                         "dateDebut": "2005-12-01",
                         "dateFin": "",
@@ -1356,7 +1440,7 @@
                         "contenu": "",
                         "resume": "",
                         "references": "",
-                        "environnementTechnique": "",
+                        "environnementTechnique": "Java, Debian Linux",
                         "realisations": [
                             {
                                 "description": "Conception orienté objet",
@@ -1367,7 +1451,7 @@
                                 ]
                             },
                             {
-                                "description": "réalisation du client et du serveur à l'aide de la serialisation java"
+                                "description": "réalisation du client et du serveur à l'aide de la sérialisation java"
                             }
                         ]
                     },
@@ -1391,16 +1475,16 @@
                                 "description": "Modélisation Bases de données (Locale et Distante)"
                             },
                             {
-                                "description": "Création d'une interface (client lourd) de gestion informatique des concours relativement évolutive."
+                                "description": "Création d'une interface (client lourd) de gestion informatique des concours relativement évolutive"
                             },
                             {
                                 "description": "Gestion de la synchronisation des bases"
                             },
                             {
-                                "description": "Réalisation de composants Borland C++ Builder, pour simplifier le code / améliorer l’interactivité.",
+                                "description": "Réalisation de composants Borland C++ Builder, pour simplifier le code / améliorer l’interactivité",
                                 "realisations": [
                                     {
-                                        "description": "Ex : grille colorée avec recherche intégrée."
+                                        "description": "Ex : grille colorée avec recherche intégrée"
                                     }
                                 ]
                             }
@@ -1408,8 +1492,8 @@
                     },
                     {
                         "typeExperience": "perso",
-                        "intitule": "Gestionnaire de téléchargements.",
-                        "client": "/",
+                        "intitule": "Gestionnaire de téléchargements",
+                        "client": "Projet personnel",
                         "domaine": "",
                         "dateDebut": "2009-01-01",
                         "dateFin": "",
@@ -1417,7 +1501,7 @@
                         "contenu": "",
                         "resume": "",
                         "references": "",
-                        "environnementTechnique": "Perl, LWP, Protocole HTTP, HTML/CSS, Javascript (JQuery).",
+                        "environnementTechnique": "Perl, LWP, Protocole HTTP, HTML/CSS, Javascript (JQuery)",
                         "realisations": [
                             {
                                 "description": "Modélisation des classes"
@@ -1444,7 +1528,7 @@
                     {
                         "typeExperience": "perso",
                         "intitule": "Jeu d’échecs simple",
-                        "client": "/",
+                        "client": "Projet personnel",
                         "domaine": "",
                         "dateDebut": "2009-01-01",
                         "dateFin": "",
@@ -1452,26 +1536,26 @@
                         "contenu": "",
                         "resume": "",
                         "references": "",
-                        "environnementTechnique": "C++ (STL), Visual Studio Express, Java/Eclipse.",
+                        "environnementTechnique": "C++ (STL), Visual Studio Express, Java/Eclipse",
                         "realisations": [
                             {
                                 "description": "Modélisation des classes"
                             },
                             {
-                                "description": "Réalisation d’un prototype en Java."
+                                "description": "Réalisation d’un prototype en Java"
                             },
                             {
                                 "description": "Mise en place d'une IA simple utilisant une logique à valeurs multiples (fuzzy logics)"
                             },
                             {
-                                "description": "Tentatives d’optimisations lors du passage en C++ en utilisant les entiers 64bits."
+                                "description": "Tentatives d’optimisations lors du passage en C++ en utilisant les entiers 64bits"
                             }
                         ]
                     },
                     {
                         "typeExperience": "perso",
                         "intitule": "Installation et maintenance d'un blog Drupal",
-                        "client": "/",
+                        "client": "Projet personnel",
                         "domaine": "",
                         "dateDebut": "2009-01-01",
                         "dateFin": "",
@@ -1480,19 +1564,19 @@
                         "resume": "",
                         "references": "",
                         "environnementTechnique": "Linux Debian, CPanel, Webmin, Drupal, PHP",
-                        "detailsMemory": "correction d'un bug sur les bares de progression qui fonctionnait en rest mais 000Webhost ajoutais à toutes les pages du codes pours les statistiques : https://www.drupal.org/node/708916#comment-2719716",
+                        "detailsMemory": "correction d'un bug sur les bares de progression qui fonctionnait en rest mais 000Webhost ajoutais à toutes les pages du codes pours les statistiques : https://www.Drupal.org/node/708916#comment-2719716",
                         "realisations": [
                             {
                                 "description": "Modélisation des classes"
                             },
                             {
-                                "description": "Installation de drupal sur un VPS OVH"
+                                "description": "Installation de Drupal sur un VPS OVH"
                             },
                             {
                                 "description": "Maintenance du blog et du serveur VPS"
                             },
                             {
-                                "description": "Réalisation des mises à jours à l'aide de Drush et Compose"
+                                "description": "Réalisation des mises à jour à l'aide de Drush et Compose"
                             }
                         ]
                     }
@@ -1546,7 +1630,7 @@
                 "dateFin": "2006-2008",
                 "intitule": "Maitrise Sciences et Technologies de l'Information et de la Communication",
                 "lieu": "Centre de Téléenseignement Universitaire de Besançon",
-                "contenu": "Web (PHP5), Base de données (MySQL, eyeDB), Initiation IA (Prolog), Langage fonctionnel (Méthode B), modélisation objet (Diagramme de classe).",
+                "contenu": "Web (PHP5), Base de données (MySQL, eyeDB), Initiation IA (Prolog), Langage fonctionnel (Méthode B), modélisation objet (Diagramme de classe)",
                 "initiale": true
             },
             {
@@ -1554,7 +1638,8 @@
                 "intitule": "Licence Administration / Maintenance de Systèmes et d'Applications Réparties",
                 "lieu": "I.U.T Belfort Montbéliard",
                 "contenu": "Applications 3 tiers (Java/J2EE/Struts), UML, Réseau",
-                "initiale": true
+                "initiale": true,
+                "defailsMemory": "M'a ouvert aux outils open source, beaucoup de pratique sur les environnements Debian, Installation de services Réseaux"
             },
             {
                 "dateFin": "2003-2005",

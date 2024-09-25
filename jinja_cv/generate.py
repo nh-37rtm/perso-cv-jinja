@@ -35,6 +35,8 @@ class RenderContext:
         template = self.jinjaTemplateEnv_.get_template(templateFileName)
         return template.render(context=self, data=data)
 
+    def hasattr(self, o: object, attribute_name: str):
+        return hasattr(o, attribute_name)
 
 def writeFile(text, fileName: str):
     with codecs.open(fileName, "w", errors='strict') as fileDescriptor:

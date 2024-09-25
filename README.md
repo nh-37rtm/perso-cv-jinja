@@ -35,3 +35,9 @@ C:\Users\heimn>scp local-debian:/home/nheim/src/perso-cv-jinja/out/cv.* .
 
 
 python3 ./jinja_cv/generate.py -o ./out/cv.html -t ./jinja_cv/templates/dossier_competence/dc.j2.html
+
+wkhtmltopdf --enable-local-file-access --encoding "u
+tf-8" ./dc.html ./dc.pdf
+
+C:\Users\nheim>scp localhost:/home/nheim/src/perso-cv-jinja/out/dc_stork.xml .
+dc_stork.xml                                                                          100%  809KB   9.3MB/s   00:00
