@@ -34,7 +34,7 @@ wkhtmltopdf ./out/cv.html ./out/cv.pdf
 C:\Users\heimn>scp local-debian:/home/nheim/src/perso-cv-jinja/out/cv.* .
 
 
-python3 ./jinja_cv/generate.py -o ./out/cv.html -t ./jinja_cv/templates/dossier_competence/dc.j2.html
+python3 ./jinja_cv/generate.py -o ./out/dc.html -t ./jinja_cv/templates/dossier_competence/dc.j2.html
 
 wkhtmltopdf --enable-local-file-access --encoding "u
 tf-8" ./dc.html ./dc.pdf

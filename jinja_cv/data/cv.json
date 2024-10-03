@@ -211,7 +211,7 @@
                                         "description": "amélioration du découpage des dépendances"
                                     },
                                     {
-                                        "description": "mise en place d'un flux de traitement optimisé grâce à des appels asynchrones et plusieurs pool de traitements en parallèle"
+                                        "description": "mise en place d'un flux de traitement optimisé grâce à des appels asynchrones et plusieurs pools de traitements en parallèle"
                                     },
                                     {
                                         "description": "ajout d'un mode partiel pour faciliter les tests (grande quantité d'articles à scanner)"
@@ -322,7 +322,7 @@
                                         "description": "Amélioration d’un moteur de template jinja2 écrit en python pour ajouter un paramétrage via un fichier de configuration"
                                     },
                                     {
-                                        "description": "Maintenance d’une application dotNet en fin de vie (débogage et ajustements)"
+                                        "description": "Maintenance d’une application dotNet en fin de vie (débogages et ajustements)"
                                     },
                                     {
                                         "description": "Réalisation d'un microservice en python servant de serveur de fichier HTTP (Flask), un test de charge du microservice est réalisé et automatisé à l'aide d'un script en python"
@@ -663,7 +663,7 @@
                                         "description": "Comparaison sur les quantités de matières"
                                     },
                                     {
-                                        "description": "Contrôles sur les disponibilités de pièces/matière"
+                                        "description": "Contrôles sur les disponibilités de pièces/matières"
                                     }
                                 ]
                             },
