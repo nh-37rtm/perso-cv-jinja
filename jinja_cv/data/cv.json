@@ -430,7 +430,14 @@
                         "environnementTechnique": "Azure Devops, Git, Dotnet Core 3.1",
                         "intitule": "Développement et maintenance d'un logiciel SIRH/GRH",
                         "presentation": "Reprise et maintenance d'une application de gestion des salariés puis refonte de l'application existante en une application microservice",
-                        "contexte": "Développement et maintenance d'un logiciel SIRH/GRH",
+                        "contexte": "l'application SIRH de l'entreprise ne fonctionne plus, les personnes sur le projet ne sont plus disponibles. Avec un développeur C# et deux personnes orientés métier nous devons refaire fonctionne l'application et y ajouter des fonctionnalités",
+                        "resultats": [
+                            "Sur l'ancienne application, les CI/CD permettent de faire une livraison en quelques minutes alors que le déploiement manuel se faisait en plus de 2 heures",
+                            "Couverture (par les TU) d'environ la moitié du code de l'application à l'aide d'un collègue, alors que moins d'un tier était couverte",
+                            "La création du fichier zip incluant les documents PDF générés se fait à la volée",
+                            "Le cluster permet d'héberger les premiers microservices migrés, de gagner en résilience et en flexibilité comparé à une simple application exécutée"
+
+                        ],
                         "realisations": [
                             {
                                 "description": "Environnement/Devops",
@@ -492,32 +499,6 @@
                                     },
                                     {
                                         "description": "Optimisation de génération de zip sous la forme d’un streaming de fichier"
-                                    }
-                                ]
-                            },
-                            {
-                                "description": "Environnement/Devops",
-                                "realisations": [
-                                    {
-                                        "description": "Installation d'un cluster"
-                                    },
-                                    {
-                                        "description": "Réalisation d’un poc en React Native/Web"
-                                    },
-                                    {
-                                        "description": "Réalisation d’un service de génération de template razor vers PDF côté backend"
-                                    },
-                                    {
-                                        "description": "Réalisation d’un module de gestion d’astreintes"
-                                    },
-                                    {
-                                        "description": "Réalisation de TU et de tests d’intégration"
-                                    },
-                                    {
-                                        "description": "Rafraîchissement de l’interface de l’application CSS, ASP.NET (Razor)"
-                                    },
-                                    {
-                                        "description": "Réalisation de la pagination pour plusieurs modules existants"
                                     }
                                 ]
                             }
