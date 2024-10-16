@@ -358,9 +358,10 @@
                             },
                             {
                                 "description": "Mise en place d'une chaîne de livraison pour un projet déployé en OnPremise chez le client",
+                                "detailsMemory": "gestion des stocks de \"bord de ligne de production\" à l'aide d'une application C# en haute disponibilité et d'un terminal portable",
                                 "realisations": [
                                     {
-                                        "description": "Intégration de plusieurs services sur une"
+                                        "description": "Intégration de plusieurs services sur un compose file docker"
                                     },
                                     {
                                         "description": "Dockerisation et adaptation de Dockerfile pour simplifier le packaging"
