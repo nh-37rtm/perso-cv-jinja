@@ -10,7 +10,7 @@ services:
       dockerfile: ./Dockerfile
       # target: dev_env
       #args:
-        # CVP_DOCKER_REGISTRY_URL: hpi-docker-stages.artifactory-principale.enedis.fr
+        # CVP_DOCKER_REGISTRY_URL: cvp-docker-stages.artifactory-noone.noone.fr
         # Empty variables just copy current shell variables inside container
         # CVP_BUILD_TIME_ENV:
     #container_name: dev_container_core
@@ -20,7 +20,6 @@ services:
     # extra_hosts:
       # host.docker.internal: host-gateway
       # require a tunnel on host
-      # qual-col-noe-zci.enedis.fr: "127.0.0.1"
 
     # definition explicite
     env_file: .env
