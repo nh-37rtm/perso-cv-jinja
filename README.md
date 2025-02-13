@@ -29,6 +29,10 @@ wkhtmltopdf ./out/cv.html ./out/cv.pdf
 ````
 
 
+## dependecies 
+
+pip install pytest pydantic jinja2 python-dateutil aiohttp jsonpath_ng python-dateutil
+
 ## Get files
 
 C:\Users\heimn>scp local-debian:/home/nheim/src/perso-cv-jinja/out/cv.* .

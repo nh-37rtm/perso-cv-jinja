@@ -41,9 +41,6 @@ services:
         source: ./
         target: /app/
         # env de dev vscode
-      - type: volume
-        source: CVP_vscode
-        target: /home/hpi/.vscode-server
 volumes:
   CVP_vscode:
 

@@ -7,7 +7,7 @@ import pprint
 import os
 import codecs
 import sys
-import controler.controler
+import jinja_cv.controler.controler as JinjaCvControler
 from jinja2 import FileSystemLoader, Template, Environment
 from typing import Generic, List, Dict, Iterable, Tuple, Any
 from pathlib import Path
@@ -26,7 +26,7 @@ class RenderContext:
     # os.path.dirname(Path(__file__)), os.getcwd()))
         self.jinjaTemplateLoader_ = FileSystemLoader(os.getcwd())
         self.jinjaTemplateEnv_ = Environment(loader=self.jinjaTemplateLoader_)
-        self.controler = controler.controler
+        self.controler = JinjaCvControler
         self.templateDir = None
 
     def renderTemplate(self, templateName: str, data: object) -> str:

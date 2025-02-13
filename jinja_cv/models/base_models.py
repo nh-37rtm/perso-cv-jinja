@@ -3,9 +3,10 @@ from typing_extensions import Annotated
 
 from datetime import datetime
 
-from dataclasses import dataclass
+from dataclasses import dataclass, is_dataclass
 
 import typing as t
+import inspect
 
 from pydantic import (
     BaseModel,
@@ -20,8 +21,8 @@ from pydantic.alias_generators import to_snake, to_camel
 
 def validate_datetime(
         v: t.Any,
-        handler: ValidatorFunctionWrapHandler,
-        info: ValidationInfo
+    handler: ValidatorFunctionWrapHandler,
+    info: ValidationInfo
     ) -> datetime:
     
     if info.mode == 'json':
@@ -49,7 +50,7 @@ CustomDateTime = Annotated[
 
 T= t.TypeVar('T')
 class JsonObject():
-    @classmethod   
+    @classmethod
     def from_object(cls: t.Type[T], reference: dict|list) -> T:
         instance = JsonObject()
         

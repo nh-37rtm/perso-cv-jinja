@@ -1,5 +1,5 @@
 {
-    "$schema": "/app/jinja_cv/schema/cv.schema.json",
+    "$schema": "/app/perso-cv-jinja/jinja_cv/schema/cv.schema.json",
     "curriculum": {
         "poste": "Développeur outils/ DevOps",
         "etatCivil": {
@@ -10,7 +10,7 @@
             "mail": "heim.nico@gmail.com",
             "telephone": "0689708718",
             "adresse": {
-                "codePostal": 67000,
+                "codePostal": 67240,
                 "intitule": "5555",
                 "numero": 3
             }
@@ -47,7 +47,7 @@
             },
             {
                 "intitule": "Bases de données",
-                "description": "eyeDB ; Oracle; SQLServer"
+                "description": "PostgreSQL; eyeDB ; Oracle; SQLServer"
             },
             {
                 "intitule": "Autres logiciels/Outils utilisés",
@@ -64,22 +64,35 @@
         ],
         "competences": [
             {
-                "description": "Réalisation, déploiement et maintenance d'applications",
-                "afinite": 70,
+                "intitule": "Facilitation du développement et des livraisons sur environnements flexibles",
+                "description": "Utilisations d'outils tels que Docker/ContainerD, Kubernetes, Swarm, Ansible/SaltStack",
                 "tags": [
                     "devops"
                 ]
             },
             {
                 "description": "Réalisation d'outils de développement (librairies)",
-                "afinite": 80,
+                "tags": [
+                    "devops"
+                ]
+            },
+            {
+                "description": "Réalisation, déploiement et maintenance d'applications",
+                "_afinite_": 70,
+                "tags": [
+                    "devops"
+                ]
+            },
+            {
+                "description": "Réalisation d'outils de développement (librairies)",
+                "_afinite_": 80,
                 "tags": [
                     "devops"
                 ]
             },
             {
                 "description": "Réalisation et Automatisation de tests",
-                "afinite": 60,
+                "_afinite_": 60,
                 "tags": [
                     "devops"
                 ]
@@ -89,7 +102,7 @@
             },
             {
                 "intitule": "Languages (Par ordre d’affinité)",
-                "description": "Java, Perl, Python, NodeJS, PHP,ASP,HTML/CSS/Javascript, Visual Basic; XML/XSLT",
+                "description": "Python, Java, Perl, NodeJS, PHP,ASP,HTML/CSS/Javascript, Visual Basic; XML/XSLT",
                 "tags": "developpeur"
             },
             {

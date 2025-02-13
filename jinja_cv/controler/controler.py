@@ -52,6 +52,7 @@ class Experience(JsonNode):
         self.poste = None
         self.depthAsCssClass = None
         self.subExperiences: List['Experience'] = []
+        self.realisations: List['Realisation'] = []
         # https://stackoverflow.com/questions/1305532/convert-nested-python-dict-to-object
         self.__dict__.update(entries)
 

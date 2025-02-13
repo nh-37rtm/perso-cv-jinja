@@ -168,10 +168,6 @@ def test_jq2(logger: logging.Logger, async_loop: asyncio.AbstractEventLoop):
         json_objs = json.loads(text)
       
         experience_list = JExperienceList.from_object(json_objs)
-        
-        
-        
-        
 
         child.wait()
         
