@@ -1,18 +1,19 @@
 {
-    "$schema": "/app/perso-cv-jinja/jinja_cv/schema/cv.schema.json",
+    "$schema": "cv.schema.json",
     "curriculum": {
         "poste": "Développeur outils/ DevOps",
         "etatCivil": {
             "nom": "HEIM",
-            "prenom": "Heim",
+            "prenom": "Nicolas",
             "dateNaissance": "24 juillet 1984",
             "anneesExp": "15",
             "mail": "heim.nico@gmail.com",
             "telephone": "0689708718",
             "adresse": {
                 "codePostal": 67240,
-                "intitule": "5555",
-                "numero": 3
+                "intitule": "rue de la pomme d'or",
+                "numero": 43,
+                "ville": "Bischwiller"
             }
         },
         "connaissances": [
@@ -65,9 +66,17 @@
         "competences": [
             {
                 "intitule": "Facilitation du développement et des livraisons sur environnements flexibles",
-                "description": "Utilisations d'outils tels que Docker/ContainerD, Kubernetes, Swarm, Ansible/SaltStack",
+                "description": "Utilisations d'outils tels que Docker/ContainerD, Kubernetes, Swarm, Ansible/SaltStack, Grafana",
                 "tags": [
                     "devops"
+                ]
+            },
+            {
+                "intitule": "Conteunerisation",
+                "description": "Création et Migration d’applications en container applicatifs Docker",
+                "tags": [
+                    "devops",
+                    "developpeur"
                 ]
             },
             {
@@ -79,13 +88,6 @@
             {
                 "description": "Réalisation, déploiement et maintenance d'applications",
                 "_afinite_": 70,
-                "tags": [
-                    "devops"
-                ]
-            },
-            {
-                "description": "Réalisation d'outils de développement (librairies)",
-                "_afinite_": 80,
                 "tags": [
                     "devops"
                 ]
@@ -129,14 +131,6 @@
                 ]
             },
             {
-                "intitule": "Containerisation",
-                "description": "Création et Migration d’applications en container applicatifs Docker",
-                "tags": [
-                    "devops",
-                    "developpeur"
-                ]
-            },
-            {
                 "description": "Modélisation de données objet",
                 "tags": [
                     "developpeur"
@@ -171,7 +165,7 @@
                         "description": "Déploiement et maintenance de clusters HA kubernetes sur plusieurs plateformes"
                     },
                     {
-                        "description": "Réalisation d'outils d'aide au développement, Chargement flexible de la configuration (Python), échanges robustes Kafka (C#), module de fédération d'identité Keycloak (Java), Scripts de sauvegarde sur données système/Persistent Volumes Kube à l'aide de BorgBackup"
+                        "description": "Réalisation d'outils d'aide au développement"
                     },
                     {
                         "description": "Installation et configuration d’un stack de monitoring à l’aide d’un Chart Helm (Grafana, Loki, Prometheus, Promtail)"
@@ -262,7 +256,7 @@
                                         "description": "POC et tests sur la VM de qualification"
                                     },
                                     {
-                                        "description": "Développement d'un module de gestion de configuration pour facilement centraliser la configuration de différentes sources, variables d’environnement (Runner Gitlab), fichiers de configuration et Hashicorp Vault"
+                                        "description": "Développement d'un module de gestion de configuration flexible pour facilement centraliser la configuration de différentes sources: variables d’environnement (Runner Gitlab), fichiers de configuration et Hashicorp Vault"
                                     }
                                 ]
                             }
@@ -320,7 +314,14 @@
                                             },
                                             {
                                                 "description": "Réalisation d’une chaîne de livraison automatisée et indépendante par microservice (pour 5 microservices) en utilisant des scripts python + templates Azure"
-                                            }
+                                            },
+                                            { 
+                                                "description": "Mise en place d'un système de sauvegarde des PVs associés aux pods avec persistence",
+                                                "realisations": [
+                                                    { "description" : "Un script est mis en place afin de récupérer l'association PV/Node via des interraction avec le serveur ETCD du control plane (via kubectl)"},
+                                                    { "description" : "La sauvegarde se fait de façon incrémentale sur chaque PV grace à l'outil BorgBackup"}
+                                                ]
+                                             }
                                         ]
                                     }
                                 ]
@@ -338,7 +339,13 @@
                                         "description": "Maintenance d’une application dotNet en fin de vie (débogages et ajustements)"
                                     },
                                     {
-                                        "description": "Réalisation d'un microservice en python servant de serveur de fichier HTTP (Flask), un test de charge du microservice est réalisé et automatisé à l'aide d'un script en python"
+                                        "description": "Réalisation d'un microservice en python servant de serveur de fichier HTTP (Flask)",
+                                        "realisations": [
+                                            { "description":"Le serveur permet de faire de l'upload et download de fichiers sous forme de flux afin de le rendre plus flexible et dynamique"},
+                                            { "description":"Une gestion d'authentification est mise en place via une interaction avec keycloak et l'utilisation d'une clef asymétrique (une attention particulière est mise sur le fait d'éviter que chaque requette n'oblige l'intéraction avec Keycloak)"},
+                                            { "description":"Un sytstème d'autorisation de base est mis en place en suivant les profils associés à l'utilisateur"},
+                                            { "description":"Un test de charge du microservice est réalisé et automatisé à l'aide d'un script en python" }
+                                        ]
                                     }
                                 ]
                             }
@@ -858,21 +865,7 @@
                 "environnementTechnique": "",
                 "realisations": [
                     {
-                        "description": "Réalisation d’outils et automatisations transverses pour les équipes de maintenance système et d’industrialisation d’application",
-                        "realisations": [
-                            {
-                                "description": "Monitoring système du parc PSA"
-                            },
-                            {
-                                "description": "Réalisation d’un outil de templating avec ses propres mots clefs (en perl)"
-                            },
-                            {
-                                "description": "Participation à la réalisation d’un outil d’automatisation no code pour simplifier le packaging et le déploiement des applications"
-                            },
-                            {
-                                "description": "Réalisation d’un outil de requêtage et de synthèse sur les configurations de stockage du parc"
-                            }
-                        ]
+                        "description": "Réalisation d'outils dans des équipes transverses et développement monté en comptétance sur le développement JAVA"
                     }
                 ],
                 "experiences": [
@@ -953,7 +946,7 @@
                         "typeExperience": "group",
                         "intitule": "",
                         "client": "PSA",
-                        "domaine": "",
+                        "domaine": "Développeur d'outils en équipes transversales",
                         "dateDebut": "",
                         "dateFin": "",
                         "presentation": "",
@@ -961,6 +954,25 @@
                         "resume": "",
                         "references": "",
                         "environnementTechnique": "",
+                        "realisations": [
+                            {
+                                "description": "Réalisation d’outils et automatisations transverses pour les équipes de maintenance système et d’industrialisation d’application",
+                                "realisations": [
+                                    {
+                                        "description": "Monitoring système du parc PSA"
+                                    },
+                                    {
+                                        "description": "Réalisation d’un outil de templating avec ses propres mots clefs (en perl)"
+                                    },
+                                    {
+                                        "description": "Participation à la réalisation d’un outil d’automatisation no code pour simplifier le packaging et le déploiement des applications"
+                                    },
+                                    {
+                                        "description": "Réalisation d’un outil de requêtage et de synthèse sur les configurations de stockage du parc"
+                                    }
+                                ]
+                            }
+                        ],
                         "experiences": [
                             {
                                 "typeExperience": "mission",
@@ -1224,7 +1236,7 @@
                 "domaine": "Analyste Développeur/Intégrateur",
                 "dateDebut": "2008-11-17",
                 "dateFin": "2010-07-01",
-                "presentation": "Réalisation d'un site web de présentation. Evolution du site vers un site marchant Réalisation d'un Outil de gestion de clients+ intégration Word pour génération de documents (MS, Open XML)",
+                "presentation": "Etude sur plusieurs posibilité de mise en place d'un site internet, Réalisation d'un site web de présentation (Joomla) et Evolution du site vers un site marchant.",
                 "contenu": "",
                 "resume": "",
                 "references": "Arlette et Jerome Joly",
@@ -1259,7 +1271,8 @@
                 "domaine": "Développeur",
                 "dateDebut": "2006-06-27",
                 "dateFin": "2007-08-01",
-                "presentation": "",
+                "presentation": "Réalisation et mise à jour de logiciels de calculs thermiques, gestion de leur mise à jour notamment pour une estimation DPE",
+                "contexte": "demarrage sur un stage d'été puis le patron me propose un poste en CDD au sein de l'entreprise, l'équipe se compose de 2 personnes métier, d'un expert métier (le patron) et de 3 développeurs Visual Basic (dont moi)",
                 "contenu": "",
                 "resume": "",
                 "references": "Thierry Mouge, Vincent Mouge, Deux developpeurs techniciens",
@@ -1317,7 +1330,7 @@
                                 "description": "Tests de fonctionnement et de compatibilité IPV6"
                             },
                             {
-                                "description": "Tests pour intération du mode hors connexion à l'aide de Syncthing"
+                                "description": "Tests pour intégration du mode hors connexion à l'aide de Syncthing"
                             }
                         ]
                     },
@@ -1370,12 +1383,12 @@
                     },
                     {
                         "typeExperience": "stage",
-                        "intitule": "Centralisation et exploitation des logs de plusieurs serveurs à l'aide d'un agent  en java se basant sur le protocole syslog",
+                        "intitule": "Centralisation et exploitation de logs",
                         "client": "CAPM",
                         "domaine": "Développeur",
                         "dateDebut": "2006-04-01",
                         "dateFin": "",
-                        "presentation": "",
+                        "presentation": "Centralisation et exploitation des logs de plusieurs serveurs à l'aide d'un agent  en java se basant sur le protocole syslog",
                         "contenu": "",
                         "resume": "",
                         "references": "",
@@ -1525,7 +1538,7 @@
                         "intitule": "Jeu d’échecs simple",
                         "client": "Projet personnel",
                         "domaine": "",
-                        "dateDebut": "2009-01-01",
+                        "dateDebut": "",
                         "dateFin": "",
                         "presentation": "",
                         "contenu": "",
@@ -1597,7 +1610,7 @@
                 "dateFin": "3 jours 2021",
                 "intitule": "Formation Kubernetes",
                 "lieu": "Formation CPF",
-                "contenu": "Initiation, deployments, services, pods, configmaps",
+                "contenu": "Formation sur les bases de kubernetes, introduction sur les concepts: deployments, services, pods, configmaps",
                 "initiale": false
             },
             {

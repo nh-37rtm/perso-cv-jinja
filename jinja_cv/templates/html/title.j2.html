@@ -1,0 +1,19 @@
+<span class="client">{{data.client}}
+    <span class="domaine">
+        {% if data.domaine != '' %}
+            ({{data.domaine}})
+        {% endif %}
+    </span>
+</span>
+
+<span class="dates">
+    {% if data.dateDebut != None %}
+        du {{data.dateDebut.strftime('%d-%m-%Y')}}
+    {% endif %}
+    {% if data.dateFin != None %}
+        au {{data.dateFin.strftime('%d-%m-%Y')}} 
+    {% endif %}
+    {% if data.dureeEnMois > 0 %}
+        ( {{data.dureeEnMois}} mois )
+    {% endif %}
+</span>

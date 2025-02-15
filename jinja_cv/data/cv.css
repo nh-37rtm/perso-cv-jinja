@@ -27,9 +27,9 @@ div.poste {
 	font-weight : bold;
 }
 
-.perso {
+/*.perso {
 	display : none;
-}
+}*/
 
 div.main {
 	width : 100%;	
@@ -211,3 +211,7 @@ div.competences_cols {
 	margin-bottom : 10px;
 }
 
+
+summary{
+	font-weight: bold;
+}

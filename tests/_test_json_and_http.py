@@ -8,7 +8,6 @@ from jinja_cv.models.base_models import (
     VExperience)
 
 
-
 from tests.test_lib.deep_map import (deep_map_from_raw)
 
 from jinja_cv.models.har_models import IHarFileRequest

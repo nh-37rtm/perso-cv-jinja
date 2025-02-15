@@ -6,6 +6,7 @@ import inspect
 
 T= t.TypeVar('T')
 
+
 # https://stackoverflow.com/questions/56832881/check-if-a-field-is-typing-optional
 def is_optional(field):
     return t.get_origin(field) is t.Union and \

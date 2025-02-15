@@ -5,8 +5,10 @@ from jinja_cv.models.base_models import (
     JExperience, 
     JsonObject, 
     JExperienceList, 
-    VExperience,
-    deep_map_from_raw)
+    VExperience)
+
+
+from tests.test_lib.deep_map import deep_map_from_raw
 
 
 from pytest import fixture

@@ -1,0 +1,64 @@
+<!-- elements : 0-->
+
+{% if data.depth == 0 %}
+    <div class="xp xp{{data.depthAsCssClass}}">
+        {{ context.renderTemplate( 'title.j2.html', data ) }}
+        <div class="clr" />
+    </div>
+{% endif %}
+<div class="{{data.depthAsCssClass}}">
+    <span class="description">
+    {% if data.typeExperience != 'group' %}
+        <span class="intitule">{{data.intitule}}</span>
+        <span class="presentation">{{data.presentation}}</span>
+        <span class="environnementTechnique">{{data.environnementTechnique}}</span>
+    {% endif %}
+
+    {% if data.realisations | length >0 %}
+        {% if data.typeExperience == 'group' %}
+            <span>Synthèse des activités:</span>
+            <ul class="detail">
+                {% for realisation in context.controler.controlRealisation( data.realisations ) %}
+                {{ context.renderTemplate( 'realisation.j2.html', realisation ) }}
+                {% endfor %}
+            </ul>
+        {% else %}
+            <ul class="detail">
+                <details>
+                    <summary>
+                        <span>Activités durant cette période:</span>
+                    </summary>
+                    {% for realisation in context.controler.controlRealisation( data.realisations ) %}
+                    {{ context.renderTemplate( 'realisation.j2.html', realisation ) }}
+                    {% endfor %}
+                </details>
+            </ul>
+        {% endif %}
+    {% endif %}
+
+    {% if data.subExperiences | length > 0 %}
+    {% if data.typeExperience == 'group' %}
+        <p><span>détails des activités de cette période:</span></p>
+    {% else %}
+        <p><span>Autres activités durant cette période:</span></p>
+    {% endif %}
+    <ul>
+        {% for experience in data.subExperiences %}
+        <li class="{{experience.typeExperience}}">
+            <details>
+                <summary>
+                    {{ context.renderTemplate( 'title.j2.html', experience ) }}
+                </summary>
+
+                {{ context.renderTemplate( 'experience.j2.html', experience ) }}
+            </details>
+        </li>
+        {% endfor %}
+    </ul>
+    {%endif%}
+
+    </span>
+</div>
+
+
+<div class="clr" />
