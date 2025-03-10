@@ -140,6 +140,91 @@
         "experiences": [
             {
                 "typeExperience": "group",
+                "client": "Projets personnels",
+                "experiences": [
+                    {
+                        "objectifs": [
+                            "Proposer et mettre en place un outil de gestion de fichier simple et sécurisée",
+                            "Ne pas utiliser des outils de GAFAM comme Microsoft OneDrive/Google Drive"
+                        ],
+                        "typeExperience": "perso",
+                        "intitule": "Partage de fichier sur VPN",
+                        "client": "Projet personnel",
+                        "domaine": "outils/devops",
+                        "dateDebut": "2024-07-01",
+                        "dateFin": "2024-07-15",
+                        "presentation": "Installation d'un partage de fichier sécurisé",
+                        "contenu": "",
+                        "resume": "",
+                        "references": "",
+                        "environnementTechnique": "Docker, Samba, OpenVPN, Syncthing",
+                        "detailsMemory": "",
+                        "realisations": [
+                            {
+                                "description": "Dockerisation Samba/OpenVPN"
+                            },
+                            {
+                                "description": "Ouverture de l'abonnement sur un VPS, installation et paramétrages"
+                            },
+                            {
+                                "description": "Tests de fonctionnement et de compatibilité IPV6"
+                            },
+                            {
+                                "description": "Tests pour intégration du mode hors connexion à l'aide de Syncthing"
+                            }
+                        ]
+                    },
+                    {
+                        "typeExperience": "perso",
+                        "intitule": "Site dynamique pour une association",
+                        "client": "Projet personnel",
+                        "domaine": "developpement python / devops",
+                        "dateDebut": "2024-06-01",
+                        "dateFin": "2024-06-25",
+                        "presentation": "Migration d'un site joomla obsolète",
+                        "contenu": "",
+                        "resume": "",
+                        "references": "",
+                        "environnementTechnique": "Docker, Python, Quart",
+                        "detailsMemory": "",
+                        "objectifs": [
+                            "Migration du site existant vers une gestion simplifiée mais semi dynamique du contenu",
+                            "Conserver les formulaires de contact existants",
+                            "Protéger les formulaires et le système d'envoi de mails des abus"
+                        ],
+                        "realisations": [
+                            {
+                                "description": "Création d'un environnement Docker proche de celui de l'hébergeur pour tests de migration"
+                            },
+                            {
+                                "description": "Modélisation des classes du site (pydantic + json schema)"
+                            },
+                            {
+                                "description": "migration des données du site existant"
+                            },
+                            {
+                                "description": "dynamisation du template du site"
+                            },
+                            {
+                                "description": "Dockerisation du projet python"
+                            },
+                            {
+                                "description": "Sécurisation du formulaire",
+                                "realisations": [
+                                    {
+                                        "description": "Intégration de google recapcha"
+                                    },
+                                    {
+                                        "description": "mise en place d'une protection CSRF via un token JWT"
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "typeExperience": "group",
                 "intitule": "",
                 "client": "Ace Digitale",
                 "dateFin": "2024-04-02",
@@ -315,13 +400,17 @@
                                             {
                                                 "description": "Réalisation d’une chaîne de livraison automatisée et indépendante par microservice (pour 5 microservices) en utilisant des scripts python + templates Azure"
                                             },
-                                            { 
+                                            {
                                                 "description": "Mise en place d'un système de sauvegarde des PVs associés aux pods avec persistence",
                                                 "realisations": [
-                                                    { "description" : "Un script est mis en place afin de récupérer l'association PV/Node via des interraction avec le serveur ETCD du control plane (via kubectl)"},
-                                                    { "description" : "La sauvegarde se fait de façon incrémentale sur chaque PV grace à l'outil BorgBackup"}
+                                                    {
+                                                        "description": "Un script est mis en place afin de récupérer l'association PV/Node via des interraction avec le serveur ETCD du control plane (via kubectl)"
+                                                    },
+                                                    {
+                                                        "description": "La sauvegarde se fait de façon incrémentale sur chaque PV grace à l'outil BorgBackup"
+                                                    }
                                                 ]
-                                             }
+                                            }
                                         ]
                                     }
                                 ]
@@ -341,10 +430,18 @@
                                     {
                                         "description": "Réalisation d'un microservice en python servant de serveur de fichier HTTP (Flask)",
                                         "realisations": [
-                                            { "description":"Le serveur permet de faire de l'upload et download de fichiers sous forme de flux afin de le rendre plus flexible et dynamique"},
-                                            { "description":"Une gestion d'authentification est mise en place via une interaction avec keycloak et l'utilisation d'une clef asymétrique (une attention particulière est mise sur le fait d'éviter que chaque requette n'oblige l'intéraction avec Keycloak)"},
-                                            { "description":"Un sytstème d'autorisation de base est mis en place en suivant les profils associés à l'utilisateur"},
-                                            { "description":"Un test de charge du microservice est réalisé et automatisé à l'aide d'un script en python" }
+                                            {
+                                                "description": "Le serveur permet de faire de l'upload et download de fichiers sous forme de flux afin de le rendre plus flexible et dynamique"
+                                            },
+                                            {
+                                                "description": "Une gestion d'authentification est mise en place via une interaction avec keycloak et l'utilisation d'une clef asymétrique (une attention particulière est mise sur le fait d'éviter que chaque requette n'oblige l'intéraction avec Keycloak)"
+                                            },
+                                            {
+                                                "description": "Un sytstème d'autorisation de base est mis en place en suivant les profils associés à l'utilisateur"
+                                            },
+                                            {
+                                                "description": "Un test de charge du microservice est réalisé et automatisé à l'aide d'un script en python"
+                                            }
                                         ]
                                     }
                                 ]
@@ -365,8 +462,12 @@
                             "Maintenance évolutive des CI/CD existantes",
                             "Trouver une solution de déploiement OnPremise pour une CI/CD créée pour être déployée sur Azure"
                         ],
+                        "problematiques": [
+                            "Les CI/CD développées sur azure devops sont entièrement réalisées en yaml et sont complexes"
+                        ],
                         "resultats": [
-                            "les premières versions de l'application Horus BDL sont livrées normalement sur l'environnement de production du client"
+                            "les premières versions de l'application Horus BDL sont livrées normalement sur l'environnement de production du client",
+                            "des refactorisations des manifests azure devops permettent de réduire de 30% la taille des manifests projets et de les rendre plus compréhensibles"
                         ],
                         "realisations": [
                             {
@@ -419,7 +520,7 @@
                                         "description": "Mise en place d'une purge automatique pour libérer de l'espace de stockage sur les ACR"
                                     },
                                     {
-                                        "description": "Simplification des templates standards de déploiement en séparant la partie infra de la partie applicative"
+                                        "description": "Simplification des templates projets de déploiement en séparant la partie infra de la partie applicative"
                                     },
                                     {
                                         "description": "Amélioration d'un pipeline de purge pour supprimer des ressources (Namespace Kubernetes, Elements de l'APP gateway azure)"
@@ -451,13 +552,20 @@
                         "environnementTechnique": "Azure Devops, Git, Dotnet Core 3.1",
                         "intitule": "Développement et maintenance d'un logiciel SIRH/GRH",
                         "presentation": "Reprise et maintenance d'une application de gestion des salariés puis refonte de l'application existante en une application microservice",
-                        "contexte": "l'application SIRH de l'entreprise ne fonctionne plus, les personnes sur le projet ne sont plus disponibles. Avec un développeur C# et deux personnes orientés métier nous devons refaire fonctionne l'application et y ajouter des fonctionnalités",
+                        "contexte": "l'application SIRH de l'entreprise ne fonctionne plus, les personnes sur le projet ne sont plus disponibles. Avec un développeur C# et deux personnes orientés métier",
+                        "objectifs": [
+                            "prendre en main l'environnement",
+                            "refaire fonctionner l'application",
+                            "améliorer la couverture du code de l'application existante",
+                            "apporter des modifications fonctionnelles",
+                            "optimiser les traitements actuels",
+                            "refaire un noveau projet évolutif, découpé en microservices, et facilement adaptable en charge"
+                        ],
                         "resultats": [
                             "Sur l'ancienne application, les CI/CD permettent de faire une livraison en quelques minutes alors que le déploiement manuel se faisait en plus de 2 heures",
                             "Couverture (par les TU) d'environ la moitié du code de l'application à l'aide d'un collègue, alors que moins d'un tier était couverte",
-                            "La création du fichier zip incluant les documents PDF générés se fait à la volée",
-                            "Le cluster permet d'héberger les premiers microservices migrés, de gagner en résilience et en flexibilité comparé à une simple application exécutée"
-
+                            "La création du fichier zip incluant les documents PDF générés se fait à la volée (streaming)",
+                            "Le cluster permet d'héberger les premiers microservices migrés, de gagner en résilience et en flexibilité comparé à une simple application exécutéesur le serveur IIS"
                         ],
                         "realisations": [
                             {
@@ -891,7 +999,7 @@
                                 "realisations": [
                                     {
                                         "description": "Import de données sur des certifications de partenaires extérieurs",
-                                        "text": "Réalisation du module backend + de méthode de synchronisation (en plusieurs étapes) des enregistrements d'autres tables. Reprise du fonctionnement existant des batchs avec "
+                                        "text": "Réalisation du module backend + de méthode de synchronisation (en plusieurs étapes) des enregistrements d'autres tables. Reprise du fonctionnement existant des batchs"
                                     }
                                 ]
                             },
@@ -909,7 +1017,7 @@
                             },
                             {
                                 "description": "Réalisation d'un environnement de developpement (out of the box) pour les nouveaux arrivants",
-                                "text": "Eclipse avec acropoe SLD déjà installé ainsi qu'une préparation et un script d'installation"
+                                "text": "Eclipse avec acropole SLD déjà installé ainsi qu'une préparation et un script d'installation"
                             }
                         ]
                     },
@@ -1295,92 +1403,13 @@
                 "client": "Projets de formation et Projets personels",
                 "domaine": "",
                 "dateDebut": "",
-                "dateFin": "",
+                "dateFin": "2006-06-01",
                 "presentation": "",
                 "contenu": "",
                 "resume": "",
                 "references": "",
                 "environnementTechnique": "",
-                "objectifs": [
-                    "Proposer et mettre en place un outil de gestion de fichier simple et sécurisée",
-                    "Ne pas utiliser des outils de GAFAM comme Microsoft OneDrive/Google Drive"
-                ],
                 "experiences": [
-                    {
-                        "typeExperience": "perso",
-                        "intitule": "Partage de fichier sur VPN",
-                        "client": "Projet personnel",
-                        "domaine": "outils/devops",
-                        "dateDebut": "2024-07-01",
-                        "dateFin": "2024-07-15",
-                        "presentation": "Installation d'un partage de fichier sécurisé",
-                        "contenu": "",
-                        "resume": "",
-                        "references": "",
-                        "environnementTechnique": "Docker, Samba, OpenVPN, Syncthing",
-                        "detailsMemory": "",
-                        "realisations": [
-                            {
-                                "description": "Dockerisation Samba/OpenVPN"
-                            },
-                            {
-                                "description": "Ouverture de l'abonnement sur un VPS, installation et paramétrages"
-                            },
-                            {
-                                "description": "Tests de fonctionnement et de compatibilité IPV6"
-                            },
-                            {
-                                "description": "Tests pour intégration du mode hors connexion à l'aide de Syncthing"
-                            }
-                        ]
-                    },
-                    {
-                        "typeExperience": "perso",
-                        "intitule": "Site dynamique pour une association",
-                        "client": "Projet personnel",
-                        "domaine": "developpement python / devops",
-                        "dateDebut": "2024-06-01",
-                        "dateFin": "2024-06-25",
-                        "presentation": "Migration d'un site joomla obsolète",
-                        "contenu": "",
-                        "resume": "",
-                        "references": "",
-                        "environnementTechnique": "Docker, Python, Quart",
-                        "detailsMemory": "",
-                        "objectifs": [
-                            "Migration du site existant vers une gestion simplifiée mais semi dynamique du contenu",
-                            "Conserver les formulaires de contact existants",
-                            "Protéger les formulaires et le système d'envoi de mails des abus"
-                        ],
-                        "realisations": [
-                            {
-                                "description": "Création d'un environnement Docker proche de celui de l'hébergeur pour tests de migration"
-                            },
-                            {
-                                "description": "Modélisation des classes du site (pydantic + json schema)"
-                            },
-                            {
-                                "description": "migration des données du site existant"
-                            },
-                            {
-                                "description": "dynamisation du template du site"
-                            },
-                            {
-                                "description": "Dockerisation du projet python"
-                            },
-                            {
-                                "description": "Sécurisation du formulaire",
-                                "realisations": [
-                                    {
-                                        "description": "Intégration de google recapcha"
-                                    },
-                                    {
-                                        "description": "mise en place d'une protection CSRF via un token JWT"
-                                    }
-                                ]
-                            }
-                        ]
-                    },
                     {
                         "typeExperience": "stage",
                         "intitule": "Centralisation et exploitation de logs",
@@ -1538,7 +1567,7 @@
                         "intitule": "Jeu d’échecs simple",
                         "client": "Projet personnel",
                         "domaine": "",
-                        "dateDebut": "",
+                        "dateDebut": "2009-01-01",
                         "dateFin": "",
                         "presentation": "",
                         "contenu": "",
@@ -1609,7 +1638,7 @@
             {
                 "dateFin": "3 jours 2021",
                 "intitule": "Formation Kubernetes",
-                "lieu": "Formation CPF",
+                "lieu": "Ambiant IT à distance (Formation CPF)",
                 "contenu": "Formation sur les bases de kubernetes, introduction sur les concepts: deployments, services, pods, configmaps",
                 "initiale": false
             },
