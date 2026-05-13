@@ -1,0 +1,3472 @@
+<html>
+
+<head>
+    <link rel="stylesheet" type="text/css" href="dc.css">
+</head>
+
+<div class="etatCivil">
+    <p><span>HEIM Nicolas</span></p>
+    <p><span>Développeur outils/ DevOps</span></p>
+    <p><span>15 ans d'expérience</span></p>
+</div>
+
+
+<ul class="experiences">
+    <h1>Expériences professionnelles</h1>
+    
+
+    <li class="None">
+        <table>
+    <tbody>
+        <tr>
+            <th>Période</th>
+            <td>De 01-05-2023 à 02-02-2024 ( 9 mois )
+            </td>
+        </tr>
+        <tr>
+            <th>Client - Poste</th>
+            <td class="client">Enedis : Développeur Python, outils et Devops</td>
+        </tr>
+
+        <tr>
+            <th>Synthèse</th>
+            <td>Intégration d'une équipe du cert Enedis dans le cadre de la reprise d'un projet de hunting, </td>
+        </tr>
+
+        <tr>
+            <th>Description de la mission</th>
+            <td class="description">
+                <p><span>Activités:</span></p>
+                <ul>
+                    
+                    <li>
+    Refonte d'un module de hunting sur Outils Atlassian (Jira, Confluence).
+</li>
+
+<ul>
+
+    
+    <li>
+    reprise du projet existant.
+</li>
+
+<ul>
+
+    
+
+</ul>
+    
+    <li>
+    amélioration du découpage des dépendances.
+</li>
+
+<ul>
+
+    
+
+</ul>
+    
+    <li>
+    mise en place d'un flux de traitement optimisé grâce à des appels asynchrones et plusieurs pools de traitements en parallèle.
+</li>
+
+<ul>
+
+    
+
+</ul>
+    
+    <li>
+    ajout d'un mode partiel pour faciliter les tests (grande quantité d'articles à scanner).
+</li>
+
+<ul>
+
+    
+
+</ul>
+    
+    <li>
+    réalisation de tests sur plusieurs types d'environnements, scan direct, via proxy, résultats dans Splunk.
+</li>
+
+<ul>
+
+    
+
+</ul>
+    
+    <li>
+    réalisation d'un pipeline de build permettant : le build via l'outil interne de gestion des packages/images (JFrog Artifactory) et le run (via un runner gitlab).
+</li>
+
+<ul>
+
+    
+
+</ul>
+    
+    <li>
+    réalisation d'un module de récupération de variables/mots de passe (Vault entreprise) qui simplifie largement la gestion des mots de passe applicatifs (le module est par exemple utilisé lors de la récupération des informations associées à l'environnement.
+</li>
+
+<ul>
+
+    
+
+</ul>
+    
+
+</ul>
+                    
+                    <li>
+    Gestion de tickets de suivi des vulnérabilités/suivi d'application des patchs au sein d'Enedis.
+</li>
+
+<ul>
+
+    
+
+</ul>
+                    
+                    <li>
+    Identification et présentation d'améliorations possible dans la gestion courante de tickets, le développement des modules.
+</li>
+
+<ul>
+
+    
+
+</ul>
+                    
+                    <li>
+    Réalisation d'un script de test de non regression pour les expressions régulières de détection d'informations sensibles, permettant de faciliter les optimisations sur les expressions existantes.
+</li>
+
+<ul>
+
+    
+
+</ul>
+                    
+                    <li>
+    Réalisation d'une appliance de VM (VirtualBox) pour simplifier le setup de l'environnement de développement aux nouveaux arrivants.
+</li>
+
+<ul>
+
+    
+
+</ul>
+                    
+                    <li>
+    Participation à la définition d'une architecture (et démarrage de mise en place) pour lancement des scans de hunting.
+</li>
+
+<ul>
+
+    
+    <li>
+    création d'une image docker de base.
+</li>
+
+<ul>
+
+    
+
+</ul>
+    
+    <li>
+    POC et tests sur la VM de qualification.
+</li>
+
+<ul>
+
+    
+
+</ul>
+    
+    <li>
+    Développement d'un module de gestion de configuration flexible pour facilement centraliser la configuration de différentes sources: variables d’environnement (Runner Gitlab), fichiers de configuration et Hashicorp Vault.
+</li>
+
+<ul>
+
+    
+
+</ul>
+    
+
+</ul>
+                    
+                </ul>
+            </td>
+        </tr>
+
+        <tr>
+            <th>Environnement technique</th>
+            <td>Python, GitLab, Docker, Splunk, VSCode (module remote development), HashiCorp Vault, dev containers, Ansible Tower</td>
+        </tr>
+    </tbody>
+
+</table>
+    </li>
+
+    
+
+    <li class="None">
+        <table>
+    <tbody>
+        <tr>
+            <th>Période</th>
+            <td>De 05-01-2022 à 01-05-2023 ( 15 mois )
+            </td>
+        </tr>
+        <tr>
+            <th>Client - Poste</th>
+            <td class="client">Ace Digitale : Développeur C#, Python, DevOps</td>
+        </tr>
+
+        <tr>
+            <th>Synthèse</th>
+            <td>réalisation d'outils et industrialisation d'application (Dockerisation)</td>
+        </tr>
+
+        <tr>
+            <th>Description de la mission</th>
+            <td class="description">
+                <p><span>Activités:</span></p>
+                <ul>
+                    
+                    <li>
+    Environnement/Devops .
+</li>
+
+<ul>
+
+    
+    <li>
+    Mise en place d’une architecture projet avec des éléments comme : Kafka, Postgres, MSSql, Keycloak.
+</li>
+
+<ul>
+
+    
+
+</ul>
+    
+    <li>
+    Dockerisation de plusieurs microservices projets : Angular, dotNet, Java.
+</li>
+
+<ul>
+
+    
+
+</ul>
+    
+    <li>
+    Accompagnement de l’équipe de développement dans la prise en main d’Azure DevOps .
+</li>
+
+<ul>
+
+    
+
+</ul>
+    
+    <li>
+    Maintenance d’un serveur Kubernetes Bare Metal (6 nœuds), environ 100 pods et 3 namespaces applicatifs.
+</li>
+
+<ul>
+
+    
+    <li>
+    Installation et paramétrage d'un stack de monitoring via Helm ex : Loki-stack.
+</li>
+
+<ul>
+
+    
+
+</ul>
+    
+    <li>
+    Installation d’environnements sur différents namespaces.
+</li>
+
+<ul>
+
+    
+
+</ul>
+    
+    <li>
+    Installation d’un driver CSI pour la gestion du provisionnement automatique via un cluster Ceph.
+</li>
+
+<ul>
+
+    
+
+</ul>
+    
+    <li>
+    Gestion manuelle d’une partie des volumes persistants : LVM, via un accès SSH.
+</li>
+
+<ul>
+
+    
+
+</ul>
+    
+    <li>
+    Réalisation d’une chaîne de livraison automatisée et indépendante par microservice (pour 5 microservices) en utilisant des scripts python + templates Azure.
+</li>
+
+<ul>
+
+    
+
+</ul>
+    
+    <li>
+    Mise en place d'un système de sauvegarde des PVs associés aux pods avec persistence.
+</li>
+
+<ul>
+
+    
+    <li>
+    Un script est mis en place afin de récupérer l'association PV/Node via des interraction avec le serveur ETCD du control plane (via kubectl).
+</li>
+
+<ul>
+
+    
+
+</ul>
+    
+    <li>
+    La sauvegarde se fait de façon incrémentale sur chaque PV grace à l'outil BorgBackup.
+</li>
+
+<ul>
+
+    
+
+</ul>
+    
+
+</ul>
+    
+
+</ul>
+    
+
+</ul>
+                    
+                    <li>
+    Développement.
+</li>
+
+<ul>
+
+    
+    <li>
+    Réalisation d’un consumer Kafka en C# avec tentative de reconnexion multiples.
+</li>
+
+<ul>
+
+    
+
+</ul>
+    
+    <li>
+    Amélioration d’un moteur de template jinja2 écrit en python pour ajouter un paramétrage via un fichier de configuration.
+</li>
+
+<ul>
+
+    
+
+</ul>
+    
+    <li>
+    Maintenance d’une application dotNet en fin de vie (débogages et ajustements).
+</li>
+
+<ul>
+
+    
+
+</ul>
+    
+    <li>
+    Réalisation d'un microservice en python servant de serveur de fichier HTTP (Flask).
+</li>
+
+<ul>
+
+    
+    <li>
+    Le serveur permet de faire de l'upload et download de fichiers sous forme de flux afin de le rendre plus flexible et dynamique.
+</li>
+
+<ul>
+
+    
+
+</ul>
+    
+    <li>
+    Une gestion d'authentification est mise en place via une interaction avec keycloak et l'utilisation d'une clef asymétrique (une attention particulière est mise sur le fait d'éviter que chaque requette n'oblige l'intéraction avec Keycloak).
+</li>
+
+<ul>
+
+    
+
+</ul>
+    
+    <li>
+    Un sytstème d'autorisation de base est mis en place en suivant les profils associés à l'utilisateur.
+</li>
+
+<ul>
+
+    
+
+</ul>
+    
+    <li>
+    Un test de charge du microservice est réalisé et automatisé à l'aide d'un script en python.
+</li>
+
+<ul>
+
+    
+
+</ul>
+    
+
+</ul>
+    
+
+</ul>
+                    
+                </ul>
+            </td>
+        </tr>
+
+        <tr>
+            <th>Environnement technique</th>
+            <td>Azure Devops, Git, Dotnet Core 3.1, Keycloak</td>
+        </tr>
+    </tbody>
+
+</table>
+    </li>
+
+    
+
+    <li class="None">
+        <table>
+    <tbody>
+        <tr>
+            <th>Période</th>
+            <td>De 01-01-2022 à 01-05-2022 ( 4 mois )
+            </td>
+        </tr>
+        <tr>
+            <th>Client - Poste</th>
+            <td class="client">Hub-One : Développeur d'outils, Devops</td>
+        </tr>
+
+        <tr>
+            <th>Synthèse</th>
+            <td>Maintenance de pipelines sous Azure Devops, accompagnement de développeurs dans le cadre d'industrialisations de projet</td>
+        </tr>
+
+        <tr>
+            <th>Description de la mission</th>
+            <td class="description">
+                <p><span>Activités:</span></p>
+                <ul>
+                    
+                    <li>
+    Montée en compétence et prise charge du fonctionnement du provisioning (Azure), du déploiement (Kubernetes) d'environ 6 applications en mode cloud.
+</li>
+
+<ul>
+
+    
+
+</ul>
+                    
+                    <li>
+    Réalisation de pipelines à l'aide des différents templates existants, pour un déploiement continu sur 3 applications.
+</li>
+
+<ul>
+
+    
+
+</ul>
+                    
+                    <li>
+    Mise en place d'une chaîne de livraison pour un projet déployé en OnPremise chez le client.
+</li>
+
+<ul>
+
+    
+    <li>
+    Intégration de plusieurs services sur un compose file docker.
+</li>
+
+<ul>
+
+    
+
+</ul>
+    
+    <li>
+    Dockerisation et adaptation de Dockerfile pour simplifier le packaging.
+</li>
+
+<ul>
+
+    
+
+</ul>
+    
+    <li>
+    Variabilisation et packaging d'une application composée, à partir de plusieurs repository Git.
+</li>
+
+<ul>
+
+    
+
+</ul>
+    
+    <li>
+    Création des pipelines OnPremise spécifiques à l'application, afin d'obtenir une archive livrable sur le serveur client (via un artifact).
+</li>
+
+<ul>
+
+    
+
+</ul>
+    
+
+</ul>
+                    
+                    <li>
+    Maintenance et debug sur plusieurs pipelines (CI/CD) écrites en Yaml Azure Devops.
+</li>
+
+<ul>
+
+    
+    <li>
+    Accompagnement de plusieurs équipes sur la prise en main des pipelines projet.
+</li>
+
+<ul>
+
+    
+
+</ul>
+    
+    <li>
+    Débogage sur PR équipes suite à modifications des pipelines.
+</li>
+
+<ul>
+
+    
+
+</ul>
+    
+    <li>
+    Réalisation de documentations techniques, procédures et de troubleshoot en Markdown.
+</li>
+
+<ul>
+
+    
+
+</ul>
+    
+    <li>
+    Participation à des points audio réguliers avec les architectes et la partie infra.
+</li>
+
+<ul>
+
+    
+
+</ul>
+    
+
+</ul>
+                    
+                    <li>
+    Amélioration continue des pipelines et de l'environnement.
+</li>
+
+<ul>
+
+    
+    <li>
+    Mise en place d'une purge automatique pour libérer de l'espace de stockage sur les ACR.
+</li>
+
+<ul>
+
+    
+
+</ul>
+    
+    <li>
+    Simplification des templates standards de déploiement en séparant la partie infra de la partie applicative.
+</li>
+
+<ul>
+
+    
+
+</ul>
+    
+    <li>
+    Amélioration d'un pipeline de purge pour supprimer des ressources (Namespace Kubernetes, Elements de l'APP gateway azure).
+</li>
+
+<ul>
+
+    
+
+</ul>
+    
+
+</ul>
+                    
+                    <li>
+    Réalisation et mise à jour d'outils.
+</li>
+
+<ul>
+
+    
+    <li>
+    Réalisation d'un outil générique de templating (Python + Jinja2) pour automatiser la génération de mails (mise à disposition des environnements) à partir d'un fichier de paramétrage en yaml.
+</li>
+
+<ul>
+
+    
+
+</ul>
+    
+    <li>
+    Mise à jour d'un module de génération de clef RSA et de chiffrement de données (en .NET) pour simplifier l'utilisation automatisée.
+</li>
+
+<ul>
+
+    
+
+</ul>
+    
+    <li>
+    Réalisation de scripts pour simplifier l'accès (aux développeurs) à un environnement de test OnPremise (Récupération de clef Azure KeyVault, Port forwarding).
+</li>
+
+<ul>
+
+    
+
+</ul>
+    
+
+</ul>
+                    
+                </ul>
+            </td>
+        </tr>
+
+        <tr>
+            <th>Environnement technique</th>
+            <td>Environnement + infra Azure, 4 Clusters Kubernetes (Azure), Microservices .NET, Terraform, Shell, PowerShell, Python, NodeRed</td>
+        </tr>
+    </tbody>
+
+</table>
+    </li>
+
+    
+
+    <li class="None">
+        <table>
+    <tbody>
+        <tr>
+            <th>Période</th>
+            <td>De 03-01-2021 à 01-01-2022 ( 11 mois )
+            </td>
+        </tr>
+        <tr>
+            <th>Client - Poste</th>
+            <td class="client">Ace Digitale : Développeur d'outils, Développeur C#</td>
+        </tr>
+
+        <tr>
+            <th>Synthèse</th>
+            <td>Reprise et maintenance d'une application de gestion des salariés puis refonte de l'application existante en une application microservice</td>
+        </tr>
+
+        <tr>
+            <th>Description de la mission</th>
+            <td class="description">
+                <p><span>Activités:</span></p>
+                <ul>
+                    
+                    <li>
+    Environnement/Devops.
+</li>
+
+<ul>
+
+    
+    <li>
+    Reprise et remise en route des environnements (Dev, Recette et Prod) et de la chaîne devops (Azure DevOps).
+</li>
+
+<ul>
+
+    
+
+</ul>
+    
+    <li>
+    Création d’un environnement de test à l’aide de containers Docker, SQL Server intégré à la chaîne de livraison Azure DevOps.
+</li>
+
+<ul>
+
+    
+
+</ul>
+    
+    <li>
+    Accompagnement de l’équipe de développement dans la prise en main d’Azure DevOps .
+</li>
+
+<ul>
+
+    
+
+</ul>
+    
+    <li>
+    Installation d’un Cluster Kubernetes (Bare Metal) pour préparer et simplifier la réalisation d’une version microservices de l’application.
+</li>
+
+<ul>
+
+    
+    <li>
+    Installation d’un stack Grafana pour le monitoring.
+</li>
+
+<ul>
+
+    
+
+</ul>
+    
+    <li>
+    Installation d’environnements sur différents namespaces.
+</li>
+
+<ul>
+
+    
+
+</ul>
+    
+    <li>
+    Intégration d’une chaîne de déploiement Azure Devops avec déploiement automatique sur le cluster (gestion dynamique des déploiements de microservices).
+</li>
+
+<ul>
+
+    
+
+</ul>
+    
+    <li>
+    Optimisation des pipelines de build et de déploiement (au niveau temps).
+</li>
+
+<ul>
+
+    
+
+</ul>
+    
+    <li>
+    Déploiement d’une API Gateway Ocelot.
+</li>
+
+<ul>
+
+    
+
+</ul>
+    
+
+</ul>
+    
+
+</ul>
+                    
+                    <li>
+    Développement.
+</li>
+
+<ul>
+
+    
+    <li>
+    Reprise du projet dotNet existant.
+</li>
+
+<ul>
+
+    
+
+</ul>
+    
+    <li>
+    Réalisation d’un poc en React Native/Web.
+</li>
+
+<ul>
+
+    
+
+</ul>
+    
+    <li>
+    Réalisation d’un service de génération de template razor vers PDF côté backend.
+</li>
+
+<ul>
+
+    
+
+</ul>
+    
+    <li>
+    Réalisation d’un module de gestion d’astreintes.
+</li>
+
+<ul>
+
+    
+
+</ul>
+    
+    <li>
+    Réalisation de TU et de tests d’intégration.
+</li>
+
+<ul>
+
+    
+
+</ul>
+    
+    <li>
+    Rafraîchissement de l’interface de l’application CSS, ASP.NET (Razor).
+</li>
+
+<ul>
+
+    
+
+</ul>
+    
+    <li>
+    Réalisation de la pagination pour plusieurs modules existants.
+</li>
+
+<ul>
+
+    
+
+</ul>
+    
+    <li>
+    Optimisation de génération de zip sous la forme d’un streaming de fichier.
+</li>
+
+<ul>
+
+    
+
+</ul>
+    
+
+</ul>
+                    
+                </ul>
+            </td>
+        </tr>
+
+        <tr>
+            <th>Environnement technique</th>
+            <td>Azure Devops, Git, Dotnet Core 3.1</td>
+        </tr>
+    </tbody>
+
+</table>
+    </li>
+
+    
+
+    <li class="bénévolat">
+        <table>
+    <tbody>
+        <tr>
+            <th>Période</th>
+            <td>De 11-09-2020 à 01-10-2020
+            </td>
+        </tr>
+        <tr>
+            <th>Client - Poste</th>
+            <td class="client">Coopalim Strasbourg : Developpeur Java / DevOps</td>
+        </tr>
+
+        <tr>
+            <th>Synthèse</th>
+            <td>Développement, tests et déploiement de services</td>
+        </tr>
+
+        <tr>
+            <th>Description de la mission</th>
+            <td class="description">
+                <p><span>Activités:</span></p>
+                <ul>
+                    
+                    <li>
+    Création et déploiement d'une image Docker d'application Symphony de l'application Elefan.
+</li>
+
+<ul>
+
+    
+
+</ul>
+                    
+                    <li>
+    développement d'un module Keycloak.
+</li>
+
+<ul>
+
+    
+    <li>
+    Montage d'un environnement docker et Wildfly J2EE en intégrant des images : Mysql, Jboss (WildFly), Keycloak.
+</li>
+
+<ul>
+
+    
+
+</ul>
+    
+    <li>
+    Réalisation et développement de tests unitaires et d'intégration à l'aide d'Arquillian.
+</li>
+
+<ul>
+
+    
+
+</ul>
+    
+    <li>
+    Documentation du module.
+</li>
+
+<ul>
+
+    
+
+</ul>
+    
+
+</ul>
+                    
+                </ul>
+            </td>
+        </tr>
+
+        <tr>
+            <th>Environnement technique</th>
+            <td>Visual Studio Code (avec module remote development), Docker Swarm, Java 1.8, JBoss (Wildfly)</td>
+        </tr>
+    </tbody>
+
+</table>
+    </li>
+
+    
+
+    <li class="mission">
+        <table>
+    <tbody>
+        <tr>
+            <th>Période</th>
+            <td>De 11-09-2019 à 30-08-2020 ( 11 mois )
+            </td>
+        </tr>
+        <tr>
+            <th>Client - Poste</th>
+            <td class="client">Next2C (Abopress) : Automatisation / DevOps</td>
+        </tr>
+
+        <tr>
+            <th>Synthèse</th>
+            <td>Migration de sites, automatisations de tâches, maintenance du parc</td>
+        </tr>
+
+        <tr>
+            <th>Description de la mission</th>
+            <td class="description">
+                <p><span>Activités:</span></p>
+                <ul>
+                    
+                    <li>
+    Maintenance système et applicative sur un parc d’environ 30 serveurs (dont les ¾ sous unix).
+</li>
+
+<ul>
+
+    
+    <li>
+    Mise à jour du système de sauvegarde sur les serveurs Unix (BorgBackup).
+</li>
+
+<ul>
+
+    
+
+</ul>
+    
+    <li>
+    Participation à la gestion du contrôleur de domaine (AD, DNS).
+</li>
+
+<ul>
+
+    
+
+</ul>
+    
+    <li>
+    Création de machines virtuelles et maintenance des VM ProxMox existantes.
+</li>
+
+<ul>
+
+    
+
+</ul>
+    
+    <li>
+    Maintenance de machines virtuelles hébergés sur OVH (Cloud ProxMox +VM Plesk).
+</li>
+
+<ul>
+
+    
+
+</ul>
+    
+    <li>
+    Maintenance d’une infra téléphonique cisco (création et gestion de synchronisation AD/Outils via les interfaces).
+</li>
+
+<ul>
+
+    
+
+</ul>
+    
+    <li>
+    Maintenance d’un serveur Unix (SCO OpenServer).
+</li>
+
+<ul>
+
+    
+
+</ul>
+    
+
+</ul>
+                    
+                    <li>
+    Participation à la migration de l’infrastructure (déménagement).
+</li>
+
+<ul>
+
+    
+    <li>
+    Changement de plages d’adresse IP.
+</li>
+
+<ul>
+
+    
+
+</ul>
+    
+    <li>
+    Migration de conteneurs applicatifs (docker).
+</li>
+
+<ul>
+
+    
+
+</ul>
+    
+
+</ul>
+                    
+                    <li>
+    Conteneurisation de services pour tests et mise en prod.
+</li>
+
+<ul>
+
+    
+    <li>
+    Création d’un environnement de test (docker-compose) pour debugage sur applicatif de serveur SSO.
+</li>
+
+<ul>
+
+    
+
+</ul>
+    
+    <li>
+    Utilisation d’images telles que NodeJS, Nginx, Redis.
+</li>
+
+<ul>
+
+    
+
+</ul>
+    
+    <li>
+    Utilisation d’outils tels que DnsMask.
+</li>
+
+<ul>
+
+    
+
+</ul>
+    
+    <li>
+    Mise à jour de configurations docker-compose (NextCloud, Dokuwiki, RequestTraquer).
+</li>
+
+<ul>
+
+    
+
+</ul>
+    
+
+</ul>
+                    
+                </ul>
+            </td>
+        </tr>
+
+        <tr>
+            <th>Environnement technique</th>
+            <td>Visual Studio Code (avec module remote development), VMWare ESX (5.1), ProxMox, MySQL, GitLab; Python, Shell (Bash); Docker (docker-compose); SaltStack; Jenkins</td>
+        </tr>
+    </tbody>
+
+</table>
+    </li>
+
+    
+
+    <li class="mission">
+        <table>
+    <tbody>
+        <tr>
+            <th>Période</th>
+            <td>De 01-10-2018 à 01-03-2019 ( 5 mois )
+            </td>
+        </tr>
+        <tr>
+            <th>Client - Poste</th>
+            <td class="client">Chantiers de l'atlantique : Développeur Java</td>
+        </tr>
+
+        <tr>
+            <th>Synthèse</th>
+            <td>Maintenance évolutive de EBC à distance (pour Nante). Développement d'interfaces en swing, mise en place d'une architecture de test facilitant le développement</td>
+        </tr>
+
+        <tr>
+            <th>Description de la mission</th>
+            <td class="description">
+                <p><span>Activités:</span></p>
+                <ul>
+                    
+                    <li>
+    Appropriation du projet.
+</li>
+
+<ul>
+
+    
+    <li>
+    Migration du gestionnaire de source CVS vers un repository GIT externe.
+</li>
+
+<ul>
+
+    
+
+</ul>
+    
+    <li>
+    Reprise et évolution des scripts de déploiements en ANT.
+</li>
+
+<ul>
+
+    
+
+</ul>
+    
+    <li>
+    Mise en place d'un repository Maven local pour la gestion des dépendances.
+</li>
+
+<ul>
+
+    
+
+</ul>
+    
+
+</ul>
+                    
+                    <li>
+    Reprise et Réalisation d’écrans java (swing) pour remonter différentes informations à partir de bases de données multiples.
+</li>
+
+<ul>
+
+    
+    <li>
+    Comparaison sur les quantités de matières.
+</li>
+
+<ul>
+
+    
+
+</ul>
+    
+    <li>
+    Contrôles sur les disponibilités de pièces/matières.
+</li>
+
+<ul>
+
+    
+
+</ul>
+    
+
+</ul>
+                    
+                    <li>
+    Réalisation de tests Unitaires et d’intégration avec bouchonnage.
+</li>
+
+<ul>
+
+    
+
+</ul>
+                    
+                    <li>
+    Déploiement de l’application en qualification.
+</li>
+
+<ul>
+
+    
+
+</ul>
+                    
+                    <li>
+    Participation à la réalisation d'un outil de gestion d'un référentiel de pièce.
+</li>
+
+<ul>
+
+    
+
+</ul>
+                    
+                    <li>
+    Migration des sources CVS vers GIT.
+</li>
+
+<ul>
+
+    
+
+</ul>
+                    
+                </ul>
+            </td>
+        </tr>
+
+        <tr>
+            <th>Environnement technique</th>
+            <td>Eclipse, VMWare Horizon, Java 1.5, Oracle, PostGresSQL, SQLServeur, Swing, Maven, ANT, Git, Hibernate</td>
+        </tr>
+    </tbody>
+
+</table>
+    </li>
+
+    
+
+    <li class="mission">
+        <table>
+    <tbody>
+        <tr>
+            <th>Période</th>
+            <td>De 01-03-2018 à 01-10-2018 ( 7 mois )
+            </td>
+        </tr>
+        <tr>
+            <th>Client - Poste</th>
+            <td class="client">Euro Information : Développeur Java</td>
+        </tr>
+
+        <tr>
+            <th>Synthèse</th>
+            <td>Intégration de l'équipe de la plateforme monétique d'acceptation centralisée. Réalisation de tâches telles que : Aide à la conception, Réalisation de tests QC et de tests Automatisés en JUnit, Développement d'un module de tokenisation, Développement d'interfaces devbooster</td>
+        </tr>
+
+        <tr>
+            <th>Description de la mission</th>
+            <td class="description">
+                <p><span>Activités:</span></p>
+                <ul>
+                    
+                    <li>
+    Réalisation de tests QC du module PSP Monetico Paiement.
+</li>
+
+<ul>
+
+    
+
+</ul>
+                    
+                    <li>
+    Réalisation d'un module de tokenisation avec interaction avec un HSM.
+</li>
+
+<ul>
+
+    
+    <li>
+    Réalisation du cahier de test.
+</li>
+
+<ul>
+
+    
+
+</ul>
+    
+    <li>
+    Aide à la conception.
+</li>
+
+<ul>
+
+    
+
+</ul>
+    
+    <li>
+    Module Vert.x pour échange avec les autres modules de l’application.
+</li>
+
+<ul>
+
+    
+
+</ul>
+    
+    <li>
+    Échanges pour monitoring.
+</li>
+
+<ul>
+
+    
+
+</ul>
+    
+
+</ul>
+                    
+                    <li>
+    Autoformation au Framework devbooster.
+</li>
+
+<ul>
+
+    
+
+</ul>
+                    
+                    <li>
+    Réalisation d’un outil de de statistiques (Key Performance Indicator) sur les transactions réalisées dans la journée.
+</li>
+
+<ul>
+
+    
+    <li>
+    Mise en place du batch d’extraction.
+</li>
+
+<ul>
+
+    
+
+</ul>
+    
+    <li>
+    Analyse et envoi des données par mail.
+</li>
+
+<ul>
+
+    
+
+</ul>
+    
+
+</ul>
+                    
+                    <li>
+    Réalisation d’un module C# (devbooster) sur site intranet afin de gérer le référentiel d’affiliation avec les clients et de routage/translation des transactions.
+</li>
+
+<ul>
+
+    
+    <li>
+    Réalisation de procédures stockées en T-SQL.
+</li>
+
+<ul>
+
+    
+
+</ul>
+    
+    <li>
+    Aide à la conception.
+</li>
+
+<ul>
+
+    
+
+</ul>
+    
+    <li>
+    Modélisation de la base de données.
+</li>
+
+<ul>
+
+    
+
+</ul>
+    
+    <li>
+    POC pour réalisation d’un import de données via un fichier CSV.
+</li>
+
+<ul>
+
+    
+
+</ul>
+    
+
+</ul>
+                    
+                </ul>
+            </td>
+        </tr>
+
+        <tr>
+            <th>Environnement technique</th>
+            <td>Eclipse, Java, Vert.x, Visual Studio (C#), DevBooster, SQLServeur</td>
+        </tr>
+    </tbody>
+
+</table>
+    </li>
+
+    
+
+    <li class="temp">
+        <table>
+    <tbody>
+        <tr>
+            <th>Période</th>
+            <td>De 01-01-2018 à 01-03-2018 ( 2 mois )
+            </td>
+        </tr>
+        <tr>
+            <th>Client - Poste</th>
+            <td class="client">Supinfo : Professeur Java</td>
+        </tr>
+
+        <tr>
+            <th>Synthèse</th>
+            <td></td>
+        </tr>
+
+        <tr>
+            <th>Description de la mission</th>
+            <td class="description">
+                <p><span>Activités:</span></p>
+                <ul>
+                    
+                    <li>
+    4 jours de formations théoriques avec utilisation de supports existants (exercices et corrections) : Servlets, JSP, JPA.
+</li>
+
+<ul>
+
+    
+
+</ul>
+                    
+                    <li>
+    suivi des élèves durant leur projet (Site de recette en java web).
+</li>
+
+<ul>
+
+    
+
+</ul>
+                    
+                    <li>
+    Corrections des projets.
+</li>
+
+<ul>
+
+    
+
+</ul>
+                    
+                    <li>
+    1 jours de SOE (SUPINFO Oral Exams), notation Orale + Ecrit.
+</li>
+
+<ul>
+
+    
+
+</ul>
+                    
+                    <li>
+    Réalisations sur environnement de formation.
+</li>
+
+<ul>
+
+    
+    <li>
+    Installation d'un environnement de développement  pour les élèves (VM VMWare) avec Linux Ubuntu afin de simplifier la complexité due aux environnements hétérogènes utilisés par les élèves.
+</li>
+
+<ul>
+
+    
+
+</ul>
+    
+    <li>
+    Mise en place d'un repository Git partagé pour un suivi incrémental des corrections sur les exercices.
+</li>
+
+<ul>
+
+    
+
+</ul>
+    
+
+</ul>
+                    
+                </ul>
+            </td>
+        </tr>
+
+        <tr>
+            <th>Environnement technique</th>
+            <td>Linux (Ubuntu), Eclipse, J2EE, Git</td>
+        </tr>
+    </tbody>
+
+</table>
+    </li>
+
+    
+
+    <li class="mission">
+        <table>
+    <tbody>
+        <tr>
+            <th>Période</th>
+            <td>De 01-05-2017 à 01-01-2018 ( 8 mois )
+            </td>
+        </tr>
+        <tr>
+            <th>Client - Poste</th>
+            <td class="client">Pôle Emploi : Développeur Java</td>
+        </tr>
+
+        <tr>
+            <th>Synthèse</th>
+            <td>Participation aux différentes réunions agiles (Daily meating, rétrospective, revue de backlog ..), migration de services SOAP vers REST, migration de la persistance des données : Hibernate vers JPA Standard, tests automatisés à l'aide de JUnit et MockiTo</td>
+        </tr>
+
+        <tr>
+            <th>Description de la mission</th>
+            <td class="description">
+                <p><span>Activités:</span></p>
+                <ul>
+                    
+                    <li>
+    Captures et bouchonnage d'appels services pour les tests à l'aide de DevTest.
+</li>
+
+<ul>
+
+    
+
+</ul>
+                    
+                    <li>
+    Réalisation et migration de services REST notamment des API dans le cadre de la gestion de vie d’une inscription d’un demandeur d’emploi à une formation.
+</li>
+
+<ul>
+
+    
+
+</ul>
+                    
+                    <li>
+    Réalisation de POC techniques.
+</li>
+
+<ul>
+
+    
+    <li>
+    Normes sur la mise en place d’une architecture REST utilisant les hyperliens (ou HATEOS).
+</li>
+
+<ul>
+
+    
+
+</ul>
+    
+    <li>
+    Dashboard de centralisation d’informations sur l’environnement (Builds Jenkins, Anomalies (ALM) …) en utilisant le framework NodeJS.
+</li>
+
+<ul>
+
+    
+
+</ul>
+    
+
+</ul>
+                    
+                </ul>
+            </td>
+        </tr>
+
+        <tr>
+            <th>Environnement technique</th>
+            <td>Eclipse, Maven 3.2,JEE6 : Java 1.6, JPA (EclipseLink), JaxRS, NodeJS, PostMan/SoapUI, Putty, DevTest (Workstation), Weblogic 12</td>
+        </tr>
+    </tbody>
+
+</table>
+    </li>
+
+    
+
+    <li class="mission">
+        <table>
+    <tbody>
+        <tr>
+            <th>Période</th>
+            <td>De 01-06-2015 à 01-05-2017 ( 23 mois )
+            </td>
+        </tr>
+        <tr>
+            <th>Client - Poste</th>
+            <td class="client">Pôle Emploi : Développeur Java</td>
+        </tr>
+
+        <tr>
+            <th>Synthèse</th>
+            <td>Participation aux réunions et à la conception technique (DCG/TRC), Participation à l’implémentation des règles de gestion fonctionnelles et d’affichage en réalisant la modélisation et  les développements adéquats sur la base des documents de spécification. Utilisation d’outils de construction automatisée (Acrople SLD). Tests automatisés à l'aide de JUnit et MockiTo</td>
+        </tr>
+
+        <tr>
+            <th>Description de la mission</th>
+            <td class="description">
+                <p><span>Activités:</span></p>
+                <ul>
+                    
+                    <li>
+    Outil de tests unitaires automatiques avec base virtuelle HSQLDB se basant sur des fichiers DBUnit contenant des jeux de données fixes.
+</li>
+
+<ul>
+
+    
+
+</ul>
+                    
+                    <li>
+    batchs SQL Oracle.
+</li>
+
+<ul>
+
+    
+    <li>
+    Import de données sur des certifications de partenaires extérieurs.
+</li>
+
+<ul>
+
+    
+
+</ul>
+    
+
+</ul>
+                    
+                    <li>
+    Réalisation d'un outil d'extraction de données d'entrées/sorties (fichier XML) pour une génération automatique de documentation.
+</li>
+
+<ul>
+
+    
+
+</ul>
+                    
+                    <li>
+    Réalisation de services SOAP à l’aide du framework Acropole SLD, dans le cadre de la gestion de vie d’une inscription d’un demandeur d’emploi à une formation.
+</li>
+
+<ul>
+
+    
+
+</ul>
+                    
+                    <li>
+    Réalisation d'un outil d'extraction automatique de données (CSV).
+</li>
+
+<ul>
+
+    
+
+</ul>
+                    
+                    <li>
+    Réalisation d'un environnement de developpement (out of the box) pour les nouveaux arrivants.
+</li>
+
+<ul>
+
+    
+
+</ul>
+                    
+                </ul>
+            </td>
+        </tr>
+
+        <tr>
+            <th>Environnement technique</th>
+            <td>Windows, Linux (serveurs),Eclipse Kepler, Maven 3.2,J2EE : Java 1.6, Acropole SLD, MockiTo, Perl, Jenkins, Weblogic 10/11/12, plSQL, Putty</td>
+        </tr>
+    </tbody>
+
+</table>
+    </li>
+
+    
+
+    <li class="mission">
+        <table>
+    <tbody>
+        <tr>
+            <th>Période</th>
+            <td>De 01-03-2015 à 01-06-2015 ( 3 mois )
+            </td>
+        </tr>
+        <tr>
+            <th>Client - Poste</th>
+            <td class="client">C.T.S : Développeur Java</td>
+        </tr>
+
+        <tr>
+            <th>Synthèse</th>
+            <td>Intervention au sein de la TMA pour le compte de la CTS. Correction de bugs sur une application java web orientée services. Mise à jour du dossier de conception et des maquettes dynamiques associées</td>
+        </tr>
+
+        <tr>
+            <th>Description de la mission</th>
+            <td class="description">
+                <p><span>Activités:</span></p>
+                <ul>
+                    
+                    <li>
+    Maintenance, corrections et évolutions de l'application de gestion des clients de la CTS.
+</li>
+
+<ul>
+
+    
+
+</ul>
+                    
+                    <li>
+    Reconversion sur la technologie JAVA.
+</li>
+
+<ul>
+
+    
+
+</ul>
+                    
+                    <li>
+    Réalisation d’un script de déploiement d’archive.
+</li>
+
+<ul>
+
+    
+
+</ul>
+                    
+                </ul>
+            </td>
+        </tr>
+
+        <tr>
+            <th>Environnement technique</th>
+            <td>Windows, Linux (serveurs) Eclipse Kepler, Maven 3.2,Java 1.6, HTML/CSS/Javascript, JQuery, Tomcat,Jira</td>
+        </tr>
+    </tbody>
+
+</table>
+    </li>
+
+    
+
+    <li class="mission">
+        <table>
+    <tbody>
+        <tr>
+            <th>Période</th>
+            <td>De 15-01-2013 à 01-03-2015 ( 25 mois )
+            </td>
+        </tr>
+        <tr>
+            <th>Client - Poste</th>
+            <td class="client">PSA : Analyste Développeur/Intégrateur</td>
+        </tr>
+
+        <tr>
+            <th>Synthèse</th>
+            <td>Maintenance et Développement d’outils d’industrialisation Création / Maintenance de scripts perl et ANT</td>
+        </tr>
+
+        <tr>
+            <th>Description de la mission</th>
+            <td class="description">
+                <p><span>Activités:</span></p>
+                <ul>
+                    
+                    <li>
+    Assistance utilisateurs.
+</li>
+
+<ul>
+
+    
+
+</ul>
+                    
+                    <li>
+    Participation à la conception et à la réalisation d'un outil d'aide à l'intégration et au déploiement d'application (POPEI).
+</li>
+
+<ul>
+
+    
+    <li>
+    Module de génération de modèles orienté objet avec sa propre syntaxe et possibilité de modélisation dynamique à l'aide de morceaux de perl.
+</li>
+
+<ul>
+
+    
+
+</ul>
+    
+    <li>
+    Automatisation de test à partir de jeux de test fixes pour éviter les régressions.
+</li>
+
+<ul>
+
+    
+
+</ul>
+    
+
+</ul>
+                    
+                    <li>
+    Participation à la conception et à la réalisation d'un outil d'automatisation de plus haut niveau se basant sur un scenario en XML.
+</li>
+
+<ul>
+
+    
+
+</ul>
+                    
+                </ul>
+            </td>
+        </tr>
+
+        <tr>
+            <th>Environnement technique</th>
+            <td>Unix (hétérogène), Perl 5.8.8, ANT 1.8.2, Eclipse (SVN + SFTP), XML, Expressions rationnelles, Jira</td>
+        </tr>
+    </tbody>
+
+</table>
+    </li>
+
+    
+
+    <li class="temp">
+        <table>
+    <tbody>
+        <tr>
+            <th>Période</th>
+            <td>De 01-01-2013 à 15-01-2013
+            </td>
+        </tr>
+        <tr>
+            <th>Client - Poste</th>
+            <td class="client">Université de Strasbourg : Developpeur</td>
+        </tr>
+
+        <tr>
+            <th>Synthèse</th>
+            <td>Réalisation d'un outil d'automatisation pour des traitements sur un nuage de points à partir de relevés d'intensité sismique, à l'aide d'outils géostatistiques</td>
+        </tr>
+
+        <tr>
+            <th>Description de la mission</th>
+            <td class="description">
+                <p><span>Activités:</span></p>
+                <ul>
+                    
+                    <li>
+    Réalisation de l'outil semi automatique pour la création de cartes d'isoséistes.
+</li>
+
+<ul>
+
+    
+    <li>
+    chaîne d'automatisation.
+</li>
+
+<ul>
+
+    
+
+</ul>
+    
+    <li>
+    Monté en compétence sur les outils géostatistiques.
+</li>
+
+<ul>
+
+    
+
+</ul>
+    
+    <li>
+    Réalisation d’une documentation détaillée.
+</li>
+
+<ul>
+
+    
+
+</ul>
+    
+    <li>
+    Ajout de paramètres utilisateurs customisables via des fichiers de configuration.
+</li>
+
+<ul>
+
+    
+
+</ul>
+    
+
+</ul>
+                    
+                </ul>
+            </td>
+        </tr>
+
+        <tr>
+            <th>Environnement technique</th>
+            <td>Windows, Perl, Python, OSGeo, Saga GIS, Quantom GIS (QGGIS)</td>
+        </tr>
+    </tbody>
+
+</table>
+    </li>
+
+    
+
+    <li class="mission">
+        <table>
+    <tbody>
+        <tr>
+            <th>Période</th>
+            <td>De 01-01-2013 à 01-01-2013
+            </td>
+        </tr>
+        <tr>
+            <th>Client - Poste</th>
+            <td class="client">PSA : Developpeur</td>
+        </tr>
+
+        <tr>
+            <th>Synthèse</th>
+            <td>Remonté et synthétisation instantanée (cartographie) des données sur le stockage d’un serveur</td>
+        </tr>
+
+        <tr>
+            <th>Description de la mission</th>
+            <td class="description">
+                <p><span>Activités:</span></p>
+                <ul>
+                    
+                    <li>
+    Réalisation d’un outil en ligne de commande.
+</li>
+
+<ul>
+
+    
+    <li>
+    Réalisation d’une couche d’abstraction permettant le requêtage des outils indépendamment du constructeur (EMC, SVC).
+</li>
+
+<ul>
+
+    
+
+</ul>
+    
+    <li>
+    Modélisation et agrégation des données à l’aide d’une structure objet.
+</li>
+
+<ul>
+
+    
+
+</ul>
+    
+    <li>
+    Sortie synthétique pré paramétrée par vues.
+</li>
+
+<ul>
+
+    
+
+</ul>
+    
+    <li>
+    Utilisation d’un cache par commande (outils de persistance perl).
+</li>
+
+<ul>
+
+    
+
+</ul>
+    
+
+</ul>
+                    
+                </ul>
+            </td>
+        </tr>
+
+        <tr>
+            <th>Environnement technique</th>
+            <td>Unix (Hétérogène), Perl 5.8.8, Expressions rationnelles, Baies EMC, SVC</td>
+        </tr>
+    </tbody>
+
+</table>
+    </li>
+
+    
+
+    <li class="mission">
+        <table>
+    <tbody>
+        <tr>
+            <th>Période</th>
+            <td>De 01-07-2012 à 01-01-2013 ( 6 mois )
+            </td>
+        </tr>
+        <tr>
+            <th>Client - Poste</th>
+            <td class="client">PSA : Intégrateur / Industrialisateur</td>
+        </tr>
+
+        <tr>
+            <th>Synthèse</th>
+            <td>Enrichissement de tiquet SDI (Niveau2)</td>
+        </tr>
+
+        <tr>
+            <th>Description de la mission</th>
+            <td class="description">
+                <p><span>Activités:</span></p>
+                <ul>
+                    
+                    <li>
+    Analyse corrective et préventive d’applications par le biai d'un enrichissement de tiquet SDI (Niveau2).
+</li>
+
+<ul>
+
+    
+
+</ul>
+                    
+                    <li>
+    Réalisation de POC pour tentatives d'automatisation de taches.
+</li>
+
+<ul>
+
+    
+
+</ul>
+                    
+                </ul>
+            </td>
+        </tr>
+
+        <tr>
+            <th>Environnement technique</th>
+            <td>KSH, Unix (hétérogène), SDI</td>
+        </tr>
+    </tbody>
+
+</table>
+    </li>
+
+    
+
+    <li class="mission">
+        <table>
+    <tbody>
+        <tr>
+            <th>Période</th>
+            <td>De 02-07-2011 à 01-07-2012 ( 11 mois )
+            </td>
+        </tr>
+        <tr>
+            <th>Client - Poste</th>
+            <td class="client">PSA : Développeur outils et automatisation</td>
+        </tr>
+
+        <tr>
+            <th>Synthèse</th>
+            <td>Développement, déploiement, maintenance, d'application intranet et statistiques sur le parc</td>
+        </tr>
+
+        <tr>
+            <th>Description de la mission</th>
+            <td class="description">
+                <p><span>Activités:</span></p>
+                <ul>
+                    
+                    <li>
+    Maintenance, correction et évolutions de l'application de surveillance SUSANE web et de son produit distribué sur le parc.
+</li>
+
+<ul>
+
+    
+    <li>
+    Migration en perl d'un module transversal de surveillance de processus.
+</li>
+
+<ul>
+
+    
+
+</ul>
+    
+    <li>
+    Réalisation de plusieurs Déploiements sur l'ensemble du parc.
+</li>
+
+<ul>
+
+    
+
+</ul>
+    
+
+</ul>
+                    
+                    <li>
+    Formation d'un collègue espagnol (en anglais) sur le fonctionnement de SUSANE.
+</li>
+
+<ul>
+
+    
+
+</ul>
+                    
+                    <li>
+    Réalisation de synchronisations de l’outil de référentiel PSA (REFLEX), à partir de données fraiches collectées sur des serveurs à l'aide d'un outil de collecte.
+</li>
+
+<ul>
+
+    
+
+</ul>
+                    
+                </ul>
+            </td>
+        </tr>
+
+        <tr>
+            <th>Environnement technique</th>
+            <td>Perl 5.8.8, KSH, parc UNIX (hétérogène) environ 8000 serveurs, Oracle, SQL Développer, SVN (client texte)</td>
+        </tr>
+    </tbody>
+
+</table>
+    </li>
+
+    
+
+    <li class="temp">
+        <table>
+    <tbody>
+        <tr>
+            <th>Période</th>
+            <td>De 01-07-2011 à 02-07-2011
+            </td>
+        </tr>
+        <tr>
+            <th>Client - Poste</th>
+            <td class="client">ES : Développeur</td>
+        </tr>
+
+        <tr>
+            <th>Synthèse</th>
+            <td>Intervention au site de Mundolsheim pour la création d'un outil de monitoring d'environ 300 imprimantes</td>
+        </tr>
+
+        <tr>
+            <th>Description de la mission</th>
+            <td class="description">
+                <p><span>Activités:</span></p>
+                <ul>
+                    
+                    <li>
+    Réalisation d'un batch d'injection des données en base.
+</li>
+
+<ul>
+
+    
+    <li>
+    Utilisation de SNMP pour récupérer le nombre de pages imprimées.
+</li>
+
+<ul>
+
+    
+
+</ul>
+    
+
+</ul>
+                    
+                    <li>
+    développement d'une interface en PHP pour l'exploitation des données.
+</li>
+
+<ul>
+
+    
+
+</ul>
+                    
+                </ul>
+            </td>
+        </tr>
+
+        <tr>
+            <th>Environnement technique</th>
+            <td>PHP, Mysql, Bash, SNMP</td>
+        </tr>
+    </tbody>
+
+</table>
+    </li>
+
+    
+
+    <li class="mission">
+        <table>
+    <tbody>
+        <tr>
+            <th>Période</th>
+            <td>De 01-11-2010 à 01-07-2011 ( 8 mois )
+            </td>
+        </tr>
+        <tr>
+            <th>Client - Poste</th>
+            <td class="client">PSA : Analyste Développeur/Outils Automatisation</td>
+        </tr>
+
+        <tr>
+            <th>Synthèse</th>
+            <td>Réalisation d'outils d'administration de serveurs UNIX. Surveillance et automatisation de tests sur environnement hétérogène</td>
+        </tr>
+
+        <tr>
+            <th>Description de la mission</th>
+            <td class="description">
+                <p><span>Activités:</span></p>
+                <ul>
+                    
+                    <li>
+    Réalisation d'un daemon gérant les connexions simultanées et permettant la gestion, la modification et la remonté d'information concernant les services (ports) sur les serveurs.
+</li>
+
+<ul>
+
+    
+    <li>
+    Utilisation d'une base de données Oracle pour la persistance des données.
+</li>
+
+<ul>
+
+    
+
+</ul>
+    
+    <li>
+    Création d'un client console afin de faciliter la gestion du processus en temps réel.
+</li>
+
+<ul>
+
+    
+
+</ul>
+    
+    <li>
+    L'état du parc était rafraichi une fois par jour via un script de récupération.
+</li>
+
+<ul>
+
+    
+
+</ul>
+    
+
+</ul>
+                    
+                    <li>
+    Ajout de fonctionnalité sur une application web de gestion de compte, utilisant un ensemble propriétaire de librairies en javascript.
+</li>
+
+<ul>
+
+    
+    <li>
+    Les données étaient rafraichies régulièrement avec l'état des serveurs, puis les données remontées dans une base de données oracle. L’exploitation des données se faisaient à travers un ORM en perl lui aussi propriétaire.
+</li>
+
+<ul>
+
+    
+
+</ul>
+    
+
+</ul>
+                    
+                    <li>
+    Déploiement d'une application de surveillance essentiellement conçue en Korn SHELL, sur la totalité du parc PSA (+8000) y compris zone d'accès difficiles telles que DMZ, ZSR.
+</li>
+
+<ul>
+
+    
+    <li>
+    Le déploiement à été réalisé par vagues successives en commençant par les serveurs ayant une criticité de fonctionnement la moins importante, puis en terminant par ceux nécessitant une approbation manuelle.
+</li>
+
+<ul>
+
+    
+
+</ul>
+    
+
+</ul>
+                    
+                </ul>
+            </td>
+        </tr>
+
+        <tr>
+            <th>Environnement technique</th>
+            <td>Perl 5.8.8, KSH, HTML/CSS, Javascript, parc UNIX (hétérogène) environ 8000 serveurs, ORM    propriétaire (perl), Oracle, SQL Developper</td>
+        </tr>
+    </tbody>
+
+</table>
+    </li>
+
+    
+
+    <li class="mission">
+        <table>
+    <tbody>
+        <tr>
+            <th>Période</th>
+            <td>De 17-11-2008 à 01-07-2010 ( 19 mois )
+            </td>
+        </tr>
+        <tr>
+            <th>Client - Poste</th>
+            <td class="client">Donat et Associés : Analyste Développeur/Intégrateur</td>
+        </tr>
+
+        <tr>
+            <th>Synthèse</th>
+            <td>Etude sur plusieurs posibilité de mise en place d'un site internet, Réalisation d'un site web de présentation (Joomla) et Evolution du site vers un site marchant.</td>
+        </tr>
+
+        <tr>
+            <th>Description de la mission</th>
+            <td class="description">
+                <p><span>Activités:</span></p>
+                <ul>
+                    
+                    <li>
+    Réalisation d'un site web de marketing en ligne en utilisant Joomla Virtuemart proposant des produits de coaching individuel, avec customisation bas niveau.
+</li>
+
+<ul>
+
+    
+    <li>
+    Gestion du serveur à travers l‘interface web de gestion (OVH), (mails, DNS, etc.).
+</li>
+
+<ul>
+
+    
+
+</ul>
+    
+
+</ul>
+                    
+                    <li>
+    Réalisation d'un logiciel de gestion client avec génération de document à partir d'un modèle MS OpenXML.
+</li>
+
+<ul>
+
+    
+
+</ul>
+                    
+                    <li>
+    Participation à l’initiation du référencement du site en utilisant les outils Google.
+</li>
+
+<ul>
+
+    
+
+</ul>
+                    
+                </ul>
+            </td>
+        </tr>
+
+        <tr>
+            <th>Environnement technique</th>
+            <td>Eclipse/Java, Javascript, Joomla 1.5/Virtuemart/PHP5, VB6 , XML, Office; Gimp</td>
+        </tr>
+    </tbody>
+
+</table>
+    </li>
+
+    
+
+    <li class="mission">
+        <table>
+    <tbody>
+        <tr>
+            <th>Période</th>
+            <td>De 27-06-2006 à 01-08-2007 ( 13 mois )
+            </td>
+        </tr>
+        <tr>
+            <th>Client - Poste</th>
+            <td class="client">Logiciels Perrenoud : Développeur</td>
+        </tr>
+
+        <tr>
+            <th>Synthèse</th>
+            <td>Réalisation et mise à jour de logiciels de calculs thermiques, gestion de leur mise à jour notamment pour une estimation DPE</td>
+        </tr>
+
+        <tr>
+            <th>Description de la mission</th>
+            <td class="description">
+                <p><span>Activités:</span></p>
+                <ul>
+                    
+                    <li>
+    Mise à jour (Ajout de fonctionnalités, correction de bugs), de divers modules existants.
+</li>
+
+<ul>
+
+    
+
+</ul>
+                    
+                    <li>
+    Participation à la création d'un logiciel simplifié de calcul (méthode DPE).
+</li>
+
+<ul>
+
+    
+
+</ul>
+                    
+                    <li>
+    Refonte d'un module de mise à jour par internet (problème de sécurité, passage de ftp à http).
+</li>
+
+<ul>
+
+    
+
+</ul>
+                    
+                </ul>
+            </td>
+        </tr>
+
+        <tr>
+            <th>Environnement technique</th>
+            <td>VB6 (Visual Studio 6), VB .NET, API Windows</td>
+        </tr>
+    </tbody>
+
+</table>
+    </li>
+
+    
+
+    <li class="stage">
+        <table>
+    <tbody>
+        <tr>
+            <th>Période</th>
+            <td>De 01-04-2006 à 27-06-2006 ( 2 mois )
+            </td>
+        </tr>
+        <tr>
+            <th>Client - Poste</th>
+            <td class="client">CAPM : Développeur</td>
+        </tr>
+
+        <tr>
+            <th>Synthèse</th>
+            <td>Centralisation et exploitation des logs de plusieurs serveurs à l'aide d'un agent  en java se basant sur le protocole syslog</td>
+        </tr>
+
+        <tr>
+            <th>Description de la mission</th>
+            <td class="description">
+                <p><span>Activités:</span></p>
+                <ul>
+                    
+                    <li>
+    Centralisation des logs (protocole Syslog).
+</li>
+
+<ul>
+
+    
+
+</ul>
+                    
+                    <li>
+    Développement d'un outil de centralisation (Java).
+</li>
+
+<ul>
+
+    
+    <li>
+    L’outil à été publié sur Sourceforge (bsyslogagent, voir https://sourceforge.net/projects/bsyslog-agent/).
+</li>
+
+<ul>
+
+    
+
+</ul>
+    
+
+</ul>
+                    
+                    <li>
+    Réalisation de scripts (bash).
+</li>
+
+<ul>
+
+    
+
+</ul>
+                    
+                    <li>
+    Ajout de fonctionnalités sur le module webmin syslog-ng.
+</li>
+
+<ul>
+
+    
+
+</ul>
+                    
+                    <li>
+    Mise en place de l'analyse et de la visualisation des logs via un site intranet réalisé en PHP.
+</li>
+
+<ul>
+
+    
+
+</ul>
+                    
+                </ul>
+            </td>
+        </tr>
+
+        <tr>
+            <th>Environnement technique</th>
+            <td>Eclipse 3.1, PHP, Java, Perl, HTML/CSS, Javascript, Windows XP/2003 serveur, Linux, (Ubuntu/Debian), syslog-ng,syslogd, php-syslog-ng, Awstats, Expression rationnelles</td>
+        </tr>
+    </tbody>
+
+</table>
+    </li>
+
+    
+
+    <li class="stage etudes">
+        <table>
+    <tbody>
+        <tr>
+            <th>Période</th>
+            <td>De 01-04-2005 à 01-12-2005 ( 8 mois )
+            </td>
+        </tr>
+        <tr>
+            <th>Client - Poste</th>
+            <td class="client">Wärtsilä : Développeur</td>
+        </tr>
+
+        <tr>
+            <th>Synthèse</th>
+            <td></td>
+        </tr>
+
+        <tr>
+            <th>Description de la mission</th>
+            <td class="description">
+                <p><span>Activités:</span></p>
+                <ul>
+                    
+                    <li>
+    Modélisation de la base de données.
+</li>
+
+<ul>
+
+    
+
+</ul>
+                    
+                    <li>
+    Réalisation d'un module de présentation de séjours en intégration sur le site existant.
+</li>
+
+<ul>
+
+    
+
+</ul>
+                    
+                </ul>
+            </td>
+        </tr>
+
+        <tr>
+            <th>Environnement technique</th>
+            <td>HTML/CSS,JavascriptVB/ASP,Windows XP,MS SQL Serveur,IIS</td>
+        </tr>
+    </tbody>
+
+</table>
+    </li>
+
+    
+
+    <li class="stage etude">
+        <table>
+    <tbody>
+        <tr>
+            <th>Période</th>
+            <td>De 01-12-2004 à 01-04-2005 ( 4 mois )
+            </td>
+        </tr>
+        <tr>
+            <th>Client - Poste</th>
+            <td class="client">Club de tir à l'arc d'Arcey : Scripting et Administration système</td>
+        </tr>
+
+        <tr>
+            <th>Synthèse</th>
+            <td></td>
+        </tr>
+
+        <tr>
+            <th>Description de la mission</th>
+            <td class="description">
+                <p><span>Activités:</span></p>
+                <ul>
+                    
+                    <li>
+    Communication TCP/IP avec l'automate de gestion des feux.
+</li>
+
+<ul>
+
+    
+
+</ul>
+                    
+                    <li>
+    Modélisation Bases de données (Locale et Distante).
+</li>
+
+<ul>
+
+    
+
+</ul>
+                    
+                    <li>
+    Création d'une interface (client lourd) de gestion informatique des concours relativement évolutive.
+</li>
+
+<ul>
+
+    
+
+</ul>
+                    
+                    <li>
+    Gestion de la synchronisation des bases.
+</li>
+
+<ul>
+
+    
+
+</ul>
+                    
+                    <li>
+    Réalisation de composants Borland C++ Builder, pour simplifier le code / améliorer l’interactivité.
+</li>
+
+<ul>
+
+    
+    <li>
+    Ex : grille colorée avec recherche intégrée.
+</li>
+
+<ul>
+
+    
+
+</ul>
+    
+
+</ul>
+                    
+                </ul>
+            </td>
+        </tr>
+
+        <tr>
+            <th>Environnement technique</th>
+            <td>C/C++ (Borland c++ Builder 6.0), Windows 2000, MySQL (API C), ODBC, MS ACCESS</td>
+        </tr>
+    </tbody>
+
+</table>
+    </li>
+
+    
+
+    <h1>Expériences personnelles</h1>
+    
+
+    <li class="perso">
+        <table>
+    <tbody>
+        <tr>
+            <th>Période</th>
+            <td>De 01-07-2024 à 15-07-2024
+            </td>
+        </tr>
+        <tr>
+            <th>Client - Poste</th>
+            <td class="client">Projet personnel : outils/devops</td>
+        </tr>
+
+        <tr>
+            <th>Synthèse</th>
+            <td>Installation d'un partage de fichier sécurisé</td>
+        </tr>
+
+        <tr>
+            <th>Description de la mission</th>
+            <td class="description">
+                <p><span>Activités:</span></p>
+                <ul>
+                    
+                    <li>
+    Dockerisation Samba/OpenVPN.
+</li>
+
+<ul>
+
+    
+
+</ul>
+                    
+                    <li>
+    Ouverture de l'abonnement sur un VPS, installation et paramétrages.
+</li>
+
+<ul>
+
+    
+
+</ul>
+                    
+                    <li>
+    Tests de fonctionnement et de compatibilité IPV6.
+</li>
+
+<ul>
+
+    
+
+</ul>
+                    
+                    <li>
+    Tests pour intégration du mode hors connexion à l'aide de Syncthing.
+</li>
+
+<ul>
+
+    
+
+</ul>
+                    
+                </ul>
+            </td>
+        </tr>
+
+        <tr>
+            <th>Environnement technique</th>
+            <td>Docker, Samba, OpenVPN, Syncthing</td>
+        </tr>
+    </tbody>
+
+</table>
+    </li>
+
+    
+
+    <li class="perso">
+        <table>
+    <tbody>
+        <tr>
+            <th>Période</th>
+            <td>De 01-06-2024 à 25-06-2024
+            </td>
+        </tr>
+        <tr>
+            <th>Client - Poste</th>
+            <td class="client">Projet personnel : developpement python / devops</td>
+        </tr>
+
+        <tr>
+            <th>Synthèse</th>
+            <td>Migration d'un site joomla obsolète</td>
+        </tr>
+
+        <tr>
+            <th>Description de la mission</th>
+            <td class="description">
+                <p><span>Activités:</span></p>
+                <ul>
+                    
+                    <li>
+    Création d'un environnement Docker proche de celui de l'hébergeur pour tests de migration.
+</li>
+
+<ul>
+
+    
+
+</ul>
+                    
+                    <li>
+    Modélisation des classes du site (pydantic + json schema).
+</li>
+
+<ul>
+
+    
+
+</ul>
+                    
+                    <li>
+    migration des données du site existant.
+</li>
+
+<ul>
+
+    
+
+</ul>
+                    
+                    <li>
+    dynamisation du template du site.
+</li>
+
+<ul>
+
+    
+
+</ul>
+                    
+                    <li>
+    Dockerisation du projet python.
+</li>
+
+<ul>
+
+    
+
+</ul>
+                    
+                    <li>
+    Sécurisation du formulaire.
+</li>
+
+<ul>
+
+    
+    <li>
+    Intégration de google recapcha.
+</li>
+
+<ul>
+
+    
+
+</ul>
+    
+    <li>
+    mise en place d'une protection CSRF via un token JWT.
+</li>
+
+<ul>
+
+    
+
+</ul>
+    
+
+</ul>
+                    
+                </ul>
+            </td>
+        </tr>
+
+        <tr>
+            <th>Environnement technique</th>
+            <td>Docker, Python, Quart</td>
+        </tr>
+    </tbody>
+
+</table>
+    </li>
+
+    
+
+    <li class="perso">
+        <table>
+    <tbody>
+        <tr>
+            <th>Période</th>
+            <td>De 01-01-2009 à 01-11-2010 ( 22 mois )
+            </td>
+        </tr>
+        <tr>
+            <th>Client - Poste</th>
+            <td class="client">Projet personnel : </td>
+        </tr>
+
+        <tr>
+            <th>Synthèse</th>
+            <td></td>
+        </tr>
+
+        <tr>
+            <th>Description de la mission</th>
+            <td class="description">
+                <p><span>Activités:</span></p>
+                <ul>
+                    
+                    <li>
+    Modélisation des classes.
+</li>
+
+<ul>
+
+    
+
+</ul>
+                    
+                    <li>
+    Installation de Drupal sur un VPS OVH.
+</li>
+
+<ul>
+
+    
+
+</ul>
+                    
+                    <li>
+    Maintenance du blog et du serveur VPS.
+</li>
+
+<ul>
+
+    
+
+</ul>
+                    
+                    <li>
+    Réalisation des mises à jour à l'aide de Drush et Compose.
+</li>
+
+<ul>
+
+    
+
+</ul>
+                    
+                </ul>
+            </td>
+        </tr>
+
+        <tr>
+            <th>Environnement technique</th>
+            <td>Linux Debian, CPanel, Webmin, Drupal, PHP</td>
+        </tr>
+    </tbody>
+
+</table>
+    </li>
+
+    
+
+    <li class="perso">
+        <table>
+    <tbody>
+        <tr>
+            <th>Période</th>
+            <td>De 01-01-2009 à 01-01-2009
+            </td>
+        </tr>
+        <tr>
+            <th>Client - Poste</th>
+            <td class="client">Projet personnel : </td>
+        </tr>
+
+        <tr>
+            <th>Synthèse</th>
+            <td></td>
+        </tr>
+
+        <tr>
+            <th>Description de la mission</th>
+            <td class="description">
+                <p><span>Activités:</span></p>
+                <ul>
+                    
+                    <li>
+    Modélisation des classes.
+</li>
+
+<ul>
+
+    
+
+</ul>
+                    
+                    <li>
+    Réalisation d’un prototype en Java.
+</li>
+
+<ul>
+
+    
+
+</ul>
+                    
+                    <li>
+    Mise en place d'une IA simple utilisant une logique à valeurs multiples (fuzzy logics).
+</li>
+
+<ul>
+
+    
+
+</ul>
+                    
+                    <li>
+    Tentatives d’optimisations lors du passage en C++ en utilisant les entiers 64bits.
+</li>
+
+<ul>
+
+    
+
+</ul>
+                    
+                </ul>
+            </td>
+        </tr>
+
+        <tr>
+            <th>Environnement technique</th>
+            <td>C++ (STL), Visual Studio Express, Java/Eclipse</td>
+        </tr>
+    </tbody>
+
+</table>
+    </li>
+
+    
+
+    <li class="perso">
+        <table>
+    <tbody>
+        <tr>
+            <th>Période</th>
+            <td>De 01-01-2009 à 01-01-2009
+            </td>
+        </tr>
+        <tr>
+            <th>Client - Poste</th>
+            <td class="client">Projet personnel : </td>
+        </tr>
+
+        <tr>
+            <th>Synthèse</th>
+            <td></td>
+        </tr>
+
+        <tr>
+            <th>Description de la mission</th>
+            <td class="description">
+                <p><span>Activités:</span></p>
+                <ul>
+                    
+                    <li>
+    Modélisation des classes.
+</li>
+
+<ul>
+
+    
+
+</ul>
+                    
+                    <li>
+    Implémentation daemon de téléchargement côté serveur.
+</li>
+
+<ul>
+
+    
+    <li>
+    Implémentation d'un outil de téléchargement par morceaux pour le protocole HTTP.
+</li>
+
+<ul>
+
+    
+
+</ul>
+    
+    <li>
+    Reprise des téléchargements en cours.
+</li>
+
+<ul>
+
+    
+
+</ul>
+    
+    <li>
+    Gestion de l'authentification HTTP pour les téléchargements.
+</li>
+
+<ul>
+
+    
+
+</ul>
+    
+    <li>
+    Interface web côté client en JQuery pour interaction avec le daemon.
+</li>
+
+<ul>
+
+    
+
+</ul>
+    
+
+</ul>
+                    
+                </ul>
+            </td>
+        </tr>
+
+        <tr>
+            <th>Environnement technique</th>
+            <td>Perl, LWP, Protocole HTTP, HTML/CSS, Javascript (JQuery)</td>
+        </tr>
+    </tbody>
+
+</table>
+    </li>
+
+    
+
+    <li class="perso">
+        <table>
+    <tbody>
+        <tr>
+            <th>Période</th>
+            <td>De 01-12-2005 à 01-04-2006 ( 4 mois )
+            </td>
+        </tr>
+        <tr>
+            <th>Client - Poste</th>
+            <td class="client">Projet personnel : </td>
+        </tr>
+
+        <tr>
+            <th>Synthèse</th>
+            <td></td>
+        </tr>
+
+        <tr>
+            <th>Description de la mission</th>
+            <td class="description">
+                <p><span>Activités:</span></p>
+                <ul>
+                    
+                    <li>
+    Conception orienté objet.
+</li>
+
+<ul>
+
+    
+    <li>
+    définition du protocole en se basant sur les opérations définies par le prof (opérations de base FTP).
+</li>
+
+<ul>
+
+    
+
+</ul>
+    
+
+</ul>
+                    
+                    <li>
+    réalisation du client et du serveur à l'aide de la sérialisation java.
+</li>
+
+<ul>
+
+    
+
+</ul>
+                    
+                </ul>
+            </td>
+        </tr>
+
+        <tr>
+            <th>Environnement technique</th>
+            <td>Java, Debian Linux</td>
+        </tr>
+    </tbody>
+
+</table>
+    </li>
+
+    
+</ul>
+
+</html>

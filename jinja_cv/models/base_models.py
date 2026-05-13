@@ -1,18 +1,13 @@
-from typing_extensions import Annotated
-from datetime import datetime
-from dataclasses import dataclass, is_dataclass
 import typing as t
+from dataclasses import dataclass
+from datetime import datetime
 
-from pydantic import (
-    BaseModel,
-    ValidationError,
-    ValidationInfo,
-    ValidatorFunctionWrapHandler,
-    ConfigDict,
-)
-
+from pydantic import (BaseModel, ConfigDict, ValidationError, ValidationInfo,
+                      ValidatorFunctionWrapHandler)
+from pydantic.alias_generators import to_camel, to_snake
 from pydantic.functional_validators import WrapValidator
-from pydantic.alias_generators import to_snake, to_camel
+from typing_extensions import Annotated
+
 
 def validate_datetime(
         v: t.Any,
@@ -101,3 +96,4 @@ class JExperience(Experience, JsonObject):
 
 class VExperience(CVBaseModel, Experience):
     pass
+

@@ -53,6 +53,9 @@ class Experience(JsonNode):
         self.depthAsCssClass = None
         self.subExperiences: List['Experience'] = []
         self.realisations: List['Realisation'] = []
+        self.parent_name = None
+        self.resultats : List[str] = []
+        self.objectifs : List[str] = []
         # https://stackoverflow.com/questions/1305532/convert-nested-python-dict-to-object
         self.__dict__.update(entries)
 
@@ -165,6 +168,8 @@ def initExperiencesLegacy(jsonExperiences: List[object]) -> Tuple[List[Experienc
                 for subJsonExperience in currentExperience.jsonReference['experiences']:
 
                     subExperience = mapExperience(subJsonExperience)
+                    if currentExperience.typeExperience == 'group':
+                        subExperience.parent_name = currentExperience.client
                     currentExperience.subExperiences.append(subExperience)
                     subExperience.depth = currentExperience.depth + 1
                     experiencesToWalk.append(subExperience)

@@ -1,0 +1,386 @@
+<w:tbl>
+    <w:tblPr>
+        <w:tblStyle w:val="TableGrid" />
+        <w:tblW w:w="0" w:type="auto" />
+        <w:tblLook w:val="04A0" w:firstRow="1" w:lastRow="0" w:firstColumn="1"
+            w:lastColumn="0" w:noHBand="0" w:noVBand="1" />
+    </w:tblPr>
+    <w:tblGrid>
+        <w:gridCol w:w="3114" />
+        <w:gridCol w:w="5948" />
+    </w:tblGrid>
+    <w:tr w:rsidR="00120126" w:rsidRPr="004008A8" w14:paraId="019260C4"
+        w14:textId="77777777" w:rsidTr="00120126">
+        <w:trPr>
+            <w:trHeight w:val="478" />
+        </w:trPr>
+        <w:tc>
+            <w:tcPr>
+                <w:tcW w:w="9062" w:type="dxa" />
+                <w:gridSpan w:val="2" />
+                <w:shd w:val="clear" w:color="auto" w:fill="7030A0" />
+            </w:tcPr>
+            <w:p w14:paraId="22A72710" w14:textId="3163F429" w:rsidR="00120126"
+                w:rsidRPr="004008A8" w:rsidRDefault="00120126"
+                w:rsidP="00120126">
+                <w:pPr>
+                    <w:rPr>
+                        <w:color w:val="FFC000" w:themeColor="accent4" />
+                    </w:rPr>
+                </w:pPr>
+                <w:r w:rsidRPr="004008A8">
+                    <w:rPr>
+                        <w:rFonts w:ascii="Verdana" w:hAnsi="Verdana" />
+                        <w:b />
+                        <w:bCs />
+                        <w:color w:val="FFC000" w:themeColor="accent4" />
+                    </w:rPr>
+                    <w:t xml:space="preserve">Intitulé de </w:t>
+                </w:r>
+                <w:proofErr w:type="gramStart" />
+                <w:r w:rsidRPr="004008A8">
+                    <w:rPr>
+                        <w:rFonts w:ascii="Verdana" w:hAnsi="Verdana" />
+                        <w:b />
+                        <w:bCs />
+                        <w:color w:val="FFC000" w:themeColor="accent4" />
+                    </w:rPr>
+                    <w:t>poste:</w:t>
+                </w:r>
+                <w:proofErr w:type="gramEnd" />
+                <w:r w:rsidRPr="004008A8">
+                    <w:rPr>
+                        <w:rFonts w:ascii="Merck" w:hAnsi="Merck" />
+                        <w:b />
+                        <w:bCs />
+                        <w:color w:val="FFC000" w:themeColor="accent4" />
+                    </w:rPr>
+                    <w:t xml:space="preserve"> </w:t>
+                </w:r>
+                <w:sdt>
+                    <w:sdtPr>
+                        <w:rPr>
+                            <w:color w:val="FFC000" w:themeColor="accent4" />
+                        </w:rPr>
+                        <w:id w:val="615799210" />
+                        <w:placeholder>
+                            <w:docPart w:val="E98C6CA716864EDDAB34756AAC818D7B" />
+                        </w:placeholder>
+                    </w:sdtPr>
+                    <w:sdtContent>
+                        <w:r w:rsidR="004008A8">
+                            <w:rPr>
+                                <w:color w:val="FFC000" w:themeColor="accent4" />
+                            </w:rPr>
+                            <w:t>{{data.intitule}}</w:t>
+                        </w:r>
+                    </w:sdtContent>
+                </w:sdt>
+            </w:p>
+        </w:tc>
+    </w:tr>
+    <w:tr w:rsidR="00120126" w:rsidRPr="00F237D1" w14:paraId="49A7798F"
+        w14:textId="77777777" w:rsidTr="008478B3">
+        <w:trPr>
+            <w:trHeight w:val="414" />
+        </w:trPr>
+        <w:tc>
+            <w:tcPr>
+                <w:tcW w:w="3114" w:type="dxa" />
+            </w:tcPr>
+            <w:p w14:paraId="6796EB69" w14:textId="3008AF10" w:rsidR="00120126"
+                w:rsidRPr="00120126" w:rsidRDefault="00120126"
+                w:rsidP="00103913">
+                <w:pPr>
+                    <w:rPr>
+                        <w:rFonts w:ascii="Verdana" w:hAnsi="Verdana" />
+                    </w:rPr>
+                </w:pPr>
+                <w:r w:rsidRPr="00120126">
+                    <w:rPr>
+                        <w:rFonts w:ascii="Verdana" w:hAnsi="Verdana" />
+                    </w:rPr>
+                    <w:t>Date de début et de fin</w:t>
+                </w:r>
+            </w:p>
+        </w:tc>
+        <w:tc>
+            <w:tcPr>
+                <w:tcW w:w="5948" w:type="dxa" />
+            </w:tcPr>
+            <w:p w14:paraId="23D1FB6E" w14:textId="537A6653" w:rsidR="00120126"
+                w:rsidRPr="00120126" w:rsidRDefault="00000000"
+                w:rsidP="00103913">
+                <w:pPr>
+                    <w:rPr>
+                        <w:lang w:val="en-US" />
+                    </w:rPr>
+                </w:pPr>
+                <w:sdt>
+                    <w:sdtPr>
+                        <w:id w:val="972407963" />
+                        <w:placeholder>
+                            <w:docPart w:val="164C2CDAEE154E3A8F7D8D115BA56F42" />
+                        </w:placeholder>
+                    </w:sdtPr>
+                    <w:sdtContent>
+                        <w:r w:rsidR="005B5C3D">
+                            <w:t>{%- if data.dateDebut != None -%}
+                Du {{data.dateDebut.strftime('%d-%m-%Y')}}
+                {%- endif -%}
+                {%- if data.dateFin != None %} au {{data.dateFin.strftime('%d-%m-%Y')}}
+                {%- endif -%}{% if data.dureeEnMois > 0 %} ( {{data.dureeEnMois}} mois ){%- endif %}</w:t>
+                        </w:r>
+                    </w:sdtContent>
+                </w:sdt>
+            </w:p>
+        </w:tc>
+    </w:tr>
+    <w:tr w:rsidR="00822B61" w:rsidRPr="005B5C3D" w14:paraId="05DE001D"
+        w14:textId="77777777" w:rsidTr="008478B3">
+        <w:trPr>
+            <w:trHeight w:val="419" />
+        </w:trPr>
+        <w:tc>
+            <w:tcPr>
+                <w:tcW w:w="3114" w:type="dxa" />
+            </w:tcPr>
+            <w:p w14:paraId="5B03BA1F" w14:textId="4ECE429C" w:rsidR="00822B61"
+                w:rsidRPr="00120126" w:rsidRDefault="00822B61"
+                w:rsidP="00822B61">
+                <w:pPr>
+                    <w:rPr>
+                        <w:rFonts w:ascii="Verdana" w:hAnsi="Verdana" />
+                    </w:rPr>
+                </w:pPr>
+                <w:r w:rsidRPr="00120126">
+                    <w:rPr>
+                        <w:rFonts w:ascii="Verdana" w:hAnsi="Verdana" />
+                    </w:rPr>
+                    <w:t>Entreprise</w:t>
+                </w:r>
+            </w:p>
+        </w:tc>
+        <w:tc>
+            <w:tcPr>
+                <w:tcW w:w="5948" w:type="dxa" />
+            </w:tcPr>
+            <w:p w14:paraId="3908136D" w14:textId="21E763DD" w:rsidR="00822B61"
+                w:rsidRPr="005F0333" w:rsidRDefault="00000000"
+                w:rsidP="00822B61">
+                <w:pPr>
+                    <w:rPr>
+                        <w:lang w:val="en-US" />
+                    </w:rPr>
+                </w:pPr>
+                <w:sdt>
+                    <w:sdtPr>
+                        <w:id w:val="-704790230" />
+                        <w:placeholder>
+                            <w:docPart w:val="2FFB992368CC4C578D36A7665482DF80" />
+                        </w:placeholder>
+                    </w:sdtPr>
+                    <w:sdtContent>
+                        <w:r w:rsidR="005B5C3D">
+                            <w:t>{{data.client}}</w:t>
+                        </w:r>
+                    </w:sdtContent>
+                </w:sdt>
+            </w:p>
+        </w:tc>
+    </w:tr>
+    <w:tr w:rsidR="00822B61" w:rsidRPr="00120126" w14:paraId="4872FD30"
+        w14:textId="77777777" w:rsidTr="008478B3">
+        <w:trPr>
+            <w:trHeight w:val="419" />
+        </w:trPr>
+        <w:tc>
+            <w:tcPr>
+                <w:tcW w:w="3114" w:type="dxa" />
+            </w:tcPr>
+            <w:p w14:paraId="38EF518B" w14:textId="39878C4F" w:rsidR="00822B61"
+                w:rsidRPr="00822B61" w:rsidRDefault="00822B61"
+                w:rsidP="00822B61">
+                <w:pPr>
+                    <w:rPr>
+                        <w:rFonts w:ascii="Verdana" w:hAnsi="Verdana" />
+                        <w:lang w:val="en-US" />
+                    </w:rPr>
+                </w:pPr>
+                <w:r>
+                    <w:rPr>
+                        <w:rFonts w:ascii="Verdana" w:hAnsi="Verdana" />
+                        <w:lang w:val="en-US" />
+                    </w:rPr>
+                    <w:t xml:space="preserve">Type de </w:t>
+                </w:r>
+                <w:proofErr w:type="spellStart" />
+                <w:r>
+                    <w:rPr>
+                        <w:rFonts w:ascii="Verdana" w:hAnsi="Verdana" />
+                        <w:lang w:val="en-US" />
+                    </w:rPr>
+                    <w:t>contrat</w:t>
+                </w:r>
+                <w:proofErr w:type="spellEnd" />
+            </w:p>
+        </w:tc>
+        <w:sdt>
+            <w:sdtPr>
+                <w:rPr>
+                    <w:lang w:val="en-US" />
+                </w:rPr>
+                <w:alias w:val="Type de contrat" />
+                <w:tag w:val="Type de contrat" />
+                <w:id w:val="1580094397" />
+                <w:placeholder>
+                    <w:docPart w:val="AD127A1C43A04B51A3219E19B2159BBF" />
+                </w:placeholder>
+                <w:dropDownList>
+                    <w:listItem w:value="Choose an item." />
+                    <w:listItem w:displayText="Stage" w:value="Stage" />
+                    <w:listItem w:displayText="CDD" w:value="CDD" />
+                    <w:listItem w:displayText="CDI" w:value="CDI" />
+                    <w:listItem w:displayText="Autre" w:value="Autre" />
+                </w:dropDownList>
+            </w:sdtPr>
+            <w:sdtContent>
+                <w:tc>
+                    <w:tcPr>
+                        <w:tcW w:w="5948" w:type="dxa" />
+                    </w:tcPr>
+                    <w:p w14:paraId="50181F3B" w14:textId="1CE2959A"
+                        w:rsidR="00822B61" w:rsidRPr="00120126"
+                        w:rsidRDefault="005B5C3D" w:rsidP="00822B61">
+                        <w:pPr>
+                            <w:rPr>
+                                <w:lang w:val="en-US" />
+                            </w:rPr>
+                        </w:pPr>
+                        <w:r>
+                            <w:rPr>
+                                <w:lang w:val="en-US" />
+                            </w:rPr>
+                            <w:t>CDI</w:t>
+                        </w:r>
+                    </w:p>
+                </w:tc>
+            </w:sdtContent>
+        </w:sdt>
+    </w:tr>
+    <w:tr w:rsidR="008478B3" w:rsidRPr="005B5C3D" w14:paraId="086FE00F"
+        w14:textId="77777777" w:rsidTr="008478B3">
+        <w:trPr>
+            <w:trHeight w:val="419" />
+        </w:trPr>
+        <w:tc>
+            <w:tcPr>
+                <w:tcW w:w="3114" w:type="dxa" />
+            </w:tcPr>
+            <w:p w14:paraId="6035481A" w14:textId="67AF4FF2" w:rsidR="008478B3"
+                w:rsidRDefault="008478B3" w:rsidP="008478B3">
+                <w:pPr>
+                    <w:rPr>
+                        <w:rFonts w:ascii="Verdana" w:hAnsi="Verdana" />
+                        <w:lang w:val="en-US" />
+                    </w:rPr>
+                </w:pPr>
+                <w:proofErr w:type="spellStart" />
+                <w:r>
+                    <w:rPr>
+                        <w:rFonts w:ascii="Verdana" w:hAnsi="Verdana" />
+                        <w:lang w:val="en-US" />
+                    </w:rPr>
+                    <w:t>Compétences</w:t>
+                </w:r>
+                <w:proofErr w:type="spellEnd" />
+                <w:r>
+                    <w:rPr>
+                        <w:rFonts w:ascii="Verdana" w:hAnsi="Verdana" />
+                        <w:lang w:val="en-US" />
+                    </w:rPr>
+                    <w:t xml:space="preserve"> techniques</w:t>
+                </w:r>
+            </w:p>
+        </w:tc>
+        <w:tc>
+            <w:tcPr>
+                <w:tcW w:w="5948" w:type="dxa" />
+            </w:tcPr>
+            <w:p w14:paraId="771C016E" w14:textId="4EC9F780" w:rsidR="008478B3"
+                w:rsidRDefault="00000000" w:rsidP="008478B3">
+                <w:pPr>
+                    <w:rPr>
+                        <w:lang w:val="en-US" />
+                    </w:rPr>
+                </w:pPr>
+                <w:sdt>
+                    <w:sdtPr>
+                        <w:id w:val="-323360306" />
+                        <w:placeholder>
+                            <w:docPart w:val="23FA9191710B45008C1D429450613C8D" />
+                        </w:placeholder>
+                    </w:sdtPr>
+                    <w:sdtContent>
+                        <w:r w:rsidR="005B5C3D">
+                            <w:t>{{data.environnementTechnique}}</w:t>
+                        </w:r>
+                    </w:sdtContent>
+                </w:sdt>
+            </w:p>
+        </w:tc>
+    </w:tr>
+    <w:tr w:rsidR="008478B3" w:rsidRPr="008478B3" w14:paraId="5C5D22E5"
+        w14:textId="77777777" w:rsidTr="008478B3">
+        <w:trPr>
+            <w:trHeight w:val="3246" />
+        </w:trPr>
+        <w:tc>
+            <w:tcPr>
+                <w:tcW w:w="3114" w:type="dxa" />
+            </w:tcPr>
+            <w:p w14:paraId="1EF83340" w14:textId="1F356DC3" w:rsidR="008478B3"
+                w:rsidRPr="00120126" w:rsidRDefault="008478B3"
+                w:rsidP="008478B3">
+                <w:pPr>
+                    <w:rPr>
+                        <w:rFonts w:ascii="Verdana" w:hAnsi="Verdana" />
+                    </w:rPr>
+                </w:pPr>
+                <w:r w:rsidRPr="00120126">
+                    <w:rPr>
+                        <w:rFonts w:ascii="Verdana" w:hAnsi="Verdana" />
+                    </w:rPr>
+                    <w:t>Missions</w:t>
+                </w:r>
+            </w:p>
+        </w:tc>
+        <w:tc>
+            <w:tcPr>
+                <w:tcW w:w="5948" w:type="dxa" />
+            </w:tcPr>
+            <w:sdt>
+                <w:sdtPr>
+                    <w:id w:val="-1808232231" />
+                    <w:placeholder>
+                        <w:docPart w:val="831689C968EF40ECA062F0D8220E533C" />
+                    </w:placeholder>
+                </w:sdtPr>
+                <w:sdtContent>
+                    <w:p w14:paraId="73408358" w14:textId="1C02FE96"
+                        w:rsidR="005F0333" w:rsidRDefault="005B5C3D"
+                        w:rsidP="005B5C3D">
+                        <w:r>
+                            {% for realisation in context.controler.controlRealisation( data.realisations ) %}
+                                {{ context.renderTemplate( 'rea.j2.xml', realisation ) }}
+                            {% endfor %}
+                        </w:r>
+                    </w:p>
+                    <w:p w14:paraId="32D2CF08" w14:textId="248B8699"
+                        w:rsidR="008478B3" w:rsidRPr="005F0333"
+                        w:rsidRDefault="00000000" w:rsidP="0067504C" />
+                </w:sdtContent>
+            </w:sdt>
+        </w:tc>
+    </w:tr>
+</w:tbl>

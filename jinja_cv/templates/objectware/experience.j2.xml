@@ -1,0 +1,177 @@
+<w:p w14:textId="77777777" w:rsidR="00863FFE"
+    w:rsidRDefault="00863FFE" w:rsidP="00863FFE">
+    <w:pPr>
+        <w:pBdr>
+            <w:bottom w:val="single" w:sz="4" w:space="0" w:color="4E81BD" />
+        </w:pBdr>
+        <w:tabs>
+            <w:tab w:val="right" w:pos="9072" />
+        </w:tabs>
+        <w:spacing w:line="276" w:lineRule="auto" />
+        <w:rPr>
+            <w:rFonts w:ascii="Arial" w:hAnsi="Arial" w:cs="Arial" />
+            <w:b />
+            <w:color w:val="008BC9" />
+            <w:sz w:val="22" />
+            <w:szCs w:val="22" />
+        </w:rPr>
+    </w:pPr>
+</w:p>
+<w:p w14:textId="39CFFD08" w:rsidR="00863FFE" w:rsidRDefault="00863FFE" w:rsidP="00863FFE">
+    <w:pPr>
+        <w:pBdr>
+            <w:bottom w:val="single" w:sz="4" w:space="0" w:color="4E81BD" />
+        </w:pBdr>
+        <w:tabs>
+            <w:tab w:val="right" w:pos="9072" />
+        </w:tabs>
+        <w:spacing w:line="276" w:lineRule="auto" />
+        <w:rPr>
+            <w:rFonts w:ascii="Arial" w:hAnsi="Arial" w:cs="Arial" />
+            <w:b />
+            <w:color w:val="008BC9" />
+            <w:sz w:val="22" />
+            <w:szCs w:val="22" />
+        </w:rPr>
+    </w:pPr>
+    <w:r>
+        <w:rPr>
+            <w:rFonts w:ascii="Arial" w:hAnsi="Arial" w:cs="Arial" />
+            <w:b />
+            <w:color w:val="008BC9" />
+            <w:sz w:val="22" />
+            <w:szCs w:val="22" />
+            
+        </w:rPr>
+        <w:t>{%- if data.dateDebut != None -%}
+            Du {{data.dateDebut.strftime('%d-%m-%Y')}}
+            {%- endif -%}
+            {%- if data.dateFin != None %} au {{data.dateFin.strftime('%d-%m-%Y')}}
+            {%- endif -%}{% if data.dureeEnMois > 0 %} ( {{data.dureeEnMois}} mois ){%- endif %}</w:t>
+    </w:r>
+    <w:r>
+        <w:rPr>
+            <w:rFonts w:ascii="Arial" w:hAnsi="Arial" w:cs="Arial" />
+            <w:b />
+            <w:color w:val="008BC9" />
+            <w:sz w:val="22" />
+            <w:szCs w:val="22" />
+        </w:rPr>
+        <w:tab />
+        <w:t>{{data.client}}</w:t>
+    </w:r> {% if data.type != 'perso' %} <w:r>
+        <w:rPr>
+            <w:rFonts w:ascii="Arial" w:hAnsi="Arial" w:cs="Arial" />
+            <w:b />
+            <w:color w:val="008BC9" />
+            <w:sz w:val="22" />
+            <w:szCs w:val="22" />
+        </w:rPr>
+        <w:tab />
+        <w:t>({{data.parent_name}})</w:t>
+    </w:r> {% endif %} </w:p>
+<w:p w14:textId="77777777" w:rsidR="00863FFE"
+    w:rsidRPr="00D874EC" w:rsidRDefault="00863FFE" w:rsidP="00863FFE">
+    <w:pPr>
+        <w:tabs>
+            <w:tab w:val="left" w:pos="5374" />
+        </w:tabs>
+        <w:rPr>
+            <w:rFonts w:ascii="Arial" w:hAnsi="Arial" w:cs="Arial" />
+            <w:b />
+            <w:bCs />
+            <w:sz w:val="22" />
+            <w:szCs w:val="22" />
+        </w:rPr>
+    </w:pPr>
+</w:p>
+<w:p w14:textId="77777777" w:rsidR="00863FFE"
+    w:rsidRPr="00D874EC" w:rsidRDefault="00863FFE" w:rsidP="00863FFE">
+    <w:pPr>
+        <w:tabs>
+            <w:tab w:val="left" w:pos="5374" />
+        </w:tabs>
+        <w:rPr>
+            <w:rFonts w:ascii="Arial" w:hAnsi="Arial" w:cs="Arial" />
+            <w:b />
+            <w:bCs />
+            <w:sz w:val="28" />
+            <w:szCs w:val="28" />
+        </w:rPr>
+    </w:pPr>
+    <w:r w:rsidRPr="00D874EC">
+        <w:rPr>
+            <w:rFonts w:ascii="Arial" w:hAnsi="Arial" w:cs="Arial" />
+            <w:b />
+            <w:bCs />
+            <w:sz w:val="22" />
+            <w:szCs w:val="22" />
+        </w:rPr>
+        <w:t>Missions :</w:t>
+    </w:r>
+</w:p>
+
+{% for realisation in context.controler.controlRealisation( data.realisations ) %}
+{{ context.renderTemplate( 'rea.j2.xml', realisation ) }}
+{% endfor %}
+
+<w:p w14:textId="77777777" w:rsidR="00863FFE"
+    w:rsidRDefault="00863FFE" w:rsidP="00863FFE">
+    <w:pPr>
+        <w:spacing w:line="276" w:lineRule="auto" />
+        <w:ind w:right="170" />
+        <w:rPr>
+            <w:rFonts w:ascii="Arial" w:hAnsi="Arial" w:cs="Arial" />
+            <w:b />
+            <w:bCs />
+            <w:i />
+            <w:iCs />
+        </w:rPr>
+    </w:pPr>
+</w:p>
+<w:p w14:textId="77777777" w:rsidR="00863FFE"
+    w:rsidRDefault="00863FFE" w:rsidP="00863FFE">
+    <w:pPr>
+        <w:spacing w:line="276" w:lineRule="auto" />
+        <w:ind w:right="170" />
+        <w:rPr>
+            <w:rFonts w:ascii="Arial" w:hAnsi="Arial" w:cs="Arial" />
+            <w:b />
+            <w:bCs />
+            <w:sz w:val="22" />
+            <w:szCs w:val="22" />
+        </w:rPr>
+    </w:pPr>
+</w:p>
+<w:p w14:textId="77777777" w:rsidR="00863FFE"
+    w:rsidRPr="005F0C80" w:rsidRDefault="00863FFE" w:rsidP="00863FFE">
+    <w:pPr>
+        <w:spacing w:line="276" w:lineRule="auto" />
+        <w:ind w:right="170" />
+        <w:rPr>
+            <w:rFonts w:ascii="Arial" w:hAnsi="Arial" w:cs="Arial" />
+            <w:i />
+            <w:iCs />
+            <w:sz w:val="22" />
+            <w:szCs w:val="22" />
+        </w:rPr>
+    </w:pPr>
+    <w:r w:rsidRPr="00BF1596">
+        <w:rPr>
+            <w:rFonts w:ascii="Arial" w:hAnsi="Arial" w:cs="Arial" />
+            <w:b />
+            <w:bCs />
+            <w:sz w:val="22" />
+            <w:szCs w:val="22" />
+        </w:rPr>
+        <w:t xml:space="preserve">Environnement Technique : </w:t>
+    </w:r>
+    <w:r w:rsidRPr="005F0C80">
+        <w:rPr>
+            <w:rFonts w:ascii="Arial" w:hAnsi="Arial" w:cs="Arial" />
+            <w:sz w:val="22" />
+            <w:szCs w:val="22" />
+        </w:rPr>
+        <w:t>{{data.environnementTechnique}}</w:t>
+    </w:r>
+</w:p>

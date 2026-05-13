@@ -1,0 +1,1 @@
+[ .log.entries[] | select ( .request.method == "POST") | .request.postData.text ] | first | fromjson | .dossier

@@ -1,0 +1,563 @@
+<w:p w14:paraId="34C01DCF" w14:textId="77777777" w:rsidR="003E30A4"
+    w:rsidRPr="000601C3" w:rsidRDefault="003E30A4" w:rsidP="003E30A4">
+    <w:pPr>
+        <w:rPr>
+            <w:rFonts w:ascii="Arial" w:hAnsi="Arial" w:cs="Arial" />
+            <w:noProof />
+            <w:color w:val="3E0F81" />
+            <w:sz w:val="22" />
+            <w:szCs w:val="22" />
+        </w:rPr>
+    </w:pPr>
+    <w:r w:rsidRPr="000601C3">
+        <w:rPr>
+            <w:rFonts w:ascii="Arial" w:hAnsi="Arial" w:cs="Arial" />
+            <w:noProof />
+            <w:color w:val="3E0F81" />
+            <w:sz w:val="22" />
+            <w:szCs w:val="22" />
+        </w:rPr>
+        <mc:AlternateContent>
+            <mc:Choice Requires="wpg">
+                <w:drawing>
+                    <wp:anchor distT="0" distB="0" distL="114300" distR="114300"
+                        simplePos="0" relativeHeight="251659264" behindDoc="0"
+                        locked="0" layoutInCell="1" allowOverlap="1"
+                        wp14:anchorId="61320545" wp14:editId="57010474">
+                        <wp:simplePos x="0" y="0" />
+                        <wp:positionH relativeFrom="column">
+                            <wp:posOffset>-396240</wp:posOffset>
+                        </wp:positionH>
+                        <wp:positionV relativeFrom="paragraph">
+                            <wp:posOffset>121920</wp:posOffset>
+                        </wp:positionV>
+                        <wp:extent cx="6760800" cy="342266" />
+                        <wp:effectExtent l="0" t="0" r="0" b="635" />
+                        <wp:wrapNone />
+                        <wp:docPr id="2049134716" name="Groupe 4" />
+                        <wp:cNvGraphicFramePr />
+                        <a:graphic
+                            xmlns:a="http://schemas.openxmlformats.org/drawingml/2006/main">
+                            <a:graphicData
+                                uri="http://schemas.microsoft.com/office/word/2010/wordprocessingGroup">
+                                <wpg:wgp>
+                                    <wpg:cNvGrpSpPr />
+                                    <wpg:grpSpPr>
+                                        <a:xfrm>
+                                            <a:off x="0" y="0" />
+                                            <a:ext cx="6760800" cy="342266" />
+                                            <a:chOff x="1" y="15765" />
+                                            <a:chExt cx="6760800" cy="342266" />
+                                        </a:xfrm>
+                                    </wpg:grpSpPr>
+                                    <wps:wsp>
+                                        <wps:cNvPr id="355587751"
+                                            name="Rectangle : coins arrondis 355587751" />
+                                        <wps:cNvSpPr />
+                                        <wps:spPr>
+                                            <a:xfrm>
+                                                <a:off x="1" y="15765" />
+                                                <a:ext cx="6760800" cy="342000" />
+                                            </a:xfrm>
+                                            <a:prstGeom prst="roundRect">
+                                                <a:avLst>
+                                                    <a:gd name="adj"
+                                                        fmla="val 50000" />
+                                                </a:avLst>
+                                            </a:prstGeom>
+                                            <a:gradFill flip="none"
+                                                rotWithShape="1">
+                                                <a:gsLst>
+                                                    <a:gs pos="15000">
+                                                        <a:srgbClr val="9C76DE" />
+                                                    </a:gs>
+                                                    <a:gs pos="100000">
+                                                        <a:srgbClr val="20EFF8" />
+                                                    </a:gs>
+                                                </a:gsLst>
+                                                <a:lin ang="0" scaled="1" />
+                                                <a:tileRect />
+                                            </a:gradFill>
+                                            <a:ln>
+                                                <a:noFill />
+                                            </a:ln>
+                                        </wps:spPr>
+                                        <wps:style>
+                                            <a:lnRef idx="2">
+                                                <a:schemeClr val="accent1">
+                                                    <a:shade val="15000" />
+                                                </a:schemeClr>
+                                            </a:lnRef>
+                                            <a:fillRef idx="1">
+                                                <a:schemeClr val="accent1" />
+                                            </a:fillRef>
+                                            <a:effectRef idx="0">
+                                                <a:schemeClr val="accent1" />
+                                            </a:effectRef>
+                                            <a:fontRef idx="minor">
+                                                <a:schemeClr val="lt1" />
+                                            </a:fontRef>
+                                        </wps:style>
+                                        <wps:bodyPr rot="0" spcFirstLastPara="0"
+                                            vertOverflow="overflow"
+                                            horzOverflow="overflow" vert="horz"
+                                            wrap="square" lIns="91440"
+                                            tIns="45720" rIns="91440"
+                                            bIns="45720" numCol="1" spcCol="0"
+                                            rtlCol="0" fromWordArt="0"
+                                            anchor="ctr" anchorCtr="0"
+                                            forceAA="0" compatLnSpc="1">
+                                            <a:prstTxWarp prst="textNoShape">
+                                                <a:avLst />
+                                            </a:prstTxWarp>
+                                            <a:noAutofit />
+                                        </wps:bodyPr>
+                                    </wps:wsp>
+                                    <wps:wsp>
+                                        <wps:cNvPr id="1726734714"
+                                            name="Zone de texte 1726734714" />
+                                        <wps:cNvSpPr txBox="1" />
+                                        <wps:spPr>
+                                            <a:xfrm>
+                                                <a:off x="268010" y="31006" />
+                                                <a:ext cx="2853055" cy="327025" />
+                                            </a:xfrm>
+                                            <a:prstGeom prst="rect">
+                                                <a:avLst />
+                                            </a:prstGeom>
+                                            <a:noFill />
+                                            <a:ln w="6350">
+                                                <a:noFill />
+                                            </a:ln>
+                                        </wps:spPr>
+                                        <wps:txbx>
+                                            <w:txbxContent>
+                                                <w:p w14:paraId="62E4C8A0"
+                                                    w14:textId="77777777"
+                                                    w:rsidR="003E30A4"
+                                                    w:rsidRPr="000601C3"
+                                                    w:rsidRDefault="003E30A4"
+                                                    w:rsidP="003E30A4">
+                                                    <w:pPr>
+                                                        <w:rPr>
+                                                            <w:rFonts
+                                                                w:ascii="Arial"
+                                                                w:hAnsi="Arial"
+                                                                w:cs="Arial" />
+                                                            <w:b />
+                                                            <w:bCs />
+                                                            <w:color
+                                                                w:val="FFFFFF"
+                                                                w:themeColor="background1" />
+                                                            <w:sz w:val="28" />
+                                                            <w:szCs w:val="28" />
+                                                        </w:rPr>
+                                                    </w:pPr>
+                                                    <w:r w:rsidRPr="000601C3">
+                                                        <w:rPr>
+                                                            <w:rFonts
+                                                                w:ascii="Arial"
+                                                                w:hAnsi="Arial"
+                                                                w:cs="Arial" />
+                                                            <w:b />
+                                                            <w:bCs />
+                                                            <w:color
+                                                                w:val="FFFFFF"
+                                                                w:themeColor="background1" />
+                                                            <w:sz w:val="28" />
+                                                            <w:szCs w:val="28" />
+                                                        </w:rPr>
+                                                        <w:t>Expérience
+                                                            professionnelle</w:t>
+                                                    </w:r>
+                                                </w:p>
+                                            </w:txbxContent>
+                                        </wps:txbx>
+                                        <wps:bodyPr rot="0" spcFirstLastPara="0"
+                                            vertOverflow="overflow"
+                                            horzOverflow="overflow" vert="horz"
+                                            wrap="square" lIns="91440"
+                                            tIns="45720" rIns="91440"
+                                            bIns="45720" numCol="1" spcCol="0"
+                                            rtlCol="0" fromWordArt="0"
+                                            anchor="t" anchorCtr="0" forceAA="0"
+                                            compatLnSpc="1">
+                                            <a:prstTxWarp prst="textNoShape">
+                                                <a:avLst />
+                                            </a:prstTxWarp>
+                                            <a:noAutofit />
+                                        </wps:bodyPr>
+                                    </wps:wsp>
+                                </wpg:wgp>
+                            </a:graphicData>
+                        </a:graphic>
+                        <wp14:sizeRelH relativeFrom="margin">
+                            <wp14:pctWidth>0</wp14:pctWidth>
+                        </wp14:sizeRelH>
+                        <wp14:sizeRelV relativeFrom="margin">
+                            <wp14:pctHeight>0</wp14:pctHeight>
+                        </wp14:sizeRelV>
+                    </wp:anchor>
+                </w:drawing>
+            </mc:Choice>
+            <mc:Fallback>
+                <w:pict>
+                    <v:group w14:anchorId="61320545" id="Groupe 4"
+                        o:spid="_x0000_s1026"
+                        style="position:absolute;margin-left:-31.2pt;margin-top:9.6pt;width:532.35pt;height:26.95pt;z-index:251659264;mso-width-relative:margin;mso-height-relative:margin"
+                        coordorigin=",157" coordsize="67608,3422"
+                        o:gfxdata="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&#xA;AAA8BwAAAAA=&#xA;">
+                        <v:roundrect id="Rectangle : coins arrondis 355587751"
+                            o:spid="_x0000_s1027"
+                            style="position:absolute;top:157;width:67608;height:3420;visibility:visible;mso-wrap-style:square;v-text-anchor:middle"
+                            arcsize=".5"
+                            o:gfxdata="UEsDBBQABgAIAAAAIQDb4fbL7gAAAIUBAAATAAAAW0NvbnRlbnRfVHlwZXNdLnhtbHyQz07DMAyH&#xA;70i8Q+QralM4IITa7kDhCAiNB7ASt43WOlEcyvb2pNu4IODoPz9/n1xv9vOkForiPDdwXVagiI23&#xA;jocG3rdPxR0oScgWJ8/UwIEENu3lRb09BBKV0ywNjCmFe63FjDSjlD4Q50nv44wpl3HQAc0OB9I3&#xA;VXWrjedEnIq03oC27qjHjympx31un0wiTQLq4bS4shrAECZnMGVTvbD9QSnOhDInjzsyuiBXWQP0&#xA;r4R18jfgnHvJr4nOknrFmJ5xzhraRtHWf3Kkpfz/yGo5S+H73hkquyhdjr3R8m2lj09svwAAAP//&#xA;AwBQSwMEFAAGAAgAAAAhAFr0LFu/AAAAFQEAAAsAAABfcmVscy8ucmVsc2zPwWrDMAwG4Ptg72B0&#xA;X5TuUMaI01uh19I+gLGVxCy2jGSy9e1nemrHjpL4P0nD4SetZiPRyNnCruvBUPYcYp4tXC/Htw8w&#xA;Wl0ObuVMFm6kcBhfX4Yzra62kC6xqGlKVgtLreUTUf1CyWnHhXKbTCzJ1VbKjMX5LzcTvvf9HuXR&#xA;gPHJNKdgQU5hB+ZyK23zHztFL6w81c5zQp6m6P9TMfB3PtPWFCczVQtB9N4U2rp2HOA44NMz4y8A&#xA;AAD//wMAUEsDBBQABgAIAAAAIQBuwN/yyAAAAOIAAAAPAAAAZHJzL2Rvd25yZXYueG1sRI9BawIx&#xA;FITvhf6H8AreatZKVFajtIWC166C7O25eW6WJi/bTarbf98UCj0OM/MNs9mN3okrDbELrGE2LUAQ&#xA;N8F03Go4Ht4eVyBiQjboApOGb4qw297fbbA04cbvdK1SKzKEY4kabEp9KWVsLHmM09ATZ+8SBo8p&#xA;y6GVZsBbhnsnn4piIT12nBcs9vRqqfmovryG7mTovKD6YD8LN3d13VcvqLSePIzPaxCJxvQf/mvv&#xA;jYa5Umq1XKoZ/F7Kd0BufwAAAP//AwBQSwECLQAUAAYACAAAACEA2+H2y+4AAACFAQAAEwAAAAAA&#xA;AAAAAAAAAAAAAAAAW0NvbnRlbnRfVHlwZXNdLnhtbFBLAQItABQABgAIAAAAIQBa9CxbvwAAABUB&#xA;AAALAAAAAAAAAAAAAAAAAB8BAABfcmVscy8ucmVsc1BLAQItABQABgAIAAAAIQBuwN/yyAAAAOIA&#xA;AAAPAAAAAAAAAAAAAAAAAAcCAABkcnMvZG93bnJldi54bWxQSwUGAAAAAAMAAwC3AAAA/AIAAAAA&#xA;"
+                            fillcolor="#9c76de" stroked="f" strokeweight="1pt">
+                            <v:fill color2="#20eff8" rotate="t" angle="90"
+                                colors="0 #9c76de;9830f #9c76de" focus="100%"
+                                type="gradient" />
+                            <v:stroke joinstyle="miter" />
+                        </v:roundrect>
+                        <v:shapetype id="_x0000_t202" coordsize="21600,21600"
+                            o:spt="202" path="m,l,21600r21600,l21600,xe">
+                            <v:stroke joinstyle="miter" />
+                            <v:path gradientshapeok="t" o:connecttype="rect" />
+                        </v:shapetype>
+                        <v:shape id="Zone de texte 1726734714"
+                            o:spid="_x0000_s1028" type="#_x0000_t202"
+                            style="position:absolute;left:2680;top:310;width:28530;height:3270;visibility:visible;mso-wrap-style:square;v-text-anchor:top"
+                            o:gfxdata="UEsDBBQABgAIAAAAIQDb4fbL7gAAAIUBAAATAAAAW0NvbnRlbnRfVHlwZXNdLnhtbHyQz07DMAyH&#xA;70i8Q+QralM4IITa7kDhCAiNB7ASt43WOlEcyvb2pNu4IODoPz9/n1xv9vOkForiPDdwXVagiI23&#xA;jocG3rdPxR0oScgWJ8/UwIEENu3lRb09BBKV0ywNjCmFe63FjDSjlD4Q50nv44wpl3HQAc0OB9I3&#xA;VXWrjedEnIq03oC27qjHjympx31un0wiTQLq4bS4shrAECZnMGVTvbD9QSnOhDInjzsyuiBXWQP0&#xA;r4R18jfgnHvJr4nOknrFmJ5xzhraRtHWf3Kkpfz/yGo5S+H73hkquyhdjr3R8m2lj09svwAAAP//&#xA;AwBQSwMEFAAGAAgAAAAhAFr0LFu/AAAAFQEAAAsAAABfcmVscy8ucmVsc2zPwWrDMAwG4Ptg72B0&#xA;X5TuUMaI01uh19I+gLGVxCy2jGSy9e1nemrHjpL4P0nD4SetZiPRyNnCruvBUPYcYp4tXC/Htw8w&#xA;Wl0ObuVMFm6kcBhfX4Yzra62kC6xqGlKVgtLreUTUf1CyWnHhXKbTCzJ1VbKjMX5LzcTvvf9HuXR&#xA;gPHJNKdgQU5hB+ZyK23zHztFL6w81c5zQp6m6P9TMfB3PtPWFCczVQtB9N4U2rp2HOA44NMz4y8A&#xA;AAD//wMAUEsDBBQABgAIAAAAIQCGbCU4ygAAAOMAAAAPAAAAZHJzL2Rvd25yZXYueG1sRE9La8JA&#xA;EL4L/Q/LCL3pxtQaia4iAbGUevBx8TZmxySYnU2zq6b99d1Cocf53jNfdqYWd2pdZVnBaBiBIM6t&#xA;rrhQcDysB1MQziNrrC2Tgi9ysFw89eaYavvgHd33vhAhhF2KCkrvm1RKl5dk0A1tQxy4i20N+nC2&#xA;hdQtPkK4qWUcRRNpsOLQUGJDWUn5dX8zCt6z9RZ359hMv+ts83FZNZ/H06tSz/1uNQPhqfP/4j/3&#xA;mw7zk3iSvIyT0Rh+fwoAyMUPAAAA//8DAFBLAQItABQABgAIAAAAIQDb4fbL7gAAAIUBAAATAAAA&#xA;AAAAAAAAAAAAAAAAAABbQ29udGVudF9UeXBlc10ueG1sUEsBAi0AFAAGAAgAAAAhAFr0LFu/AAAA&#xA;FQEAAAsAAAAAAAAAAAAAAAAAHwEAAF9yZWxzLy5yZWxzUEsBAi0AFAAGAAgAAAAhAIZsJTjKAAAA&#xA;4wAAAA8AAAAAAAAAAAAAAAAABwIAAGRycy9kb3ducmV2LnhtbFBLBQYAAAAAAwADALcAAAD+AgAA&#xA;AAA=&#xA;"
+                            filled="f" stroked="f" strokeweight=".5pt">
+                            <v:textbox>
+                                <w:txbxContent>
+                                    <w:p w14:paraId="62E4C8A0"
+                                        w14:textId="77777777" w:rsidR="003E30A4"
+                                        w:rsidRPr="000601C3"
+                                        w:rsidRDefault="003E30A4"
+                                        w:rsidP="003E30A4">
+                                        <w:pPr>
+                                            <w:rPr>
+                                                <w:rFonts w:ascii="Arial"
+                                                    w:hAnsi="Arial" w:cs="Arial" />
+                                                <w:b />
+                                                <w:bCs />
+                                                <w:color w:val="FFFFFF"
+                                                    w:themeColor="background1" />
+                                                <w:sz w:val="28" />
+                                                <w:szCs w:val="28" />
+                                            </w:rPr>
+                                        </w:pPr>
+                                        <w:r w:rsidRPr="000601C3">
+                                            <w:rPr>
+                                                <w:rFonts w:ascii="Arial"
+                                                    w:hAnsi="Arial" w:cs="Arial" />
+                                                <w:b />
+                                                <w:bCs />
+                                                <w:color w:val="FFFFFF"
+                                                    w:themeColor="background1" />
+                                                <w:sz w:val="28" />
+                                                <w:szCs w:val="28" />
+                                            </w:rPr>
+                                            <w:t>Expérience professionnelle</w:t>
+                                        </w:r>
+                                    </w:p>
+                                </w:txbxContent>
+                            </v:textbox>
+                        </v:shape>
+                    </v:group>
+                </w:pict>
+            </mc:Fallback>
+        </mc:AlternateContent>
+    </w:r>
+</w:p>
+<w:p w14:paraId="4944554E" w14:textId="77777777" w:rsidR="003E30A4"
+    w:rsidRPr="000601C3" w:rsidRDefault="003E30A4" w:rsidP="003E30A4">
+    <w:pPr>
+        <w:rPr>
+            <w:rFonts w:ascii="Arial" w:hAnsi="Arial" w:cs="Arial" />
+            <w:noProof />
+            <w:color w:val="3E0F81" />
+            <w:sz w:val="22" />
+            <w:szCs w:val="22" />
+        </w:rPr>
+    </w:pPr>
+</w:p>
+<w:p w14:paraId="5D8979A2" w14:textId="77777777" w:rsidR="003E30A4"
+    w:rsidRPr="000601C3" w:rsidRDefault="003E30A4" w:rsidP="003E30A4">
+    <w:pPr>
+        <w:rPr>
+            <w:rFonts w:ascii="Arial" w:hAnsi="Arial" w:cs="Arial" />
+        </w:rPr>
+    </w:pPr>
+</w:p>
+<w:p w14:paraId="7E0C360E" w14:textId="77777777" w:rsidR="003E30A4"
+    w:rsidRPr="000601C3" w:rsidRDefault="003E30A4" w:rsidP="003E30A4">
+    <w:pPr>
+        <w:rPr>
+            <w:rFonts w:ascii="Arial" w:hAnsi="Arial" w:cs="Arial" />
+            <w:b />
+            <w:bCs />
+            <w:color w:val="9C76DE" />
+        </w:rPr>
+    </w:pPr>
+</w:p>
+<w:p w14:paraId="3582C11B" w14:textId="77777777" w:rsidR="003E30A4"
+    w:rsidRPr="000601C3" w:rsidRDefault="003E30A4" w:rsidP="003E30A4">
+    <w:pPr>
+        <w:rPr>
+            <w:rFonts w:ascii="Arial" w:hAnsi="Arial" w:cs="Arial" />
+            <w:color w:val="9C76DE" />
+            <w:sz w:val="22" />
+            <w:szCs w:val="22" />
+        </w:rPr>
+    </w:pPr>
+    <w:r w:rsidRPr="000601C3">
+        <w:rPr>
+            <w:rFonts w:ascii="Arial" w:hAnsi="Arial" w:cs="Arial" />
+            <w:b />
+            <w:bCs />
+            <w:color w:val="3E0E81" />
+            <w:sz w:val="22" />
+            <w:szCs w:val="22" />
+        </w:rPr>
+        <w:t>{{ data.domaine }}</w:t>
+    </w:r>
+    <w:r w:rsidRPr="000601C3">
+        <w:rPr>
+            <w:rFonts w:ascii="Arial" w:hAnsi="Arial" w:cs="Arial" />
+            <w:color w:val="3E0E81" />
+            <w:sz w:val="22" />
+            <w:szCs w:val="22" />
+        </w:rPr>
+        <w:t> </w:t>
+    </w:r>
+    <w:r w:rsidRPr="000601C3">
+        <w:rPr>
+            <w:rFonts w:ascii="Arial" w:hAnsi="Arial" w:cs="Arial" />
+            <w:bCs />
+            <w:noProof />
+            <w:color w:val="3E0E81" />
+            <w:sz w:val="22" />
+            <w:szCs w:val="22" />
+        </w:rPr>
+        <w:t>|</w:t>
+    </w:r>
+    <w:r w:rsidRPr="000601C3">
+        <w:rPr>
+            <w:rFonts w:ascii="Arial" w:hAnsi="Arial" w:cs="Arial" />
+            <w:color w:val="3E0E81" />
+        </w:rPr>
+        <w:t xml:space="preserve">{{data.client}}</w:t>
+    </w:r>
+    <w:r w:rsidRPr="000601C3">
+        <w:rPr>
+            <w:rFonts w:ascii="Arial" w:hAnsi="Arial" w:cs="Arial" />
+            <w:color w:val="3E0E81" />
+        </w:rPr>
+        <w:br />
+    </w:r>
+    <w:r w:rsidRPr="000601C3">
+        <w:rPr>
+            <w:rFonts w:ascii="Arial" w:hAnsi="Arial" w:cs="Arial" />
+            <w:color w:val="9C76DE" />
+            <w:sz w:val="22" />
+            <w:szCs w:val="22" />
+        </w:rPr>
+        <w:t xml:space="preserve">Entreprise </w:t>
+    </w:r>
+    <w:r w:rsidRPr="000601C3">
+        <w:rPr>
+            <w:rFonts w:ascii="Arial" w:hAnsi="Arial" w:cs="Arial" />
+            <w:bCs />
+            <w:noProof />
+            <w:color w:val="9C76DF" />
+            <w:sz w:val="22" />
+            <w:szCs w:val="22" />
+        </w:rPr>
+        <w:t>|</w:t>
+    </w:r>
+    <w:r w:rsidRPr="000601C3">
+        <w:rPr>
+            <w:rFonts w:ascii="Arial" w:hAnsi="Arial" w:cs="Arial" />
+            <w:b />
+            <w:noProof />
+            <w:color w:val="3E0E81" />
+            <w:sz w:val="22" />
+            <w:szCs w:val="22" />
+        </w:rPr>
+        <w:t xml:space="preserve"> </w:t>
+    </w:r>
+    <w:r w:rsidRPr="000601C3">
+        <w:rPr>
+            <w:rFonts w:ascii="Arial" w:hAnsi="Arial" w:cs="Arial" />
+            <w:color w:val="9C76DE" />
+            <w:sz w:val="22" />
+            <w:szCs w:val="22" />
+        </w:rPr>
+        <w:t>{%- if data.dateDebut != None -%}
+                Du {{data.dateDebut.strftime('%d-%m-%Y')}}
+                {%- endif -%}
+                {%- if data.dateFin != None %} au {{data.dateFin.strftime('%d-%m-%Y')}}
+                {%- endif -%}{% if data.dureeEnMois > 0 %} ( {{data.dureeEnMois}} mois ){%- endif %}</w:t>
+    </w:r>
+
+</w:p>
+<w:p w14:paraId="7436F2C3" w14:textId="77777777" w:rsidR="003E30A4"
+    w:rsidRPr="000601C3" w:rsidRDefault="003E30A4" w:rsidP="003E30A4">
+    <w:pPr>
+        <w:rPr>
+            <w:rFonts w:ascii="Arial" w:hAnsi="Arial" w:cs="Arial" />
+        </w:rPr>
+    </w:pPr>
+</w:p>
+<w:p w14:paraId="7B0C0764" w14:textId="77777777" w:rsidR="003E30A4"
+    w:rsidRPr="000601C3" w:rsidRDefault="003E30A4" w:rsidP="003E30A4">
+    <w:pPr>
+        <w:rPr>
+            <w:rFonts w:ascii="Arial" w:hAnsi="Arial" w:cs="Arial" />
+            <w:color w:val="3E0F81" />
+            <w:sz w:val="22" />
+            <w:szCs w:val="22" />
+        </w:rPr>
+    </w:pPr>
+    <w:r w:rsidRPr="000601C3">
+        <w:rPr>
+            <w:rFonts w:ascii="Arial" w:hAnsi="Arial" w:cs="Arial" />
+            <w:b />
+            <w:noProof />
+            <w:color w:val="3E0F81" />
+            <w:sz w:val="22" />
+            <w:szCs w:val="22" />
+        </w:rPr>
+        <w:t>Contexte</w:t>
+    </w:r>
+    <w:r w:rsidRPr="000601C3">
+        <w:rPr>
+            <w:rFonts w:ascii="Arial" w:hAnsi="Arial" w:cs="Arial" />
+            <w:noProof />
+            <w:color w:val="3E0F81" />
+            <w:sz w:val="22" />
+            <w:szCs w:val="22" />
+        </w:rPr>
+        <w:t xml:space="preserve"> : </w:t>
+    </w:r>
+    <w:r w:rsidRPr="000601C3">
+        <w:rPr>
+            <w:rFonts w:ascii="Arial" w:hAnsi="Arial" w:cs="Arial" />
+            <w:noProof />
+            <w:color w:val="3E0F81" />
+            <w:sz w:val="22" />
+            <w:szCs w:val="22" />
+        </w:rPr>
+        <w:t>{{data.contexte}}</w:t>
+    </w:r>
+</w:p>
+<w:p w14:paraId="17847E8B" w14:textId="77777777" w:rsidR="003E30A4"
+    w:rsidRPr="000601C3" w:rsidRDefault="003E30A4" w:rsidP="003E30A4">
+    <w:pPr>
+        <w:pStyle w:val="Poste" />
+        <w:spacing w:line="240" w:lineRule="auto" />
+        <w:rPr>
+            <w:rFonts w:ascii="Arial" w:hAnsi="Arial" w:cs="Arial" />
+            <w:noProof />
+            <w:color w:val="3E0F81" />
+            <w:sz w:val="22" />
+        </w:rPr>
+    </w:pPr>
+    <w:r w:rsidRPr="000601C3">
+        <w:rPr>
+            <w:rFonts w:ascii="Arial" w:hAnsi="Arial" w:cs="Arial" />
+            <w:b />
+            <w:noProof />
+            <w:color w:val="3E0F81" />
+            <w:sz w:val="22" />
+        </w:rPr>
+        <w:t>Missions</w:t>
+    </w:r>
+    <w:r w:rsidRPr="000601C3">
+        <w:rPr>
+            <w:rFonts w:ascii="Arial" w:hAnsi="Arial" w:cs="Arial" />
+            <w:noProof />
+            <w:color w:val="3E0F81" />
+            <w:sz w:val="22" />
+        </w:rPr>
+        <w:t> :</w:t>
+    </w:r>
+    <w:r w:rsidRPr="000601C3">
+        <w:rPr>
+            <w:rFonts w:ascii="Arial" w:hAnsi="Arial" w:cs="Arial" />
+            <w:color w:val="3E0F81" />
+            <w:sz w:val="22" />
+        </w:rPr>
+        <w:t xml:space="preserve"> </w:t>
+    </w:r>
+</w:p>
+
+{% for realisation in context.controler.controlRealisation( data.realisations ) %}
+{{ context.renderTemplate( 'rea.j2.xml', realisation ) }}
+{% endfor %}
+
+
+<w:p w14:paraId="33B6C882" w14:textId="77777777" w:rsidR="003E30A4"
+    w:rsidRPr="000601C3" w:rsidRDefault="003E30A4" w:rsidP="003E30A4">
+    <w:pPr>
+        <w:pStyle w:val="Poste" />
+        <w:spacing w:line="240" w:lineRule="auto" />
+        <w:rPr>
+            <w:rFonts w:ascii="Arial" w:hAnsi="Arial" w:cs="Arial" />
+            <w:b />
+            <w:bCs />
+            <w:noProof />
+            <w:color w:val="3E0F81" />
+            <w:sz w:val="22" />
+        </w:rPr>
+    </w:pPr>
+</w:p>
+<w:p w14:paraId="0636F4E8" w14:textId="77777777" w:rsidR="003E30A4"
+    w:rsidRPr="000601C3" w:rsidRDefault="003E30A4" w:rsidP="003E30A4">
+    <w:pPr>
+        <w:pStyle w:val="Poste" />
+        <w:spacing w:line="240" w:lineRule="auto" />
+        <w:rPr>
+            <w:rFonts w:ascii="Arial" w:hAnsi="Arial" w:cs="Arial" />
+            <w:b />
+            <w:bCs />
+            <w:noProof />
+            <w:color w:val="3E0F81" />
+            <w:sz w:val="22" />
+        </w:rPr>
+    </w:pPr>
+    <w:r w:rsidRPr="000601C3">
+        <w:rPr>
+            <w:rFonts w:ascii="Arial" w:hAnsi="Arial" w:cs="Arial" />
+            <w:b />
+            <w:bCs />
+            <w:noProof />
+            <w:color w:val="3E0F81" />
+            <w:sz w:val="22" />
+        </w:rPr>
+        <w:t xml:space="preserve">Environnement technique : </w:t>
+    </w:r>
+    <w:r w:rsidRPr="000601C3">
+        <w:rPr>
+            <w:rFonts w:ascii="Arial" w:hAnsi="Arial" w:cs="Arial" />
+            <w:noProof />
+            <w:color w:val="3E0F81" />
+            <w:sz w:val="22" />
+        </w:rPr>
+        <w:t>Environnement technique de la mission</w:t>
+    </w:r>
+</w:p>
+<w:p w14:paraId="055E0BF3" w14:textId="77777777" w:rsidR="003E30A4"
+    w:rsidRPr="000601C3" w:rsidRDefault="003E30A4" w:rsidP="003E30A4">
+    <w:pPr>
+        <w:pStyle w:val="Poste" />
+        <w:spacing w:line="240" w:lineRule="auto" />
+        <w:rPr>
+            <w:rFonts w:ascii="Arial" w:hAnsi="Arial" w:cs="Arial" />
+            <w:noProof />
+            <w:color w:val="3E0F81" />
+            <w:sz w:val="22" />
+        </w:rPr>
+    </w:pPr>
+</w:p>

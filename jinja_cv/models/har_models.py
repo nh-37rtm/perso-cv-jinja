@@ -7,12 +7,12 @@ from pydantic.alias_generators import to_snake, to_camel
 
 import typing as t
 
-@dataclass
+@dataclass(init=False)
 class IHarHttpHeader():
     name: str
     value: str    
 
-@dataclass
+@dataclass(init=False)
 class IHarFileRequest():
     method: str
     url: str
